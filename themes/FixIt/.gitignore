@@ -1,0 +1,32 @@
+# Hugo default output directory
+public/
+resources/
+
+# Hugo
+.hugo_build.lock
+jsconfig.json
+
+# NPM
+node_modules/
+.eslintcache
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS Files
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## OSX
+.DS_Store
+
+## Linux
+.directory
+
+CHANGELOG.md
+.stash/

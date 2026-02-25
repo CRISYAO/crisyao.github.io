@@ -1,0 +1,84 @@
+{{- $params := .Params | merge .Site.Params.page -}}
+
+<article class="single summary" itemscope itemtype="http://schema.org/Article">
+  {{- /* Featured image */ -}}
+  {{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
+  {{- $matches := slice -}}
+  {{- if .Resources.GetMatch "featured-image-preview" -}}
+    {{- $matches = $matches | append "featured-image-preview" -}}
+  {{- else if .Resources.GetMatch "featured-image" -}}
+    {{- $matches = $matches | append "featured-image" -}}
+  {{- end -}}
+  {{- if $image | or (gt (len $matches) 0) -}}
+    <div class="featured-image-preview">
+      <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">
+        {{- $optim := slice 
+          (dict "Process" "fill 800x336 Center webp" "descriptor" "800w")
+          (dict "Process" "fill 1200x504 Center webp" "descriptor" "1200w")
+          (dict "Process" "fill 1600x672 Center webp" "descriptor" "1600w") 
+        -}}
+        {{- dict "Src" $image "Title" $.Title "Resources" $.Resources "Matches" $matches "Loading" "eager" "Width" "800" "Height" "336" "Sizes" "(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" "OptimConfig" $optim "Alt" (printf "Featured image for %v" $.Title) | partial "plugin/image.html" -}}
+      </a>
+    </div>
+  {{- end -}}
+
+  {{- /* Title */ -}}
+  <h2 class="single-title" itemprop="name headline">
+    {{- with $params.weight -}}
+      {{- $icon := dict "Class" "fa-solid fa-thumbtack" -}}
+      <span title="{{ T "single.pin" }}" class="icon-pin">{{- $icon | partial "plugin/icon.html" -}}</span>
+    {{- end -}}
+    {{- $repost := $params.repost | default dict -}}
+    {{- with $repost -}}
+      {{- if eq .Enable true -}}
+        {{- $icon := dict "Class" "fa-solid fa-share" -}}
+        {{- $title := cond (hasPrefix .Url "http") (printf "%v -> %v" (T "single.repost") .Url ) (T "single.repost") -}}
+        <span title="{{ $title }}" class="icon-repost">{{- $icon | partial "plugin/icon.html" -}}</span>
+      {{- end -}}
+    {{- end -}}
+    <a href="{{ .RelPermalink }}">{{ cond (.Param "capitalizeTitles") (title .Title) .Title }}</a>
+  </h2>
+
+  {{- /* Meta */ -}}
+  <div class="post-meta">
+    {{- partial "single/post-author.html" . -}}
+
+    {{- with .PublishDate | dateFormat (.Site.Params.dateFormat | default "2006-01-02") -}}
+      &nbsp;<span class="post-publish" title='{{ "2006-01-02 15:04:05" | $.PublishDate.Format }}'>
+        {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "single.publishedOnDate" | safeHTML -}}
+      </span>
+    {{- end -}}
+
+    {{- partial "single/post-included-in.html" . -}}
+  </div>
+
+  {{- /* Summary content */ -}}
+  <div class="content">
+    {{- if .Summary -}}
+      {{- $plainify := (.Param "summaryPlainify") | default false -}}
+      {{- with .Markup "home" -}}
+        {{- with .Render -}}
+          {{- $summary := dict "Content" .Summary.Text "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+          {{- cond $plainify ($summary | plainify) $summary -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- .Description | safeHTML -}}
+    {{- end -}}
+  </div>
+
+  {{- /* Footer */ -}}
+  <div class="post-footer">
+    <a href="{{ .RelPermalink }}">{{ T "single.readMore" }}</a>
+    {{- $tagTerms := .GetTerms "tags" -}}
+    {{- if $tagTerms -}}
+      <div class="post-tags">
+        {{- dict "Class" "fa-solid fa-tags me-1" | partial "plugin/icon.html" -}}
+        {{- range $tagTerms -}}
+          <a href='{{ partial "function/escapeurl.html" .RelPermalink }}' class="post-tag">{{ .LinkTitle }}</a>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+</article>
+{{- /* EOF */ -}}

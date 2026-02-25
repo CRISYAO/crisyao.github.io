@@ -1,0 +1,69 @@
+:root {
+  // Note: Custom variable values only support SassScript inside `#{}`.
+  // TODO migrate SCSS variables to CSS variables
+
+  interpolate-size: allow-keywords;
+
+  // Global colors variables
+  #{$rootPrefix}global-background-color: #{$global-background-color};
+  #{$rootPrefix}global-font-color: #{$global-font-color};
+  #{$rootPrefix}global-font-secondary-color: #{$global-font-secondary-color};
+  #{$rootPrefix}global-border-color: #{$global-border-color};
+  #{$rootPrefix}global-link-color: #{$global-link-color};
+  #{$rootPrefix}global-link-hover-color: #{$global-link-hover-color};
+
+  // Scroll margin top and Stack sticky top related
+  #{$rootPrefix}scroll-mt: calc(#{$header-height} + #{$global-scroll-margin-top});
+
+  // Set breadcrumb height to 0px if breadcrumb is disabled
+  #{$rootPrefix}breadcrumb-height: 0px;
+
+  // hr / divider style
+  #{$rootPrefix}hr-background-color: #{darken($global-border-color, 5%)};
+  #{$rootPrefix}hr-active-color: #{lighten($single-link-hover-color, 4%)};
+  #{$rootPrefix}divider-edge-weak: linear-gradient(to right, transparent, var(#{$rootPrefix}divider-bg, #d0d0d5), transparent);
+
+  // Scrollbar related variables
+  #{$rootPrefix}scrollbar-thumb-color: #{$scrollbar-color};
+  #{$rootPrefix}scrollbar-thumb-hover-color: #{$scrollbar-hover-color};
+  #{$rootPrefix}scrollbar-track-color: transparent;
+  #{$rootPrefix}scrollbar-width: thin;
+  #{$rootPrefix}scrollbar-width-legacy: 12px;
+
+  // Code related variables
+  #{$rootPrefix}code-inline-background-color: rgba(175, 184, 193, 0.2);
+  #{$rootPrefix}code-block-background-color: #{$code-background-color};
+  #{$rootPrefix}code-header-color: #{$code-header-color};
+  #{$rootPrefix}code-header-background-color: #{darken($code-background-color, 5%)};
+  #{$rootPrefix}code-highlight-color: #{$code-highlight-color};
+  #{$rootPrefix}gist-meta-background-color: #{darken($code-background-color, 5%)};
+
+  // Theme colors variables
+  @each $color, $value in $theme-colors {
+    #{$rootPrefix}#{$color}: #{$value};
+  }
+}
+
+// Dark theme
+[data-theme=dark] {
+  #{$rootPrefix}global-background-color: #{$global-background-color-dark};
+  #{$rootPrefix}global-font-color: #{$global-font-color-dark};
+  #{$rootPrefix}global-font-secondary-color: #{$global-font-secondary-color-dark};
+  #{$rootPrefix}global-border-color: #{$global-border-color-dark};
+  #{$rootPrefix}global-link-color: #{$global-link-color-dark};
+  #{$rootPrefix}global-link-hover-color: #{$global-link-hover-color-dark};
+
+  #{$rootPrefix}hr-background-color: #{lighten($global-border-color-dark, 5%)};
+  #{$rootPrefix}hr-active-color: #{darken($global-link-hover-color-dark, 4%)};
+
+  #{$rootPrefix}code-inline-background-color: rgba(99, 110, 123, 0.4);
+  #{$rootPrefix}code-block-background-color: #{$code-background-color-dark};
+  #{$rootPrefix}code-header-color: #{$code-header-color-dark};
+  #{$rootPrefix}code-header-background-color: #{darken($code-background-color-dark, 5%)};
+  #{$rootPrefix}code-highlight-color: #{$code-highlight-color-dark};
+  #{$rootPrefix}gist-meta-background-color: #{darken($code-background-color-dark, 5%)};
+
+  @each $color, $value in $theme-colors {
+    #{$rootPrefix}#{$color}: #{darken($value, 5%)};
+  }
+}

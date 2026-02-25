@@ -1,0 +1,9 @@
+.special {
+  .single-title,
+  .single-subtitle {
+    text-align: right;
+  }
+}
+
+@import 'friends';
+@import 'search';

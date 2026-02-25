@@ -1,0 +1,511 @@
+// inline code
+code {
+  @extend %code;
+}
+
+// indented code
+pre {
+  margin: 0;
+  line-height: 1.45em;
+  padding: 0.5rem 0.75rem;
+  overflow: auto;
+  font-size: $code-block-font-size;
+  font-family: $code-font-family;
+  background-color: var(#{$rootPrefix}code-block-background-color);
+  @include border-radius($global-border-radius);
+  @include tab-size(4);
+
+  + pre {
+    margin-top: 0.5rem;
+  }
+
+  code {
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    line-height: inherit;
+    @include border-radius(0);
+    @include max-content(min-width);
+
+    [data-theme='dark'] & {
+      background-color: transparent;
+    }
+  }
+
+  img {
+    min-height: 1em;
+    max-height: 1.2em;
+    vertical-align: text-bottom;
+  }
+}
+
+.highlight,
+.gist {
+  font-size: $code-block-font-size;
+  font-family: $code-font-family;
+  #{$rootPrefix}scrollbar-thumb-color: inherit;
+
+  table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  table,
+  table thead,
+  table tr,
+  table td {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+}
+
+// Code fences blocks or highlight shortcodes
+.highlight {
+  margin: 0.5rem 0;
+  position: relative;
+  @include border-radius($global-border-radius);
+
+  // lineNumbersInTable=true
+  > div.chroma {
+    position: relative;
+    background-color: var(#{$rootPrefix}code-block-background-color);
+    @include border-radius($global-border-radius);
+
+    &:is(pre):has(.ln) {
+      padding: 0.5rem;
+    }
+
+    .lntable {
+      overflow: auto;
+      display: block;
+      background-color: var(#{$rootPrefix}code-block-background-color);
+      @include border-radius($global-border-radius);
+
+      td {
+        vertical-align: top;
+        padding: 0;
+      }
+
+      pre {
+        outline-offset: -1px;
+        @include border-radius(0);
+      }
+
+      // line numbers
+      .lntd:first-child {
+        position: sticky;
+        left: 0;
+      }
+      // code content
+      .lntd:last-child {
+        width: 100%;
+        code {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // line numbers (lineNumbersInTable=false)
+  .ln {
+    padding-right: 0.75rem;
+    display: inline-block;
+    text-align: right;
+    position: sticky;
+    left: 0;
+  }
+  // Line numbers
+  .lnt,
+  .ln {
+    color: var(#{$rootPrefix}global-font-secondary-color);
+    @include user-select(none);
+  }
+
+  &:not(.code-block) {
+    .lntd:last-child pre.chroma {
+      padding-left: 0;
+    }
+  }
+
+  // code fences blocks wrapped
+  &.code-block {
+    .code-wrapper {
+      overflow: hidden;
+      height: auto;
+      position: relative;
+      counter-reset: codeNos calc(var(#{$rootPrefix}line-start) - 1);
+      @include border-radius($global-border-radius);
+      @include transition(height 0.5s ease-out);
+      @include border-radius($global-border-radius);
+      // attr() for arbitrary properties is currently only supported in Chromium-based browsers (see https://caniuse.com/css3-attr);
+      // non-supporting browsers fall back to values set via Hugo templating in render-codeblock.html
+      #{$rootPrefix}max-shown-lines: attr(data-max number, 10);
+      #{$rootPrefix}line-start: attr(data-line-start number, 1);
+      #{$rootPrefix}line-digit: attr(data-line-digit number, 1);
+    }
+
+    // code preview
+    &:has(.code-expand-btn):not(.is-expanded, .is-collapsed) {
+      .code-wrapper {
+        height: calc(1.45em * var(#{$rootPrefix}max-shown-lines) + var(#{$rootPrefix}code-expand-offset, 0.5rem));
+      }
+      &[data-mode='mac'] .code-wrapper {
+        #{$rootPrefix}code-expand-offset: 1.875rem + 0.5rem;
+      }
+    }
+    
+    .code-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      font-family: $global-font-family;
+      font-weight: bold;
+      line-height: 1.4em;
+      color: var(#{$rootPrefix}code-header-color);
+      background-color: var(#{$rootPrefix}code-header-background-color);
+      position: sticky;
+      top: var(#{$rootPrefix}breadcrumb-height);
+      @include z-index(0, 1);
+      @include border-radius($global-border-radius $global-border-radius 0 0);
+      @include transition(border-radius 0s);
+
+      + .code-wrapper {
+        @include border-radius(0 0 $global-border-radius $global-border-radius);
+
+        > pre.chroma {
+          @include border-radius(0 0 $global-border-radius $global-border-radius);
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .code-title {
+        width: 100%;
+        padding: 0.4rem;
+
+        &::after {
+          padding-left: 0.2rem;
+          content: attr(data-name, var(#{$rootPrefix}code-type, 'Code'));
+        }
+
+        // filename for code block
+        &[data-name]::after {
+          @include overflow-wrap(break-word);
+        }
+
+        .arrow {
+          padding: 0 0.2rem;
+          @include transition(transform 0.2s ease);
+        }
+
+        .title-inner {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: var(#{$rootPrefix}code-header-background-color);
+          padding-inline: 1em;
+          max-width: calc(100% - 200px);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          @include z-index(0, 2);
+        }
+      }
+
+      .ellipses-btn {
+        display: none;
+        padding: 0.4rem;
+      }
+
+      [role='button'] {
+        padding: 0.4rem;
+        @extend .print-d-none;
+      }
+
+      .copy-btn[data-copied] .fa-clone {
+        --fa: "\f00c";
+        font-weight: 900;
+        color: var(#{$rootPrefix}global-link-hover-color);
+      }
+
+      @each $type, $text in $code-type-map {
+        &.language-#{to-lower-case($type)} {
+          #{$rootPrefix}code-type: $text;
+        }
+      }
+    }
+
+    &.line-wrapping .line-wrap-btn,
+    &:not(.line-nos-hidden) .line-nos-btn,
+    .code-header [role='button']:hover,
+    &:has([contenteditable='true']) .edit-btn {
+      color: var(#{$rootPrefix}global-link-hover-color);
+    }
+
+    .code-expand-btn {
+      width: 100%;
+      padding-block: 1rem;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(
+        180deg,
+        rgba($code-background-color, 0) 0%,
+        rgba($code-background-color, 0.9) 60%,
+        $code-background-color 100%
+      );
+      @include z-index(0, 1);
+      @include border-radius(0 0 $global-border-radius $global-border-radius);
+
+      [data-theme='dark'] & {
+        background: linear-gradient(
+          180deg,
+          rgba($code-background-color-dark, 0) 0%,
+          rgba($code-background-color-dark, 0.9) 60%,
+          $code-background-color-dark 100%
+        );
+      }
+
+      .fa-angles-down {
+        opacity: 0;
+        animation-name: fadeOutDown;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.3s;
+        @include transition(transform 0.2s ease);
+      }
+    }
+
+    .code-copy-btn {
+      @extend .diagram-copy-btn;
+    }
+
+    // classic mode code block collapsed
+    &.is-collapsed {
+      .code-header {
+        #{$rootPrefix}code-header-background-color: #{darken($code-background-color, 6%)};
+        @include border-radius($global-border-radius);
+        @include transition(border-radius 0.2s ease 0.2s);
+
+        [data-theme='dark'] & {
+          #{$rootPrefix}code-header-background-color: #{darken($code-background-color-dark, 6%)};
+        }
+
+        + .code-wrapper {
+          height: 0;
+        }
+      }
+
+      .arrow {
+        @include transform(rotate(-90deg));
+      }
+
+      .ellipses-btn {
+        display: inline;
+      }
+
+      .code-header [role='button']:not(.ellipses-btn),
+      .code-expand-btn {
+        display: none;
+      }
+    }
+
+    // code preview expanded
+    &.is-expanded {
+      margin-bottom: 1rem;
+      &:has([contenteditable='true']) .code-expand-btn {
+        display: none;
+      }
+      .code-expand-btn {
+        background: transparent;
+        padding-block: 0;
+        transform: translateY(1rem);
+
+        .fa-angles-down {
+          animation-name: fadeOutRotate;
+
+          @keyframes fadeOutRotate {
+            0% {
+              opacity: 1;
+              transform: rotate(180deg);
+            }
+            100% {
+              opacity: 0;
+              transform: rotate(180deg) translate3d(0, 100%, 0);
+            }
+          }
+        }
+      }
+    }
+
+    // hide original line numbers
+    &.line-nos-hidden {
+      > .chroma .lntable {
+        width: 100%;
+        display: table;
+      }
+      .lntd:first-child,
+      .ln {
+        display: none;
+      }
+    }
+
+    // line wrapping
+    &.line-wrapping {
+      > .chroma .lntable {
+        width: 100%;
+        display: table;
+
+        // hide original line numbers
+        .lntd:first-child {
+          display: none;
+        }
+      }
+      .lntd:last-child pre.chroma,
+      .code-wrapper > pre.chroma {
+        max-width: 100%;
+        box-sizing: border-box;
+
+        code {
+          text-wrap: wrap;
+          word-break: break-all;
+          overflow-wrap: break-word;
+        }
+      }
+    }
+
+    // line numbers (pseudo-elements) for code blocks
+    &.line-wrapping:not(.line-nos-hidden) .lntd:last-child pre.chroma,
+    &:not(.line-nos-hidden) .code-wrapper > pre.chroma:not(:has(.ln)) {
+      > code > .line {
+        display: flex;
+
+        &::before {
+          counter-increment: codeNos;
+          content: counter(codeNos);
+          white-space: nowrap;
+          text-align: right;
+          min-width: calc(var(#{$rootPrefix}line-digit) * 1ch);
+          padding-inline: 0.75rem;
+          flex-shrink: 0;
+          color: var(#{$rootPrefix}global-font-secondary-color);
+          background-color: var(#{$rootPrefix}code-block-background-color);
+        }
+
+        // highlight for line numbers
+        &.hl::before {
+          background-color: transparent;
+        }
+      }
+    }
+
+    // add sticky effect for line numbers when lineNos=false
+    &:not(.line-nos-hidden) .code-wrapper > pre.chroma > code > .line::before {
+      position: sticky;
+      left: 0;
+    }
+
+    // when line numbers shown
+    &:not(.line-nos-hidden) {
+      .lntd:last-child pre.chroma,
+      .code-wrapper > pre.chroma:not(:has(.ln)) {
+        padding-left: 0;
+      }
+    }
+
+    // add border for non-classic mode
+    &:not([data-mode='classic']) {
+      border: 1px solid darken($code-background-color, 3%);
+
+      [data-theme='dark'] & {
+        border-color: darken($code-background-color-dark, 3%);
+      }
+    }
+
+    &[data-mode='mac'] {
+      pre.chroma {
+        padding-top: 1.875rem;
+
+        &::after {
+          background: var(#{$rootPrefix}mac-red, #fc625d);
+          box-shadow: 20px 0 var(#{$rootPrefix}mac-yellow, #fdbc40), 40px 0 var(#{$rootPrefix}mac-green, #35cd4b);
+          left: 8px;
+          top: 8px;
+          position: absolute;
+          border-radius: 50%;
+          content: ' ';
+          height: 12px;
+          width: 12px;
+
+          [data-theme='dark'] & {
+            #{$rootPrefix}mac-red-dark: #ff5f56;
+            #{$rootPrefix}mac-yellow-dark: #febc2e;
+            #{$rootPrefix}mac-green-dark: #28c840;
+          }
+        }
+      }
+    }
+
+    &[data-mode='simple'] {
+      pre.chroma {
+        padding-block: 0.875rem;
+      }
+    }
+  }
+}
+
+@import './_code-syntax';
+
+// gist shortcode
+.gist {
+  background-color: var(#{$rootPrefix}code-block-background-color);
+  @include border-radius($global-border-radius $global-border-radius 0 0);
+  
+  .gist-file,
+  .gist-data,
+  .gist-meta {
+    border: none;
+  }
+
+  .gist-data {
+    background-color: inherit;
+
+    .blob-wrapper {
+      padding-block: 0.5rem;
+
+      table.highlight {
+        background-color: inherit;
+        overflow: initial;
+
+        td.blob-num {
+          position: sticky;
+          left: 0;
+          background-color: var(#{$rootPrefix}code-block-background-color);
+          @include z-index(0, 1);
+        }
+
+        td.blob-code {
+          padding-left: 2px !important;
+        }
+      }
+    }
+  }
+
+  .gist-meta {
+    padding: 0.4rem 0.8rem;
+    @include link(false, false);
+    @include border-radius(0 0 $global-border-radius $global-border-radius);
+    background-color: var(#{$rootPrefix}gist-meta-background-color);
+  }
+
+  [data-theme='dark'] & {
+    @import './_code-syntax/github-dark-dimmed';
+  }
+}

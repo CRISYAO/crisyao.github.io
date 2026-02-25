@@ -1,0 +1,70 @@
+baseURL = "https://crisyao.github.io/"
+languageCode = "en"
+title = "姚超豪 | JD TGT"
+theme = "FixIt"
+
+[params]
+  defaultTheme = "light"
+
+  [params.home]
+    # 关键修正：禁用首页的文章列表逻辑
+    [params.home.posts]
+      enable = false
+
+    [params.home.profile]
+      enable = true
+      avatarURL = "/me.jpg"
+      title = "姚超豪 (Yao Chaohao)"
+      subtitle = "京东零售TGT招聘负责人"
+      type = "full"
+      social = true
+
+  # 2. 作者全局信息（用于页脚和文章署名）
+  [params.author]
+    name = "姚超豪 (Yao Chaohao)"
+    avatarURL = "/me.jpg"
+
+  # 3. 社交链接
+  [params.social]
+    GitHub = "CRISYAO"
+    Email = "yaochaohao.1@jd.com"
+    Linkedin = "超豪-姚-33629610b"
+
+  # 4. 顶部标题栏
+  [params.header]
+    [params.header.title]
+      name = "Yao Chaohao"
+      pre = "<i class='fa-solid fa-rocket'></i>"
+
+  [params.footer]
+    enable = true
+    copyright = true
+    author = true
+    since = 2026
+    
+  [params.busuanzi]
+    enable = true
+    source = "https://vercount.one/js"
+    sitePV = true
+    siteUV = true
+
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-FX681M419P"
+      anonymizeIP = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About TGT"
+  url = "/about-tgt/"
+  weight = 2
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about-me/"
+  weight = 3

@@ -1,0 +1,19 @@
+.page {
+  position: relative;
+  @extend %page-style;
+
+  .content {
+    [id] {
+      scroll-margin-top: var(#{$rootPrefix}scroll-mt);
+    }
+  }
+
+  @include blur;
+}
+
+@import '_single';
+@import '_special';
+@import '_archive';
+@import 'home';
+@import '404';
+@import 'offline';

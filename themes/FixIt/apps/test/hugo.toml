@@ -1,0 +1,51 @@
+# -------------------------------------------------------------------------------------
+# Hugo Configuration
+# See: https://gohugo.io/configuration/all/
+# -------------------------------------------------------------------------------------
+
+title = "Hugo FixIt TEST"
+baseURL = "https://demo.fixit.lruihao.cn/test/"
+ignoreLogs = [ "warning-file-tree" ]
+
+[permalinks]
+
+[permalinks.page]
+posts = "/units/:slugorcontentbasename"
+
+[permalinks.section]
+posts = "/units/"
+
+[markup]
+_merge = "shallow"
+
+[outputs]
+_merge = "shallow"
+
+# -------------------------------------------------------------------------------------
+# Taxonomies Configuration
+# See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+# -------------------------------------------------------------------------------------
+
+[taxonomies]
+_merge = "shallow"
+
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#theme-configuration
+# -------------------------------------------------------------------------------------
+
+[params]
+version = "0.3.X"
+
+[params.page]
+collectionList = true
+collectionNavigation = true
+
+[params.author]
+name = "Lruihao"
+email = ""
+link = "https://lruihao.cn"
+avatar = "https://lruihao.cn/images/avatar.jpg"
+
+[params.mermaid]
+zenuml = "https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-zenuml/dist/mermaid-zenuml.esm.min.mjs"

@@ -1,0 +1,11 @@
+{{- dict
+  "Options" .Attributes
+  "Inner" .Inner
+  "Resources" .Page.Resources
+  "Position" .Position
+  | partial "plugin/echarts.html"
+-}}
+{{- .Page.Store.Set "hasEcharts" true -}}
+{{- if eq hugo.Context.MarkupScope "home" -}}
+  {{- site.Home.Store.Set "hasEcharts" true -}}
+{{- end -}}

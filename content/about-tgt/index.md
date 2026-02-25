@@ -1,0 +1,41 @@
+---
+title: "关于TGT"
+---
+
+**TGT（Tech Genius Team）** 是由京东发起的“顶尖青年技术天才计划”，面向全球高校本硕博在校生、应届生及毕业两年内的技术人才开放招募，旨在与全球技术天才一起基于京东丰富的业务
+场景探索前沿技术、用技术创造更多美好。
+
+---
+
+### 🚀 Mission
+作为京东零售 TGT 招聘负责人，我致力于寻找具备极客精神的 **"Tech Genius"**。我们不仅提供丰富的业务场景，更提供探索前沿技术边界的土壤。
+
+### 🛠️ 重点招募方向
+* **人工智能**：`LLM` / `多模态` / `视频生成` / `AI搜索` / `生成式推荐`
+* **计算基座**：`推理引擎优化` / `分布式训练自动优化` / `AI Infra`
+* **智能供应链**：`决策智能` / `时序预测` / `运筹优化`
+
+---
+### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
+目前我们正处于全球招募高峰期，以下领域急需顶尖天才加入：
+
+| 领域 | 核心方向 | 申请链接 |
+| :--- | :--- | :--- |
+| **人工智能** | 大模型后训练| [立即申请](https://campus.jd.com/#/details?id=6533) |
+| **人工智能** | 多模态大模型| [立即申请](https://campus.jd.com/#/details?id=6013) |
+| **人工智能** | 大模型安全风控| [立即申请](https://campus.jd.com/#/details?id=6537) |
+| **人工智能** | AI搜索| [立即申请](https://campus.jd.com/#/details?id=6147) |
+| **人工智能** | 生成式推荐| [立即申请](https://campus.jd.com/#/details?id=6119) |
+| **人工智能** | 3D内容生成| [立即申请](https://campus.jd.com/#/details?id=6182) |
+| **人工智能** | 视频生成| [立即申请](https://campus.jd.com/#/details?id=6099) |
+| **AI Infra** | 大模型推理引擎优化| [立即申请](https://campus.jd.com/#/details?id=5989) |
+| **AI Infra** | 大模型分布式训练自动优化| [立即申请](https://campus.jd.com/#/details?id=5991) |
+| **智能供应链** | 供应链优化技术探索| [立即申请](https://campus.jd.com/#/details?id=6081) |
+
+---
+
+### 📧 建立联系 (Connect)
+如果您对以上岗位感兴趣，或想深入了解 TGT 计划：
+
+- **Email**: [yaochaohao.1@jd.com](mailto:yaochaohao.1@jd.com)
+- **WeChat**: **CRISYAO916** (备注：TGT-院校-姓名)

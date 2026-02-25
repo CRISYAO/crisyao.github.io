@@ -1,0 +1,319 @@
+// Common styles for all TOC types
+.toc {
+  .toc-title {
+    font-size: $toc-title-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .toc-content {
+    font-size: $toc-content-font-size;
+
+    code {
+      @extend %code;
+    }
+
+    ul {
+      margin: 0;
+      text-indent: -0.8em;
+      padding-left: 0.8em;
+      list-style: none;
+
+      a:first-child::before {
+        content: '|';
+        font-weight: bolder;
+        margin-right: 0.5em;
+        position: relative;
+        bottom: 2px;
+        color: $single-link-color;
+
+        [data-theme='dark'] & {
+          color: $single-link-color-dark;
+        }
+      }
+
+      ul {
+        padding-left: 1em;
+      }
+    }
+
+    ol {
+      margin: 0;
+      padding-left: 2.25em;
+
+      ol {
+        padding-left: 1.25em;
+      }
+
+      li:has(> a:hover)::marker {
+        color: $single-link-color;
+
+        [data-theme='dark'] & {
+          color: $single-link-color-dark;
+        }
+      }
+    }
+  }
+
+  ruby {
+    background-color: var(#{$rootPrefix}code-block-background-color);
+
+    rt {
+      color: var(#{$rootPrefix}global-font-secondary-color);
+    }
+  }
+}
+
+// Common active state styles for auto and dialog TOC
+#toc-auto,
+#toc-dialog {
+  .toc-content {
+    li.has-active {
+      &::marker {
+        color: $single-link-color;
+
+        [data-theme='dark'] & {
+          color: $single-link-color-dark;
+        }
+      }
+
+      &:has(> .active)::marker {
+        font-weight: bold;
+      }
+
+      > a {
+        color: $single-link-color;
+
+        [data-theme='dark'] & {
+          color: $single-link-color-dark;
+        }
+      }
+    }
+
+    ul {
+      a.active::before {
+        color: $single-link-hover-color;
+
+        [data-theme='dark'] & {
+          color: $single-link-hover-color-dark;
+        }
+      }
+    }
+
+    a.active {
+      font-weight: bold;
+    }
+  }
+}
+
+#toc-auto {
+  display: block;
+  position: sticky;
+  top: calc(#{$header-height} + var(#{$rootPrefix}breadcrumb-height));
+  box-sizing: border-box;
+  visibility: hidden;
+  @include overflow-wrap(break-word);
+  @include blur;
+  @extend .print-d-none;
+
+  [data-header-desktop='normal'] & {
+    #{$rootPrefix}scroll-mt: #{$global-scroll-margin-top};
+  }
+
+  .toc-title {
+    margin-block: 0 0.5em;
+    cursor: pointer;
+    @include user-select(none);
+
+    &::before {
+      content: '|';
+      font-weight: bolder;
+      margin-right: 0.5em;
+      position: relative;
+      bottom: 2px;
+      color: $global-border-color;
+
+      [data-theme='dark'] & {
+        color: $global-border-color-dark;
+      }
+    }
+
+    i.toc-icon {
+      @include transition(transform 0.2s ease);
+    }
+  }
+
+  &.toc-hidden i.toc-icon {
+    @include transform(rotate(-90deg));
+    @include transition(transform 0.2s ease);
+  }
+
+  .toc-content {
+    overflow-y: scroll;
+    // TODO 这里计算错误，待重构
+    max-height: calc(100vh - #{2 * $header-height});
+    @include scrollbar-width(none, 0);
+
+    &.always-active ul,
+    &.always-active ol {
+      display: block;
+    }
+
+    // for unordered list automatically collapsed
+    ul {
+      ul {
+        display: none;
+      }
+
+      .has-active > ul {
+        display: block;
+      }
+    }
+
+    // for ordered list automatically collapsed
+    ol {
+      ol {
+        display: none;
+      }
+
+      .has-active > ol {
+        display: block;
+      }
+    }
+  }
+}
+
+#toc-static {
+  display: none;
+  margin: 0.8em 0;
+
+  &[data-kept='true'] {
+    display: block;
+  }
+
+  .toc-title {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+    padding: 0 0.75em;
+    background-color: var(#{$rootPrefix}code-header-background-color);
+  }
+
+  .toc-content {
+    background-color: var(#{$rootPrefix}code-block-background-color);
+
+    > nav {
+      > ul {
+        padding: 0.4em 1em 0.4em 1.8em;
+
+        a:hover {
+          font-weight: bold;
+
+          &::before {
+            color: $single-link-hover-color;
+
+            [data-theme='dark'] & {
+              color: $single-link-hover-color-dark;
+            }
+          }
+        }
+      }
+
+      > ol {
+        padding: 0.4em 1em 0.4em 2.25em;
+
+        li:has(> a:hover)::marker,
+        a:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &:not(.open) {
+    .toc-title {
+      #{$rootPrefix}code-header-background-color: #{darken($code-background-color, 6%)};
+
+      [data-theme='dark'] & {
+        #{$rootPrefix}code-header-background-color: #{darken($code-background-color-dark, 6%)};
+      }
+    }
+  }
+}
+
+#toc-dialog {
+  transition:
+    display 0.2s allow-discrete,
+    overlay 0.2s allow-discrete,
+    translate 0.2s,
+    opacity 0.2s 0.4s;
+  opacity: 0;
+  translate: 100vw 0;
+  width: MIN(calc(100% - 4rem), 460px);
+  height: 100dvh;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 0;
+  border: none;
+  border-left: 1px solid var(#{$rootPrefix}global-border-color);
+  background-color: var(#{$rootPrefix}global-background-color);
+
+  .toc {
+    max-width: 100%;
+    margin-inline: 1rem;
+
+    .toc-title {
+      font-size: $toc-title-font-size * 1.5;
+      line-height: $toc-title-font-size * 2;
+      margin-block: $toc-title-font-size;
+    }
+
+    .toc-content {
+      font-size: max($toc-content-font-size, 1rem);
+
+      nav {
+        max-height: calc(100dvh - 5rem);
+        overflow: auto;
+      }
+    }
+  }
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    transition:
+      display 0.5s allow-discrete,
+      overlay 0.5s allow-discrete,
+      opacity 0.2s 0.4s;
+    opacity: 0;
+  }
+
+  &[open],
+  &[open]::backdrop {
+    opacity: 1;
+    transition:
+      display 0.2s allow-discrete,
+      overlay 0.2s allow-discrete,
+      translate 0.2s,
+      opacity 0.2s;
+  }
+
+  &[open] {
+    translate: 0 0;
+  }
+
+  @starting-style {
+    &[open],
+    &[open]::backdrop {
+      opacity: 0;
+    }
+
+    &[open] {
+      translate: 100vw 0;
+    }
+  }
+}
+
+html:has(#toc-dialog[open]) {
+  overflow: hidden;
+}

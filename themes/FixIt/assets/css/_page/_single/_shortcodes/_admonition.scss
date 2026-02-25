@@ -1,0 +1,111 @@
+.admonition {
+  position: relative;
+  margin: 1rem 0;
+  padding: 0 0.75rem;
+  border-left: .25rem solid;
+  overflow: hidden;
+  background-color: var(#{$rootPrefix}admonition-bg-color);
+  border-left-color: var(#{$rootPrefix}admonition-color);
+  @include border-radius($global-border-radius);
+
+  .admonition-title {
+    font-weight: var(#{$rootPrefix}admonition-title-font-weight, bold);
+    margin: 0 -0.75rem;
+    padding: 0.25rem 1.8rem;
+    border-bottom: 1px solid;
+    position: relative;
+    @include border-radius(0);
+
+    strong {
+      font-weight: bolder;
+      text-shadow: 0 0.05rem 0.05rem rgba(0, 0, 0, 0.2);
+
+      [data-theme='dark'] & {
+        text-shadow: 0 0.05rem 0.05rem rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    // title-only admonition without content
+    &:not(:has(+ .details-content)) {
+      #{$rootPrefix}admonition-title-font-weight: normal;
+      padding: 0.75rem 1rem 0.75rem 2.2rem;
+      border: 0;
+
+      i.icon {
+        left: 1.1rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  > .admonition-title {
+    border-bottom-color: var(#{$rootPrefix}admonition-bg-color);
+    background-color: var(#{$rootPrefix}admonition-bg-color-collapsed);
+    @include transition(all 0.2s ease);
+
+    i.icon {
+      color: var(#{$rootPrefix}admonition-color);
+    }
+  }
+
+  &.open > .admonition-title {
+    background-color: var(#{$rootPrefix}admonition-bg-color);
+  }
+
+  .admonition-content {
+    padding: 0.5rem 0;
+    
+    // for extended alert syntax
+    > p {
+      margin: 0;
+    }
+
+    .code-block .code-header {
+      top: initial !important;
+    }
+  }
+
+  i.icon {
+    font-size: 0.85rem;
+    position: absolute;
+    top: 50%;
+    left: 0.9rem;
+    translate: -50% -50%;
+  }
+
+  i.details-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.9rem;
+    translate: 50% -50%;
+  }
+
+  // default admonition type is note
+  #{$rootPrefix}admonition-color: #{map-get(map-get($admonition-color-map, note), color)};
+  #{$rootPrefix}admonition-bg-color: #{map-get(map-get($admonition-color-map, note), bg-color)};
+  #{$rootPrefix}admonition-bg-color-collapsed: #{opacify(map-get(map-get($admonition-color-map, note), bg-color), 0.15)};
+
+  // set color for each admonition type
+  @each $type, $item in $admonition-color-map {
+    @if $type != 'note' {
+      &.#{$type} {
+        #{$rootPrefix}admonition-color: #{map-get($item, color)};
+        #{$rootPrefix}admonition-bg-color: #{map-get($item, bg-color)};
+        #{$rootPrefix}admonition-bg-color-collapsed: #{opacify(map-get($item, bg-color), 0.15)};
+      }
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0.75rem;
+  }
+
+  // content-only admonition without title
+  &:not(:has(.admonition-title)) {
+    border: 1px solid var(#{$rootPrefix}admonition-bg-color);
+
+    .admonition-content {
+      padding: 0.75rem 0.25rem;
+    }
+  }
+}
