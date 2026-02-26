@@ -68,3 +68,8 @@ theme = "FixIt"
   name = "About Me"
   url = "/about-me/"
   weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许在 Markdown 中使用原生 HTML
