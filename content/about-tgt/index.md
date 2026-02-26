@@ -36,7 +36,7 @@ title: "About TGT"
 
 **京东零售重磅开源的多智能体 (Multi-agent) 协作框架** <span style="color: #888; font-size: 13px;">Open Sourced in 2025 · Latest Update: 2026</span>
 
-* GAIA 榜单全球前列，开源多智能体框架评分 Top 1。
+* GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。
 
   <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500;">
         <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub</a>
