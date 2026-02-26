@@ -1,5 +1,5 @@
 ---
-title: "关于TGT"
+title: "About TGT"
 ---
 
 **TGT（Tech Genius Team）** 是由京东发起的“顶尖青年技术天才计划”，面向全球高校本硕博在校生、应届生及毕业两年内的技术人才开放招募，旨在与全球技术天才一起基于京东丰富的业务
@@ -9,6 +9,7 @@ title: "关于TGT"
 
 ### 🚀 Mission
 作为京东零售 TGT 招聘负责人，我致力于寻找具备极客精神的 **"Tech Genius"**。我们不仅提供丰富的业务场景，更提供探索前沿技术边界的土壤。
+---
 
 ### 🛠️ 重点招募方向
 * **人工智能**：`LLM` / `多模态` / `视频生成` / `AI搜索` / `生成式推荐`
@@ -17,12 +18,6 @@ title: "关于TGT"
 
 ---
 ### 🛠️ 核心技术与开源影响力 (Core Tech & Open Source)
-
-在京东，我们致力于通过开放技术，赋能开发者和企业，共同构建高效、可靠、创新的技术生态。我们相信，开源是连接技术与社区的桥梁，能够加速技术普惠与价值创造。
-
-> 💡 **Tech Genius 的独特体验**：你将有机会直接参与 OxyGent 的迭代，或基于 OxygenREC 的研究，在京东最核心的业务场景中构建下一代智能体化推荐系统。
-
----
 
 ### OxygenREC <span style="background:#e1f5fe; color:#01579b; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">CORE RESEARCH</span>
 
@@ -43,8 +38,13 @@ title: "关于TGT"
     <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">💻 GitHub</a>
 ---
 
+在京东，我们致力于通过开放技术，赋能开发者和企业，共同构建高效、可靠、创新的技术生态。我们相信，开源是连接技术与社区的桥梁，能够加速技术普惠与价值创造。
+
+> 💡 **Tech Genius 的独特体验**：你将有机会直接参与 OxyGent 的迭代，或基于 OxygenREC 的研究，在京东最核心的业务场景中构建下一代智能体化推荐系统。
+---
+
 ### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
-目前我们正处于全球招募高峰期，以下领域急需顶尖天才加入：
+目前我们正处于全球招募高峰期，以下领域急需技术天才加入：
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
@@ -62,7 +62,7 @@ title: "关于TGT"
 ---
 
 ### 📧 建立联系 (Connect)
-如果您对以上岗位感兴趣，或想深入了解 TGT 计划：
+如果您对以上岗位感兴趣，或想深入了解 TGT 计划，请随时联系我：
 
 - **Email**: [yaochaohao.1@jd.com](mailto:yaochaohao.1@jd.com)
 - **WeChat**: **CRISYAO916** (备注：TGT-院校-姓名)
