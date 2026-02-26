@@ -25,7 +25,8 @@ title: "About TGT"
 
 * 基于指令遵循的 "快慢思考" 电商生成式推荐框架。
 
-    <a href="https://arxiv.org/abs/2512.22386" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">📄 Paper</a>
+  <a href="https://arxiv.org/abs/2512.22386" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); margin-left: 10px; font-weight: 500;">
+        <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper</a>
 
 ---
 
@@ -35,20 +36,26 @@ title: "About TGT"
 
 * GAIA 榜单全球前列，开源多智能体框架评分 Top 1。
 
-    <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">💻 GitHub</a>
+  <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500;">
+        <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub</a>
+
 
 ---
 
 ### xLLM <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.1k+ Stars</span>
 
-**一个灵活且可扩展的通用大模型训练与推理框架** <span style="color: #888; font-size: 13px;">Technical Report · Oct 2025</span>
+**一个灵活且可扩展的通用大模型训练与推理框架** <span style="color: #888; font-size: 13px;"> arXiv · Oct 2025</span>
 
 * 专注于解决大规模模型训练中的效率与扩展性难题。
 
-    <a href="https://github.com/jd-opensource/xllm" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">💻 GitHub</a>
-    <a href="https://arxiv.org/abs/2510.14686" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px; margin-left:8px;">📄 Paper</a>
-
+  <a href="https://github.com/jd-opensource/xllm" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500;">
+        <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub</a>
+    
+  <a href="https://arxiv.org/abs/2510.14686" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); margin-left: 10px; font-weight: 500;">
+        <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper</a>
 ---
+
+
 
 在京东，我们致力于通过开放技术，赋能开发者和企业，共同构建高效、可靠、创新的技术生态。我们相信，开源是连接技术与社区的桥梁，能够加速技术普惠与价值创造。
 
