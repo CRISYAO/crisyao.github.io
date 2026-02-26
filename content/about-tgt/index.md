@@ -21,9 +21,9 @@ title: "About TGT"
 
 ### OxygenREC <span style="background:#e1f5fe; color:#01579b; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">CORE RESEARCH</span>
 
-**[OxygenREC] An Instruction-Following Generative Framework for E-commerce Recommendation** <span style="color: #888; font-size: 13px;">arXiv v1 · Dec 2025</span>
+**An Instruction-Following Generative Framework for E-commerce Recommendation** <span style="color: #888; font-size: 13px;">arXiv v1 · Dec 2025</span>
 
-* **核心突破**：基于指令遵循的 "快慢思考" 电商生成式推荐框架。
+* 基于指令遵循的 "快慢思考" 电商生成式推荐框架。
 
     <a href="https://arxiv.org/abs/2512.22386" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">📄 Paper</a>
 
@@ -33,9 +33,21 @@ title: "About TGT"
 
 **京东零售重磅开源的多智能体 (Multi-agent) 协作框架** <span style="color: #888; font-size: 13px;">Open Sourced in 2025 · Latest Update: 2026</span>
 
-* **成就**：GAIA 榜单全球前列，开源多智能体框架评分 Top 1。
+* GAIA 榜单全球前列，开源多智能体框架评分 Top 1。
 
     <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">💻 GitHub</a>
+
+---
+
+### xLLM <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.1k+ Stars</span>
+
+**一个灵活且可扩展的通用大模型训练与推理框架** <span style="color: #888; font-size: 13px;">Technical Report · Oct 2025</span>
+
+* 专注于解决大规模模型训练中的效率与扩展性难题。
+
+    <a href="https://github.com/jd-opensource/xllm" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px;">💻 GitHub</a>
+    <a href="https://arxiv.org/abs/2510.14686" style="text-decoration:none; border:1px solid #ddd; padding:4px 12px; border-radius:4px; color:#333; font-size:13px; display:inline-block; margin-top:5px; margin-left:8px;">📄 Paper</a>
+
 ---
 
 在京东，我们致力于通过开放技术，赋能开发者和企业，共同构建高效、可靠、创新的技术生态。我们相信，开源是连接技术与社区的桥梁，能够加速技术普惠与价值创造。
