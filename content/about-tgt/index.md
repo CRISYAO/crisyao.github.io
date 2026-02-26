@@ -27,8 +27,11 @@ title: "About TGT"
 
 * 基于指令遵循的 "快慢思考" 电商生成式推荐框架。
 
-  <a href="https://arxiv.org/abs/2512.22386" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); margin-left: 10px; font-weight: 500;">
-        <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper</a>
+  <div style="margin-top: 12px;">
+  <a href="https://arxiv.org/abs/2512.22386" style="text-decoration:none; border:1px solid #ddd; padding:6px 0; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500; width: 100px; text-align: center;">
+    <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper
+  </a>
+  </div>
 
 ---
 
@@ -38,8 +41,11 @@ title: "About TGT"
 
 * GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。
 
-  <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500;">
-        <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub</a>
+  <div style="margin-top: 12px;">
+  <a href="https://github.com/jd-opensource/OxyGent" style="text-decoration:none; border:1px solid #ddd; padding:6px 0; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500; width: 100px; text-align: center;">
+    <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub
+  </a>
+  </div>
 
 
 ---
@@ -50,11 +56,15 @@ title: "About TGT"
 
 * 专注于解决大规模模型训练中的效率与扩展性难题。
 
-  <a href="https://github.com/jd-opensource/xllm" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500;">
-        <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub</a>
-    
-  <a href="https://arxiv.org/abs/2510.14686" style="text-decoration:none; border:1px solid #ddd; padding:6px 15px; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); margin-left: 10px; font-weight: 500;">
-        <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper</a>
+  <div style="margin-top: 12px;">
+  <a href="https://github.com/jd-opensource/xllm" style="text-decoration:none; border:1px solid #ddd; padding:6px 0; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500; width: 100px; text-align: center;">
+    <i class="fa-brands fa-github" style="margin-right: 5px;"></i> GitHub
+  </a>
+  <a href="https://arxiv.org/abs/2510.14686" style="text-decoration:none; border:1px solid #ddd; padding:6px 0; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500; width: 100px; text-align: center; margin-left: 10px;">
+    <i class="fa-regular fa-file-lines" style="margin-right: 5px;"></i> Paper
+  </a>
+  </div>
+
 ---
 
 
