@@ -54,6 +54,9 @@ theme = "FixIt"
       id = "G-FX681M419P"
       anonymizeIP = true
 
+  [params.verification]
+    google = "I81J6vSKedujyA1xYM9rE_LIGa312HeSPTPJGBCVqkY"
+
 [[menu.main]]
   name = "Home"
   url = "/"
