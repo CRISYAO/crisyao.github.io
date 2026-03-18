@@ -21,6 +21,20 @@ title: "About TGT"
 ---
 ### 🛠️ 核心技术与开源影响力 (Core Tech & Open Source)
 
+### 顶会论文合集 (Selected Publications) <span style="background:#f3e5f5; color:#7b1fa2; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px; font-weight:bold;">CVPR / WWW / ICLR</span>
+
+**2026 京东零售技术国际顶会论文合集 · 第一期** <span style="color: #888; font-size: 13px;">Published in Mar 2026</span>
+
+* 涵盖计算机视觉、生成式推荐及多智能体协作等领域的最新研究成果，展现 TGT 团队在 AI 领域的深厚技术积淀。
+
+  <div style="margin-top: 12px; margin-bottom: 24px;">
+  <a href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" style="text-decoration:none; border:1px solid #ddd; padding:6px 0; border-radius:6px; color:#333; font-size:13px; display:inline-block; transition: all 0.3s; background:#fff; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-weight: 500; width: 100px; text-align: center;">
+    <i class="fa-solid fa-layer-group"></i> Collection
+  </a>
+  </div>
+
+---
+
 ### OxygenREC <span style="background:#e1f5fe; color:#01579b; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">CORE RESEARCH</span>
 
 **An Instruction-Following Generative Framework for E-commerce Recommendation** <span style="color: #888; font-size: 13px;">arXiv v1 · Dec 2025</span>
