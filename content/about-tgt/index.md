@@ -49,7 +49,7 @@ title: "About TGT"
 
 ---
 
-### OxyGent <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.9k+ Stars</span>
+### OxyGent <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.9k Stars</span>
 
 **京东零售重磅开源的多智能体 (Multi-agent) 协作框架** <span style="color: #888; font-size: 13px;">Open Sourced in 2025 · Latest Update: 2026</span>
 
@@ -64,7 +64,7 @@ title: "About TGT"
 
 ---
 
-### xLLM <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.1k+ Stars</span>
+### xLLM <span style="background:#fff9c4; color:#f57f17; padding:2px 8px; border-radius:4px; font-size:12px; vertical-align:middle; margin-left:8px;">⭐ 1.2k Stars</span>
 
 **一个灵活且可扩展的通用大模型训练与推理框架** <span style="color: #888; font-size: 13px;"> arXiv · Oct 2025</span>
 
