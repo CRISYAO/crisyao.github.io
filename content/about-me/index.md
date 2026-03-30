@@ -49,7 +49,7 @@ layout: profile
     
     <div class="me-intro">
       <h1>Yao Chaohao (CRISYAO)</h1>
-      <p>TGT Recruitment Lead @ JD Retail | Talent Strategist</p>
+      <p>TGT Recruitment Lead @ JD Retail </p>
     </div>
   </header>
 
