@@ -2,7 +2,7 @@
 title: "About TGT"
 ---
 
-**TGT（Tech Genius Team）** 是由京东发起的“顶尖青年技术天才计划”，面向全球高校本硕博在校生、应届生及毕业两年内的技术人才开放招募，旨在与全球技术天才一起基于京东丰富的业务
+**TGT（Tech Genius Team）** 是由京东发起的"顶尖青年技术天才计划"，面向全球高校本硕博在校生、应届生及毕业两年内的技术人才开放招募，旨在与全球技术天才一起基于京东丰富的业务
 场景探索前沿技术、用技术创造更多美好。
 
 ---
@@ -14,7 +14,7 @@ title: "About TGT"
 ---
 
 ### 🛠️ 重点招募方向
-* **人工智能**：`LLM` / `多模态` / `视频生成` / `AI搜索` / `生成式推荐`
+* **人工智能**：`LLM` / `多模态` / `视频生成` / `AI 搜索` / `生成式推荐`
 * **计算基座**：`推理引擎优化` / `分布式训练自动优化` / `AI Infra`
 * **智能供应链**：`决策智能` / `时序预测` / `运筹优化`
 
@@ -91,6 +91,8 @@ title: "About TGT"
 ### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
 目前我们正处于全球招募高峰期，以下领域急需技术天才加入：
 
+#### 📌 正式岗位 (Full-time Positions)
+
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
 | **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/jobs) |
@@ -108,10 +110,24 @@ title: "About TGT"
 | **智能供应链** | 决策大模型应用 | [立即申请](https://campus.jd.com/#/jobs) |
 | **空间智能** | 复杂环境空间感知 | [立即申请](https://campus.jd.com/#/jobs) |
 
+#### 🎓 实习岗位 (Internship Positions)
+
+| 领域 | 核心方向 | 申请链接 |
+| :--- | :--- | :--- |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 具身智能大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 空间智能 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 大模型训练与推理优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 深度学习编译器 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 生成式推荐推理优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **机器人** | 移动避障导航算法 | [立即申请](https://campus.jd.com/#/jobs) |
+| **机器人** | 具身操作大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+
 ---
 
 ### 📧 建立联系 (Connect)
 如果您对以上岗位感兴趣，或想深入了解 TGT 计划，请随时联系我：
 
 - **Email**: [yaochaohao.1@jd.com](mailto:yaochaohao.1@jd.com)
-- **WeChat**: **CRISYAO916** (备注：TGT-院校-姓名)
+- **WeChat**: **CRISYAO916** (备注：TGT-院校 - 姓名)
