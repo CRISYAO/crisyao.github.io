@@ -81,11 +81,12 @@ title: "About TGT"
 
 ---
 
+### 📧 建立联系 (Connect)
+如果您对以上岗位感兴趣，或想深入了解 TGT 计划，请随时联系我：
 
+- **Email**: [yaochaohao.1@jd.com](mailto:yaochaohao.1@jd.com)
+- **WeChat**: **CRISYAO916** (备注：TGT-院校 - 姓名)
 
-在京东，我们致力于通过开放技术，赋能开发者和企业，共同构建高效、可靠、创新的技术生态。我们相信，开源是连接技术与社区的桥梁，能够加速技术普惠与价值创造。
-
-> 💡 **Tech Genius 的独特体验**：你将有机会直接参与 OxyGent 的迭代，或基于 OxygenREC 的研究，在京东最核心的业务场景中构建下一代智能体化推荐系统。
 ---
 
 ### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
@@ -111,12 +112,16 @@ title: "About TGT"
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
-| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 大模型训练与推理优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 深度学习编译器 | [立即申请](https://campus.jd.com/#/jobs) |
-| **机器人** | 移动避障导航算法 | [立即申请](https://campus.jd.com/#/jobs) |
-| **机器人** | 具身操作大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 大模型预训练与后训练 | [立即申请](https://campus.jd.com/#/details?id=7515) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7625) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7617) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7633) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7635) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7629) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7567) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7574) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7603) |
+| **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/details?id=7570) |
 
 ---
 
