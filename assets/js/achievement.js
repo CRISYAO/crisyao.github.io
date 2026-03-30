@@ -1,0 +1,1 @@
+(function(){const KEY='achievement_first_blood';if(!localStorage.getItem(KEY)){setTimeout(()=>{const el=document.getElementById('achievement-toast');if(el){el.setAttribute('role','status');el.setAttribute('aria-live','polite');el.classList.add('is-visible');localStorage.setItem(KEY,'true');setTimeout(()=>{el.classList.remove('is-visible');},6000);}},2500);}})();
