@@ -119,7 +119,7 @@ date: 2026-03-30
     <div class="tgt-sl">Open Positions</div>
     <div class="tgt-tabs">
       <button class="tgt-tab active" onclick="tgtTab('full',this)">正式岗位</button>
-      <button class="tgt-tab" onclick="tgtTab('intern',this)">实习岗位</button>
+      <button class="tgt-tab" onclick="tgtTab('intern',this)">实习岗位(27届及之后)</button>
     </div>
 
     <div id="tgt-full">
