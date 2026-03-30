@@ -1,6 +1,9 @@
 ---
 layout: root
 ---
-{{ content }}
-
+{{ partial "header" . }}
+{{ partial "nav" . }}
+{{ partial "assets" . }}
+<main>{{ content }}</main>
+{{ partial "footer" . }}
 {% include_relative partials/achievement.html %}

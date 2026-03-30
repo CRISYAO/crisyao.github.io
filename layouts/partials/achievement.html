@@ -1,4 +1,4 @@
-<div id="achievement-toast" class="steam-achievement">
+<div id="achievement-toast" class="steam-achievement" role="status" aria-live="polite">
   <div class="achievement-icon">
     <img src="{{ site.favicon | relative_url }}" alt="Achievement Icon">
   </div>
@@ -7,73 +7,3 @@
     <div class="achievement-name">恭喜你发现了新世界</div>
   </div>
 </div>
-
-<style>
-.steam-achievement {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 300px;
-  background: linear-gradient(to right, #1b2838, #2a475e); /* Steam 经典渐变 */
-  border: 1px solid #66c0f4;
-  border-radius: 4px;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-  z-index: 9999;
-  /* 初始隐藏状态 */
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.steam-achievement.is-visible {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.achievement-icon img {
-  width: 48px;
-  height: 48px;
-  border-radius: 2px;
-  background: #101822;
-  margin-right: 12px;
-}
-
-.achievement-label {
-  color: #ebebeb;
-  font-size: 13px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.achievement-name {
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
-}
-</style>
-
-<script>
-(function() {
-  const KEY = 'achievement_first_blood';
-  if (!localStorage.getItem(KEY)) {
-    // 延迟 2.5 秒触发，避开页面初次加载的卡顿
-    setTimeout(() => {
-      const el = document.getElementById('achievement-toast');
-      if (el) {
-        el.classList.add('is-visible');
-        localStorage.setItem(KEY, 'true');
-        // 6 秒后自动收起
-        setTimeout(() => {
-          el.classList.remove('is-visible');
-        }, 6000);
-      }
-    }, 2500);
-  }
-})();
-</script>
