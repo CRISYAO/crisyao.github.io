@@ -6,33 +6,39 @@ date: 2026-03-30
 
 {{< raw >}}
 <style>
+/* 1. 颜色优化：京东红主色调集成 */
+:root {
+  --jd-red: #E1251B;
+  --jd-red-hover: #B11B14;
+}
+
 .tgt-page{max-width:860px;margin:0 auto;padding:2rem 0 4rem}
 .tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid rgba(0,0,0,.10);margin-bottom:2.5rem}
 .tgt-eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);margin-bottom:.75rem}
 .tgt-h1{font-size:clamp(26px,5vw,34px);font-weight:500;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary,#1a1a18)}
-.tgt-accent{color:#1D9E75}
+.tgt-accent{color: var(--jd-red)} /* 修改为京东红 */
 .tgt-hero p{font-size:15px;color:var(--color-text-secondary,#6b6b67);max-width:640px;line-height:1.8}
 .tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;border-bottom:0.5px solid rgba(0,0,0,.10);margin-bottom:1rem}
 .tgt-sec{margin-bottom:2.5rem}
 .tgt-mission{background:var(--color-background-secondary,#f7f7f5);border-radius:12px;padding:1.25rem 1.5rem;font-size:15px;line-height:1.8}
-.tgt-mission strong{color:#0F6E56;font-weight:500}
+.tgt-mission strong{color: var(--jd-red);font-weight:500} /* 修改为京东红 */
 .tgt-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1rem}
 .tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid rgba(0,0,0,.10);background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67)}
-.tgt-tag.g{background:#E1F5EE;color:#0F6E56;border-color:#9FE1CB}
+.tgt-tag.g{background:#FEEBEA;color: var(--jd-red);border-color:#FCD2D0} /* 浅红背景标签 */
 .tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid rgba(0,0,0,.10);border-radius:12px;padding:1rem 1.25rem}
 .tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
 .tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px;font-weight:400}
 .tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
-.tgt-ol{display:flex;gap:8px;flex-wrap:wrap}
-.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s}
+.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items: center;} /* 3. 按钮对齐优化：强制一行 */
+.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s; white-space: nowrap;}
 .tgt-lnk.b{background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
 .tgt-lnk.b:hover{background:#B5D4F4}
 .tgt-lnk.p{background:#EEEDFE;color:#3C3489;border:0.5px solid #AFA9EC}
 .tgt-lnk.p:hover{background:#AFA9EC}
 .tgt-tabs{display:flex;gap:8px;margin-bottom:1rem}
 .tgt-tab{font-size:13px;padding:5px 14px;border-radius:99px;border:0.5px solid rgba(0,0,0,.18);background:transparent;color:var(--color-text-secondary,#6b6b67);cursor:pointer;transition:all .15s;font-family:inherit}
-.tgt-tab.active{background:#0F6E56;color:#E1F5EE;border-color:#0F6E56}
+.tgt-tab.active{background: var(--jd-red);color:#fff;border-color: var(--jd-red)} /* Tab激活状态设为京东红 */
 .tgt-tab:hover:not(.active){background:var(--color-background-secondary,#f7f7f5)}
 .tgt-tbl{width:100%;border-collapse:collapse;font-size:13px}
 .tgt-tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding:8px 12px;border-bottom:0.5px solid rgba(0,0,0,.10)}
@@ -40,17 +46,17 @@ date: 2026-03-30
 .tgt-tbl tr:last-child td{border-bottom:none}
 .tgt-tbl tr:hover td{background:var(--color-background-secondary,#f7f7f5)}
 .tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
-.bd-ai{background:#E1F5EE;color:#0F6E56}
+.bd-ai{background:#FEEBEA;color: var(--jd-red)} /* AI领域背景设为淡红 */
 .bd-infra{background:#EEEDFE;color:#3C3489}
 .bd-data{background:#FAEEDA;color:#633806}
 .bd-sc{background:#E6F1FB;color:#185FA5}
-.tgt-ap{font-size:12px;color:#185FA5;text-decoration:none;padding:4px 10px;border:0.5px solid #B5D4F4;border-radius:4px;background:#E6F1FB;white-space:nowrap;transition:background .15s}
-.tgt-ap:hover{background:#B5D4F4}
+.tgt-ap{font-size:12px;color: var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid #FCD2D0;border-radius:4px;background:#FEEBEA;white-space:nowrap;transition:background .15s} /* 申请按钮颜色调整 */
+.tgt-ap:hover{background:#FCD2D0}
 .tgt-cr{display:flex;gap:12px;flex-wrap:wrap}
 .tgt-cc{flex:1;min-width:180px;background:var(--color-background-primary,#fff);border:0.5px solid rgba(0,0,0,.10);border-radius:8px;padding:.75rem 1rem}
 .tgt-cl{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-secondary,#6b6b67);margin-bottom:4px}
 .tgt-cv{font-size:14px;font-weight:500;color:var(--color-text-primary,#1a1a18)}
-.tgt-cv a{color:#185FA5;text-decoration:none}
+.tgt-cv a{color: var(--jd-red);text-decoration:none}
 .tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}.tgt-og{grid-template-columns:1fr}}
@@ -81,12 +87,12 @@ date: 2026-03-30
     <div class="tgt-sl">Core Tech &amp; Open Source</div>
     <div class="tgt-og">
       <div class="tgt-oc">
-        <div class="tgt-on">OxyGent <span class="tgt-stars">★ 1.9k</span></div>
+        <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 1.9k</span></div>
         <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。</div>
         <div class="tgt-ol"><a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank" rel="noopener">GitHub</a></div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">xLLM <span class="tgt-stars">★ 1.2k</span></div>
+        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.2k</span></div>
         <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank" rel="noopener">GitHub</a>
@@ -96,7 +102,10 @@ date: 2026-03-30
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
         <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架，arXiv v1 · Dec 2025。</div>
-        <div class="tgt-ol"><a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank" rel="noopener">Paper</a></div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank" rel="noopener">Paper</a>
+          <span class="tgt-ch" style="margin-top:0">arXiv v1</span>
+        </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">顶会论文合集</div>
@@ -176,5 +185,24 @@ function tgtTab(tab,btn){
   document.querySelectorAll('.tgt-tab').forEach(function(b){b.classList.remove('active')});
   btn.classList.add('active');
 }
+
+/* 2. 数据自动获取：JS 异步抓取 GitHub Star 数 */
+async function fetchStars(repo, elementId) {
+  try {
+    const response = await fetch(`https://api.github.com/repos/${repo}`);
+    const data = await response.json();
+    const stars = data.stargazers_count;
+    const formatted = stars > 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
+    document.getElementById(elementId).innerText = `★ ${formatted}`;
+  } catch (e) {
+    console.error('Fetch stars failed', e);
+  }
+}
+
+// 页面加载后执行抓取
+document.addEventListener('DOMContentLoaded', () => {
+  fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
+  fetchStars('jd-opensource/xllm', 'xllm-stars');
+});
 </script>
 {{< /raw >}}
