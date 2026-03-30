@@ -93,16 +93,20 @@ title: "About TGT"
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
-| **人工智能** | 大模型后训练| [立即申请](https://campus.jd.com/#/details?id=6533) |
-| **人工智能** | 多模态大模型| [立即申请](https://campus.jd.com/#/details?id=6013) |
-| **人工智能** | 大模型安全风控| [立即申请](https://campus.jd.com/#/details?id=6537) |
-| **人工智能** | AI搜索| [立即申请](https://campus.jd.com/#/details?id=6147) |
-| **人工智能** | 生成式推荐| [立即申请](https://campus.jd.com/#/details?id=6119) |
-| **人工智能** | 3D内容生成| [立即申请](https://campus.jd.com/#/details?id=6182) |
-| **人工智能** | 视频生成| [立即申请](https://campus.jd.com/#/details?id=6099) |
-| **AI Infra** | 大模型推理引擎优化| [立即申请](https://campus.jd.com/#/details?id=5989) |
-| **AI Infra** | 大模型分布式训练自动优化| [立即申请](https://campus.jd.com/#/details?id=5991) |
-| **智能供应链** | 供应链优化技术探索| [立即申请](https://campus.jd.com/#/details?id=6081) |
+| **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 大模型安全风控 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | AI 搜索 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 生成式推荐 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 3D 内容生成 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 视频生成 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 推理引擎优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 分布式训练自动优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **大数据** | 大数据计算和传输系统 | [立即申请](https://campus.jd.com/#/jobs) |
+| **大数据** | SQL 代码生成大模型 | [立即申请](https://campus.jd.com/#/jobs) |
+| **智能供应链** | 供应链优化技术探索 | [立即申请](https://campus.jd.com/#/jobs) |
+| **智能供应链** | 决策大模型应用 | [立即申请](https://campus.jd.com/#/jobs) |
+| **空间智能** | 复杂环境空间感知 | [立即申请](https://campus.jd.com/#/jobs) |
 
 ---
 
