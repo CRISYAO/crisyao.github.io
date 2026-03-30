@@ -102,7 +102,7 @@ layout: profile
     <div class="exp-item">
       <div class="exp-date">2011 – 2014</div>
       <div class="exp-content">
-        <h3>Affiliated High School of NWPU (西工大附中)</h3>
+        <h3>Affiliated High School of NWPU </h3>
         <div class="desc">High School Diploma</div>
       </div>
     </div>
