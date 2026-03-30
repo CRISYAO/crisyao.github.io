@@ -95,12 +95,17 @@ title: "About TGT"
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
-| **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 异构计算设备推理引擎优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **大数据** | 大数据计算存储和传输系统优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **大数据** | SQL 数据分析计算代码生成 | [立即申请](https://campus.jd.com/#/jobs) |
-| **智能供应链** | 大模型在供应链中的探索优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **安全** | 大模型技术在电商风控场景的应用 | [立即申请](https://campus.jd.com/#/jobs) |
+| **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/details?id=6101) |
+| **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/details?id=6013) |
+| **人工智能** | 大模型安全风控 | [立即申请](https://campus.jd.com/#/details?id=6537) |
+| **人工智能** | AI 搜索 | [立即申请](https://campus.jd.com/#/details?id=6147) |
+| **人工智能** | 生成式推荐 | [立即申请](https://campus.jd.com/#/details?id=6119) |
+| **人工智能** | 3D 内容生成 | [立即申请](https://campus.jd.com/#/details?id=6182) |
+| **人工智能** | 视频生成 | [立即申请](https://campus.jd.com/#/details?id=6099) |
+| **AI Infra** | 推理引擎优化 | [立即申请](https://campus.jd.com/#/details?id=5989) |
+| **AI Infra** | 分布式训练自动优化 | [立即申请](https://campus.jd.com/#/details?id=5991) |
+| **大数据** | 大数据融合计算优化 | [立即申请](https://campus.jd.com/#/details?id=6005) |
+| **智能供应链** | 供应链优化技术探索 | [立即申请](https://campus.jd.com/#/details?id=6081) |
 
 #### 🎓 实习岗位 - TGT-顶尖青年技术实习生
 
