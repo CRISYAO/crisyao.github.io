@@ -22,25 +22,32 @@ date: 2026-03-30
 .tgt-sec{margin-bottom:2.5rem}
 .tgt-mission{background:var(--color-background-secondary,#f7f7f5);border-radius:12px;padding:1.25rem 1.5rem;font-size:15px;line-height:1.8}
 .tgt-mission strong{color: var(--jd-red);font-weight:500}
+.tgt-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1rem}
+.tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid rgba(0,0,0,.10);background:#fff;color:#6b6b67}
+.tgt-tag.g{background:#FEEBEA;color: var(--jd-red);border-color:#FCD2D0}
 
-/* 2. 筛选器样式 */
+/* 2. 开源项目卡片样式 */
+.tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid rgba(0,0,0,.10);border-radius:12px;padding:1rem 1.25rem}
+.tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
+.tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px;font-weight:400}
+.tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
+.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items: center;}
+.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s; white-space: nowrap;}
+.tgt-lnk.b{background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
+.tgt-lnk.p{background:#EEEDFE;color:#3C3489;border:0.5px solid #AFA9EC}
+
+/* 3. 筛选器与表格样式 */
 .tgt-tabs{display:flex;gap:8px;margin-bottom:1rem}
 .tgt-tab{font-size:13px;padding:5px 14px;border-radius:99px;border:0.5px solid rgba(0,0,0,.18);background:transparent;color:var(--color-text-secondary,#6b6b67);cursor:pointer;transition:all .15s}
 .tgt-tab.active{background: var(--jd-red);color:#fff;border-color: var(--jd-red)}
-
 .field-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.5rem; }
-.field-btn { 
-  font-size: 12px; padding: 4px 12px; border-radius: 4px; border: 0.5px solid rgba(0,0,0,.10); 
-  background: #fff; color: #6b6b67; cursor: pointer; transition: all 0.2s; 
-}
+.field-btn { font-size: 12px; padding: 4px 12px; border-radius: 4px; border: 0.5px solid rgba(0,0,0,.10); background: #fff; color: #6b6b67; cursor: pointer; }
 .field-btn.active { background: #FEEBEA; color: var(--jd-red); border-color: #FCD2D0; font-weight: 500; }
-
-/* 3. 表格样式 */
 .tgt-tbl{width:100%;border-collapse:collapse;font-size:13px}
 .tgt-tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding:8px 12px;border-bottom:0.5px solid rgba(0,0,0,.10)}
-.tgt-tbl td{padding:10px 12px;border-bottom:0.5px solid rgba(0,0,0,.10);vertical-align:middle;color:var(--color-text-primary,#1a1a18)}
+.tgt-tbl td{padding:10px 12px;border-bottom:0.5px solid rgba(0,0,0,.10);vertical-align:middle}
 .row-hidden { display: none !important; }
-
 .tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
 .bd-ai{background:#FEEBEA;color: var(--jd-red)}
 .bd-infra{background:#EEEDFE;color:#3C3489}
@@ -48,29 +55,20 @@ date: 2026-03-30
 .bd-sc{background:#E6F1FB;color:#185FA5}
 .bd-spt{background:#E7F6F2;color:#006D5B} 
 .bd-sec{background:#FFF4E5;color:#B35900} 
-
 .tgt-ap{font-size:12px;color: var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid #FCD2D0;border-radius:4px;background:#FEEBEA;white-space:nowrap}
-.tgt-ap:hover{background:#FCD2D0}
+.tgt-hidden{display:none}
 
-/* 4. 其他组件 */
-.tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-.tgt-oc{background:#fff;border:0.5px solid rgba(0,0,0,.10);border-radius:12px;padding:1rem 1.25rem}
-.tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
-.tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px}
-.tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
-.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
+/* 4. 联系方式 */
 .tgt-cr{display:flex;gap:12px;flex-wrap:wrap}
 .tgt-cc{flex:1;min-width:180px;background:#fff;border:0.5px solid rgba(0,0,0,.10);border-radius:8px;padding:.75rem 1rem}
 .tgt-cl{font-size:11px;text-transform:uppercase;color:#6b6b67;margin-bottom:4px}
 .tgt-cv{font-size:14px;font-weight:500;color:#1a1a18}
 .tgt-cv a{color: var(--jd-red);text-decoration:none}
-.tgt-hidden{display:none}
 
-@media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}.tgt-og{grid-template-columns:1fr}}
+@media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
 </style>
 
 <div class="tgt-page">
-
   <div class="tgt-hero">
     <div class="tgt-eyebrow">京东零售 · 顶尖青年技术天才计划</div>
     <h1 class="tgt-h1">Tech <span class="tgt-accent">Genius</span> Team</h1>
@@ -81,17 +79,53 @@ date: 2026-03-30
     <div class="tgt-sl">Mission</div>
     <div class="tgt-mission">
       致力于寻找具备极客精神的 <strong>"Tech Genius"</strong>。我们不仅提供丰富的业务场景，更提供探索前沿技术边界的土壤。
+      <div class="tgt-tags">
+        <span class="tgt-tag g">LLM</span><span class="tgt-tag g">多模态</span><span class="tgt-tag g">视频生成</span>
+        <span class="tgt-tag g">AI 搜索</span><span class="tgt-tag g">生成式推荐</span>
+        <span class="tgt-tag">推理引擎优化</span><span class="tgt-tag">分布式训练</span>
+        <span class="tgt-tag">AI Infra</span><span class="tgt-tag">决策智能</span><span class="tgt-tag">运筹优化</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tgt-sec">
+    <div class="tgt-sl">Core Tech &amp; Open Source</div>
+    <div class="tgt-og">
+      <div class="tgt-oc">
+        <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 1.9k</span></div>
+        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。</div>
+        <div class="tgt-ol"><a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a></div>
+      </div>
+      <div class="tgt-oc">
+        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.2k</span></div>
+        <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">arXiv</a>
+        </div>
+      </div>
+      <div class="tgt-oc">
+        <div class="tgt-on">OxygenREC</div>
+        <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架，arXiv v1 · Dec 2025。</div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
+          <span style="font-size:11px;color:#6b6b67">arXiv v1</span>
+        </div>
+      </div>
+      <div class="tgt-oc">
+        <div class="tgt-on">顶会论文合集</div>
+        <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
+        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看</a></div>
+      </div>
     </div>
   </div>
 
   <div class="tgt-sec">
     <div class="tgt-sl">Open Positions</div>
-    
     <div class="tgt-tabs">
       <button class="tgt-tab active" onclick="mainTab('full',this)">正式岗位</button>
       <button class="tgt-tab" onclick="mainTab('intern',this)">实习岗位(27届及之后)</button>
     </div>
-
     <div class="field-filters">
       <button class="field-btn active" onclick="filterField('All', this)">全部</button>
       <button class="field-btn" onclick="filterField('AI', this)">AI</button>
@@ -157,10 +191,10 @@ date: 2026-03-30
           <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>端到端大模型供应链智能决策底座研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7443" target="_blank">申请 →</a></td></tr>
           <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>运筹大模型供应链决策系统优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7410" target="_blank">申请 →</a></td></tr>
           <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 大模型对抗防御与可信原生安全研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7445" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态风控大模型对抗与鲁棒性研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7422" target="_blank" rel="noopener">申请 →</a></td></tr>
-          <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态合规智能体与自进化系统落地探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7408" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态风控大模型对抗与鲁棒性研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7422" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态合规智能体与自进化系统落地探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7408" target="_blank">申请 →</a></td></tr>
           <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>多模态数据湖存储与湖流一体优化探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7635" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>基于分层AI架构的SparkSQL自适应执行优化系统研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7519" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>基于分层AI架构的SparkSQL自适应执行优化系统研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7519" target="_blank">申请 →</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -180,7 +214,6 @@ date: 2026-03-30
       </div>
     </div>
   </div>
-
 </div>
 
 <script>
@@ -211,5 +244,22 @@ function applyFilters() {
         row.classList.toggle('row-hidden', currentField !== 'All' && field !== currentField);
     });
 }
+
+// GitHub Star 抓取
+async function fetchStars(repo, elementId) {
+    try {
+        const response = await fetch(`https://api.github.com/repos/${repo}`);
+        if (!response.ok) return;
+        const data = await response.json();
+        const stars = data.stargazers_count;
+        const formatted = stars >= 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
+        document.getElementById(elementId).innerText = `★ ${formatted}`;
+    } catch (e) {}
+}
+
+window.addEventListener('load', () => {
+    fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
+    fetchStars('jd-opensource/xllm', 'xllm-stars');
+});
 </script>
 {{< /raw >}}
