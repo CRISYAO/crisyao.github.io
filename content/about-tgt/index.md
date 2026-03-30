@@ -150,16 +150,22 @@ date: 2026-03-30
           <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态图像视频生成大模型研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7601" target="_blank" rel="noopener">申请 →</a></td></tr>          
           <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>代码大模型缺陷检测与自动生成研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7567" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>电商智能体长期记忆与互动优化研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7574" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>结构化智能体动态用户画像前沿探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7505" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>基于AI Agent的搜索体验全链路优化研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7520" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型意图识别与搜推研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7546" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>异构硬件深度学习编译优化技术探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7629" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>大模型高效推理与端云协同架构研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7625" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力集群智能调度研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7617" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模分布式训练自动优化探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7633" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>基于LLM的特征工程智能治理技术研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7565" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>搜推系统生成式大模型排序决策研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7592" target="_blank" rel="noopener">申请 →</a></td></tr>          
+          <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>生成式推荐与强化学习后训练探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7609" target="_blank" rel="noopener">申请 →</a></td></tr>       
           <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>广告全链路数据自动化分析与诊断</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7603" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>LLM 多智能体在营销投放算法的应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7570" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>LLM 基于大模型技术的智能广告投放算法研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7607" target="_blank" rel="noopener">申请 →</a></td></tr>          
           <tr><td><span class="tgt-bd bd-ai">搜推广</span></td><td>LLM 多模态大模型广告创意分发算法研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7591" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-data">大数据</span></td><td>多模态数据湖存储与湖流一体优化探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7635" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-data">大数据</span></td><td>基于分层AI架构的SparkSQL自适应执行优化系统研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7519" target="_blank" rel="noopener">申请 →</a></td></tr>          
         </tbody>
       </table>
     </div>
