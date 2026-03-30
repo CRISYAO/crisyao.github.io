@@ -81,14 +81,6 @@ title: "About TGT"
 
 ---
 
-### 📧 建立联系 (Connect)
-如果您对以上岗位感兴趣，或想深入了解 TGT 计划，请随时联系我：
-
-- **Email**: [yaochaohao.1@jd.com](mailto:yaochaohao.1@jd.com)
-- **WeChat**: **CRISYAO916** (备注：TGT-院校 - 姓名)
-
----
-
 ### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
 目前我们正处于全球招募高峰期，以下领域急需技术天才加入：
 
@@ -97,6 +89,7 @@ title: "About TGT"
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
 | **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/details?id=6101) |
+| **人工智能** | 基模后训练 | [立即申请](https://campus.jd.com/#/details?id=6533) |
 | **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/details?id=6013) |
 | **人工智能** | 大模型安全风控 | [立即申请](https://campus.jd.com/#/details?id=6537) |
 | **人工智能** | AI 搜索 | [立即申请](https://campus.jd.com/#/details?id=6147) |
@@ -113,15 +106,15 @@ title: "About TGT"
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
 | **人工智能** | 大模型预训练与后训练 | [立即申请](https://campus.jd.com/#/details?id=7515) |
+| **多模态大模型与应用方向** | 代码大模型缺陷检测与自动生成研发 | [立即申请](https://campus.jd.com/#/details?id=7567) |
+| **多模态大模型与应用方向** | 电商智能体长期记忆与互动优化研究 | [立即申请](https://campus.jd.com/#/details?id=7574) |
+| **AI Infra方向** | 异构硬件下的深度学习编译优化技术探索 | [立即申请](https://campus.jd.com/#/details?id=7629) |
 | **AI Infra方向** | 大模型高效推理与端云协同架构研发 | [立即申请](https://campus.jd.com/#/details?id=7625) |
 | **AI Infra方向** | 超大规模异构算力集群智能调度研发 | [立即申请](https://campus.jd.com/#/details?id=7617) |
 | **AI Infra方向** | 超大规模分布式训练自动优化探索 | [立即申请](https://campus.jd.com/#/details?id=7633) |
-| **AI Infra方向** | 异构硬件下的深度学习编译优化技术探索 | [立即申请](https://campus.jd.com/#/details?id=7635) |
-| **AI Infra方向** | 异构硬件下的深度学习编译优化技术探索 | [立即申请](https://campus.jd.com/#/details?id=7629) |
-| **多模态大模型与应用方向** | 电商智能体长期记忆与互动优化研究 | [立即申请](https://campus.jd.com/#/details?id=7567) |
-| **搜索推荐广告方向** | 基于大模型技术的广告全链路数据自动化分析与诊断 | [立即申请](https://campus.jd.com/#/details?id=7574) |
-| **搜索推荐广告方向** | 基于LLM多智能体技术在营销投放算法的应用 | [立即申请](https://campus.jd.com/#/details?id=7603) |
+| **搜索推荐广告方向** | 基于大模型技术的广告全链路数据自动化分析与诊断 | [立即申请](https://campus.jd.com/#/details?id=7603) |
 | **搜索推荐广告方向** | 基于LLM多智能体技术在营销投放算法的应用 | [立即申请](https://campus.jd.com/#/details?id=7570) |
+| **大数据方向** | 多模态数据湖存储与湖流一体优化探索 | [立即申请](https://campus.jd.com/#/details?id=7635) |
 
 ---
 
