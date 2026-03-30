@@ -204,30 +204,54 @@ date: 2026-03-30
 </div>
 
 <script>
-function tgtTab(tab,btn){
-  document.getElementById('tgt-full').classList.toggle('tgt-hidden',tab!=='full');
-  document.getElementById('tgt-intern').classList.toggle('tgt-hidden',tab!=='intern');
-  document.querySelectorAll('.tgt-tab').forEach(function(b){b.classList.remove('active')});
-  btn.classList.add('active');
+// 选项卡切换逻辑
+function tgtTab(tab, btn) {
+    const fullEl = document.getElementById('tgt-full');
+    const internEl = document.getElementById('tgt-intern');
+    if (fullEl && internEl) {
+        fullEl.classList.toggle('tgt-hidden', tab !== 'full');
+        internEl.classList.toggle('tgt-hidden', tab !== 'intern');
+    }
+    document.querySelectorAll('.tgt-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
 }
 
-/* 2. 数据自动获取：JS 异步抓取 GitHub Star 数 */
+// GitHub Star 抓取逻辑
 async function fetchStars(repo, elementId) {
-  try {
-    const response = await fetch(`https://api.github.com/repos/${repo}`);
-    const data = await response.json();
-    const stars = data.stargazers_count;
-    const formatted = stars > 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
-    document.getElementById(elementId).innerText = `★ ${formatted}`;
-  } catch (e) {
-    console.error('Fetch stars failed', e);
-  }
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    
+    try {
+        // 使用 GitHub API 时，添加简单的缓存逻辑或直接请求
+        const response = await fetch(`https://api.github.com/repos/${repo}`, {
+            method: 'GET',
+            headers: { 'Accept': 'application/vnd.github.v3+json' }
+        });
+        
+        if (!response.ok) throw new Error('Network response was not ok');
+        
+        const data = await response.json();
+        const stars = data.stargazers_count;
+        // 格式化：1900 -> 1.9k
+        const formatted = stars >= 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
+        el.innerText = `★ ${formatted}`;
+    } catch (e) {
+        console.error(`Failed to fetch stars for ${repo}:`, e);
+        // 失败时保持硬编码的默认值，不覆盖
+    }
 }
 
-// 页面加载后执行抓取
-document.addEventListener('DOMContentLoaded', () => {
-  fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
-  fetchStars('jd-opensource/xllm', 'xllm-stars');
-});
+// 确保在页面加载后执行
+(function() {
+    const init = () => {
+        fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
+        fetchStars('jd-opensource/xllm', 'xllm-stars');
+    };
+
+    if (document.readyState === 'complete') {
+        init();
+    } else {
+        window.addEventListener('load', init);
+    }
+})();
 </script>
-{{< /raw >}}
