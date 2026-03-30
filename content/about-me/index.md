@@ -45,7 +45,8 @@ layout: profile
 
 <div class="me-page">
   <header class="me-header">
-    <div class="me-avatar">👋</div>
+    <img src="/static/me.jpg" alt="Yao Chaohao" class="me-avatar">
+    
     <div class="me-intro">
       <h1>Yao Chaohao (CRISYAO)</h1>
       <p>TGT Recruitment Lead @ JD Retail | Talent Strategist</p>
