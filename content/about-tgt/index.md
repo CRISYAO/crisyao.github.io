@@ -91,36 +91,25 @@ title: "About TGT"
 ### 🎯 TGT-京东零售 | 热招岗位 (Open Positions)
 目前我们正处于全球招募高峰期，以下领域急需技术天才加入：
 
-#### 📌 正式岗位 (Full-time Positions)
+#### 📌 正式岗位 - TGT-顶尖青年技术天才计划
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
 | **人工智能** | 代码大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 大模型安全风控 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | AI 搜索 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 生成式推荐 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 3D 内容生成 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 视频生成 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 推理引擎优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 分布式训练自动优化 | [立即申请](https://campus.jd.com/#/jobs) |
-| **大数据** | 大数据计算和传输系统 | [立即申请](https://campus.jd.com/#/jobs) |
-| **大数据** | SQL 代码生成大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **智能供应链** | 供应链优化技术探索 | [立即申请](https://campus.jd.com/#/jobs) |
-| **智能供应链** | 决策大模型应用 | [立即申请](https://campus.jd.com/#/jobs) |
-| **空间智能** | 复杂环境空间感知 | [立即申请](https://campus.jd.com/#/jobs) |
+| **AI Infra** | 异构计算设备推理引擎优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **大数据** | 大数据计算存储和传输系统优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **大数据** | SQL 数据分析计算代码生成 | [立即申请](https://campus.jd.com/#/jobs) |
+| **智能供应链** | 大模型在供应链中的探索优化 | [立即申请](https://campus.jd.com/#/jobs) |
+| **安全** | 大模型技术在电商风控场景的应用 | [立即申请](https://campus.jd.com/#/jobs) |
 
-#### 🎓 实习岗位 (Internship Positions)
+#### 🎓 实习岗位 - TGT-顶尖青年技术实习生
 
 | 领域 | 核心方向 | 申请链接 |
 | :--- | :--- | :--- |
 | **人工智能** | 大模型推理技术 | [立即申请](https://campus.jd.com/#/jobs) |
 | **人工智能** | 多模态大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 具身智能大模型 | [立即申请](https://campus.jd.com/#/jobs) |
-| **人工智能** | 空间智能 | [立即申请](https://campus.jd.com/#/jobs) |
 | **AI Infra** | 大模型训练与推理优化 | [立即申请](https://campus.jd.com/#/jobs) |
 | **AI Infra** | 深度学习编译器 | [立即申请](https://campus.jd.com/#/jobs) |
-| **AI Infra** | 生成式推荐推理优化 | [立即申请](https://campus.jd.com/#/jobs) |
 | **机器人** | 移动避障导航算法 | [立即申请](https://campus.jd.com/#/jobs) |
 | **机器人** | 具身操作大模型 | [立即申请](https://campus.jd.com/#/jobs) |
 
