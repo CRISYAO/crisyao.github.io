@@ -147,8 +147,8 @@ date: 2026-03-30
         <thead><tr><th>领域</th><th>方向</th><th></th></tr></thead>
         <tbody>
           <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>大模型预训练与后训练</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7515" target="_blank" rel="noopener">申请 →</a></td></tr>
-          <tr><td><span class="tgt-bd bd-ai">多模态</span></td><td>代码大模型缺陷检测与自动生成研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7567" target="_blank" rel="noopener">申请 →</a></td></tr>
-          <tr><td><span class="tgt-bd bd-ai">多模态</span></td><td>电商智能体长期记忆与互动优化研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7574" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>代码大模型缺陷检测与自动生成研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7567" target="_blank" rel="noopener">申请 →</a></td></tr>
+          <tr><td><span class="tgt-bd bd-ai">AI</span></td><td>电商智能体长期记忆与互动优化研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7574" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>异构硬件深度学习编译优化技术探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7629" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>大模型高效推理与端云协同架构研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7625" target="_blank" rel="noopener">申请 →</a></td></tr>
           <tr><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力集群智能调度研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7617" target="_blank" rel="noopener">申请 →</a></td></tr>
