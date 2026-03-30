@@ -45,7 +45,7 @@ layout: profile
 
 <div class="me-page">
   <header class="me-header">
-    <img src="me.jpg" alt="Yao Chaohao" class="me-avatar">
+    <img src="/me.jpg" alt="Yao Chaohao" class="me-avatar">
     
     <div class="me-intro">
       <h1>Yao Chaohao (CRISYAO)</h1>
