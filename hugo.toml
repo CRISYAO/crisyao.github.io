@@ -5,7 +5,12 @@ theme = "FixIt"
 
 [params]
   defaultTheme = "light"
-  disableThemeSwitcher = true
+
+  [params.header]
+    enableThemeSwitcher = false
+    [params.header.title]
+      name = "Yao Chaohao"
+      pre = "<i class='fa-solid fa-rocket'></i>"
 
   [params.home]
     # 关键修正：禁用首页的文章列表逻辑
@@ -32,10 +37,6 @@ theme = "FixIt"
     Linkedin = "超豪-姚-33629610b"
 
   # 4. 顶部标题栏
-  [params.header]
-    [params.header.title]
-      name = "Yao Chaohao"
-      pre = "<i class='fa-solid fa-rocket'></i>"
 
   [params.footer]
     enable = true
