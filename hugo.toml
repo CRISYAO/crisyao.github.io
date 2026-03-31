@@ -5,6 +5,7 @@ theme = "FixIt"
 
 [params]
   defaultTheme = "light"
+  disableThemeSwitcher = true
 
   [params.home]
     # 关键修正：禁用首页的文章列表逻辑
