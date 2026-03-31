@@ -6,65 +6,101 @@ date: 2026-03-30
 
 {{< raw >}}
 <style>
-/* 1. 颜色与基础布局 */
 :root {
   --jd-red: #E1251B;
   --jd-red-hover: #B11B14;
+  --jd-red-bg: #FEEBEA;
+  --jd-red-border: #FCD2D0;
 }
 
+/* dark mode 变量覆盖 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --jd-red: #F47370;
+    --jd-red-hover: #F09595;
+    --jd-red-bg: #3D1010;
+    --jd-red-border: #5C1A1A;
+  }
+}
+
+/* ── 布局 ── */
 .tgt-page{max-width:860px;margin:0 auto;padding:2rem 0 4rem}
-.tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid rgba(0,0,0,.10);margin-bottom:2.5rem}
+.tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:2.5rem}
 .tgt-eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);margin-bottom:.75rem}
 .tgt-h1{font-size:clamp(26px,5vw,34px);font-weight:500;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary,#1a1a18)}
-.tgt-accent{color: var(--jd-red)}
+.tgt-accent{color:var(--jd-red)}
 .tgt-hero p{font-size:15px;color:var(--color-text-secondary,#6b6b67);max-width:640px;line-height:1.8}
-.tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;border-bottom:0.5px solid rgba(0,0,0,.10);margin-bottom:1rem}
+.tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:1rem}
 .tgt-sec{margin-bottom:2.5rem}
-.tgt-mission{background:var(--color-background-secondary,#f7f7f5);border-radius:12px;padding:1.25rem 1.5rem;font-size:15px;line-height:1.8}
-.tgt-mission strong{color: var(--jd-red);font-weight:500}
-.tgt-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1rem}
-.tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid rgba(0,0,0,.10);background:#fff;color:#6b6b67}
-.tgt-tag.g{background:#FEEBEA;color: var(--jd-red);border-color:#FCD2D0}
 
-/* 2. 开源项目卡片样式 */
+/* ── Mission ── */
+.tgt-mission{background:var(--color-background-secondary,#f7f7f5);border-radius:12px;padding:1.25rem 1.5rem;font-size:15px;line-height:1.8;color:var(--color-text-primary,#1a1a18)}
+.tgt-mission strong{color:var(--jd-red);font-weight:500}
+.tgt-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1rem}
+.tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67)}
+.tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
+
+/* ── 开源卡片 ── */
 .tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-.tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid rgba(0,0,0,.10);border-radius:12px;padding:1rem 1.25rem}
+.tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:12px;padding:1rem 1.25rem}
 .tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
 .tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px;font-weight:400}
 .tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
-.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items: center;}
-.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s; white-space: nowrap;}
+.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s;white-space:nowrap}
 .tgt-lnk.b{background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
 .tgt-lnk.p{background:#EEEDFE;color:#3C3489;border:0.5px solid #AFA9EC}
+.tgt-meta{font-size:11px;color:var(--color-text-secondary,#6b6b67)}
 
-/* 3. 筛选器与表格样式 */
+/* ── Tabs & 筛选器 ── */
 .tgt-tabs{display:flex;gap:8px;margin-bottom:1rem}
-.tgt-tab{font-size:13px;padding:5px 14px;border-radius:99px;border:0.5px solid rgba(0,0,0,.18);background:transparent;color:var(--color-text-secondary,#6b6b67);cursor:pointer;transition:all .15s}
-.tgt-tab.active{background: var(--jd-red);color:#fff;border-color: var(--jd-red)}
-.field-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.5rem; }
-.field-btn { font-size: 12px; padding: 4px 12px; border-radius: 4px; border: 0.5px solid rgba(0,0,0,.10); background: #fff; color: #6b6b67; cursor: pointer; }
-.field-btn.active { background: #FEEBEA; color: var(--jd-red); border-color: #FCD2D0; font-weight: 500; }
+.tgt-tab{font-size:13px;padding:5px 14px;border-radius:99px;border:0.5px solid var(--color-border-secondary,rgba(128,128,128,.3));background:transparent;color:var(--color-text-secondary,#6b6b67);cursor:pointer;transition:all .15s;font-family:inherit}
+.tgt-tab.active{background:var(--jd-red);color:#fff;border-color:var(--jd-red)}
+.field-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:1.5rem}
+.field-btn{font-size:12px;padding:4px 12px;border-radius:4px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67);cursor:pointer;font-family:inherit;transition:all .15s}
+.field-btn.active{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border);font-weight:500}
+
+/* ── 表格 ── */
 .tgt-tbl{width:100%;border-collapse:collapse;font-size:13px}
-.tgt-tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding:8px 12px;border-bottom:0.5px solid rgba(0,0,0,.10)}
-.tgt-tbl td{padding:10px 12px;border-bottom:0.5px solid rgba(0,0,0,.10);vertical-align:middle}
-.row-hidden { display: none !important; }
+.tgt-tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding:8px 12px;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2))}
+.tgt-tbl td{padding:10px 12px;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));vertical-align:middle;color:var(--color-text-primary,#1a1a18)}
+.tgt-tbl tr:last-child td{border-bottom:none}
+.tgt-tbl tr:hover td{background:var(--color-background-secondary,#f7f7f5)}
+.row-hidden{display:none!important}
+
+/* ── Badges（浅色模式） ── */
 .tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
-.bd-ai{background:#FEEBEA;color: var(--jd-red)}
+.bd-ai{background:var(--jd-red-bg);color:var(--jd-red)}
 .bd-infra{background:#EEEDFE;color:#3C3489}
 .bd-data{background:#FAEEDA;color:#633806}
 .bd-sc{background:#E6F1FB;color:#185FA5}
-.bd-spt{background:#E7F6F2;color:#006D5B} 
-.bd-sec{background:#FFF4E5;color:#B35900} 
-.tgt-ap{font-size:12px;color: var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid #FCD2D0;border-radius:4px;background:#FEEBEA;white-space:nowrap}
-.tgt-hidden{display:none}
+.bd-spt{background:#E7F6F2;color:#006D5B}
+.bd-sec{background:#FFF4E5;color:#B35900}
 
-/* 4. 联系方式 */
+/* ── Badges dark mode 覆盖 ── */
+@media (prefers-color-scheme: dark) {
+  .bd-infra{background:#26215C;color:#CECBF6}
+  .bd-data{background:#412402;color:#FAC775}
+  .bd-sc{background:#042C53;color:#85B7EB}
+  .bd-spt{background:#04342C;color:#5DCAA5}
+  .bd-sec{background:#3D2000;color:#EF9F27}
+  .tgt-stars{background:#412402;color:#FAC775}
+  .tgt-lnk.b{background:#042C53;color:#85B7EB;border-color:#0C447C}
+  .tgt-lnk.p{background:#26215C;color:#CECBF6;border-color:#3C3489}
+}
+
+/* ── 申请按钮 ── */
+.tgt-ap{font-size:12px;color:var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid var(--jd-red-border);border-radius:4px;background:var(--jd-red-bg);white-space:nowrap;transition:background .15s}
+
+/* ── 联系方式 ── */
 .tgt-cr{display:flex;gap:12px;flex-wrap:wrap}
-.tgt-cc{flex:1;min-width:180px;background:#fff;border:0.5px solid rgba(0,0,0,.10);border-radius:8px;padding:.75rem 1rem}
-.tgt-cl{font-size:11px;text-transform:uppercase;color:#6b6b67;margin-bottom:4px}
-.tgt-cv{font-size:14px;font-weight:500;color:#1a1a18}
-.tgt-cv a{color: var(--jd-red);text-decoration:none}
+.tgt-cc{flex:1;min-width:180px;background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:8px;padding:.75rem 1rem}
+.tgt-cl{font-size:11px;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);margin-bottom:4px;letter-spacing:.06em}
+.tgt-cv{font-size:14px;font-weight:500;color:var(--color-text-primary,#1a1a18)}
+.tgt-cv a{color:var(--jd-red);text-decoration:none}
+.tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
 
+.tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
 </style>
 
@@ -109,7 +145,7 @@ date: 2026-03-30
         <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架，arXiv v1 · Dec 2025。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
-          <span style="font-size:11px;color:#6b6b67">arXiv v1</span>
+          <span class="tgt-meta">arXiv v1</span>
         </div>
       </div>
       <div class="tgt-oc">
@@ -127,13 +163,13 @@ date: 2026-03-30
       <button class="tgt-tab" onclick="mainTab('intern',this)">实习岗位(27届及之后)</button>
     </div>
     <div class="field-filters">
-      <button class="field-btn active" onclick="filterField('All', this)">全部</button>
-      <button class="field-btn" onclick="filterField('AI', this)">AI</button>
-      <button class="field-btn" onclick="filterField('Infra', this)">Infra</button>
-      <button class="field-btn" onclick="filterField('SPT', this)">搜推广</button>
-      <button class="field-btn" onclick="filterField('SC', this)">供应链</button>
-      <button class="field-btn" onclick="filterField('Data', this)">大数据</button>
-      <button class="field-btn" onclick="filterField('Sec', this)">安全</button>
+      <button class="field-btn active" onclick="filterField('All',this)">全部</button>
+      <button class="field-btn" onclick="filterField('AI',this)">AI</button>
+      <button class="field-btn" onclick="filterField('Infra',this)">Infra</button>
+      <button class="field-btn" onclick="filterField('SPT',this)">搜推广</button>
+      <button class="field-btn" onclick="filterField('SC',this)">供应链</button>
+      <button class="field-btn" onclick="filterField('Data',this)">大数据</button>
+      <button class="field-btn" onclick="filterField('Sec',this)">安全</button>
     </div>
 
     <div id="tgt-full">
@@ -210,7 +246,7 @@ date: 2026-03-30
       <div class="tgt-cc">
         <div class="tgt-cl">WeChat</div>
         <div class="tgt-cv">CRISYAO916</div>
-        <div style="font-size:11px;color:#6b6b67;margin-top:3px">备注：TGT-院校-姓名</div>
+        <div class="tgt-ch">备注：TGT-院校-姓名</div>
       </div>
     </div>
   </div>
@@ -221,45 +257,41 @@ let currentMain = 'full';
 let currentField = 'All';
 
 function mainTab(tab, btn) {
-    currentMain = tab;
-    document.getElementById('tgt-full').classList.toggle('tgt-hidden', tab !== 'full');
-    document.getElementById('tgt-intern').classList.toggle('tgt-hidden', tab !== 'intern');
-    document.querySelectorAll('.tgt-tab').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    applyFilters();
+  currentMain = tab;
+  document.getElementById('tgt-full').classList.toggle('tgt-hidden', tab !== 'full');
+  document.getElementById('tgt-intern').classList.toggle('tgt-hidden', tab !== 'intern');
+  document.querySelectorAll('.tgt-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
 }
 
 function filterField(field, btn) {
-    currentField = field;
-    document.querySelectorAll('.field-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    applyFilters();
+  currentField = field;
+  document.querySelectorAll('.field-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
 }
 
 function applyFilters() {
-    const activeId = currentMain === 'full' ? 'tgt-full' : 'tgt-intern';
-    const rows = document.querySelectorAll(`#${activeId} tbody tr`);
-    rows.forEach(row => {
-        const field = row.getAttribute('data-field');
-        row.classList.toggle('row-hidden', currentField !== 'All' && field !== currentField);
-    });
+  const activeId = currentMain === 'full' ? 'tgt-full' : 'tgt-intern';
+  document.querySelectorAll(`#${activeId} tbody tr`).forEach(row => {
+    row.classList.toggle('row-hidden', currentField !== 'All' && row.dataset.field !== currentField);
+  });
 }
 
-// GitHub Star 抓取
 async function fetchStars(repo, elementId) {
-    try {
-        const response = await fetch(`https://api.github.com/repos/${repo}`);
-        if (!response.ok) return;
-        const data = await response.json();
-        const stars = data.stargazers_count;
-        const formatted = stars >= 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
-        document.getElementById(elementId).innerText = `★ ${formatted}`;
-    } catch (e) {}
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}`);
+    if (!r.ok) return;
+    const d = await r.json();
+    const n = d.stargazers_count;
+    document.getElementById(elementId).innerText = '★ ' + (n >= 1000 ? (n/1000).toFixed(1)+'k' : n);
+  } catch(e) {}
 }
 
 window.addEventListener('load', () => {
-    fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
-    fetchStars('jd-opensource/xllm', 'xllm-stars');
+  fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
+  fetchStars('jd-opensource/xllm', 'xllm-stars');
 });
 </script>
 {{< /raw >}}
