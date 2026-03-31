@@ -13,16 +13,6 @@ date: 2026-03-30
   --jd-red-border: #FCD2D0;
 }
 
-/* dark mode 变量覆盖 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --jd-red: #F47370;
-    --jd-red-hover: #F09595;
-    --jd-red-bg: #3D1010;
-    --jd-red-border: #5C1A1A;
-  }
-}
-
 /* ── 布局 ── */
 .tgt-page{max-width:860px;margin:0 auto;padding:2rem 0 4rem}
 .tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:2.5rem}
@@ -68,7 +58,7 @@ date: 2026-03-30
 .tgt-tbl tr:hover td{background:var(--color-background-secondary,#f7f7f5)}
 .row-hidden{display:none!important}
 
-/* ── Badges（浅色模式） ── */
+/* ── Badges ── */
 .tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
 .bd-ai{background:var(--jd-red-bg);color:var(--jd-red)}
 .bd-infra{background:#EEEDFE;color:#3C3489}
@@ -76,43 +66,6 @@ date: 2026-03-30
 .bd-sc{background:#E6F1FB;color:#185FA5}
 .bd-spt{background:#E7F6F2;color:#006D5B}
 .bd-sec{background:#FFF4E5;color:#B35900}
-
-/* ── Badges dark mode 覆盖 ── */
-@media (prefers-color-scheme: dark) {
-  .bd-infra{background:#26215C;color:#CECBF6}
-  .bd-data{background:#412402;color:#FAC775}
-  .bd-sc{background:#042C53;color:#85B7EB}
-  .bd-spt{background:#04342C;color:#5DCAA5}
-  .bd-sec{background:#3D2000;color:#EF9F27}
-  .tgt-stars{background:#412402;color:#FAC775}
-  .tgt-lnk.b{background:#042C53;color:#85B7EB;border-color:#0C447C}
-  .tgt-lnk.p{background:#26215C;color:#CECBF6;border-color:#3C3489}
-  /* 筛选按钮 dark mode */
-  .field-btn{background:var(--color-background-secondary,#2a2a2a);color:#c0c0c0;border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
-  .field-btn:hover{color:#fff;border-color:var(--color-border-secondary,rgba(128,128,128,.5))}
-  .field-btn.active{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
-  /* 标签 dark mode */
-  .tgt-tag{background:var(--color-background-secondary,#2a2a2a);color:#c0c0c0;border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
-  .tgt-tag:hover{color:#fff}
-  .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
-  /* 卡片 dark mode - 降低白色卡片对比度 */
-  .tgt-oc{background:var(--color-background-secondary,#2a2a2a);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
-  .tgt-on{color:var(--color-text-primary,#e0e0e0)}
-  .tgt-od{color:var(--color-text-secondary,#b0b0b0)}
-  .tgt-cc{background:var(--color-background-secondary,#2a2a2a);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
-  .tgt-cl{color:var(--color-text-secondary,#999)}
-  .tgt-cv{color:var(--color-text-primary,#e0e0e0)}
-  .tgt-ch{color:var(--color-text-secondary,#999)}
-  .tgt-mission{background:var(--color-background-secondary,#2a2a2a)}
-  .tgt-mission strong{color:var(--jd-red)}
-  /* 表格 dark mode - 调亮文字 */
-  .tgt-tbl th{color:var(--color-text-secondary,#b0b0b0)}
-  .tgt-tbl td{color:var(--color-text-primary,#e0e0e0)}
-  .tgt-tbl tr:hover td{background:var(--color-background-tertiary,#333)}
-  /* Mission 标签 dark mode */
-  .tgt-mission .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
-  .tgt-mission .tgt-tag{background:var(--color-background-tertiary,#333);color:#c0c0c0;border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
-}
 
 /* ── 申请按钮 ── */
 .tgt-ap{font-size:12px;color:var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid var(--jd-red-border);border-radius:4px;background:var(--jd-red-bg);white-space:nowrap;transition:background .15s}
@@ -124,15 +77,6 @@ date: 2026-03-30
 .tgt-cv{font-size:14px;font-weight:500;color:var(--color-text-primary,#1a1a18)}
 .tgt-cv a{color:var(--jd-red);text-decoration:none}
 .tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
-
-/* 联系方式 dark mode - 确保优先级 */
-@media (prefers-color-scheme: dark) {
-  .tgt-cc{background:#2a2a2a!important;border-color:#444!important}
-  .tgt-cl{color:#999!important}
-  .tgt-cv{color:#e0e0e0!important}
-  .tgt-cv a{color:var(--jd-red)!important}
-  .tgt-ch{color:#999!important}
-}
 
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
