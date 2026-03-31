@@ -108,9 +108,11 @@
             </span>
           </li>
         {{- end -}}
+        {{- if ne .Site.Params.header.enableThemeSwitcher false -}}
         <li class="menu-item theme-switch" role="button" aria-label="{{ T "header.switchTheme" }}" title="{{ T "header.switchTheme" }}">
           {{- dict "Class" "fa-solid fa-adjust" | partial "plugin/icon.html" -}}
         </li>
+        {{- end -}}
         {{- if hugo.IsMultilingual -}}
           <li class="menu-item language-switch">
             <span role="button" aria-label="{{ T "header.selectLanguage" }}" title="{{ T "header.selectLanguage" }}">
@@ -187,9 +189,11 @@
           {{- end -}}
         {{- end -}}
       </div>
+      {{- if ne .Site.Params.header.enableThemeSwitcher false -}}
       <div class="theme-switch" role="button" aria-label="{{ T "header.switchTheme" }}">
         {{- dict "Class" "fa-solid fa-adjust" | partial "plugin/icon.html" -}}
       </div>
+      {{- end -}}
       <div class="menu-toggle" id="menu-toggle-mobile" role="button" aria-labelledby="menu-mobile">
         <span></span><span></span><span></span>
       </div>
