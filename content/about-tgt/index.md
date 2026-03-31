@@ -137,7 +137,7 @@ date: 2026-03-30
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
 
-/* ========== 强制 dark mode 覆盖 ========== */
+/* ========== 强制 dark mode 覆盖 (使用更高优先级) ========== */
 @media (prefers-color-scheme: dark) {
   /* Mission 卡片 */
   .tgt-mission{background:#2a2a2a!important;color:#e0e0e0!important}
@@ -145,12 +145,45 @@ date: 2026-03-30
   .tgt-mission .tgt-tag{background:#333!important;color:#c0c0c0!important;border-color:#444!important}
   .tgt-mission .tgt-tag.g{background:var(--jd-red-bg)!important;color:var(--jd-red)!important;border-color:var(--jd-red-border)!important}
   
+  /* 开源卡片 */
+  .tgt-oc{background:#2a2a2a!important;border-color:#444!important}
+  .tgt-on{color:#e0e0e0!important}
+  .tgt-od{color:#b0b0b0!important}
+  
   /* 联系卡片 */
   .tgt-cc{background:#2a2a2a!important;border-color:#444!important}
   .tgt-cl{color:#999!important}
   .tgt-cv{color:#e0e0e0!important}
   .tgt-cv a{color:var(--jd-red)!important}
   .tgt-ch{color:#999!important}
+  
+  /* 筛选按钮 */
+  .field-btn{background:#2a2a2a!important;color:#c0c0c0!important;border-color:#444!important}
+  .field-btn:hover{color:#fff!important}
+  .field-btn.active{background:var(--jd-red-bg)!important;color:var(--jd-red)!important;border-color:var(--jd-red-border)!important}
+  
+  /* 标签 */
+  .tgt-tag{background:#2a2a2a!important;color:#c0c0c0!important;border-color:#444!important}
+  .tgt-tag:hover{color:#fff!important}
+  .tgt-tag.g{background:var(--jd-red-bg)!important;color:var(--jd-red)!important;border-color:var(--jd-red-border)!important}
+  
+  /* 表格 */
+  .tgt-tbl th{color:#b0b0b0!important}
+  .tgt-tbl td{color:#e0e0e0!important}
+  .tgt-tbl tr:hover td{background:#333!important}
+  
+  /* Badges */
+  .bd-infra{background:#26215C!important;color:#CECBF6!important}
+  .bd-data{background:#412402!important;color:#FAC775!important}
+  .bd-sc{background:#042C53!important;color:#85B7EB!important}
+  .bd-spt{background:#04342C!important;color:#5DCAA5!important}
+  .bd-sec{background:#3D2000!important;color:#EF9F27!important}
+  .bd-ai{background:var(--jd-red-bg)!important;color:var(--jd-red)!important}
+  
+  /* 其他元素 */
+  .tgt-stars{background:#412402!important;color:#FAC775!important}
+  .tgt-lnk.b{background:#042C53!important;color:#85B7EB!important;border-color:#0C447C!important}
+  .tgt-lnk.p{background:#26215C!important;color:#CECBF6!important;border-color:#3C3489!important}
 }
 </style>
 
