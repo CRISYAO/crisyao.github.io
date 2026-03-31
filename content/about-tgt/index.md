@@ -40,6 +40,14 @@ date: 2026-03-30
 .tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67)}
 .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
 
+/* Mission dark mode - 确保优先级 */
+@media (prefers-color-scheme: dark) {
+  .tgt-mission{background:#2a2a2a!important;color:#e0e0e0!important}
+  .tgt-mission strong{color:var(--jd-red)!important}
+  .tgt-mission .tgt-tag{background:#333!important;color:#c0c0c0!important;border-color:#444!important}
+  .tgt-mission .tgt-tag.g{background:var(--jd-red-bg)!important;color:var(--jd-red)!important;border-color:var(--jd-red-border)!important}
+}
+
 /* ── 开源卡片 ── */
 .tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:12px;padding:1rem 1.25rem}
@@ -124,6 +132,15 @@ date: 2026-03-30
 .tgt-cv{font-size:14px;font-weight:500;color:var(--color-text-primary,#1a1a18)}
 .tgt-cv a{color:var(--jd-red);text-decoration:none}
 .tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
+
+/* 联系方式 dark mode - 确保优先级 */
+@media (prefers-color-scheme: dark) {
+  .tgt-cc{background:#2a2a2a!important;border-color:#444!important}
+  .tgt-cl{color:#999!important}
+  .tgt-cv{color:#e0e0e0!important}
+  .tgt-cv a{color:var(--jd-red)!important}
+  .tgt-ch{color:#999!important}
+}
 
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
