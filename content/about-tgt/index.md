@@ -95,9 +95,23 @@ date: 2026-03-30
   .tgt-tag{background:var(--color-background-secondary,#2a2a2a);color:#c0c0c0;border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
   .tgt-tag:hover{color:#fff}
   .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
-  /* 卡片 dark mode */
-  .tgt-cc{background:var(--color-background-secondary,#2a2a2a)}
+  /* 卡片 dark mode - 降低白色卡片对比度 */
+  .tgt-oc{background:var(--color-background-secondary,#2a2a2a);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
+  .tgt-on{color:var(--color-text-primary,#e0e0e0)}
+  .tgt-od{color:var(--color-text-secondary,#b0b0b0)}
+  .tgt-cc{background:var(--color-background-secondary,#2a2a2a);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
+  .tgt-cl{color:var(--color-text-secondary,#999)}
+  .tgt-cv{color:var(--color-text-primary,#e0e0e0)}
+  .tgt-ch{color:var(--color-text-secondary,#999)}
   .tgt-mission{background:var(--color-background-secondary,#2a2a2a)}
+  .tgt-mission strong{color:var(--jd-red)}
+  /* 表格 dark mode - 调亮文字 */
+  .tgt-tbl th{color:var(--color-text-secondary,#b0b0b0)}
+  .tgt-tbl td{color:var(--color-text-primary,#e0e0e0)}
+  .tgt-tbl tr:hover td{background:var(--color-background-tertiary,#333)}
+  /* Mission 标签 dark mode */
+  .tgt-mission .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
+  .tgt-mission .tgt-tag{background:var(--color-background-tertiary,#333);color:#c0c0c0;border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
 }
 
 /* ── 申请按钮 ── */
