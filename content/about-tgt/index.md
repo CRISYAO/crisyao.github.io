@@ -87,6 +87,15 @@ date: 2026-03-30
   .tgt-stars{background:#412402;color:#FAC775}
   .tgt-lnk.b{background:#042C53;color:#85B7EB;border-color:#0C447C}
   .tgt-lnk.p{background:#26215C;color:#CECBF6;border-color:#3C3489}
+  /* 筛选按钮 dark mode */
+  .field-btn{background:var(--color-background-secondary,#2a2a2a);color:var(--color-text-secondary,#b0b0b0);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
+  .field-btn.active{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
+  /* 标签 dark mode */
+  .tgt-tag{background:var(--color-background-secondary,#2a2a2a);color:var(--color-text-secondary,#b0b0b0);border-color:var(--color-border-tertiary,rgba(128,128,128,.3))}
+  .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
+  /* 卡片 dark mode */
+  .tgt-cc{background:var(--color-background-secondary,#2a2a2a)}
+  .tgt-mission{background:var(--color-background-secondary,#2a2a2a)}
 }
 
 /* ── 申请按钮 ── */
