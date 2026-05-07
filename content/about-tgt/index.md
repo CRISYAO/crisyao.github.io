@@ -107,7 +107,7 @@ date: 2026-03-30
     <div class="tgt-og">
       <div class="tgt-oc">
         <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 1.9k</span></div>
-        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 中稿 ACL 2026 System Demonstration · Apr 2026</span></div>
+        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxyGent 中稿 ACL 2026 System Demonstration · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a>
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.25602" target="_blank">Paper</a>
