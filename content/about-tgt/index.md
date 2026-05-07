@@ -123,7 +123,7 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxygenREC-1.5 中稿 SIGIR 2026 · Apr 2026</span></div>
+        <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxygenREC 中稿 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper v1</a>
           <span class="tgt-meta">arXiv v1 · Dec 2025</span>
