@@ -38,6 +38,13 @@ layout: profile
 .exp-content .company img.exp-logo { height: 14px; width: auto; }
 .exp-content .desc { font-size: 14.5px; color: #555; line-height: 1.6; }
 
+/* Tags */
+.exp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.exp-tag { display: inline-flex; align-items: center; font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 600; letter-spacing: 0.02em; background: #f0f0ee; color: #555; border: 1px solid rgba(0,0,0,0.06); }
+.exp-tag.jd { background: #fff0ef; color: #c41e1a; border-color: rgba(225,37,27,0.15); }
+.exp-tag.wenge { background: #eef4ff; color: #2563eb; border-color: rgba(37,99,235,0.15); }
+.exp-tag.tal { background: #fff5eb; color: #e67a0b; border-color: rgba(230,122,11,0.15); }
+
 /* Contact Grid */
 .me-contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .contact-card { background: var(--bg-soft); padding: 18px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.04); transition: all 0.25s ease; text-decoration: none !important; cursor: default; }
@@ -78,6 +85,12 @@ layout: profile
         <div class="company"><img class="exp-logo" src="/img/jd-logo.png" alt="JD.com"> JD.com</div>
         <h3>TGT Recruitment Lead</h3>
         <div class="desc">Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
+        <div class="exp-tags">
+          <span class="exp-tag jd">#LLM</span>
+          <span class="exp-tag jd">#Multimodal_AI</span>
+          <span class="exp-tag jd">#AI_Infrastructure</span>
+          <span class="exp-tag jd">#Global_Talent</span>
+        </div>
       </div>
     </div>
 
@@ -87,6 +100,11 @@ layout: profile
         <div class="company"><img class="exp-logo" src="/img/wenge-logo.svg" alt="Wenge Tech"> Wenge Tech</div>
         <h3>Head of Campus Recruitment & HRBP</h3>
         <div class="desc">Built campus recruitment operations and served as HRBP for AI business units.</div>
+        <div class="exp-tags">
+          <span class="exp-tag wenge">#Campus_Recruitment</span>
+          <span class="exp-tag wenge">#HRBP</span>
+          <span class="exp-tag wenge">#Decision_Intelligence</span>
+        </div>
       </div>
     </div>
 
@@ -96,6 +114,11 @@ layout: profile
         <div class="company"><img class="exp-logo" src="/img/tal-logo.png" alt="TAL Education"> TAL Education Group</div>
         <h3>Regional Campus Recruitment Lead</h3>
         <div class="desc">Directed end-to-end recruitment operations and team expansion for the Hefei regional hub.</div>
+        <div class="exp-tags">
+          <span class="exp-tag tal">#Campus_Recruitment</span>
+          <span class="exp-tag tal">#EdTech</span>
+          <span class="exp-tag tal">#Team_Expansion</span>
+        </div>
       </div>
     </div>
   </div>
