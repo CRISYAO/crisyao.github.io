@@ -64,7 +64,7 @@ layout: profile
   <div class="me-sec">
     <div class="me-sl">Mission</div>
     <div class="me-mission">
-      <strong>人才是最高的生产力。</strong>我致力于搭建前沿学术研究与大规模产业应用之间的桥梁，通过发掘"Tech Genius"人才，重新定义零售技术的未来边界。
+      <strong>Talent is the ultimate productivity.</strong> Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
     </div>
   </div>
 
@@ -74,27 +74,27 @@ layout: profile
     <div class="exp-item exp-line">
       <div class="exp-date">2025 – Present</div>
       <div class="exp-content">
-        <div class="company">JD.com / 京东零售</div>
+        <div class="company">JD.com</div>
         <h3>TGT Recruitment Lead</h3>
-        <div class="desc">主导"Tech Genius Team"全球顶尖人才引进计划，聚焦大模型、多模态 AI、AI Infra 等前沿技术方向。</div>
+        <div class="desc">Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
       </div>
     </div>
 
     <div class="exp-item exp-line">
       <div class="exp-date">2022 – 2025</div>
       <div class="exp-content">
-        <div class="company">Wenge Tech / 中科闻歌</div>
+        <div class="company">Wenge Tech</div>
         <h3>Head of Campus Recruitment & HRBP</h3>
-        <div class="desc">负责决策智能与认知智能领域的人才战略与组织扩张，主导校园招聘体系搭建及 HRBP 工作。</div>
+        <div class="desc">Led talent strategy and organizational scaling for decision-making AI and intelligence systems.</div>
       </div>
     </div>
 
     <div class="exp-item exp-line">
       <div class="exp-date">2019 – 2022</div>
       <div class="exp-content">
-        <div class="company">TAL Education Group / 好未来</div>
+        <div class="company">TAL Education Group</div>
         <h3>Regional Campus Recruitment Lead</h3>
-        <div class="desc">统筹合肥区域校招全流程，支撑团队快速扩张的组织人才需求。</div>
+        <div class="desc">Directed end-to-end recruitment operations and team expansion for the Hefei regional hub.</div>
       </div>
     </div>
   </div>
