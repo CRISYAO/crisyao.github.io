@@ -35,7 +35,7 @@ layout: profile
 .exp-date { min-width: 110px; font-size: 13px; color: #999; font-weight: 500; padding-top: 4px; }
 .exp-content h3 { font-size: 17px; margin: 0 0 4px 0; color: var(--text-main); font-weight: 600; }
 .exp-content .company { color: var(--jd-red); font-weight: 600; font-size: 14px; margin-bottom: 8px; letter-spacing: 0.03em; display: flex; align-items: center; gap: 5px; }
-.exp-content .company img.exp-logo { height: 14px; width: auto; }
+.exp-content .company img.exp-logo { height: 20px; width: auto; }
 .exp-content .desc { font-size: 14.5px; color: #555; line-height: 1.6; }
 
 /* Tags */
