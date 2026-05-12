@@ -85,7 +85,7 @@ layout: profile
       <div class="exp-content">
         <div class="company">Wenge Tech</div>
         <h3>Head of Campus Recruitment & HRBP</h3>
-        <div class="desc">Led talent strategy and organizational scaling for decision-making AI and intelligence systems.</div>
+        <div class="desc">Built campus recruitment operations and served as HRBP for AI business units.</div>
       </div>
     </div>
 
