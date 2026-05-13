@@ -42,8 +42,7 @@ layout: profile
 
 /* ── Experience Content ── */
 .exp-content { }
-.exp-content .company { color: var(--jd-red); font-weight: 600; font-size: 14px; margin-bottom: 6px; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px; }
-.exp-content .company img.exp-logo { height: 24px; width: auto; }
+.exp-content .company { color: var(--jd-red); font-weight: 600; font-size: 14px; margin-bottom: 6px; letter-spacing: 0.03em; }
 .exp-content h3 { font-size: 16px; margin: 0 0 6px 0; color: var(--text-main); font-weight: 600; }
 .exp-content .desc { font-size: 14px; color: #555; line-height: 1.65; }
 .exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
@@ -105,7 +104,7 @@ layout: profile
     <div class="exp-item exp-line">
       <div class="exp-date">2025 – Present</div>
       <div class="exp-content">
-        <div class="company"><img class="exp-logo" src="/img/jd-logo.png" alt="JD.com"> JD.com</div>
+        <div class="company">JD.com</div>
         <h3>TGT Recruitment Lead</h3>
         <div class="desc">Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
         <div class="exp-tags">
@@ -120,7 +119,7 @@ layout: profile
     <div class="exp-item exp-line">
       <div class="exp-date">2022 – 2025</div>
       <div class="exp-content">
-        <div class="company"><img class="exp-logo" src="/img/wenge-logo.png" alt="Wenge Tech"> Wenge Tech</div>
+        <div class="company">Wenge Tech</div>
         <h3>Head of Campus Recruitment & HRBP</h3>
         <div class="desc">Built campus recruitment operations and served as HRBP for AI business units.</div>
         <div class="exp-tags">
@@ -134,7 +133,7 @@ layout: profile
     <div class="exp-item exp-line">
       <div class="exp-date">2019 – 2022</div>
       <div class="exp-content">
-        <div class="company"><img class="exp-logo" src="/img/tal-logo.png" alt="TAL Education"> TAL Education Group</div>
+        <div class="company">TAL Education Group</div>
         <h3>Regional Campus Recruitment Lead</h3>
         <div class="desc">Directed end-to-end recruitment operations and team expansion for the Hefei regional hub.</div>
         <div class="exp-tags">
