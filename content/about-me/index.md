@@ -43,7 +43,7 @@ layout: profile
 /* ── Experience Content ── */
 .exp-content { }
 .exp-content .company { color: var(--jd-red); font-weight: 600; font-size: 14px; margin-bottom: 6px; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px; }
-.exp-content .company img.exp-logo { height: 20px; width: auto; }
+.exp-content .company img.exp-logo { height: 24px; width: auto; }
 .exp-content h3 { font-size: 16px; margin: 0 0 6px 0; color: var(--text-main); font-weight: 600; }
 .exp-content .desc { font-size: 14px; color: #555; line-height: 1.65; }
 .exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
