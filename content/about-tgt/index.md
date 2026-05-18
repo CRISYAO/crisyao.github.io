@@ -136,6 +136,14 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
+        <div class="tgt-on">Oxygen XR <span id="oxygen-xr" class="tgt-stars">✦ 3D</span></div>
+        <div class="tgt-od">京东零售 3D 视觉方向研究成果，聚焦于基于高斯泼溅与稀疏表示的3D内容生成与重建。</div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">[ICASSP 2026] Sparse-Up</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">[CVPR 2026] DirectFisheye-GS</a>
+        </div>
+      </div>
+      <div class="tgt-oc">
         <div class="tgt-on">顶会论文合集</div>
         <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
         <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看</a></div>
