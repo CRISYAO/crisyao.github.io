@@ -120,7 +120,7 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.2k</span></div>
+        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.3k</span></div>
         <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
@@ -281,11 +281,12 @@ function applyFilters() {
 
 async function fetchStars(repo, elementId) {
   try {
-    const r = await fetch(`https://api.github.com/repos/${repo}`);
+    const r = await fetch(`https://img.shields.io/github/stars/${repo}.json`);
     if (!r.ok) return;
     const d = await r.json();
-    const n = d.stargazers_count;
-    document.getElementById(elementId).innerText = '★ ' + (n >= 1000 ? (n/1000).toFixed(1)+'k' : n);
+    if (d.value) {
+      document.getElementById(elementId).innerText = '★ ' + d.value;
+    }
   } catch(e) {}
 }
 
