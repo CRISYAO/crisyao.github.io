@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>姚超豪 | JD TGT</title><link>https://crisyao.github.io/</link><description>姚超豪 | JD TGT</description><generator>Hugo 0.156.0 &amp; FixIt v0.4.3-20260130042349-e23a50d7</generator><language>en</language><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://crisyao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About TGT</title><link>https://crisyao.github.io/about-tgt/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>https://crisyao.github.io/about-tgt/</guid><description>&lt;div class="fi-raw"&gt;
+&lt;style&gt;
+:root {
+ --jd-red: #E1251B;
+ --jd-red-hover: #B11B14;
+ --jd-red-bg: #FEEBEA;
+ --jd-red-border: #FCD2D0;
+}
+
+/* ── 布局 ── */
+.tgt-page{max-width:860px;margin:0 auto;padding:2rem 0 4rem}
+.tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:2.5rem}
+.tgt-eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);margin-bottom:.75rem}
+.tgt-h1{font-size:clamp(26px,5vw,34px);font-weight:500;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary,#1a1a18)}
+.tgt-accent{color:var(--jd-red)}
+.tgt-hero p{font-size:15px;color:var(--color-text-secondary,#6b6b67);max-width:640px;line-height:1.8}
+.tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:1rem}
+.tgt-sec{margin-bottom:2.5rem}
+
+/* ── Mission ── */
+.tgt-mission{background:var(--color-background-secondary,#f7f7f5);border-radius:12px;padding:1.25rem 1.5rem;font-size:15px;line-height:1.8;color:var(--color-text-primary,#1a1a18)}
+.tgt-mission strong{color:var(--jd-red);font-weight:500}
+.tgt-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1rem}
+.tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67)}
+.tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
+
+/* ── 开源卡片 ── */
+.tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:12px;padding:1rem 1.25rem}
+.tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
+.tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px;font-weight:400}
+.tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
+.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s;white-space:nowrap}
+.tgt-lnk.b{background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
+.tgt-lnk.p{background:#EEEDFE;color:#3C3489;border:0.5px solid #AFA9EC}
+.tgt-meta{font-size:11px;color:var(--color-text-secondary,#6b6b67)}
+
+/* ── Tabs &amp; 筛选器 ── */
+.tgt-tabs{display:flex;gap:8px;margin-bottom:1rem}
+.tgt-tab{font-size:13px;padding:5px 14px;border-radius:99px;border:0.5px solid var(--color-border-secondary,rgba(128,128,128,.3));background:transparent;color:var(--color-text-secondary,#6b6b67);cursor:pointer;transition:all .15s;font-family:inherit}
+.tgt-tab.active{background:var(--jd-red);color:#fff;border-color:var(--jd-red)}
+.field-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:1.5rem}
+.field-btn{font-size:12px;padding:4px 12px;border-radius:4px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67);cursor:pointer;font-family:inherit;transition:all .15s}
+.field-btn.active{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border);font-weight:500}
+
+/* ── 表格 ── */
+.tgt-tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tgt-tbl th{text-align:left;font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding:8px 12px;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2))}
+.tgt-tbl td{padding:10px 12px;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));vertical-align:middle;color:var(--color-text-primary,#1a1a18)}
+.tgt-tbl tr:last-child td{border-bottom:none}
+.tgt-tbl tr:hover td{background:var(--color-background-secondary,#f7f7f5)}
+.row-hidden{display:none!important}
+
+/* ── Badges ── */
+.tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
+.bd-ai{background:var(--jd-red-bg);color:var(--jd-red)}
+.bd-infra{background:#EEEDFE;color:#3C3489}
+.bd-data{background:#FAEEDA;color:#633806}
+.bd-sc{background:#E6F1FB;color:#185FA5}
+.bd-spt{background:#E7F6F2;color:#006D5B}
+.bd-sec{background:#FFF4E5;color:#B35900}
+
+/* ── 申请按钮 ── */
+.tgt-ap{font-size:12px;color:var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid var(--jd-red-border);border-radius:4px;background:var(--jd-red-bg);white-space:nowrap;transition:background .15s}
+
+/* ── 联系方式 ── */
+.tgt-cr{display:flex;gap:12px;flex-wrap:wrap}
+.tgt-cc{flex:1;min-width:180px;background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:8px;padding:.75rem 1rem}
+.tgt-cl{font-size:11px;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);margin-bottom:4px;letter-spacing:.06em}
+.tgt-cv{font-size:14px;font-weight:500;color:var(--color-text-primary,#1a1a18)}
+.tgt-cv a{color:var(--jd-red);text-decoration:none}
+.tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
+
+/* ── Coming Soon 虚线框 ── */
+.tgt-cs{border:2px dashed var(--color-border-tertiary,rgba(128,128,128,.35));border-radius:12px;padding:1.5rem;text-align:center;grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.tgt-cs-icon{font-size:22px;color:var(--color-text-secondary,#6b6b67)}
+.tgt-cs-text{font-size:14px;font-weight:500;color:var(--color-text-secondary,#6b6b67)}
+.tgt-cs-sub{font-size:12px;color:var(--color-text-secondary,#6b6b67);opacity:.65}
+
+.tgt-hidden{display:none}
+@media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
+&lt;/style&gt;
+
+&lt;div class="tgt-page"&gt;
+ &lt;div class="tgt-hero"&gt;
+ &lt;div class="tgt-eyebrow"&gt;京东零售 · 顶尖青年技术天才计划&lt;/div&gt;
+ &lt;h1 class="tgt-h1"&gt;Tech &lt;span class="tgt-accent"&gt;Genius&lt;/span&gt; Team&lt;/h1&gt;
+ &lt;p&gt;面向全球高校本硕博在校生、应届生及毕业两年内的技术人才，与全球技术天才一起基于京东丰富的业务场景探索前沿技术。&lt;/p&gt;
+ &lt;/div&gt;
+
+ &lt;div class="tgt-sec"&gt;
+ &lt;div class="tgt-sl"&gt;Mission&lt;/div&gt;
+ &lt;div class="tgt-mission"&gt;
+ 致力于寻找具备极客精神的 &lt;strong&gt;"Tech Genius"&lt;/strong&gt;。我们不仅提供丰富的业务场景，更提供探索前沿技术边界的土壤。
+ &lt;div class="tgt-tags"&gt;
+ &lt;span class="tgt-tag g"&gt;LLM&lt;/span&gt;&lt;span class="tgt-tag g"&gt;多模态&lt;/span&gt;&lt;span class="tgt-tag g"&gt;视频生成&lt;/span&gt;
+ &lt;span class="tgt-tag g"&gt;AI 搜索&lt;/span&gt;&lt;span class="tgt-tag g"&gt;生成式推荐&lt;/span&gt;
+ &lt;span class="tgt-tag"&gt;推理引擎优化&lt;/span&gt;&lt;span class="tgt-tag"&gt;分布式训练&lt;/span&gt;
+ &lt;span class="tgt-tag"&gt;AI Infra&lt;/span&gt;&lt;span class="tgt-tag"&gt;决策智能&lt;/span&gt;&lt;span class="tgt-tag"&gt;运筹优化&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="tgt-sec"&gt;
+ &lt;div class="tgt-sl"&gt;Core Tech &amp;amp; Open Source&lt;/div&gt;
+ &lt;div class="tgt-og"&gt;
+ &lt;div class="tgt-oc"&gt;
+ &lt;div class="tgt-on"&gt;OxyGent &lt;span id="oxygent-stars" class="tgt-stars"&gt;★ 1.9k&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;🏆 OxyGent 中稿 ACL 2026 System Demonstration · Apr 2026&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-ol"&gt;
+ &lt;a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank"&gt;GitHub&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2604.25602" target="_blank"&gt;Paper&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-oc"&gt;
+ &lt;div class="tgt-on"&gt;xLLM &lt;span id="xllm-stars" class="tgt-stars"&gt;★ 1.3k&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。&lt;/div&gt;
+ &lt;div class="tgt-ol"&gt;
+ &lt;a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank"&gt;GitHub&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank"&gt;arXiv&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-oc"&gt;
+ &lt;div class="tgt-on"&gt;OxygenREC&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;基于指令遵循的「快慢思考」电商生成式推荐框架。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;🏆 OxygenREC 中稿 SIGIR 2026 · Apr 2026&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-ol"&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank"&gt;Paper v1&lt;/a&gt;
+ &lt;span class="tgt-meta"&gt;arXiv v1 · Dec 2025&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-oc"&gt;
+ &lt;div class="tgt-on"&gt;Oxygen XR &lt;span id="oxygen-xr" class="tgt-stars"&gt;✦ 3D&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;京东零售 3D 视觉方向研究成果，聚焦于基于高斯泼溅与稀疏表示的3D内容生成与重建。&lt;/div&gt;
+ &lt;div class="tgt-ol"&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank"&gt;[ICASSP 2026] Sparse-Up&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank"&gt;[CVPR 2026] DirectFisheye-GS&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-oc"&gt;
+ &lt;div class="tgt-on"&gt;顶会论文合集&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。&lt;/div&gt;
+ &lt;div class="tgt-ol"&gt;&lt;a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank"&gt;查看&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-cs"&gt;
+ &lt;div class="tgt-cs-icon"&gt;✦&lt;/div&gt;
+ &lt;div class="tgt-cs-text"&gt;更多成果敬请期待&lt;/div&gt;
+ &lt;div class="tgt-cs-sub"&gt;顶会论文持续更新中&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="tgt-sec"&gt;
+ &lt;div class="tgt-sl"&gt;Open Positions&lt;/div&gt;
+ &lt;div class="tgt-tabs"&gt;
+ &lt;button class="tgt-tab active" onclick="mainTab('full',this)"&gt;正式岗位&lt;/button&gt;
+ &lt;button class="tgt-tab" onclick="mainTab('intern',this)"&gt;实习岗位(27届及之后)&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;div class="field-filters"&gt;
+ &lt;button class="field-btn active" onclick="filterField('All',this)"&gt;全部&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('AI',this)"&gt;AI&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('Infra',this)"&gt;Infra&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('SPT',this)"&gt;搜推广&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('SC',this)"&gt;供应链&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('Data',this)"&gt;大数据&lt;/button&gt;
+ &lt;button class="field-btn" onclick="filterField('Sec',this)"&gt;安全&lt;/button&gt;
+ &lt;/div&gt;
+
+ &lt;div id="tgt-full"&gt;
+ &lt;table class="tgt-tbl"&gt;
+ &lt;thead&gt;&lt;tr&gt;&lt;th&gt;领域&lt;/th&gt;&lt;th&gt;方向&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;代码大模型&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6101" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基模后训练&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6533" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态大模型&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6013" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;大模型安全风控&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6537" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;AI 搜索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6147" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;生成式推荐&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6119" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;3D 内容生成&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6182" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;视频生成&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6099" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;推理引擎优化&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=5989" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;分布式训练自动优化&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=5991" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Data"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-data"&gt;大数据&lt;/span&gt;&lt;/td&gt;&lt;td&gt;大数据融合计算优化&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6005" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SC"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sc"&gt;供应链&lt;/span&gt;&lt;/td&gt;&lt;td&gt;供应链优化技术探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=6081" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;
+
+ &lt;div id="tgt-intern" class="tgt-hidden"&gt;
+ &lt;table class="tgt-tbl"&gt;
+ &lt;thead&gt;&lt;tr&gt;&lt;th&gt;领域&lt;/th&gt;&lt;th&gt;方向&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;大模型预训练与后训练&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7515" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;购物智能体强化学习后训练算法探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7494" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态大模型可控视觉生成底座研发与应用&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7530" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态图像视频生成大模型研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7601" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;3D可控生成与空间智能多模态研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7536" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;代码大模型缺陷检测与自动生成研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7567" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;电商智能体长期记忆与互动优化研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7574" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;结构化智能体动态用户画像前沿探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7505" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;大模型用户行为语义化与知识关联研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7495" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多智能体联合训练与协同推理探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7534" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基于AI Agent的搜索体验全链路优化研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7520" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态大模型意图识别与搜推研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7546" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基于大模型的模型驱动测试建模方法研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7529" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;软件研发Agent智能体开发与应用&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7511" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="AI"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-ai"&gt;AI&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态GUI智能体与RAG系统研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7506" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;异构硬件深度学习编译优化技术探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7629" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;大模型高效推理与端云协同架构研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7625" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;超大规模异构算力集群智能调度研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7617" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;超大规模分布式训练自动优化探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7633" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Infra"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-infra"&gt;Infra&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基于LLM的特征工程智能治理技术研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7565" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;搜推系统生成式大模型排序决策研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7592" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;生成式推荐与强化学习后训练探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7609" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;面向电商推荐场景的大模型技术应用&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7522" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;广告全链路数据自动化分析与诊断&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7603" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;LLM 多智能体在营销投放算法的应用&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7570" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基于大模型技术的智能广告投放算法研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7607" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SPT"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-spt"&gt;搜推广&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态大模型广告创意分发算法研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7591" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SC"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sc"&gt;供应链&lt;/span&gt;&lt;/td&gt;&lt;td&gt;运筹优化大模型交易链路的一体化建设&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7538" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SC"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sc"&gt;供应链&lt;/span&gt;&lt;/td&gt;&lt;td&gt;端到端大模型供应链智能决策底座研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7443" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="SC"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sc"&gt;供应链&lt;/span&gt;&lt;/td&gt;&lt;td&gt;运筹大模型供应链决策系统优化&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7410" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Sec"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sec"&gt;安全&lt;/span&gt;&lt;/td&gt;&lt;td&gt;LLM 大模型对抗防御与可信原生安全研发&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7445" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Sec"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sec"&gt;安全&lt;/span&gt;&lt;/td&gt;&lt;td&gt;LLM 多模态风控大模型对抗与鲁棒性研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7422" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Sec"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-sec"&gt;安全&lt;/span&gt;&lt;/td&gt;&lt;td&gt;LLM 多模态合规智能体与自进化系统落地探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7408" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Data"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-data"&gt;大数据&lt;/span&gt;&lt;/td&gt;&lt;td&gt;多模态数据湖存储与湖流一体优化探索&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7635" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr data-field="Data"&gt;&lt;td&gt;&lt;span class="tgt-bd bd-data"&gt;大数据&lt;/span&gt;&lt;/td&gt;&lt;td&gt;基于分层AI架构的SparkSQL自适应执行优化系统研究&lt;/td&gt;&lt;td&gt;&lt;a class="tgt-ap" href="https://campus.jd.com/#/details?id=7519" target="_blank"&gt;申请 →&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="tgt-sec"&gt;
+ &lt;div class="tgt-sl"&gt;联系我&lt;/div&gt;
+ &lt;div class="tgt-cr"&gt;
+ &lt;div class="tgt-cc"&gt;
+ &lt;div class="tgt-cl"&gt;Email&lt;/div&gt;
+ &lt;div class="tgt-cv"&gt;&lt;a href="mailto:yaochaohao.1@jd.com"&gt;yaochaohao.1@jd.com&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="tgt-cc"&gt;
+ &lt;div class="tgt-cl"&gt;WeChat&lt;/div&gt;
+ &lt;div class="tgt-cv"&gt;CRISYAO916&lt;/div&gt;
+ &lt;div class="tgt-ch"&gt;备注：TGT-院校-姓名&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+let currentMain = 'full';
+let currentField = 'All';
+
+function mainTab(tab, btn) {
+ currentMain = tab;
+ document.getElementById('tgt-full').classList.toggle('tgt-hidden', tab !== 'full');
+ document.getElementById('tgt-intern').classList.toggle('tgt-hidden', tab !== 'intern');
+ document.querySelectorAll('.tgt-tab').forEach(b =&gt; b.classList.remove('active'));
+ btn.classList.add('active');
+ applyFilters();
+}
+
+function filterField(field, btn) {
+ currentField = field;
+ document.querySelectorAll('.field-btn').forEach(b =&gt; b.classList.remove('active'));
+ btn.classList.add('active');
+ applyFilters();
+}
+
+function applyFilters() {
+ const activeId = currentMain === 'full' ? 'tgt-full' : 'tgt-intern';
+ document.querySelectorAll(`#${activeId} tbody tr`).forEach(row =&gt; {
+ row.classList.toggle('row-hidden', currentField !== 'All' &amp;&amp; row.dataset.field !== currentField);
+ });
+}
+
+async function fetchStars(repo, elementId) {
+ try {
+ const r = await fetch(`https://img.shields.io/github/stars/${repo}.json`);
+ if (!r.ok) return;
+ const d = await r.json();
+ if (d.value) {
+ document.getElementById(elementId).innerText = '★ ' + d.value;
+ }
+ } catch(e) {}
+}
+
+window.addEventListener('load', () =&gt; {
+ fetchStars('jd-opensource/OxyGent', 'oxygent-stars');
+ fetchStars('jd-opensource/xllm', 'xllm-stars');
+});
+&lt;/script&gt;
+&lt;/div&gt;</description></item><item><title>About Me</title><link>https://crisyao.github.io/about-me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://crisyao.github.io/about-me/</guid><description>&lt;div class="fi-raw"&gt;
+&lt;style&gt;
+:root {
+ --jd-red: #E1251B;
+ --text-main: #1a1a18;
+ --text-muted: #6b6b67;
+ --bg-soft: #f7f7f5;
+ --border-light: rgba(0,0,0,0.06);
+}
+
+* { box-sizing: border-box; }
+
+.me-page { max-width: 780px; margin: 0 auto; padding: 2rem 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+/* ── Header ── */
+.me-header { display: flex; align-items: center; gap: 28px; margin-bottom: 3rem; }
+.me-avatar { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 2px solid var(--jd-red); box-shadow: 0 4px 16px rgba(225,37,27,0.12); flex-shrink: 0; }
+.me-intro { }
+.me-intro h1 { font-size: 30px; margin: 0 0 6px 0; color: var(--text-main); font-weight: 700; letter-spacing: -.02em; }
+.me-intro p { font-size: 16px; color: var(--text-muted); margin: 0; }
+
+/* ── Section ── */
+.me-sec { margin-bottom: 3rem; }
+.me-sl { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--text-muted); padding-bottom: 6px; border-bottom: 1px solid var(--border-light); margin-bottom: 1.5rem; font-weight: 700; }
+
+/* ── Mission Card ── */
+.me-mission { background: var(--bg-soft); border-radius: 12px; padding: 1.25rem 1.5rem; font-size: 15px; line-height: 1.8; color: var(--text-main); }
+.me-mission strong { color: var(--jd-red); font-weight: 500; }
+
+/* ── Timeline ── */
+.exp-item { display: flex; gap: 20px; margin-bottom: 0; }
+.exp-line { position: relative; padding: 0 0 2rem 22px; border-left: 2px solid #e0e0e0; margin-bottom: 0; }
+.exp-line:last-child { border-left-color: transparent; padding-bottom: 0; }
+.exp-line::before { content: ""; position: absolute; left: -5px; top: 5px; width: 8px; height: 8px; border-radius: 50%; background: var(--jd-red); border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(225,37,27,.15); }
+.exp-line:last-child::before { display: none; }
+.exp-date { min-width: 105px; font-size: 12px; color: #aaa; font-weight: 500; padding-top: 4px; flex-shrink: 0; }
+
+/* ── Experience Content ── */
+.exp-content { }
+.exp-content .company { color: var(--jd-red); font-weight: 600; font-size: 14px; margin-bottom: 6px; letter-spacing: 0.03em; }
+.exp-content h3 { font-size: 16px; margin: 0 0 6px 0; color: var(--text-main); font-weight: 600; }
+.exp-content .desc { font-size: 14px; color: #555; line-height: 1.65; }
+.exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.exp-tag { display: inline-flex; align-items: center; font-size: 10.5px; padding: 2px 10px; border-radius: 20px; font-weight: 600; background: #f0f0ee; color: #555; border: 1px solid rgba(0,0,0,0.06); }
+.exp-tag.jd { background: #fff0ef; color: #c41e1a; border-color: rgba(225,37,27,0.15); }
+.exp-tag.wenge { background: #eef4ff; color: #2563eb; border-color: rgba(37,99,235,0.15); }
+.exp-tag.tal { background: #fff5eb; color: #e67a0b; border-color: rgba(230,122,11,0.15); }
+
+/* ── Education (inline) ── */
+.edu-row { display: flex; align-items: baseline; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border-light); }
+.edu-row:last-child { border-bottom: none; }
+.edu-year { min-width: 100px; font-size: 13px; color: #bbb; font-weight: 500; flex-shrink: 0; }
+.edu-name { font-size: 15px; font-weight: 500; color: var(--text-main); }
+.edu-desc { font-size: 13px; color: #999; margin-left: auto; }
+
+/* ── Contact ── */
+.me-contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.contact-card { background: var(--bg-soft); padding: 16px; border-radius: 10px; border: 1px solid transparent; transition: all 0.25s ease; text-decoration: none; display: block; }
+.contact-card.clickable:hover { border-color: var(--jd-red); background: #fff; box-shadow: 0 8px 20px rgba(225,37,27,0.08); transform: translateY(-2px); cursor: pointer; }
+.contact-label { font-size: 10px; text-transform: uppercase; color: #aaa; margin-bottom: 4px; font-weight: 700; letter-spacing: 0.04em; }
+.contact-value { font-size: 14px; font-weight: 600; color: var(--text-main); }
+
+/* ── Easter Egg ── */
+.egg-hint { text-align: center; margin-top: 3.5rem; color: #ccc; font-size: 11px; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace; cursor: default; transition: color .3s; user-select: none; }
+.egg-hint:hover { color: var(--jd-red); }
+
+@media (max-width: 640px) {
+ .me-header { flex-direction: column; text-align: center; gap: 14px; }
+ .exp-item { flex-direction: column; gap: 4px; }
+ .exp-date { min-width: auto; }
+ .edu-row { flex-wrap: wrap; gap: 4px; }
+ .edu-desc { margin-left: 112px; }
+}
+&lt;/style&gt;
+
+&lt;div class="me-page"&gt;
+
+ &lt;!-- Header --&gt;
+ &lt;header class="me-header"&gt;
+ &lt;img src="https://crisyao.github.io/me.jpg" alt="Yao Chaohao" class="me-avatar"&gt;
+ &lt;div class="me-intro"&gt;
+ &lt;h1&gt;Yao Chaohao &lt;span style="color:#bbb;font-weight:400"&gt;/ 姚超豪&lt;/span&gt;&lt;/h1&gt;
+ &lt;p&gt;TGT Recruitment Lead @ JD Retail&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/header&gt;
+
+ &lt;!-- Mission --&gt;
+ &lt;div class="me-sec"&gt;
+ &lt;div class="me-sl"&gt;Mission&lt;/div&gt;
+ &lt;div class="me-mission"&gt;
+ &lt;strong&gt;Talent is the ultimate productivity.&lt;/strong&gt; Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;!-- Experience (Timeline) --&gt;
+ &lt;div class="me-sec"&gt;
+ &lt;div class="me-sl"&gt;Experience&lt;/div&gt;
+ 
+ &lt;div class="exp-item exp-line"&gt;
+ &lt;div class="exp-date"&gt;2025 – Present&lt;/div&gt;
+ &lt;div class="exp-content"&gt;
+ &lt;div class="company"&gt;JD.com&lt;/div&gt;
+ &lt;h3&gt;TGT Recruitment Lead&lt;/h3&gt;
+ &lt;div class="desc"&gt;Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.&lt;/div&gt;
+ &lt;div class="exp-tags"&gt;
+ &lt;span class="exp-tag jd"&gt;#LLM&lt;/span&gt;
+ &lt;span class="exp-tag jd"&gt;#Multimodal_AI&lt;/span&gt;
+ &lt;span class="exp-tag jd"&gt;#AI_Infrastructure&lt;/span&gt;
+ &lt;span class="exp-tag jd"&gt;#Global_Talent&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="exp-item exp-line"&gt;
+ &lt;div class="exp-date"&gt;2022 – 2025&lt;/div&gt;
+ &lt;div class="exp-content"&gt;
+ &lt;div class="company"&gt;Wenge Tech&lt;/div&gt;
+ &lt;h3&gt;Head of Campus Recruitment &amp; HRBP&lt;/h3&gt;
+ &lt;div class="desc"&gt;Built campus recruitment operations and served as HRBP for AI business units.&lt;/div&gt;
+ &lt;div class="exp-tags"&gt;
+ &lt;span class="exp-tag wenge"&gt;#Campus_Recruitment&lt;/span&gt;
+ &lt;span class="exp-tag wenge"&gt;#HRBP&lt;/span&gt;
+ &lt;span class="exp-tag wenge"&gt;#Decision_Intelligence&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;div class="exp-item exp-line"&gt;
+ &lt;div class="exp-date"&gt;2019 – 2022&lt;/div&gt;
+ &lt;div class="exp-content"&gt;
+ &lt;div class="company"&gt;TAL Education Group&lt;/div&gt;
+ &lt;h3&gt;Regional Campus Recruitment Lead&lt;/h3&gt;
+ &lt;div class="desc"&gt;Directed end-to-end recruitment operations and team expansion for the Hefei regional hub.&lt;/div&gt;
+ &lt;div class="exp-tags"&gt;
+ &lt;span class="exp-tag tal"&gt;#Campus_Recruitment&lt;/span&gt;
+ &lt;span class="exp-tag tal"&gt;#EdTech&lt;/span&gt;
+ &lt;span class="exp-tag tal"&gt;#Team_Expansion&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;!-- Education --&gt;
+ &lt;div class="me-sec"&gt;
+ &lt;div class="me-sl"&gt;Education&lt;/div&gt;
+ &lt;div class="edu-row"&gt;
+ &lt;span class="edu-year"&gt;2014 – 2018&lt;/span&gt;
+ &lt;span class="edu-name"&gt;Xi'an University of Architecture and Technology&lt;/span&gt;
+ &lt;span class="edu-desc"&gt;Bachelor's Degree&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="edu-row"&gt;
+ &lt;span class="edu-year"&gt;2011 – 2014&lt;/span&gt;
+ &lt;span class="edu-name"&gt;Affiliated High School of NWPU&lt;/span&gt;
+ &lt;span class="edu-desc"&gt;High School Diploma&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;!-- Contact --&gt;
+ &lt;div class="me-sec"&gt;
+ &lt;div class="me-sl"&gt;Connect&lt;/div&gt;
+ &lt;div class="me-contact"&gt;
+ &lt;div class="contact-card"&gt;
+ &lt;div class="contact-label"&gt;WeChat&lt;/div&gt;
+ &lt;div class="contact-value"&gt;CRISYAO916&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;a href="mailto:yaochaohao.1@jd.com" class="contact-card clickable"&gt;
+ &lt;div class="contact-label"&gt;Email&lt;/div&gt;
+ &lt;div class="contact-value"&gt;yaochaohao.1@jd.com&lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;!-- Easter Egg --&gt;
+ &lt;div class="egg-hint"&gt;
+ /* console.log("👋 Hey there, Tech Genius."); */
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script&gt;
+(function(){
+ if (typeof console !== 'undefined' &amp;&amp; console.log) {
+ console.log('%c👋 Hey there, Tech Genius.', 'color:#E1251B;font-size:20px;font-weight:bold;');
+ console.log('%cInterested in joining JD TGT? → yaochaohao.1@jd.com', 'color:#6b6b67;font-size:14px;');
+ }
+})();
+&lt;/script&gt;
+&lt;/div&gt;</description></item><item><title>Steam Profile</title><link>https://crisyao.github.io/steam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://crisyao.github.io/steam/</guid><description>&lt;h1 class="heading-element" id="-steam-profile"&gt;&lt;span&gt;🎮 Steam Profile&lt;/span&gt;
+ &lt;a href="#-steam-profile" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;欢迎来到我的 Steam 个人主页！&lt;/p&gt;
+&lt;h2 class="heading-element" id="-访问我的-steam-资料"&gt;&lt;span&gt;🔗 访问我的 Steam 资料&lt;/span&gt;
+ &lt;a href="#-%e8%ae%bf%e9%97%ae%e6%88%91%e7%9a%84-steam-%e8%b5%84%e6%96%99" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Steam ID&lt;/strong&gt;: &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;CRISYAO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profile URL&lt;/strong&gt;: &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;https://steamcommunity.com/id/CRISYAO/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提示：你可以通过 Steam 客户端或网页端查看我的游戏库、成就和社区动态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 class="heading-element" id="-游戏偏好"&gt;&lt;span&gt;🏆 游戏偏好&lt;/span&gt;
+ &lt;a href="#-%e6%b8%b8%e6%88%8f%e5%81%8f%e5%a5%bd" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;我是一个热爱游戏的开发者，喜欢探索各种类型的游戏：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;策略游戏&lt;/strong&gt;：文明系列、星际争霸、全面战争&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;独立游戏&lt;/strong&gt;：Hades、Stardew Valley、Celeste&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多人合作&lt;/strong&gt;：Among Us、Valorant、CS:GO&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RPG&lt;/strong&gt;：巫师系列、上古卷轴、最终幻想&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="heading-element" id="-游戏成就"&gt;&lt;span&gt;🎯 游戏成就&lt;/span&gt;
+ &lt;a href="#-%e6%b8%b8%e6%88%8f%e6%88%90%e5%b0%b1" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;在 Steam 上，我追求的是游戏的乐趣和挑战，而不是单纯的成就收集。每个成就背后都是一段有趣的游戏体验。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 class="heading-element" id="-连接"&gt;&lt;span&gt;🤝 连接&lt;/span&gt;
+ &lt;a href="#-%e8%bf%9e%e6%8e%a5" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;如果你也是游戏爱好者，欢迎在 Steam 上添加我为好友，一起组队开黑！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Steam ID&lt;/strong&gt;: &lt;code&gt;CRISYAO&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：此页面为个人 Steam 资料展示页，实际游戏数据请访问 &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Steam 官方页面&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>
