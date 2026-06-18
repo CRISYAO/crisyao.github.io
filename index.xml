@@ -153,7 +153,7 @@
  &lt;div class="tgt-sec"&gt;
  &lt;div class="tgt-sl"&gt;Open Positions&lt;/div&gt;
  &lt;div class="tgt-tabs"&gt;
- &lt;button class="tgt-tab active" onclick="mainTab('full',this)"&gt;正式岗位&lt;/button&gt;
+ &lt;button class="tgt-tab active" onclick="mainTab('full',this)"&gt;正式岗位（27届）&lt;/button&gt;
  &lt;button class="tgt-tab" onclick="mainTab('intern',this)"&gt;实习岗位(27届及之后)&lt;/button&gt;
  &lt;/div&gt;
  &lt;div class="field-filters"&gt;
