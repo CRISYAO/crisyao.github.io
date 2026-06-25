@@ -109,9 +109,9 @@ layout: profile
         <div class="desc">Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
         <div class="exp-tags">
           <span class="exp-tag jd">#LLM</span>
-          <span class="exp-tag jd">#Multimodal_AI</span>
-          <span class="exp-tag jd">#AI_Infrastructure</span>
-          <span class="exp-tag jd">#Global_Talent</span>
+          <span class="exp-tag jd">#Multimodal-AI</span>
+          <span class="exp-tag jd">#AI-Infrastructure</span>
+          <span class="exp-tag jd">#Global-Talent</span>
         </div>
       </div>
     </div>
@@ -123,9 +123,9 @@ layout: profile
         <h3>Head of Campus Recruitment & HRBP</h3>
         <div class="desc">Built campus recruitment operations and served as HRBP for AI business units.</div>
         <div class="exp-tags">
-          <span class="exp-tag wenge">#Campus_Recruitment</span>
+          <span class="exp-tag wenge">#Campus-Recruitment</span>
           <span class="exp-tag wenge">#HRBP</span>
-          <span class="exp-tag wenge">#Decision_Intelligence</span>
+          <span class="exp-tag wenge">#Decision-Intelligence</span>
         </div>
       </div>
     </div>
@@ -137,9 +137,9 @@ layout: profile
         <h3>Regional Campus Recruitment Lead</h3>
         <div class="desc">Directed end-to-end recruitment operations and team expansion for the Hefei regional hub.</div>
         <div class="exp-tags">
-          <span class="exp-tag tal">#Campus_Recruitment</span>
+          <span class="exp-tag tal">#Campus-Recruitment</span>
           <span class="exp-tag tal">#EdTech</span>
-          <span class="exp-tag tal">#Team_Expansion</span>
+          <span class="exp-tag tal">#Team-Expansion</span>
         </div>
       </div>
     </div>
@@ -171,6 +171,10 @@ layout: profile
       <a href="mailto:yaochaohao.1@jd.com" class="contact-card clickable">
         <div class="contact-label">Email</div>
         <div class="contact-value">yaochaohao.1@jd.com</div>
+      </a>
+      <a href="https://www.linkedin.com/in/%E8%B6%85%E8%B1%AA-%E5%A7%9A-33629610b/" class="contact-card clickable" target="_blank">
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-value">超豪 姚</div>
       </a>
     </div>
   </div>
