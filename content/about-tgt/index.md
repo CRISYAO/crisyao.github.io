@@ -113,7 +113,7 @@ date: 2026-03-30
     <div class="tgt-og">
       <div class="tgt-oc">
         <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 1.9k</span></div>
-        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxyGent 中稿 ACL 2026 System Demonstration · Apr 2026</span></div>
+        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ACL 2026 System Demonstration · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a>
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.25602" target="_blank">Paper</a>
@@ -121,40 +121,39 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.3k</span></div>
-        <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
+        <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">arXiv</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxygenREC 中稿 SIGIR 2026 · Apr 2026</span></div>
+        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper v1</a>
-          <span class="tgt-meta">arXiv v1 · Dec 2025</span>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenSearch</div>
-        <div class="tgt-od">面向电商生成式检索的优化框架，提出 RAD-DPO 方法解决生成式检索中的层次前缀冲突与标签噪声问题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 OxygenSearch 中稿 SIGIR 2026</span></div>
+        <div class="tgt-od">面向电商生成式检索的优化框架，提出 RAD-DPO 方法解决生成式检索中的层次前缀冲突与标签噪声问题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2602.23964" target="_blank">Paper</a>
-          <a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/ajtVAzlMuFCOxXvKRfqzNQ" target="_blank">解读</a>
+          <a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/ajtVAzlMuFCOxXvKRfqzNQ" target="_blank">Blog</a>
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">Oxygen XR <span id="oxygen-xr" class="tgt-stars">✦ 3D</span></div>
-        <div class="tgt-od">京东零售 3D 视觉方向研究成果，聚焦于基于高斯泼溅与稀疏表示的3D内容生成与重建。</div>
+        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006D5B;">3D Vision</span></div>
+        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ICASSP 2026 · Sep 2025 &nbsp;|&nbsp; 🏆 CVPR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">[ICASSP 2026] Sparse-Up</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">[CVPR 2026] DirectFisheye-GS</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">顶会论文合集</div>
         <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
-        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看</a></div>
+        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">Collection</a></div>
       </div>
       <div class="tgt-cs">
         <div class="tgt-cs-icon">✦</div>
