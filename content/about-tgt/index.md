@@ -121,7 +121,7 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">Oxygen AIGC</div>
-        <div class="tgt-od"><strong>Oxygen TryOn · arXiv · Jul 2026</strong><br>专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。</div>
+        <div class="tgt-od">专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">Oxygen TryOn · arXiv · Jul 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper</a>
         </div>
