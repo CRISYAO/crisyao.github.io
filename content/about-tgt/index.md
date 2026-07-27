@@ -196,7 +196,7 @@ date: 2026-03-30
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>生成与理解多模态大模型在电商行业的关键技术研究和应用（Oxygen AIGC团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6126" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于电商大模型的mid-train及RL研究（零售基模团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8766" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多智能体联合训练与协同推理探索（OxyGent团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8679" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向国际电商场景的agent应用和toolRL探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7937" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向国际电商场景的agent应用和toolRL探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8664" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型在视频中的可控生成</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6099" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>空间智能大模型创新与应用（Oxygen XR团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6182" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向工业界Agent的强化学习后训练研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7945" target="_blank">申请 →</a></td></tr>
