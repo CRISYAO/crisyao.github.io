@@ -30,7 +30,7 @@ date: 2026-03-30
 .tgt-h1{font-size:clamp(26px,5vw,34px);font-weight:500;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary,#1a1a18)}
 .tgt-accent{color:var(--jd-red)}
 .tgt-hero p{font-size:15px;color:var(--color-text-secondary,#6b6b67);max-width:640px;line-height:1.8}
-.tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:1rem}
+.tgt-sl{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--color-text-secondary,#6b6b67);padding-bottom:.5rem;margin-bottom:1rem}
 .tgt-sec{margin-bottom:2.5rem}
 
 /* ── Mission ── */
@@ -123,7 +123,7 @@ date: 2026-03-30
       致力于寻找具备极客精神的 <strong>"Tech Genius"</strong>。我们不仅提供丰富的业务场景，更提供探索前沿技术边界的土壤。
       <div class="tgt-tags">
         <span class="tgt-tag g">LLM</span><span class="tgt-tag g">多模态</span><span class="tgt-tag g">视频生成</span>
-        <span class="tgt-tag g">AI 搜索</span><span class="tgt-tag g">生成式推荐</span><span class="tgt-tag g">虚拟试衣</span>
+        <span class="tgt-tag g">AI 搜索</span><span class="tgt-tag g">生成式推荐</span>
         <span class="tgt-tag">推理引擎优化</span><span class="tgt-tag">分布式训练</span>
         <span class="tgt-tag">AI Infra</span><span class="tgt-tag">决策智能</span><span class="tgt-tag">运筹优化</span>
       </div>
@@ -134,7 +134,7 @@ date: 2026-03-30
     <div class="tgt-sl">Core Tech &amp; Open Source</div>
     <div class="tgt-og">
       <div class="tgt-oc">
-        <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 1.9k</span></div>
+        <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 2k</span></div>
         <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。</div>
         <div class="tgt-ol"><a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a></div>
       </div>
@@ -147,11 +147,12 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.2k</span></div>
-        <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
+        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006d5b">3D Vision</span></div>
+        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。</div>
         <div class="tgt-ol">
-          <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">arXiv</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper</a>
+          <span class="tgt-meta">🏆 ICASSP 2026 · Sep 2025</span>
+          <span class="tgt-meta">🏆 CVPR 2026 · Apr 2026</span>
         </div>
       </div>
       <div class="tgt-oc">
@@ -171,12 +172,11 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006d5b">3D Vision</span></div>
-        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。</div>
+        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.5k</span></div>
+        <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper</a>
-          <span class="tgt-meta">🏆 ICASSP 2026 · Sep 2025</span>
-          <span class="tgt-meta">🏆 CVPR 2026 · Apr 2026</span>
+          <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">arXiv</a>
         </div>
       </div>
       <div class="tgt-oc">
