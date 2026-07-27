@@ -100,6 +100,12 @@ date: 2026-03-30
 .tgt-cv a{color:var(--jd-red);text-decoration:none}
 .tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
 
+/* ── Coming Soon 虚线框 ── */
+.tgt-cs{border:2px dashed var(--color-border-tertiary,rgba(128,128,128,.35));border-radius:12px;padding:1.5rem;text-align:center;grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.tgt-cs-icon{font-size:22px;color:var(--color-text-secondary,#6b6b67)}
+.tgt-cs-text{font-size:14px;font-weight:500;color:var(--color-text-secondary,#6b6b67)}
+.tgt-cs-sub{font-size:12px;color:var(--color-text-secondary,#6b6b67);opacity:.65}
+
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
 </style>
@@ -177,6 +183,11 @@ date: 2026-03-30
         <div class="tgt-on">顶会论文合集</div>
         <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
         <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看</a></div>
+      </div>
+      <div class="tgt-cs">
+        <div class="tgt-cs-icon">✦</div>
+        <div class="tgt-cs-text">更多成果敬请期待</div>
+        <div class="tgt-cs-sub">顶会论文持续更新中</div>
       </div>
     </div>
   </div>
