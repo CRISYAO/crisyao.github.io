@@ -13,16 +13,6 @@ date: 2026-03-30
   --jd-red-border: #FCD2D0;
 }
 
-/* dark mode 变量覆盖 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --jd-red: #F47370;
-    --jd-red-hover: #F09595;
-    --jd-red-bg: #3D1010;
-    --jd-red-border: #5C1A1A;
-  }
-}
-
 /* ── 布局 ── */
 .tgt-page{max-width:860px;margin:0 auto;padding:2rem 0 4rem}
 .tgt-hero{padding-bottom:2rem;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));margin-bottom:2.5rem}
@@ -68,7 +58,7 @@ date: 2026-03-30
 .tgt-tbl tr:hover td{background:var(--color-background-secondary,#f7f7f5)}
 .row-hidden{display:none!important}
 
-/* ── Badges（浅色模式） ── */
+/* ── Badges ── */
 .tgt-bd{font-size:11px;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
 .bd-ai{background:var(--jd-red-bg);color:var(--jd-red)}
 .bd-infra{background:#EEEDFE;color:#3C3489}
@@ -76,18 +66,6 @@ date: 2026-03-30
 .bd-sc{background:#E6F1FB;color:#185FA5}
 .bd-spt{background:#E7F6F2;color:#006D5B}
 .bd-sec{background:#FFF4E5;color:#B35900}
-
-/* ── Badges dark mode 覆盖 ── */
-@media (prefers-color-scheme: dark) {
-  .bd-infra{background:#26215C;color:#CECBF6}
-  .bd-data{background:#412402;color:#FAC775}
-  .bd-sc{background:#042C53;color:#85B7EB}
-  .bd-spt{background:#04342C;color:#5DCAA5}
-  .bd-sec{background:#3D2000;color:#EF9F27}
-  .tgt-stars{background:#412402;color:#FAC775}
-  .tgt-lnk.b{background:#042C53;color:#85B7EB;border-color:#0C447C}
-  .tgt-lnk.p{background:#26215C;color:#CECBF6;border-color:#3C3489}
-}
 
 /* ── 申请按钮 ── */
 .tgt-ap{font-size:12px;color:var(--jd-red);text-decoration:none;padding:4px 10px;border:0.5px solid var(--jd-red-border);border-radius:4px;background:var(--jd-red-bg);white-space:nowrap;transition:background .15s}
@@ -135,8 +113,11 @@ date: 2026-03-30
     <div class="tgt-og">
       <div class="tgt-oc">
         <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 2k</span></div>
-        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。</div>
-        <div class="tgt-ol"><a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a></div>
+        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ACL 2026 System Demonstration · Apr 2026</span></div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.25602" target="_blank">Paper</a>
+        </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">Oxygen AIGC</div>
@@ -147,42 +128,40 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006d5b">3D Vision</span></div>
-        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。</div>
+        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006D5B;">3D Vision</span></div>
+        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ICASSP 2026 · Sep 2025 &nbsp;|&nbsp; 🏆 CVPR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper</a>
-          <span class="tgt-meta">🏆 ICASSP 2026 · Sep 2025</span>
-          <span class="tgt-meta">🏆 CVPR 2026 · Apr 2026</span>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">基于指令遵循的「快慢思考」电商生成式推荐框架，arXiv v1 · Dec 2025。</div>
+        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
-          <span class="tgt-meta">arXiv v1</span>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenSearch</div>
-        <div class="tgt-od">面向电商生成式检索的优化框架，提出 RAD-DPO 方法解决生成式检索中的层次前缀冲突与标签噪声问题。</div>
+        <div class="tgt-od">面向电商生成式检索的优化框架，提出 RAD-DPO 方法解决生成式检索中的层次前缀冲突与标签噪声问题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2602.23964" target="_blank">Paper</a>
-          <span class="tgt-meta">arXiv · Feb 2026</span>
+          <a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/ajtVAzlMuFCOxXvKRfqzNQ" target="_blank">Blog</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.5k</span></div>
-        <div class="tgt-od">灵活可扩展的通用大模型训练与推理框架，专注解决大规模模型训练中的效率与扩展性难题。</div>
+        <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">arXiv</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">顶会论文合集</div>
         <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
-        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看</a></div>
+        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">Collection</a></div>
       </div>
       <div class="tgt-cs">
         <div class="tgt-cs-icon">✦</div>
@@ -195,7 +174,7 @@ date: 2026-03-30
   <div class="tgt-sec">
     <div class="tgt-sl">Open Positions</div>
     <div class="tgt-tabs">
-      <button class="tgt-tab active" onclick="mainTab('full',this)">正式岗位</button>
+      <button class="tgt-tab active" onclick="mainTab('full',this)">正式岗位（27届）</button>
       <button class="tgt-tab" onclick="mainTab('intern',this)">实习岗位(27届及之后)</button>
     </div>
     <div class="field-filters">
@@ -212,18 +191,25 @@ date: 2026-03-30
       <table class="tgt-tbl">
         <thead><tr><th>领域</th><th>方向</th><th></th></tr></thead>
         <tbody>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>代码大模型</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6101" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基模后训练</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6533" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6013" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>大模型安全风控</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6537" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>AI 搜索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6147" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>生成式推荐</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6119" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>3D 内容生成</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6182" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>视频生成</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6099" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>推理引擎优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5989" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>分布式训练自动优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5991" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>大数据融合计算优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6005" target="_blank">申请 →</a></td></tr>
-          <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>供应链优化技术探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6081" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向京东零售全场景的Agent研究与落地</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6049" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向电商推荐场景的大模型技术应用（Oxygenrec团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6119" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>生成与理解多模态大模型在电商行业的关键技术研究和应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6126" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于电商大模型的mid-train及RL研究（零售基模团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6533" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向电商运营领域低代码编程智能体的自动化质量校验能力研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7933" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多智能体联合训练与协同推理探索（OxyGent团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7935" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向国际电商场景的agent应用和toolRL探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7937" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型在视频中的可控生成</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6099" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>空间智能大模型创新与应用（Oxygen XR团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6182" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向工业界Agent的强化学习后训练研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7945" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>大模型分布式训练自动优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5991" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力智能调度</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5993" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>新一代大模型推理技术优化研究（xLLM团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5989" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>面向搜推算法特征治理的智能体系统研究和实现</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7931" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>大模型以及AI搜索助手应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7927" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>基于多模态大模型的生成式搜索推荐范式应用探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7929" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>多模态大模型广告创意分发算法研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7939" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>运筹大模型供应链决策系统优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7943" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>端到端大模型供应链智能决策底座研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7941" target="_blank">申请 →</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -317,11 +303,12 @@ function applyFilters() {
 
 async function fetchStars(repo, elementId) {
   try {
-    const r = await fetch(`https://api.github.com/repos/${repo}`);
+    const r = await fetch(`https://img.shields.io/github/stars/${repo}.json`);
     if (!r.ok) return;
     const d = await r.json();
-    const n = d.stargazers_count;
-    document.getElementById(elementId).innerText = '★ ' + (n >= 1000 ? (n/1000).toFixed(1)+'k' : n);
+    if (d.value) {
+      document.getElementById(elementId).innerText = '★ ' + d.value;
+    }
   } catch(e) {}
 }
 
