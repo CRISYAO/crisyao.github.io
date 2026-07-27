@@ -229,9 +229,7 @@ date: 2026-03-30
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多智能体联合训练与协同推理探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8909" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于AI Agent的搜索体验全链路优化研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8892" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型意图识别与搜推研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8899" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于大模型的模型驱动测试建模方法研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7529" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>软件研发Agent智能体开发与应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8941" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态GUI智能体与RAG系统研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7506" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>异构硬件深度学习编译优化技术探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7629" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>大模型高效推理与端云协同架构研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8859" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力集群智能调度研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8809" target="_blank">申请 →</a></td></tr>
