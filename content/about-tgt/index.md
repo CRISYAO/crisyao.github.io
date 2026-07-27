@@ -79,10 +79,15 @@ date: 2026-03-30
 .tgt-ch{font-size:11px;color:var(--color-text-secondary,#6b6b67);margin-top:3px}
 
 /* ── Coming Soon 虚线框 ── */
-.tgt-cs{border:2px dashed var(--color-border-tertiary,rgba(128,128,128,.35));border-radius:12px;padding:1.5rem;text-align:center;grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
-.tgt-cs-icon{font-size:22px;color:var(--color-text-secondary,#6b6b67)}
-.tgt-cs-text{font-size:14px;font-weight:500;color:var(--color-text-secondary,#6b6b67)}
-.tgt-cs-sub{font-size:12px;color:var(--color-text-secondary,#6b6b67);opacity:.65}
+/* ── Coming Soon 虚线框 ── */
+.tgt-cs{border:2px dashed var(--color-border-tertiary,rgba(128,128,128,.35));border-radius:12px;padding:1.5rem;text-align:center;grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;transition:all .3s ease;cursor:default}
+.tgt-cs:hover{border-color:var(--jd-red);background:var(--jd-red-bg);transform:translateY(-2px);box-shadow:0 4px 12px rgba(225,37,27,.1)}
+.tgt-cs:hover .tgt-cs-icon{color:var(--jd-red);transform:scale(1.2)}
+.tgt-cs:hover .tgt-cs-text{color:var(--jd-red)}
+.tgt-cs:hover .tgt-cs-sub{opacity:1}
+.tgt-cs-icon{font-size:22px;color:var(--color-text-secondary,#6b6b67);transition:all .3s ease}
+.tgt-cs-text{font-size:14px;font-weight:500;color:var(--color-text-secondary,#6b6b67);transition:all .3s ease}
+.tgt-cs-sub{font-size:12px;color:var(--color-text-secondary,#6b6b67);opacity:.65;transition:all .3s ease}
 
 .tgt-hidden{display:none}
 @media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
