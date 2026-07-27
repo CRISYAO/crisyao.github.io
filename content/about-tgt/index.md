@@ -250,7 +250,7 @@ date: 2026-03-30
           <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 大模型对抗防御与可信原生安全研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8999" target="_blank">申请 →</a></td></tr>
           <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态风控大模型对抗与鲁棒性研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=9010" target="_blank">申请 →</a></td></tr>
           <tr data-field="Sec"><td><span class="tgt-bd bd-sec">安全</span></td><td>LLM 多模态合规智能体与自进化系统落地探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8966" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>多模态数据湖存储与湖流一体优化探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7635" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>AI多模态存储与向量化计算探索研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8801" target="_blank">申请 →</a></td></tr>
           <tr data-field="Data"><td><span class="tgt-bd bd-data">大数据</span></td><td>基于分层AI架构的SparkSQL自适应执行优化系统研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8917" target="_blank">申请 →</a></td></tr>
         </tbody>
       </table>
