@@ -120,7 +120,7 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
-        <div class="tgt-on">Oxygen AIGC</div>
+        <div class="tgt-on">Oxygen TryOn</div>
         <div class="tgt-od">专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。</div>
         <div class="tgt-ol">
           <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper</a>
@@ -131,8 +131,8 @@ date: 2026-03-30
         <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006D5B;">3D Vision</span></div>
         <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ICASSP 2026 · Sep 2025 &nbsp;|&nbsp; 🏆 CVPR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">Paper</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper1</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">Paper2</a>
         </div>
       </div>
       <div class="tgt-oc">
