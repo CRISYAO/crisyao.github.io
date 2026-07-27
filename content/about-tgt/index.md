@@ -201,7 +201,7 @@ date: 2026-03-30
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>空间智能大模型创新与应用（Oxygen XR团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8760" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向工业界Agent的强化学习后训练研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8669" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>大模型分布式训练自动优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8774" target="_blank">申请 →</a></td></tr>
-          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力智能调度</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5993" target="_blank">申请 →</a></td></tr>
+          <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>超大规模异构算力智能调度</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8759" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>新一代大模型推理技术优化研究（xLLM团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=5989" target="_blank">申请 →</a></td></tr>
           <tr data-field="Infra"><td><span class="tgt-bd bd-infra">Infra</span></td><td>面向搜推算法特征治理的智能体系统研究和实现</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7931" target="_blank">申请 →</a></td></tr>
           <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>大模型以及AI搜索助手应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7927" target="_blank">申请 →</a></td></tr>
