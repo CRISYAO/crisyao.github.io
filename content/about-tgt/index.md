@@ -217,7 +217,7 @@ date: 2026-03-30
       <table class="tgt-tbl">
         <thead><tr><th>领域</th><th>方向</th><th></th></tr></thead>
         <tbody>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>大模型预训练与后训练</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7515" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向电商大模型预训练与后训练的探索研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8912" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>购物智能体强化学习后训练算法探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7494" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型可控视觉生成底座研发与应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7530" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态图像视频生成大模型研发</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7601" target="_blank">申请 →</a></td></tr>
