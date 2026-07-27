@@ -207,7 +207,7 @@ date: 2026-03-30
           <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>大模型以及AI搜索助手应用</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8677" target="_blank">申请 →</a></td></tr>
           <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>基于多模态大模型的生成式搜索推荐范式应用探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8632" target="_blank">申请 →</a></td></tr>
           <tr data-field="SPT"><td><span class="tgt-bd bd-spt">搜推广</span></td><td>多模态大模型广告创意分发算法研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8658" target="_blank">申请 →</a></td></tr>
-          <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>运筹大模型供应链决策系统优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7943" target="_blank">申请 →</a></td></tr>
+          <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>运筹大模型供应链决策系统优化</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8676" target="_blank">申请 →</a></td></tr>
           <tr data-field="SC"><td><span class="tgt-bd bd-sc">供应链</span></td><td>端到端大模型供应链智能决策底座研究</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=7941" target="_blank">申请 →</a></td></tr>
         </tbody>
       </table>
