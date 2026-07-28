@@ -142,9 +142,10 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
+        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式与 IDGR 判别内化机制，统一检索与排序，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span><br><span class="tgt-meta" style="display:inline-block;">OxygenREC-v2 · Jul 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper1</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.24255" target="_blank">Paper2</a>
         </div>
       </div>
       <div class="tgt-oc">
