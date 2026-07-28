@@ -155,6 +155,20 @@ date: 2026-03-30
         </div>
       </div>
       <div class="tgt-oc">
+        <div class="tgt-on">OxyEcomBench <span class="tgt-stars" style="background:#E7F6F2;color:#006D5B;">Benchmark</span></div>
+        <div class="tgt-od">行业首个"电商全链路、多角色"统一多模态评测集，涵盖 6 大能力、29 个任务，全面适配文本、图像、视频等多语种真实电商场景，并在 AI 图搜、素材质检等真实业务中实现线上收益闭环。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">Oxygen AIGC 团队 · arXiv · May 2026</span></div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2605.13173" target="_blank">Paper</a>
+        </div>
+      </div>
+      <div class="tgt-oc">
+        <div class="tgt-on">Oxygen TryOn</div>
+        <div class="tgt-od">专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">Oxygen AIGC 团队 · arXiv · Jul 2026</span></div>
+        <div class="tgt-ol">
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper</a>
+        </div>
+      </div>
+      <div class="tgt-oc">
         <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.5k</span></div>
         <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。</div>
         <div class="tgt-ol">
