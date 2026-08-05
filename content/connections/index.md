@@ -13,7 +13,7 @@ layout: page
 
 ## 🎨 Multi-modal AI
 
-*Coming soon...*
+- [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
 ## 🔧 AI Infrastructure
 
