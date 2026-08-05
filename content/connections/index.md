@@ -28,6 +28,7 @@ layout: page
 
 - [Dongqi Cai](https://www.caidongqi.com/) - Assistant Professor at NJU
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
+- [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
 
 ## 🔬 AI for Science
 
