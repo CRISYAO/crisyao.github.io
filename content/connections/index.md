@@ -9,10 +9,12 @@ layout: page
 
 ## 🤖 LLM & Agent
 
-*Coming soon...*
+- [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 
 ## 🎨 Multi-modal AI
 
+- [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
+- [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
 ## 🔧 AI Infrastructure
