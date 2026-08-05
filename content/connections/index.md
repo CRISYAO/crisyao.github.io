@@ -19,6 +19,7 @@ layout: page
 ## 🎨 Multi-modal AI
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
+- [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
