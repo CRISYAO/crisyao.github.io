@@ -68,7 +68,7 @@ layout: page
 
 ## 🤖 Embodied AI
 
-*Coming soon*
+- [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 
 ## 🧩 AI Chips
 
