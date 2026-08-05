@@ -34,6 +34,7 @@ layout: page
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
+- [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
