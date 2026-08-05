@@ -64,6 +64,10 @@ layout: page
 - [Nan Xu](https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN) - CEO at ScienceOne AI
 - [Zizhao Zhang](https://zzz14.github.io/) - Postdoctoral Associate at Cornell
 
+## 🤖 Embodied AI
+
+*Coming soon*
+
 ## 🧩 AI Chips
 
 - [Haoyi Zhang](https://zhywhite.github.io/) - Ph.D. student at PKU
