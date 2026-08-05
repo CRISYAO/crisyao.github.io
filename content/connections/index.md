@@ -22,7 +22,7 @@ layout: page
 
 ## 🔧 AI Infrastructure
 
-*Coming soon...*
+- [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 
 ## 🔬 AI for Science
 
