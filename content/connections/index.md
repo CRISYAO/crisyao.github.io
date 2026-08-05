@@ -25,6 +25,7 @@ layout: page
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
+- [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder at Philo AI
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
