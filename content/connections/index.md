@@ -9,8 +9,8 @@ layout: page
 
 ## 🤖 LLM & Agent
 
-- [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
+- [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
@@ -24,15 +24,15 @@ layout: page
 ## 🎨 Multi-modal AI
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
-- [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
+- [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
+- [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder at Philo AI
-- [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
 ## 🔧 AI Infrastructure
 
