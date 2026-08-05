@@ -9,6 +9,7 @@ layout: page
 
 ## 🤖 LLM & Agent
 
+- [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
