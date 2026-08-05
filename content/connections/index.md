@@ -20,6 +20,7 @@ layout: page
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
+- [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at QWEN
 
 ## 🎨 Multi-modal AI
 
