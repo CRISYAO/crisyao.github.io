@@ -23,6 +23,7 @@ layout: page
 
 ## 🔧 AI Infrastructure
 
+- [Dongqi Cai](https://www.caidongqi.com/) - Assistant Professor at NJU
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 
 ## 🔬 AI for Science
