@@ -22,6 +22,7 @@ layout: page
 ## 🎨 Multi-modal AI
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
+- [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
