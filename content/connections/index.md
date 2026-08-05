@@ -42,6 +42,7 @@ layout: page
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
+- [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
