@@ -43,6 +43,10 @@ layout: page
 - [Bang Liu](https://www-labs.iro.umontreal.ca/~liubang/) - Associate Professor at Mila
 - [Nan Xu](https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN) - CEO at ScienceOne AI
 
+## 🧩 AI Chips
+
+- [Haoyi Zhang](https://zhywhite.github.io/) - Ph.D. student at PKU
+
 ---
 
 *Listed in alphabetical order by family name.*
