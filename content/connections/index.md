@@ -7,7 +7,7 @@ layout: page
 
 > Researchers, engineers, and practitioners I follow
 
-## 🤖 LLM
+## 🤖 LLM & Agent
 
 *Coming soon...*
 
@@ -22,3 +22,7 @@ layout: page
 ## 🔬 AI for Science
 
 *Coming soon...*
+
+---
+
+*The listing of contributors is in alphabetical order based on their last names.*
