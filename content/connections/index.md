@@ -11,6 +11,7 @@ layout: page
 
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
+- [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Jiale Cheng](https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
 - [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
