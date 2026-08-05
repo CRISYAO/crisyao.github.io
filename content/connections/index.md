@@ -18,6 +18,7 @@ layout: page
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
+- [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
 
 ## 🎨 Multi-modal AI
