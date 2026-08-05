@@ -25,4 +25,4 @@ layout: page
 
 ---
 
-*The listing of contributors is in alphabetical order based on their last names.*
+*Listed in alphabetical order by last name.*
