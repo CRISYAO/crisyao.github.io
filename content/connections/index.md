@@ -22,6 +22,7 @@ layout: page
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
+- [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
 ## 🔧 AI Infrastructure
