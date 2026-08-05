@@ -15,6 +15,7 @@ layout: page
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
+- [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
