@@ -12,6 +12,7 @@ layout: page
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
+- [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
