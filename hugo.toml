@@ -74,6 +74,11 @@ theme = "FixIt"
   url = "/about-me/"
   weight = 3
 
+[[menu.main]]
+  name = "Connections"
+  url = "/connections/"
+  weight = 4
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
