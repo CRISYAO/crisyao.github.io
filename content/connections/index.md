@@ -47,6 +47,7 @@ layout: page
 - [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
+- [Yifei Zhang](https://yifeiacc.github.io/Lab/) - Professor at NWPU
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder at Philo AI
 
