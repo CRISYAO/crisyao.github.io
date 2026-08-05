@@ -5,20 +5,20 @@ layout: page
 
 # Connections
 
-> 我持续关注的研究者、工程师和行业实践者
+> Researchers, engineers, and practitioners I follow
 
 ## 🤖 LLM
 
-*持续更新中...*
+*Coming soon...*
 
 ## 🎨 Multi-modal AI
 
-*持续更新中...*
+*Coming soon...*
 
 ## 🔧 AI Infrastructure
 
-*持续更新中...*
+*Coming soon...*
 
 ## 🔬 AI for Science
 
-*持续更新中...*
+*Coming soon...*
