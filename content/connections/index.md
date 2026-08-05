@@ -25,7 +25,7 @@ layout: page
 
 ## 🔬 AI for Science
 
-*Coming soon...*
+- [Nan Xu](https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN) - CEO at ScienceOne AI
 
 ---
 
