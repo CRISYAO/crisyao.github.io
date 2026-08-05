@@ -9,10 +9,10 @@ layout: page
 
 ## 🤖 LLM & Agent
 
-- [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
-- [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Jiale Cheng](https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN) - Ph.D. student at THU
+- [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
+- [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
 - [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
@@ -20,9 +20,9 @@ layout: page
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
 - [Xinyin Ma](https://horseee.github.io/) - Researcher at Hunyuan
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
+- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
-- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
