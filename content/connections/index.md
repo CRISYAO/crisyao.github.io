@@ -16,6 +16,7 @@ layout: page
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
+- [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 
 ## 🔧 AI Infrastructure
