@@ -6,6 +6,10 @@ theme = "FixIt"
 [params]
   defaultTheme = "light"
 
+  # 自定义 CSS
+  [params.cdn]
+    customCSS = ["/css/custom.css"]
+
   [params.header]
     enableThemeSwitcher = false
     [params.header.title]
