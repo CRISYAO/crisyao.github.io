@@ -10,6 +10,7 @@ layout: page
 ## 🤖 LLM & Agent
 
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
+- [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
 
 ## 🎨 Multi-modal AI
 
