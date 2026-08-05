@@ -31,6 +31,7 @@ layout: page
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
+- [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder at Philo AI
