@@ -37,6 +37,7 @@ layout: page
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
+- [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
