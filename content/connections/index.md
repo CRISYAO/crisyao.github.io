@@ -9,6 +9,7 @@ layout: page
 
 ## 🤖 LLM & Agent
 
+- [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
