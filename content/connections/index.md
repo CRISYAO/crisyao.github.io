@@ -33,6 +33,7 @@ layout: page
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
+- [Zanlin Ni](https://nzl-thu.github.io/) - Ph.D. student at THU
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
