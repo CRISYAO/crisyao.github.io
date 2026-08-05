@@ -22,10 +22,10 @@ layout: page
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
+- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
-- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
 - [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at QWEN
 
@@ -44,9 +44,10 @@ layout: page
 - [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
+- [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Jialong Wu](https://manchery.github.io/) - Ph.D. student at THU
-- [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
+- [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Yifei Zhang](https://yifeiacc.github.io/Lab/) - Professor at NWPU
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
