@@ -39,8 +39,8 @@ layout: page
 - [Dongqi Cai](https://www.caidongqi.com/) - Assistant Professor at NJU
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
-- [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
+- [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 
 ## 🔬 AI for Science
 
