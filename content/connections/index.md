@@ -12,6 +12,7 @@ layout: page
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
+- [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
