@@ -32,6 +32,7 @@ layout: page
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
+- [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
 - [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at QWEN
 
