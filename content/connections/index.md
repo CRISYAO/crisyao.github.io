@@ -87,6 +87,7 @@ layout: page
 ## 🤖 Embodied AI
 
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
+- [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
 
 ## 🧩 AI Chips
 
