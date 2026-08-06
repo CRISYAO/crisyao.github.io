@@ -94,6 +94,8 @@ layout: page
 
 - [Haoyi Zhang](https://zhywhite.github.io/) - Ph.D. student at PKU
 
+*Listed in alphabetical order by family name.*
+
 ---
 
 *Listed in alphabetical order by family name.*
