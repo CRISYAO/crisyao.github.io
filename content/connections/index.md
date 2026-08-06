@@ -74,6 +74,7 @@ layout: page
 - [Dongqi Cai](https://www.caidongqi.com/) - Assistant Professor at NJU
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 - [Mengzhao Chen](https://chenmnz.github.io/) - Ph.D. student at HKU
+- [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Cong Li](https://leesou.github.io/) - Ph.D. student at PKU
 - [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
@@ -99,8 +100,6 @@ layout: page
 ## 🧩 AI Chips
 
 - [Haoyi Zhang](https://zhywhite.github.io/) - Ph.D. student at PKU
-
-*Listed in alphabetical order by family name.*
 
 ---
 
