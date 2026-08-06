@@ -88,6 +88,7 @@ layout: page
 
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
+- [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
 
 ## 🧩 AI Chips
 
