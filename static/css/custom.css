@@ -2,11 +2,8 @@
    Connections page custom styles
    ========================================================
    - Badge coloring (student / professor / industry / founder)
-   - Category tab filters & search bar
-   - SVG section icons (replaces emoji)
-   - Stats bar
+   - Single-column list (clean, no grid)
    - Mobile-friendly full-row click targets
-   - Cards & responsive grid
    ======================================================== */
 
 /* ---- Base: section spacing ---- */
@@ -53,7 +50,6 @@ ul li:hover {
   letter-spacing: 0.03em;
   margin-right: 0.4rem;
   white-space: nowrap;
-  cursor: default;
 }
 
 .badge-student   { background: #3182ce; color: #fff; }   /* blue */
@@ -62,23 +58,29 @@ ul li:hover {
 .badge-founder   { background: #805ad5; color: #fff; }   /* purple */
 
 /* ================================
-   CONNECTION ITEM
+   CARD GRID (single column)
    ================================ */
+.connection-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .connection-item {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  min-height: 48px;                    /* mobile touch target */
+  min-height: 48px;
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid #e2e8f0;
   transition: background-color 0.2s ease;
   cursor: pointer;
-  border-radius: 6px;
 }
 .connection-item:hover {
   background-color: #f7fafc;
 }
-
 .connection-item .connection-name {
   font-weight: 600;
   color: #1a202c;
@@ -88,125 +90,11 @@ ul li:hover {
 .connection-item .connection-name:hover {
   color: #2b6cb0;
 }
-
 .connection-item .affiliation {
   color: #718096;
   font-size: 0.9rem;
 }
-
 .connection-item .badge {
-  flex-shrink: 0;
-}
-
-/* ================================
-   CONNECTION LIST (replaces ul)
-   ================================ */
-.connection-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-/* ================================
-   STATS BAR
-   ================================ */
-.connections-stats {
-  text-align: center;
-  font-size: 0.95rem;
-  color: #718096;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
-  padding: 0.8rem;
-  background: #f7fafc;
-  border-radius: 8px;
-}
-.connections-stats strong {
-  color: #2d3748;
-  font-weight: 700;
-}
-
-/* ================================
-   TOOLBAR (search + tabs)
-   ================================ */
-.connections-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.8rem;
-  margin-bottom: 1.5rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: #fff;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.connections-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.filter-tab {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.35rem 0.9rem;
-  border-radius: 999px;
-  border: 1px solid #e2e8f0;
-  background: #fff;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: #4a5568;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
-.filter-tab:hover {
-  border-color: #cbd5e0;
-  background: #f7fafc;
-}
-.filter-tab.active {
-  background: #2b6cb0;
-  color: #fff;
-  border-color: #2b6cb0;
-}
-.filter-tab svg {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-}
-.filter-tab.active svg {
-  stroke: #fff;
-}
-
-.connections-search {
-  flex: 1;
-  min-width: 180px;
-  max-width: 320px;
-  padding: 0.4rem 1rem;
-  border-radius: 999px;
-  border: 1px solid #e2e8f0;
-  font-size: 0.85rem;
-  color: #2d3748;
-  background: #f7fafc;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-.connections-search:focus {
-  outline: none;
-  border-color: #2b6cb0;
-  box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.15);
-  background: #fff;
-}
-
-/* ================================
-   SECTION ICONS (SVG replacements)
-   ================================ */
-.section-title svg {
-  vertical-align: -0.15em;
-  margin-right: 0.35rem;
-  color: #4a5568;
   flex-shrink: 0;
 }
 
@@ -217,64 +105,18 @@ ul li:hover {
   h2 {
     margin-top: 2rem !important;
   }
-
-  .connections-toolbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.6rem;
-  }
-
-  .connections-search {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .connections-tabs {
-    width: 100%;
-  }
-
-  .filter-tab {
-    font-size: 0.76rem;
-    padding: 0.3rem 0.7rem;
-  }
-
   .connection-item {
     padding: 0.55rem 0.6rem;
+    gap: 0.4rem;
   }
-
   .connection-item .badge {
     font-size: 0.68rem;
   }
-
   .connection-item .affiliation {
     font-size: 0.82rem;
     display: none;    /* hide org on small screens to save space */
   }
-}
-
-/* Tablet: 2-col cards */
-@media (min-width: 769px) and (max-width: 1024px) {
   .connection-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.4rem;
-  }
-  .connection-item {
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-  }
-}
-
-/* Desktop: 3-col cards */
-@media (min-width: 1025px) {
-  .connection-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-  }
-  .connection-item {
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 0.7rem 1rem;
+    max-width: 100%;
   }
 }
