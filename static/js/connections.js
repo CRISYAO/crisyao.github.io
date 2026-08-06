@@ -139,10 +139,14 @@
   // ========================
 
   function init() {
+    console.log('[connections.js] init() running');
+
     const content = document.getElementById('content');
+    console.log('[connections.js] content div:', content);
     if (!content) return;
 
     const h2s = content.querySelectorAll('h2');
+    console.log('[connections.js] found h2s:', h2s.length);
     if (h2s.length === 0) return;
 
     let totalItems = 0;
@@ -159,6 +163,7 @@
 
       const sectionKey = inferSectionKey(rawText);
       const sectionName = rawText.replace(/^[🤖🎨🔧🔬🧩🤖]\s*/, '').trim();
+      console.log('[connections.js] processing section:', sectionKey, sectionName);
 
       // Build new container
       const sectionDiv = document.createElement('div');
