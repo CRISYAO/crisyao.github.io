@@ -9,11 +9,11 @@ layout: page
 
 ## 🤖 LLM & Agent
 
-- [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Jiale Cheng](https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN) - Ph.D. student at THU
+- [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
-- [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
+- [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
@@ -26,10 +26,10 @@ layout: page
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
-- [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
-- [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
+- [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
+- [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
@@ -44,22 +44,21 @@ layout: page
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Zanlin Ni](https://nzl-thu.github.io/) - Ph.D. student at THU
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
+- [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
-- [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
-- [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
-- [Ran Yi](https://yiranran.github.io/) - Associate Professor at SJTU
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
-- [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
-- [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Jialong Wu](https://manchery.github.io/) - Ph.D. student at THU
+- [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
 - [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
+- [Ran Yi](https://yiranran.github.io/) - Associate Professor at SJTU
+- [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
+- [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder and CEO at Philo AI
 - [Yifei Zhang](https://yifeiacc.github.io/Lab/) - Professor at NWPU
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
-- [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder and CEO at Philo AI
 
 ## 🔧 AI Infrastructure
 
