@@ -65,6 +65,7 @@ layout: page
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 - [Mengzhao Chen](https://chenmnz.github.io/) - Ph.D. student at HKU
 - [Cong Li](https://leesou.github.io/) - Ph.D. student at PKU
+- [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
