@@ -72,7 +72,7 @@ layout: page
 
 - [Rui Jiao](https://jiaor17.github.io/) - Researcher at Anew Labs
 - [Bang Liu](https://www-labs.iro.umontreal.ca/~liubang/) - Associate Professor at Mila
-- [Yuyan Ni](https://nyyxxx.github.io/contact.html) - Researcher at Bytedance
+- [Yuyan Ni](https://nyyxxx.github.io/contact.html) - Researcher at ByteDance
 - [Nan Xu](https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN) - CEO at ScienceOne AI
 - [Zizhao Zhang](https://zzz14.github.io/) - Postdoctoral Associate at Cornell
 
