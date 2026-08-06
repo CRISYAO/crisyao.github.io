@@ -27,6 +27,7 @@ layout: page
 - [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
+- [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
