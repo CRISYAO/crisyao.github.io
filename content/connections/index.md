@@ -62,6 +62,7 @@ layout: page
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
 - [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
+- [Yichi Zhang](https://zycheiheihei.github.io/) - Ph.D. student at THU
 - [Ran Yi](https://yiranran.github.io/) - Associate Professor at SJTU
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder and CEO at Philo AI
@@ -93,6 +94,7 @@ layout: page
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
 - [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
+- [Chao Yu](https://zoeyuchao.github.io/) - Assistant Professor at THU
 
 ## 🧩 AI Chips
 
