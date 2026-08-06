@@ -49,7 +49,7 @@ layout: page
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
-- [Jialong Wu](https://manchery.github.io/) - Ph.D. student at THU
+- [Jialong Wu](https://manchery.github.io/) - Co-founder and CRO at MirroS
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
 - [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
