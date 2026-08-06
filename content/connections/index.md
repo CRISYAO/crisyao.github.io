@@ -5,7 +5,7 @@ layout: page
 
 # Connections
 
-> Researchers, engineers, and practitioners I follow
+> People building the future of AI I follow
 
 ## 🤖 LLM & Agent
 
