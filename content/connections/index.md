@@ -44,6 +44,7 @@ layout: page
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
+- [Yeying Jin](https://jinyeying.github.io/) - Researcher at Tencent
 - [Wuyang Li](https://wymancv.github.io/wuyang.github.io/) - Researcher at Ant Group
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
