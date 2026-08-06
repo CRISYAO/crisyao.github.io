@@ -19,6 +19,7 @@ layout: page
 - [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
+- [Yong Liu](https://wenweithu.github.io/) - Researcher at ByteDance
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
 - [Xinyin Ma](https://horseee.github.io/) - Researcher at Hunyuan
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
