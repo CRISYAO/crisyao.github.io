@@ -10,6 +10,8 @@ theme = "FixIt"
   [params.cdn]
     customCSS = ["/css/custom.css"]
 
+  # 自定义 JS 通过页面内 <script> 加载（connections.js）
+
   [params.header]
     enableThemeSwitcher = false
     [params.header.title]

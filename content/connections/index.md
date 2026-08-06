@@ -3,6 +3,9 @@ title: "Connections"
 layout: page
 ---
 
+<link rel="stylesheet" href="/css/custom.css">
+<script src="/js/connections.js" defer></script>
+
 # Connections
 
 > People building the future of AI I follow
