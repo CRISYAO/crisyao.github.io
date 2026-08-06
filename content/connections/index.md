@@ -17,6 +17,7 @@ layout: page
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
+- [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
