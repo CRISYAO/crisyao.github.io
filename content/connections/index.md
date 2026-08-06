@@ -45,6 +45,7 @@ layout: page
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
+- [Ran Yi](https://yiranran.github.io/) - Associate Professor at SJTU
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
