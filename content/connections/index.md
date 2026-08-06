@@ -33,6 +33,7 @@ layout: page
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
+- [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
