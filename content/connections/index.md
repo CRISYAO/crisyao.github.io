@@ -43,6 +43,7 @@ layout: page
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
 - [Junyu Luo](https://luo-junyu.github.io/) - Researcher at Kimi
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
+- [Tianzhu Ye](https://ytianzhu.github.io/) - Researcher at MSRA
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Zheng Zhao](https://zsquaredz.github.io/) - Ph.D. student at Edinburgh
