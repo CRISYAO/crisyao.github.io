@@ -64,6 +64,7 @@ layout: page
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Zanlin Ni](https://nzl-thu.github.io/) - Ph.D. student at THU
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
+- [Hao Shao](https://hao-shao.com/) - Researcher at Seed
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
