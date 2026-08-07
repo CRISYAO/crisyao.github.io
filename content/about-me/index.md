@@ -155,7 +155,7 @@ layout: profile
     </div>
     <div class="edu-row">
       <span class="edu-year">2011 – 2014</span>
-      <span class="edu-name">Affiliated High School of NWPU</span>
+      <span class="edu-name">Middle School Attached to Northwestern Polytechnical University</span>
       <span class="edu-desc">High School Diploma</span>
     </div>
   </div>

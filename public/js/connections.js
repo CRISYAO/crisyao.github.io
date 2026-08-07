@@ -98,6 +98,14 @@
           after = idx >= 0 ? fullText.slice(idx + 3).trim() : fullText;
         }
 
+        // Split out (also ...) parenthetical — only the main part gets a badge
+        let extra = '';
+        const parenIdx = after.indexOf(' (also ');
+        if (parenIdx >= 0) {
+          extra = after.slice(parenIdx).trim();   // "(also Chief Scientist at Striding AI)"
+          after = after.slice(0, parenIdx).trim();
+        }
+
         let role = '', org = '';
         const atIdx = after.lastIndexOf(' at ');
         if (atIdx >= 0) {
@@ -105,6 +113,11 @@
           org  = after.slice(atIdx + 4).trim();
         } else {
           role = after.trim();
+        }
+
+        // If there's extra text like "(also ...)", append it to org
+        if (extra) {
+          org = org ? org + ' ' + extra : extra;
         }
 
         const type = guessType(role);
