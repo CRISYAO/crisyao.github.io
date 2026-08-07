@@ -19,6 +19,7 @@ layout: page
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
+- [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
 - [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
@@ -35,8 +36,10 @@ layout: page
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
+- [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
+- [Zheng Zhao](https://zsquaredz.github.io/) - Ph.D. student at Edinburgh
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
 - [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at QWEN
@@ -74,7 +77,6 @@ layout: page
 - [Dongqi Cai](https://www.caidongqi.com/) - Assistant Professor at NJU
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 - [Mengzhao Chen](https://chenmnz.github.io/) - Ph.D. student at HKU
-- [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Cong Li](https://leesou.github.io/) - Ph.D. student at PKU
 - [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
