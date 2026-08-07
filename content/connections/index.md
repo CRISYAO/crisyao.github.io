@@ -35,10 +35,12 @@ layout: page
 - [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at Qwen
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
+- [Yehui Tang](https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=en) - Head of AI Model at Samsung
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
+- [Junyu Luo](https://luo-junyu.github.io/) - Researcher at Kimi
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
@@ -55,6 +57,7 @@ layout: page
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yeying Jin](https://jinyeying.github.io/) - Researcher at Tencent
 - [Ziqi Huang](https://ziqihuangg.github.io/) - Ph.D. student at NTU
+- [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=zh-CN) - Tech Leader at Huawei Foundation Model Department
 - [Wuyang Li](https://wymancv.github.io/wuyang.github.io/) - Researcher at Ant Group
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
@@ -83,8 +86,10 @@ layout: page
 - [Mengzhao Chen](https://chenmnz.github.io/) - Ph.D. student at HKU
 - [Cong Li](https://leesou.github.io/) - Ph.D. student at PKU
 - [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
+- [Weikai Xu](https://weikai-xu.github.io/) - Postdoctoral Researcher at HKUST
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
+- [Luyao Ren](https://luyaor.github.io/) - Researcher at Seed
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 
 ## 🔬 AI for Science
