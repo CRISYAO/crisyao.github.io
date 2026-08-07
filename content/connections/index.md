@@ -94,6 +94,10 @@ layout: page
 - [Luyao Ren](https://luyaor.github.io/) - Head of Infra at NEO Lab
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 
+## 🎯 AI for Decisions
+
+- [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html) - Professor at THU
+
 ## 🔬 AI for Science
 
 - [Rui Jiao](https://jiaor17.github.io/) - Researcher at Anew Labs
