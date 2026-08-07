@@ -15,6 +15,7 @@ layout: page
 - [Jiale Cheng](https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
+- [Yiming Dong](https://scholar.google.com/citations?user=AOYX3WcAAAAJ&hl=en) - Researcher at Qwen
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
@@ -24,14 +25,14 @@ layout: page
 - [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
-- [Hao Li](https://howardli1984.github.io/) - Researcher at QWEN
+- [Hao Li](https://howardli1984.github.io/) - Researcher at Qwen
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
 - [Yong Liu](https://wenweithu.github.io/) - Researcher at ByteDance
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
 - [Xinyin Ma](https://horseee.github.io/) - Researcher at Hunyuan
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
-- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at QWEN
+- [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at Qwen
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
@@ -45,7 +46,7 @@ layout: page
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
 - [Yichi Zhang](https://zycheiheihei.github.io/) - Ph.D. student at THU
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
-- [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at QWEN
+- [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at Qwen
 
 ## 🎨 Multi-modal AI
 
