@@ -19,6 +19,7 @@ layout: page
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
+- [Xiaonan Li](https://leesureman.github.io/) - Researcher at Apple
 - [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
