@@ -50,6 +50,7 @@ layout: page
 ## 🎨 Multi-modal AI
 
 - [Qinyuan Cheng](https://xiami2019.github.io/) - CTO at mosi.ai
+- [Chaoya Jiang](https://faculty.sdu.edu.cn/jiangchaoya/zh_CN/index.htm) - Professor at SDU
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yeying Jin](https://jinyeying.github.io/) - Researcher at Tencent
 - [Ziqi Huang](https://ziqihuangg.github.io/) - Ph.D. student at NTU
