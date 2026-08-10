@@ -82,6 +82,7 @@ layout: page
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder and CEO at Philo AI
 - [Yifei Zhang](https://yifeiacc.github.io/Lab/) - Professor at NWPU
 - [Yifan Zhang](https://yfzhang114.github.io/) - Ph.D. student at CASIA
+- [Zhuoyang Zhao](https://zhuoyangz.com/) - Ph.D. student at MIT
 
 ## 🔧 AI Infrastructure
 
