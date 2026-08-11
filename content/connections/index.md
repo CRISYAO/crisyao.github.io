@@ -113,6 +113,7 @@ layout: page
 
 ## 🤖 Embodied AI
 
+- [Sijie Cheng](https://adacheng.github.io/) - Ph.D. student at THU (also Head of AI at RayNeo)
 - [Sunli Chen](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
