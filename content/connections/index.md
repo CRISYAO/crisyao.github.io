@@ -26,6 +26,7 @@ layout: page
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
 - [Hao Li](https://howardli1984.github.io/) - Researcher at Qwen
+- [Xiaoxi Li](https://xiaoxi-li1.github.io/) - Ph.D. student at RUC
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
 - [Yong Liu](https://wenweithu.github.io/) - Researcher at ByteDance
