@@ -36,6 +36,7 @@ layout: page
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
 - [Shenzhi Wang](https://scholar.google.com/citations?user=Xgt7njgAAAAJ&hl=zh-CN) - Ph.D. student at THU
+- [Zixuan Wang](https://zixuan-wang-dlt.github.io/) - Ph.D. student at Princeton
 - [Yehui Tang](https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=en) - Head of AI Model at Samsung
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
