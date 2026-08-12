@@ -131,7 +131,7 @@ layout: page
 
 - [Haoyi Zhang](https://zhywhite.github.io/) - Ph.D. student at PKU
 
-## 🧮 Theoretical CS / AI Theory
+## Theoretical CS / AI Theory
 
 - [Longhui Yin](https://yinlonghui256.github.io/) - Ph.D. student at THU
 
