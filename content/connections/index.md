@@ -65,6 +65,7 @@ layout: page
 - [Yang Jiao](https://sxjyjay.github.io/) - Researcher at Longcat
 - [Yeying Jin](https://jinyeying.github.io/) - Researcher at Tencent
 - [Junlin Han](https://junlinhan.github.io/) - Researcher at FAIR
+- [Nan Duan](https://nanduan.github.io/) - Deputy Director at JD Future Academy
 - [Ziqi Huang](https://ziqihuangg.github.io/) - Ph.D. student at NTU
 - [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=zh-CN) - Tech Leader at Huawei Foundation Model Department
 - [Wuyang Li](https://wymancv.github.io/wuyang.github.io/) - Researcher at Ant Group
