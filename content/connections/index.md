@@ -41,6 +41,7 @@ layout: page
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
 - [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
+- [Jingzhe Shi](https://jingzheshi.github.io/) - Ph.D. student at Princeton
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
 - [Junyu Luo](https://luo-junyu.github.io/) - Researcher at Kimi
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
