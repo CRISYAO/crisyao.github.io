@@ -101,6 +101,7 @@ layout: page
 - [Weikai Xu](https://weikai-xu.github.io/) - Postdoctoral Researcher at HKUST
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
+- [Zirui Liu](https://zirui.cool/) - Researcher at JD Retail
 - [Luyao Ren](https://luyaor.github.io/) - Head of Infra at NEO Lab
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 
