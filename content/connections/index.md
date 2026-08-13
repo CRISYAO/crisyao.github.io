@@ -50,6 +50,7 @@ layout: page
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
 - [Tianzhu Ye](https://ytianzhu.github.io/) - Researcher at MSRA
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
+- [Yiyuan Yang](https://yyysjz1997.github.io/) - Ph.D. student at Oxford
 - [Yuzi Yan](https://chaojidahoufeng.github.io/) - Researcher at Qwen
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Zheng Zhao](https://zsquaredz.github.io/) - Ph.D. student at Edinburgh
