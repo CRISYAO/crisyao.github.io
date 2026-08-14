@@ -118,6 +118,7 @@ layout: page
 - [Yuyan Ni](https://nyyxxx.github.io/contact.html) - Researcher at ByteDance
 - [Hongteng Xu](https://hongtengxu.github.io/) - Associate Professor at RUC
 - [Nan Xu](https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN) - CEO at ScienceOne AI
+- [Xin Xin](https://amyxin-thu.github.io/) - Ph.D. student at THU
 - [Zizhao Zhang](https://zzz14.github.io/) - Postdoctoral Associate at Cornell
 
 ## 🤖 Embodied AI
