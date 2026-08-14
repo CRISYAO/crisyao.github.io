@@ -109,6 +109,7 @@ layout: page
 ## AI for Decisions
 
 - [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/index.html) - Professor at THU
+- [Yuqi Pan](https://yuqiiip.github.io/) - Ph.D. student at Harvard
 
 ## 🔬 AI for Science
 
