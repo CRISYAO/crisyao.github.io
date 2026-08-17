@@ -12,6 +12,7 @@ layout: page
 
 ## 🤖 LLM & Agent
 
+- [Mouxiang Chen](https://me.keytoix.vip/) - Researcher at Qwen
 - [Jiale Cheng](https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zerui Cheng](https://www.zerui-cheng.com/) - Ph.D. student at Princeton
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
@@ -21,7 +22,6 @@ layout: page
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Jinyi Hu](https://jameshujy.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
-- [Mouxiang Chen](https://me.keytoix.vip/) - Researcher at Qwen
 - [Bingxiang He](https://hbx-hbx.github.io/) - Ph.D. student at THU
 - [Xiaonan Li](https://leesureman.github.io/) - Researcher at Apple
 - [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
