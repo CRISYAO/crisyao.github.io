@@ -126,10 +126,9 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">Oxygen AIGC</div>
-        <div class="tgt-od">多模态生成与理解能力在电商行业的核心技术研究与应用，涵盖虚拟试衣、多模态评测等方向。Oxygen TryOn 支持全品类任意搭，OxyEcomBench 为行业首个电商全链路多角色统一评测基准。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">OxyEcomBench · May 2026</span><br><span class="tgt-meta" style="display:inline-block;">Oxygen TryOn · Jul 2026</span></div>
+        <div class="tgt-od">专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">Oxygen TryOn · arXiv · Jul 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2605.13173" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper2</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">
@@ -142,10 +141,9 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式与 IDGR 判别内化机制，统一检索与排序，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span><br><span class="tgt-meta" style="display:inline-block;">OxygenREC-v2 · Jul 2026</span></div>
+        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
         <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.24255" target="_blank">Paper2</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper</a>
         </div>
       </div>
       <div class="tgt-oc">

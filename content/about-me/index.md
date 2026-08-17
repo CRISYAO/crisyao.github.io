@@ -93,7 +93,7 @@ layout: profile
   <div class="me-sec">
     <div class="me-sl">Mission</div>
     <div class="me-mission">
-      <strong>Talent is the ultimate driver of productivity.</strong> Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
+      <strong>Talent is the ultimate productivity.</strong> Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
     </div>
   </div>
 
@@ -106,7 +106,7 @@ layout: profile
       <div class="exp-content">
         <div class="company">JD.com</div>
         <h3>TGT Recruitment Lead</h3>
-        <div class="desc">Leading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
+        <div class="desc">Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.</div>
         <div class="exp-tags">
           <span class="exp-tag jd">#LLM</span>
           <span class="exp-tag jd">#Multimodal-AI</span>
@@ -151,12 +151,12 @@ layout: profile
     <div class="edu-row">
       <span class="edu-year">2014 – 2018</span>
       <span class="edu-name">Xi'an University of Architecture and Technology</span>
-      <span class="edu-desc">B.E. in Mechatronics Engineering</span>
+      <span class="edu-desc">Bachelor's Degree</span>
     </div>
     <div class="edu-row">
       <span class="edu-year">2011 – 2014</span>
-      <span class="edu-name">Middle School Attached to Northwestern Polytechnical University</span>
-      <span class="edu-desc">High School</span>
+      <span class="edu-name">Affiliated High School of NWPU</span>
+      <span class="edu-desc">High School Diploma</span>
     </div>
   </div>
 
