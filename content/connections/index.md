@@ -21,8 +21,8 @@ layout: page
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Jinyi Hu](https://jameshujy.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
-- [Bingxiang He](https://hbx-hbx.github.io/) - Ph.D. student at THU
 - [Mouxiang Chen](https://me.keytoix.vip/) - Researcher at Qwen
+- [Bingxiang He](https://hbx-hbx.github.io/) - Ph.D. student at THU
 - [Xiaonan Li](https://leesureman.github.io/) - Researcher at Apple
 - [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
