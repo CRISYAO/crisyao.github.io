@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/Users/yaochaohao.1/tgt-recruiter-page",
+	"sourceRoot": "/Users/yaochaohao.1/.joyclaw/workspace/crisyao.github.io",
 	"sources": [
 		"themes/FixIt/assets/css/style.scss",
 		"themes/FixIt/assets/css/_variables.scss",

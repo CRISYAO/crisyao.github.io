@@ -120,9 +120,10 @@
  &lt;/div&gt;
  &lt;div class="tgt-oc"&gt;
  &lt;div class="tgt-on"&gt;Oxygen AIGC&lt;/div&gt;
- &lt;div class="tgt-od"&gt;专为虚拟试衣打造的 Fashion-Native 基础大模型，支持全品类任意搭（衣物/鞋履/包包/饰品），真实场景图精准还原纹理与廓形。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;Oxygen TryOn · arXiv · Jul 2026&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;多模态生成与理解能力在电商行业的核心技术研究与应用，涵盖虚拟试衣、多模态评测等方向。Oxygen TryOn 支持全品类任意搭，OxyEcomBench 为行业首个电商全链路多角色统一评测基准。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;OxyEcomBench · May 2026&lt;/span&gt;&lt;br&gt;&lt;span class="tgt-meta" style="display:inline-block;"&gt;Oxygen TryOn · Jul 2026&lt;/span&gt;&lt;/div&gt;
  &lt;div class="tgt-ol"&gt;
- &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank"&gt;Paper&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2605.13173" target="_blank"&gt;Paper1&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank"&gt;Paper2&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="tgt-oc"&gt;
@@ -135,9 +136,10 @@
  &lt;/div&gt;
  &lt;div class="tgt-oc"&gt;
  &lt;div class="tgt-on"&gt;OxygenREC&lt;/div&gt;
- &lt;div class="tgt-od"&gt;电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式，显著提升推荐准确性与多样性。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;🏆 SIGIR 2026 · Apr 2026&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="tgt-od"&gt;电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式与 IDGR 判别内化机制，统一检索与排序，显著提升推荐准确性与多样性。&lt;br&gt;&lt;span class="tgt-meta" style="margin-top:6px;display:inline-block;"&gt;🏆 SIGIR 2026 · Apr 2026&lt;/span&gt;&lt;br&gt;&lt;span class="tgt-meta" style="display:inline-block;"&gt;OxygenREC-v2 · Jul 2026&lt;/span&gt;&lt;/div&gt;
  &lt;div class="tgt-ol"&gt;
- &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank"&gt;Paper&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank"&gt;Paper1&lt;/a&gt;
+ &lt;a class="tgt-lnk p" href="https://arxiv.org/abs/2607.24255" target="_blank"&gt;Paper2&lt;/a&gt;
  &lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="tgt-oc"&gt;
@@ -400,7 +402,7 @@ window.addEventListener('load', () =&gt; {
  &lt;div class="me-sec"&gt;
  &lt;div class="me-sl"&gt;Mission&lt;/div&gt;
  &lt;div class="me-mission"&gt;
- &lt;strong&gt;Talent is the ultimate productivity.&lt;/strong&gt; Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
+ &lt;strong&gt;Talent is the ultimate driver of productivity.&lt;/strong&gt; Bridging the gap between cutting-edge academic research and large-scale industrial application by scouting "Tech Geniuses" to redefine the future of retail technology.
  &lt;/div&gt;
  &lt;/div&gt;
 
@@ -413,7 +415,7 @@ window.addEventListener('load', () =&gt; {
  &lt;div class="exp-content"&gt;
  &lt;div class="company"&gt;JD.com&lt;/div&gt;
  &lt;h3&gt;TGT Recruitment Lead&lt;/h3&gt;
- &lt;div class="desc"&gt;Spearheading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.&lt;/div&gt;
+ &lt;div class="desc"&gt;Leading the "Tech Genius Team" program to acquire top-tier global talent in LLM, Multi-modal AI, and AI Infrastructure.&lt;/div&gt;
  &lt;div class="exp-tags"&gt;
  &lt;span class="exp-tag jd"&gt;#LLM&lt;/span&gt;
  &lt;span class="exp-tag jd"&gt;#Multimodal-AI&lt;/span&gt;
@@ -458,12 +460,12 @@ window.addEventListener('load', () =&gt; {
  &lt;div class="edu-row"&gt;
  &lt;span class="edu-year"&gt;2014 – 2018&lt;/span&gt;
  &lt;span class="edu-name"&gt;Xi'an University of Architecture and Technology&lt;/span&gt;
- &lt;span class="edu-desc"&gt;Bachelor's Degree&lt;/span&gt;
+ &lt;span class="edu-desc"&gt;B.E. in Mechatronics Engineering&lt;/span&gt;
  &lt;/div&gt;
  &lt;div class="edu-row"&gt;
  &lt;span class="edu-year"&gt;2011 – 2014&lt;/span&gt;
- &lt;span class="edu-name"&gt;Affiliated High School of NWPU&lt;/span&gt;
- &lt;span class="edu-desc"&gt;High School Diploma&lt;/span&gt;
+ &lt;span class="edu-name"&gt;Middle School Attached to Northwestern Polytechnical University&lt;/span&gt;
+ &lt;span class="edu-desc"&gt;High School&lt;/span&gt;
  &lt;/div&gt;
  &lt;/div&gt;
 
@@ -525,6 +527,7 @@ window.addEventListener('load', () =&gt; {
 &lt;li&gt;&lt;a href="https://jameshujy.github.io/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Jinyi Hu&lt;/a&gt; - Researcher at DeepSeek&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://haohaoqian.github.io/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Qianyue Hao&lt;/a&gt; - Ph.D. student at THU&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hbx-hbx.github.io/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Bingxiang He&lt;/a&gt; - Ph.D. student at THU&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://me.keytoix.vip/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Mouxiang Chen&lt;/a&gt; - Researcher at Qwen&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://leesureman.github.io/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Xiaonan Li&lt;/a&gt; - Researcher at Apple&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://scholar.google.com/citations?user=mZBzFC4AAAAJ&amp;amp;hl=en" target="_blank" rel="external nofollow noopener noreferrer"&gt;Nian Li&lt;/a&gt; - Researcher at Tencent&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://libinghui0000.github.io/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Binghui Li&lt;/a&gt; - Ph.D. student at PKU&lt;/li&gt;
@@ -664,47 +667,4 @@ window.addEventListener('load', () =&gt; {
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;Listed in alphabetical order by family name.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Last updated: August 2026&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Steam Profile</title><link>https://crisyao.github.io/steam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://crisyao.github.io/steam/</guid><description>&lt;h1 class="heading-element" id="-steam-profile"&gt;&lt;span&gt;🎮 Steam Profile&lt;/span&gt;
- &lt;a href="#-steam-profile" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h1&gt;&lt;p&gt;欢迎来到我的 Steam 个人主页！&lt;/p&gt;
-&lt;h2 class="heading-element" id="-访问我的-steam-资料"&gt;&lt;span&gt;🔗 访问我的 Steam 资料&lt;/span&gt;
- &lt;a href="#-%e8%ae%bf%e9%97%ae%e6%88%91%e7%9a%84-steam-%e8%b5%84%e6%96%99" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Steam ID&lt;/strong&gt;: &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;CRISYAO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Profile URL&lt;/strong&gt;: &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;https://steamcommunity.com/id/CRISYAO/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;提示：你可以通过 Steam 客户端或网页端查看我的游戏库、成就和社区动态。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 class="heading-element" id="-游戏偏好"&gt;&lt;span&gt;🏆 游戏偏好&lt;/span&gt;
- &lt;a href="#-%e6%b8%b8%e6%88%8f%e5%81%8f%e5%a5%bd" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;我是一个热爱游戏的开发者，喜欢探索各种类型的游戏：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;策略游戏&lt;/strong&gt;：文明系列、星际争霸、全面战争&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;独立游戏&lt;/strong&gt;：Hades、Stardew Valley、Celeste&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多人合作&lt;/strong&gt;：Among Us、Valorant、CS:GO&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RPG&lt;/strong&gt;：巫师系列、上古卷轴、最终幻想&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 class="heading-element" id="-游戏成就"&gt;&lt;span&gt;🎯 游戏成就&lt;/span&gt;
- &lt;a href="#-%e6%b8%b8%e6%88%8f%e6%88%90%e5%b0%b1" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;在 Steam 上，我追求的是游戏的乐趣和挑战，而不是单纯的成就收集。每个成就背后都是一段有趣的游戏体验。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 class="heading-element" id="-连接"&gt;&lt;span&gt;🤝 连接&lt;/span&gt;
- &lt;a href="#-%e8%bf%9e%e6%8e%a5" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;如果你也是游戏爱好者，欢迎在 Steam 上添加我为好友，一起组队开黑！&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Steam ID&lt;/strong&gt;: &lt;code&gt;CRISYAO&lt;/code&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注：此页面为个人 Steam 资料展示页，实际游戏数据请访问 &lt;a href="https://steamcommunity.com/id/CRISYAO/" target="_blank" rel="external nofollow noopener noreferrer"&gt;Steam 官方页面&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;em&gt;Last updated: August 2026&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
