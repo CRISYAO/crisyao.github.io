@@ -30,7 +30,7 @@ layout: page
 - [Xiaonan Li](https://leesureman.github.io/) - Researcher at Apple
 - [Xiaoxi Li](https://xiaoxi-li1.github.io/) - Ph.D. student at RUC
 - [Weiwen Liu](https://wwliu555.github.io/) - Associate Professor at SJTU
-- [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Incoming Researcher at JD Retail
+- [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Researcher at JD Retail
 - [Yong Liu](https://wenweithu.github.io/) - Researcher at ByteDance
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
 - [Junyu Luo](https://luo-junyu.github.io/) - Researcher at Kimi
