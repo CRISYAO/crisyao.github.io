@@ -158,10 +158,11 @@ date: 2026-03-30
       </div>
       <div class="tgt-oc">
         <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.5k</span></div>
-        <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。</div>
+        <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SOSP 2026 · Sep 2026</span></div>
         <div class="tgt-ol">
           <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">Paper</a>
+          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">Paper1</a>
+          <a class="tgt-lnk p" href="https://zirui.cool/assets/pdf/Janus_SOSP26.pdf" target="_blank">Paper2</a>
         </div>
       </div>
       <div class="tgt-oc">
