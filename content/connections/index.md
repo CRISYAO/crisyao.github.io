@@ -127,9 +127,9 @@ layout: page
 - [Sunli Chen](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Sijie Cheng](https://adacheng.github.io/) - Ph.D. student at THU (also Head of AI at RayNeo)
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
+- [Yiran Qin](https://iranqin.github.io/) - Director of Data and Algorithm at NeoteAI
 - [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
-- [Yiran Qin](https://iranqin.github.io/) - Director of Data and Algorithm at NeoteAI
 - [Chao Yu](https://zoeyuchao.github.io/) - Assistant Professor at THU (also Chief Scientist at Striding AI)
 
 ## 🧩 AI Chips
@@ -144,5 +144,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: August 2026*
+ *Last updated: September 2026*
 
