@@ -42,6 +42,7 @@ layout: page
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
 - [Yehui Tang](https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=en) - Head of AI Model at Samsung
 - [Shangqing Tu](https://shangqingtu.github.io/) - Ph.D. student at THU
+- [Hengrui Wang](https://hengrui1230.github.io/) - Researcher at DeepSeek
 - [Hongru Wang](https://hrwise-nlp.github.io/) - Postdoc at Edinburgh
 - [Shenzhi Wang](https://scholar.google.com/citations?user=Xgt7njgAAAAJ&hl=zh-CN) - Ph.D. student at THU
 - [Zixuan Wang](https://zixuan-wang-dlt.github.io/) - Ph.D. student at Princeton
