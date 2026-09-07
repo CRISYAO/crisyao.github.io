@@ -132,6 +132,7 @@ layout: page
 - [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
 - [Chao Yu](https://zoeyuchao.github.io/) - Assistant Professor at THU (also Chief Scientist at Striding AI)
+- [Wanpeng Zhang](https://wanpeng.me/) - Partner and Head of Post-Training at BeingBeyond (具身智能)
 
 ## 🧩 AI Chips
 
