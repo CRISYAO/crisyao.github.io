@@ -86,6 +86,7 @@ layout: page
 - [Dinghao Xi](https://dinghaoxi.github.io/) - Assistant Professor at SUFE
 - [Zhuofan Xia](https://www.zhuofanxia.xyz/) - Researcher at JD Retail
 - [Jiazheng Xu](https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN) - Ph.D. student at THU
+- [Chongjie Ye](https://hugoycj.github.io/) - Researcher at World Labs
 - [Ran Yi](https://yiranran.github.io/) - Associate Professor at SJTU
 - [Tan Yue](https://tanyuepage.github.io/) - Associate Researcher at PKU
 - [Jiasheng Zhang](https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/) - Founder and CEO at Philo AI
