@@ -72,6 +72,7 @@ layout: page
 - [Wuyang Li](https://wymancv.github.io/wuyang.github.io/) - Researcher at Ant Group
 - [Yunxin Li](https://yunxinli.github.io/) - Associate Professor at HIT
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
+- [Yiwei Ma](https://xmu-xiaoma666.github.io/) - Researcher at Dots studio
 - [Zanlin Ni](https://nzl-thu.github.io/) - Ph.D. student at THU
 - [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
