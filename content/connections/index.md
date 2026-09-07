@@ -22,6 +22,7 @@ layout: page
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
 - [Bingxiang He](https://hbx-hbx.github.io/) - Ph.D. student at THU
+- [Feng Hong](https://feng-hong.github.io/research/) - Researcher at Qwen Business Unit
 - [Jinyi Hu](https://jameshujy.github.io/) - Researcher at DeepSeek
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
