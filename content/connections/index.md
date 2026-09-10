@@ -103,7 +103,6 @@ layout: page
 - [Jingwei Cai](https://jingweicai.github.io/) - Researcher at Seed
 - [Mengzhao Chen](https://chenmnz.github.io/) - Ph.D. student at HKU
 - [Cong Li](https://leesou.github.io/) - Ph.D. student at PKU
-- [Zirui Liu](https://zirui.cool/) - Researcher at JD Retail
 - [Luyao Ren](https://luyaor.github.io/) - Head of Infra at NEO Lab
 - [Hengrui Wang](https://hengrui1230.github.io/) - Researcher at DeepSeek
 - [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
