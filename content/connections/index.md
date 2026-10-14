@@ -27,6 +27,7 @@ layout: page
 - [Binghui Li](https://libinghui0000.github.io/) - Ph.D. student at PKU
 - [Hao Li](https://cpsxhao.github.io/) - Researcher at DeepSeek
 - [Hao Li](https://howardli1984.github.io/) - Researcher at Qwen
+- [Kuan Li](https://likuan.github.io/) - Founder of UniPat AI
 - [Nian Li](https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en) - Researcher at Tencent
 - [Xiaonan Li](https://leesureman.github.io/) - Researcher at Apple
 - [Xiaoxi Li](https://xiaoxi-li1.github.io/) - Ph.D. student at RUC
@@ -149,5 +150,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: September 2026*
+ *Last updated: October 2026*
 
