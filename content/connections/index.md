@@ -131,6 +131,7 @@ layout: page
 
 - [Sunli Chen](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
 - [Sijie Cheng](https://adacheng.github.io/) - Ph.D. student at THU (also Head of AI at RayNeo)
+- [Yanjiang Guo](https://robert-gyj.github.io/) - Ph.D. student at THU
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 - [Yiran Qin](https://iranqin.github.io/) - Director of Data and Algorithm at NeoteAI
 - [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
