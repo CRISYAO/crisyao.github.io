@@ -81,7 +81,7 @@ layout: page
 - [Hao Shao](https://hao-shao.com/) - Researcher at Seed
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
 - [Lichen Sun](https://eeeeeerickkk.github.io/) - Ph.D. student at UMass
-- [Yake Wei](https://echo0409.github.io/) - Incoming Lecturer at RUC
+- [Yake Wei](https://echo0409.github.io/) - Lecturer at RUC
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Jialong Wu](https://manchery.github.io/) - Co-founder and CRO at MirroS
 - [Xiaoyang Wu](https://xywu.me/) - Ph.D. student at HKU
@@ -109,7 +109,7 @@ layout: page
 - [Tuowei Wang](https://pairshoe.github.io/) - Co-Founder and CEO at OmniMind
 - [Lixue Xia](https://baike.baidu.com/en/item/Lixue%20Xia/3305800) - Co-founder and CEO at Infinite AI
 - [Weikai Xu](https://weikai-xu.github.io/) - Postdoctoral Researcher at HKUST
-- [Peiqi Yin](https://yinpeiqi.github.io/) - Incoming Research Scientist at NVIDIA
+- [Peiqi Yin](https://yinpeiqi.github.io/) - Researcher at NVIDIA
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
 
 ## AI for Decisions
@@ -151,5 +151,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: October 2026*
+ *Last updated: October 21, 2026*
 
