@@ -110,7 +110,7 @@ layout: page
 - [Weikai Xu](https://weikai-xu.github.io/) - Postdoctoral Researcher at HKUST
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Researcher at NVIDIA
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
-- [Chenyang Zhao](https://zhaochenyang20.github.io/Chayenne/) - Founding member of RadixArk
+- [Chenyang Zhao](https://zhaochenyang20.github.io/Chayenne/) - Founding member at RadixArk
 
 ## AI for Decisions
 
