@@ -110,6 +110,7 @@ layout: page
 - [Weikai Xu](https://weikai-xu.github.io/) - Postdoctoral Researcher at HKUST
 - [Peiqi Yin](https://yinpeiqi.github.io/) - Researcher at NVIDIA
 - [Wentao Zhang](https://zwt233.github.io/) - Assistant Professor at PKU
+- [Chenyang Zhao](https://zhaochenyang20.github.io/Chayenne/) - Founding member of RadixArk
 
 ## AI for Decisions
 
@@ -150,5 +151,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: October 21, 2026*
+ *Last updated: October 22, 2026*
 
