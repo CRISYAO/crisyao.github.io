@@ -83,6 +83,7 @@ layout: page
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Hao Shao](https://hao-shao.com/) - Researcher at Seed
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
+- [Qingyi Si](https://phoebussi.github.io/) - Researcher at JD Future Academy
 - [Yake Wei](https://echo0409.github.io/) - Lecturer at RUC
 - [Chengyue Wu](https://hills-code.github.io/) - Ph.D. student at HKU
 - [Jialong Wu](https://manchery.github.io/) - Co-founder and CRO at MirroS
