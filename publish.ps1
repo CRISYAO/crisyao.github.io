@@ -19,16 +19,27 @@ function Stop-Here([string]$text) {
     exit 1
 }
 
+# 国内访问 GitHub 偶尔会 "Connection was reset"，自动重试几次再报错
+function Invoke-GitRetry([scriptblock]$Action, [string]$What, [int]$Times = 4) {
+    for ($i = 1; $i -le $Times; $i++) {
+        & $Action
+        if ($LASTEXITCODE -eq 0) { return $true }
+        if ($i -lt $Times) {
+            Write-Host "        $What 没成功（第 $i 次），8 秒后自动重试…" -ForegroundColor Yellow
+            Start-Sleep -Seconds 8
+        }
+    }
+    return $false
+}
+
 # ---- 0/4 先摸清和 GitHub 的差距 -------------------------------------------
 Write-Host ''
 Write-Host '  [0/4] 联系 GitHub' -ForegroundColor Cyan
 
-git fetch --quiet origin
-if ($LASTEXITCODE -ne 0) {
+if (-not (Invoke-GitRetry { git fetch --quiet origin } '连接 GitHub')) {
     Write-Host '        连不上 GitHub。检查网络（公司网可能要开代理或换热点）后再试。' -ForegroundColor Red
     exit 1
 }
-
 $behind = [int](git rev-list --count 'HEAD..origin/main')
 
 # ---- 1/4 提交本机改动 ------------------------------------------------------
@@ -109,8 +120,7 @@ if ($ahead -eq 0) {
     Write-Host '        没有待推送的提交。' -ForegroundColor DarkGray
 }
 else {
-    git push
-    if ($LASTEXITCODE -ne 0) {
+    if (-not (Invoke-GitRetry { git push } '推送')) {
         Write-Host ''
         Write-Host '  推送失败。多半是登录或网络问题：' -ForegroundColor Yellow
         Write-Host '    · 弹出 GitHub 登录窗口 → 登录并授权即可，只有第一次需要'

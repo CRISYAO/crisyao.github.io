@@ -16,11 +16,27 @@ die() {
     exit 1
 }
 
+# 国内访问 GitHub 偶尔会 "Connection was reset"，自动重试几次再报错
+retry() {
+    local what="$1"; shift
+    local i
+    for i in 1 2 3 4; do
+        if "$@"; then
+            return 0
+        fi
+        if [ "$i" -lt 4 ]; then
+            echo "        ${what} 没成功（第 ${i} 次），8 秒后自动重试…"
+            sleep 8
+        fi
+    done
+    return 1
+}
+
 # ---- 0/4 先摸清和 GitHub 的差距 -------------------------------------------
 echo ""
 echo "  [0/4] 联系 GitHub"
 
-if ! git fetch --quiet origin; then
+if ! retry "连接 GitHub" git fetch --quiet origin; then
     echo "        连不上 GitHub。检查网络后再试。"
     exit 1
 fi
@@ -92,7 +108,7 @@ AHEAD=$(git rev-list --count origin/main..HEAD)
 if [ "$AHEAD" -eq 0 ]; then
     echo "        没有待推送的提交。"
 else
-    if ! git push; then
+    if ! retry "推送" git push; then
         echo ""
         echo "  推送失败。多半是登录或网络问题："
         echo "    · 弹出 GitHub 登录窗口 → 登录并授权即可，只有第一次需要"
