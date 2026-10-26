@@ -60,3 +60,21 @@ jobs:
           content-filepath: radar-report.txt
           labels: |
             talent-radar
+
+      - name: Push report to WeChat via ServerChan
+        if: steps.check.outputs.changed == 'true'
+        env:
+          SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        run: |
+          if [ -z "$SENDKEY" ]; then
+            echo "[!] SERVERCHAN_SENDKEY 未配置,跳过微信推送(报告仍在 Issue 里)"
+            exit 0
+          fi
+          # ServerChan 接口有 5 分钟缓存,标题带日期保证每天的新报告不被缓存吞掉
+          TITLE="🔔 TGT 人才雷达: ${{ steps.check.outputs.changes }} 位人选有动态 ($(date +%m-%d))"
+          # 去掉首行 CHANGES 计数行,去掉空行,压缩为 markdown 段落
+          BODY=$(tail -n +2 radar-report.txt | sed '/^$/d' | head -c 30000)
+          curl -s -X POST "https://sctapi.ftqq.com/${SENDKEY}.send" \
+            --data-urlencode "title=${TITLE}" \
+            --data-urlencode "desp=${BODY}" \
+            --max-time 30 > /dev/null && echo "[√] 微信推送完成"
