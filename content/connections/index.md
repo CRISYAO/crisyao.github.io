@@ -76,7 +76,7 @@ layout: page
 - [Yong Liu](https://yongliu20.github.io/) - Researcher at JD Retail
 - [Yiwei Ma](https://xmu-xiaoma666.github.io/) - Researcher at Dots studio
 - [Zanlin Ni](https://nzl-thu.github.io/) - Ph.D. student at THU
-- [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher
+- [Yifan Pu](https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en) - Researcher at Alibaba Token Hub
 - [Yu Shang](https://shangy21.github.io/) - Researcher at Tongyi Lab
 - [Hao Shao](https://hao-shao.com/) - Researcher at Seed
 - [Chenyang Si](https://chenyangsi.top/) - Associate Professor at NJU
@@ -151,5 +151,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: October 23, 2026*
+ *Last updated: October 26, 2026*
 
