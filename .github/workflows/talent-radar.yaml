@@ -1,0 +1,62 @@
+name: Talent Radar
+
+# 人选动态雷达:每天 06:30 (UTC) = 北京时间 14:30 扫描 connections 页上
+# 所有人选的公开主页,与上次快照比对,有实质变化时自动建 Issue 提醒。
+# 无变化时静默退出,不会产生空提交/空 Issue。
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}  # 支持手动触发,便于调试
+
+permissions:
+  contents: write        # 需要更新快照 data/talent-radar/snapshot.json
+  issues: write         # 需要创建告警 Issue
+
+concurrency:
+  group: talent-radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run radar scan
+        run: python3 scripts/talent-radar/radar.py > radar-report.txt
+
+      - name: Check for changes
+        id: check
+        run: |
+          CHANGES=$(head -1 radar-report.txt | sed 's/CHANGES: //')
+          echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
+          if [ "$CHANGES" -gt 0 ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated snapshot
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/talent-radar/snapshot.json
+          git commit -m "chore(talent-radar): update snapshot [skip ci]"
+          git push
+
+      - name: Create alert issue
+        if: steps.check.outputs.changed == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔔 Talent Radar: ${{ steps.check.outputs.changes }} 位人选主页有变化"
+          content-filepath: radar-report.txt
+          labels: |
+            talent-radar

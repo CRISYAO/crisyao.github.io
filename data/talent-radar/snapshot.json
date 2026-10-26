@@ -1,0 +1,1508 @@
+{
+ "generated_at": "2026-10-26T13:46:06+08:00",
+ "people": [
+  {
+   "name": "Mouxiang Chen",
+   "url": "https://me.keytoix.vip/",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Mouxiang Chen",
+    "meta": "",
+    "h1": [
+     "Mouxiang Chen"
+    ],
+    "intro": "Mouxiang Chen Zhejiang University\"/> Zhejiang University\"/> Zhejiang University\"> About Me I am the last year Ph.D student in College of Computer Science and Technology, Zhejiang University , advised by Jianling Sun . I am honored to have the opportunity to collaborate with Chenghao Liu and Zhongxin Liu . Currently I am an intern in Alibaba Qwen (通义千问) group. My research interests are as follows: Large generative models, including LLMs [9-11], prompting in NLP [6] and graph [5], and diffusion mo"
+   }
+  },
+  {
+   "name": "Jiale Cheng",
+   "url": "https://scholar.google.com/citations?user=WcAly8wAAAAJ&hl=zh-CN",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Zerui Cheng",
+   "url": "https://www.zerui-cheng.com/",
+   "desc": "Ph.D. student at Princeton",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Zerui (Marco) Cheng",
+    "meta": "",
+    "h1": [
+     "Search",
+     "Recent Highlights",
+     "Papers",
+     "Contact"
+    ],
+    "intro": "Zerui (Marco) Cheng Zerui Cheng (程泽瑞) Ph.D. Candidate at Princeton Univ., LLM and AI Researcher Princeton University Evaluating AI. Generating Data. Scaling Intelligence. I am Zerui Cheng (程泽瑞), a Ph.D. candidate at Princeton University advised by Prof. Pramod Viswanath . My research focuses on Evaluation of LLMs and Agents and Synthetic Data , two pillars for building self-evolving agents for long-horizon tasks. I was previously a Quant Research Intern at Citadel Securities , working on AI agen"
+   }
+  },
+  {
+   "name": "Sunhao Dai",
+   "url": "https://kid-22.github.io/",
+   "desc": "Researcher at Ant Group",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Sunhao Dai's Homepage",
+    "meta": "Sunhao Dai, PhD student in Renmin University of China. Information Retrieval, Recommender System, Large Language Models.",
+    "h1": [],
+    "intro": "Sunhao Dai's Homepage News Sunhao Dai (戴孙浩) Ph.D. Student IIR Lab Gaoling School of Artificial Intelligence Renmin University of China Renmin University of China, No. 59 Zhongguancun Street, Haidian District, Beijing, China, 100872 Email: sunhaodai [at] ruc.edu.cn [Google Scholar] [DBLP] [GitHub] [LinkedIn] I am a fifth-year Ph.D. student at Intelligent Information Retrieval Lab ( IIR Lab ) from the Gaoling School of Artificial Intelligence (GSAI), Renmin University of China (RUC), supervised by"
+   }
+  },
+  {
+   "name": "Guanting Dong",
+   "url": "https://dongguanting.github.io/",
+   "desc": "Ph.D. student at RUC",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Guanting Dong - Homepage",
+    "meta": "",
+    "h1": [
+     "About Me",
+     "🔥 News",
+     "📖 Education",
+     "💻 Research Experience"
+    ],
+    "intro": "Guanting Dong - Homepage Guanting Dong (董冠霆) Ph.D. Student @ GSAI, RUC Email X GitHub Google Scholar DBLP ORCID Xiaohongshu WeChat Agentic RL; Deep Search Agent; LLM Alignment Beijing, China Renmin University of China Email X LinkedIn DBLP Github Xiaohongshu WeChat Google Scholar ORCID Copy WeChat ID About Me I am currently a 2nd-year Ph.D. student at the Gaoling School of Artificial Intelligence , Renmin University of China , fortunate to be co-advised by Prof. Zhicheng Dou and Prof. Jirong Wen"
+   }
+  },
+  {
+   "name": "Yiming Dong",
+   "url": "https://scholar.google.com/citations?user=AOYX3WcAAAAJ&hl=en",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Weihua Du",
+   "url": "https://stiglidu.github.io/",
+   "desc": "Ph.D. student at CMU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Weihua Du",
+    "meta": "The personal academic website of Weihua Du.",
+    "h1": [
+     "Weihua Du 杜伟桦 (read as /ˈweɪˌhwɑː duː/)"
+    ],
+    "intro": "Weihua Du GHC 6711, LTI Carnegie Mellon University weihuad [at] cs.cmu.edu Hi! I’m a third-year Ph.D. student at Language Technologies Institute , Carnegie Mellon University , where I’m fortunate to be co-advised by Prof. Yiming Yang and Prof. Sean Welleck . Before CMU, I earned my bachelor’s degree in Computer Science and Technology from IIIS , Tsinghua University ( Yao Class ), where I had the opportunity to work with Prof. Yi Wu . As an undergrad, I also visited MIT and worked with Prof. Josh"
+   }
+  },
+  {
+   "name": "Yuxian Gu",
+   "url": "https://t1101675.github.io/",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "About me - Yuxian Gu",
+    "meta": "",
+    "h1": [
+     "About me",
+     "Education",
+     "Publications",
+     "Services"
+    ],
+    "intro": "About me - Yuxian Gu Yuxian Gu Researcher at DeepSeek Follow Beijing, China Email Github Google Scholar I am a researcher at DeepSeek. I received a PhD in computer science from Tsinghua University, advised by Prof. Minlie Huang . My research is dedicated to enhancing the efficiency of Large Language Models (LLMs) across their entire lifecycle, encompassing pre-training, downstream adaptation, and inference. Recently, my work tackles this challenge through three primary research thrusts: Data Cur"
+   }
+  },
+  {
+   "name": "Qianyue Hao",
+   "url": "https://haohaoqian.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Qianyue Hao's Homepage",
+    "meta": "Home page of Qianyue Hao",
+    "h1": [
+     "Qianyue Hao (郝千越)"
+    ],
+    "intro": "Qianyue Hao's Homepage Qianyue Hao (郝千越) Ph.D. Candidate, Department of Electronic Engineering , Tsinghua University Email: haoqianyue@hotmail.com CV: [English] [Chinese] [Google Scholar] [ResearchGate] Biography I am a fourth-year Ph.D. student at the Department of Electronic Engineering , Tsinghua University , advised by Prof. Yong Li and Prof. Jian Yuan . My research interests lie in Reinforcement Learning (RL) and Large Language Models (LLMs) . Previously, I received my B.E. degree from the "
+   }
+  },
+  {
+   "name": "Bingxiang He",
+   "url": "https://hbx-hbx.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Bingxiang He - Homepage",
+    "meta": "",
+    "h1": [
+     "👋 About Me",
+     "🌟 News",
+     "📝 Publications",
+     "📖 Educations"
+    ],
+    "intro": "Bingxiang He - Homepage Bingxiang He Tsinghua University PhD candidate@TsinghuaNLP Beijing, China Email 𝕏 Twitter DBLP Github Google Scholar 𝕏 👋 About Me Hi! I am a third-year PhD student at Tsinghua University , majoring in Computer Science and Technology. I am a member of THUNLP , advised by Prof. Zhiyuan Liu . I received my bachelor’s degree with honors from Tsinghua University in June 2024. My research interests lie in natural language processing, with a focus on alignment, reinforcement lea"
+   }
+  },
+  {
+   "name": "Feng Hong",
+   "url": "https://feng-hong.github.io/research/",
+   "desc": "Researcher at Qwen Business Unit",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Feng Hong (洪峰)",
+    "meta": "",
+    "h1": [
+     "Feng Hong 「洪峰」"
+    ],
+    "intro": "Feng Hong (洪峰) News 2026 2 papers are accepted to NeurIPS 2026 . 1 paper is accepted to TMLR 2026 . 1 paper is accepted to CVPR 2026 . 2 papers are accepted to ICLR 2026 , including 1 Oral . 1 paper is accepted to MLJ 2026 . 2025 1 paper is accepted to NeurIPS 2025 ER Workshop Spotlight . 2 papers are accepted to NeurIPS 2025 . 1 paper is accepted to ICCV 2025 . 1 paper is accepted to MLJ 2025 . 1 paper is accepted to IJCAI 2025 GAAMAL Workshop . 2024 1 paper is accepted to NeurIPS 2024 . 1 pape"
+   }
+  },
+  {
+   "name": "Jinyi Hu",
+   "url": "https://jameshujy.github.io/",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Jinyi Hu",
+    "meta": "",
+    "h1": [],
+    "intro": "Jinyi Hu Jinyi (James) Hu I am a researcher at DeepSeek AI . I received my Ph.D. from the THUNLP Lab at Tsinghua University, advised by Prof. Maosong Sun . Previously, I spent six wonderful months as a visiting student at MIT Han Lab , advised by Prof. Song Han and Yao Lu . I also interned at ByteDance Seed, working with Mingxuan Wang . During my undergraduate studies, I interned at Mila Québec, advised by Jian Tang , and at Alibaba DAMO Academy, advised by Boxing Chen . Please feel free to reac"
+   }
+  },
+  {
+   "name": "Binghui Li",
+   "url": "https://libinghui0000.github.io/",
+   "desc": "Ph.D. student at PKU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "About me - Binghui Li’s Homepage",
+    "meta": "",
+    "h1": [
+     "About me",
+     "Education",
+     "Publications & Preprints",
+     "Invited Talks"
+    ],
+    "intro": "About me - Binghui Li’s Homepage Binghui Li (李柄辉) A Ph.D. student at PKU Follow Beijing, China Email Google Scholar My name is Binghui Li. I am a third-year Ph.D. student in The Center for Machine Learning Research (CMLR) , Peking University, where I am extremely fortunate to be advised by Prof. Liwei Wang and Prof. Lei Wu . I am also pleased to have worked closely with Prof. Yuanzhi Li and Prof. Ruoyu Sun . Before joining CMLR, I received my Bachelor’s degree in Intelligence Science and Technol"
+   }
+  },
+  {
+   "name": "Hao Li",
+   "url": "https://cpsxhao.github.io/",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Hao Li",
+    "meta": "",
+    "h1": [
+     "Hao Li （李豪）"
+    ],
+    "intro": "Hao Li About Publications Hao Li （李豪） Researcher , DeepSeek AI Email: haoli at link dot cuhk dot edu dot hk; haoli at deepseek dot com Github: https://github.com/cpsxhao I am a researcher at DeepSeek AI , focusing on building AGI. I graduated from the MMLab of the Chinese University of Hong Kong, advised by Professor Xiaogang Wang and Professor Hongsheng Li . I obtained my bachelor's degree from Tsinghua University, majoring in Electronic Engineering and double-majoring in Economics. I spent a l"
+   }
+  },
+  {
+   "name": "Hao Li",
+   "url": "https://howardli1984.github.io/",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Hao Li - Homepage",
+    "meta": "",
+    "h1": [
+     "🔥 News",
+     "📝 Selected Publications",
+     "🎖 Honors and Awards",
+     "🎤 Invited Talks"
+    ],
+    "intro": "Hao Li - Homepage Hao Li Peking University Here lies a soul yearning to leave a mark. To achieve, to matter, to prove this life was not lived in vain. Beijing, China Email Github Google Scholar Hi there! I am Hao Li (李昊 in Chinese), a graduated Ph.D. from the School of Computer Science at Peking University, advised by Prof. Li Yuan and Prof. Yonghong Tian . Before that, I got my Bachelor degree in Computer Science at Peking University with a Summa Cum Laude. My research interests include multimo"
+   }
+  },
+  {
+   "name": "Kuan Li",
+   "url": "https://likuan.github.io/",
+   "desc": "Founder at UniPat AI",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Nian Li",
+   "url": "https://scholar.google.com/citations?user=mZBzFC4AAAAJ&hl=en",
+   "desc": "Researcher at Tencent",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Xiaonan Li",
+   "url": "https://leesureman.github.io/",
+   "desc": "Researcher at Apple",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": " Xiaonan Li",
+    "meta": "",
+    "h1": [
+     "",
+     "Education",
+     "Experience",
+     "Publications"
+    ],
+    "intro": "Xiaonan Li Xiaonan Li 李孝男 NLP PhD student at FDU, 2020 ~ 2025 (expected) Follow Shanghai, China lixn20@fudan.edu.cn Twitter Github Google Scholar I am a fourth-year PhD student at Fudan University, advised by Prof. Xipeng Qiu . My research interest focuses on Large Language Models & Retrieval, especially Retrieval-augmented LLM Generation, LLM-augmented Retrieval and LLM’s Verifiable Generation. Education Fudan University Ph.D. in Computer Science, 2020.9 - 2025.6 (expected) Advisor: Prof. Xipen"
+   }
+  },
+  {
+   "name": "Xiaoxi Li",
+   "url": "https://xiaoxi-li1.github.io/",
+   "desc": "Ph.D. student at RUC",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Xiaoxi Li - Homepage",
+    "meta": "",
+    "h1": [
+     "About me",
+     "News",
+     "Educations",
+     "Research Experiences"
+    ],
+    "intro": "Xiaoxi Li - Homepage Xiaoxi Li (李晓熙) PhD @ RUC Beijing, China Email Twitter Xiaohongshu WeChat DBLP Github Google Scholar ORCID About me I am currently a 4th year PhD student at the Gaoling School of Artificial Intelligence , Renmin University of China , mentored by Prof. Zhicheng Dou . I earned my bachelor’s degree (2019-2023) at Nankai University . I’m currently a research intern at ByteDance Seed , focusing on RL scaling for general agents , particularly co-work agent RL and Seed agent RL big"
+   }
+  },
+  {
+   "name": "Weiwen Liu",
+   "url": "https://wwliu555.github.io/",
+   "desc": "Associate Professor at SJTU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Biography - Weiwen Liu",
+    "meta": "",
+    "h1": [
+     "Biography",
+     "Recent Invited Talks",
+     "Recent News"
+    ],
+    "intro": "Biography - Weiwen Liu Weiwen Liu Tenure-track Associate Professor Follow Shanghai Shanghai Jiao Tong University Email Google Scholar ORCID GitHub I am currently a tenure-track Associate Professor at the John Hopcroft Center and the APEX Data & Knowledge Management Lab of Shanghai Jiao Tong University . From September 2020 to April 2025, I worked at Huawei Noah’s Ark Lab. I received my Ph.D. in Computer Science and Engineering from The Chinese University of Hong Kong in 2020, supervised by Prof."
+   }
+  },
+  {
+   "name": "Yang Liu",
+   "url": "https://liu-yang-maker.github.io/yangpage.github.io",
+   "desc": "Researcher at JD Retail",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yang Liu",
+    "meta": "",
+    "h1": [],
+    "intro": "Yang Liu Yang Liu 刘洋 EN Hi, I'm Yang Liu. I'm a researcher at Supply Chain Tech Team Y, JD.com. My research focuses on large language models (Foundation Models and Supply Chain Applications) and robotics. I got my Ph.D. from the Academy of Mathematics and Systems Science, Chinese Academy of Sciences (AMSS, CAS), where I was fortunate to be advised by Chuan Zhou. Before that, I received a B.S. in Mathematics and Applied Mathematics from the Honors Program at Xi'an Jiaotong University in 2020, and"
+   }
+  },
+  {
+   "name": "Yong Liu",
+   "url": "https://wenweithu.github.io/",
+   "desc": "Researcher at ByteDance",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yong Liu | Tsinghua University",
+    "meta": "Yong Liu",
+    "h1": [
+     "Yong Liu"
+    ],
+    "intro": "Yong Liu | Tsinghua University About Me I am currently an AI researcher @ ByteDance . Previously, I received my Ph.D. from the School of Software at Tsinghua University , advised by Prof. Mingsheng Long at THUML . My research interests cover Deep Learning and Foundation Models. I am currently working on generic time series foundation models and agentic forecasting. My research aims to contribute to the advancement of intelligent systems capable of handling massive and complicated temporal data a"
+   }
+  },
+  {
+   "name": "Zeyang Liu",
+   "url": "https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en",
+   "desc": "Assistant Professor at XJTU",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Junyu Luo",
+   "url": "https://luo-junyu.github.io/",
+   "desc": "Researcher at Kimi",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Homepage - Junyu Luo",
+    "meta": "",
+    "h1": [
+     "Homepage",
+     "Research Interests"
+    ],
+    "intro": "Homepage - Junyu Luo Junyu Luo Researcher @Moonshot AI Follow Beijing, China Peking University Email Google Scholar ORCID GitHub LinkedIn Hi there! My name is Junyu Luo (罗钧宇), and I am currently a Researcher at Moonshot AI. I received my Ph.D. in Computer Science from Peking University in 2026, advised by Prof. Ming Zhang . I previously completed my M.S. at AIIC in Peking University, and received my B.S. from Beihang University (BUAA) in 2021. Research Interests My research mainly focuses on mod"
+   }
+  },
+  {
+   "name": "Xinyin Ma",
+   "url": "https://horseee.github.io/",
+   "desc": "Researcher at Hunyuan",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Xinyin Ma - Homepage",
+    "meta": "",
+    "h1": [
+     "🔥 News",
+     "📝 Research",
+     "🎖 Honors and Awards",
+     "🎩 Educations"
+    ],
+    "intro": "Xinyin Ma - Homepage Xinyin Ma National University of Singapore maxinyin@u.nus.edu Singapore Twitter Github Google Scholar I am currently a final-year Ph.D student @ xML-Lab , National University of Singapore, under the supervision of Prof.Xinchao Wang . Previously I obtained my master degree and bachelor degree in computer science from Zhejiang University, advised by Prof.Weiming Lu . I previously worked as a research intern @ NVIDIA Fundamental Generative AI Research (GenAIR) group . I’m so ho"
+   }
+  },
+  {
+   "name": "Kelong Mao",
+   "url": "https://kyriemao.github.io/",
+   "desc": "Researcher at JD Retail",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Kelong Mao (毛科龙)",
+    "meta": "Kelong Mao — Senior Research Engineer at JD.com, leading LLM post-training for JD",
+    "h1": [
+     "Kelong Mao 毛科龙"
+    ],
+    "intro": "Kelong Mao (毛科龙) About I'm a senior research engineer at JD.com, having joined through JD's TGT program. I lead the post-training team in the Consumer AI Technology Department, where we build JD Retail's consumer-facing AI agent. Previously, I received my Ph.D. from the Gaoling School of Artificial Intelligence , Renmin University of China, in 2025, where I was fortunate to be advised by Prof. Zhicheng Dou . I received my M.Eng. and B.Eng. degrees in Computer Science from Tsinghua University (20"
+   }
+  },
+  {
+   "name": "Zihan Qiu",
+   "url": "https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Qibing Ren",
+   "url": "https://renqibing.github.io/",
+   "desc": "Assistant Professor at SJTU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Qibing Ren",
+    "meta": "",
+    "h1": [
+     "Qibing Ren「任麒冰」"
+    ],
+    "intro": "Qibing Ren Qibing Ren「任麒冰」 I am an incoming assistant professor at the School of AI of Shanghai Jiao Tong University . Previously, I received my Ph.D. from SJTU, advised by Lizhuang Ma and was the class leader of Wu Wenjun Honorary Doctoral Program . I am recruiting Ph.D. students for September 2026 admission. I am also looking for full-time assistant researcher, post-doc, phd candidates, initiative (high GPA/proved research capability -- but NOT must) undergraduates, who are interested in self-"
+   }
+  },
+  {
+   "name": "Jingzhe Shi",
+   "url": "https://jingzheshi.github.io/",
+   "desc": "Incoming Ph.D. student at Princeton",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Jingzhe Shi",
+    "meta": "",
+    "h1": [],
+    "intro": "Jingzhe Shi Jingzhe Shi Hi! I'm Jingzhe Shi (史景喆), majoring in Computer Science and Technology at IIIS , Tsinghua University (a.k.a Yao Class , directed by the Turing Award Laureate Andrew Chi-Chih Yao ). I am about to join Princeton University as a PhD student. Recently, I am privileged to have the opportunity to be advised by and learn from great professors. Recently, I am honored to be advised by and to be collaborating with Prof. Mengdi Wang and Prof. Sanfeng Wu at Princeton , Prof. James Zo"
+   }
+  },
+  {
+   "name": "Yueqi Song",
+   "url": "https://yueqis.github.io/",
+   "desc": "Ph.D. student at CMU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yueqi Song",
+    "meta": "Yueqi Song, PhD student at Carnegie Mellon University",
+    "h1": [
+     "Yueqi Song"
+    ],
+    "intro": "Yueqi Song I am a second year PhD student at Carnegie Mellon University, where I am doing research in Natural Language Processing. I am very grateful to be advised by Professor Graham Neubig . Previously, I worked closely with Xiang Yue . I also pursued a BS/MS at CMU, with a dual degree in Computer Science and Statistics and Machine Learning. I work on agents, especially AI4Science, generalist agentic evaluation and training, and LLM for robotics. I am currently funded by the Meta AIM Fellowshi"
+   }
+  },
+  {
+   "name": "Yehui Tang",
+   "url": "https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=en",
+   "desc": "Head of AI Model at Samsung",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Shangqing Tu",
+   "url": "https://shangqingtu.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Shangqing Tu",
+    "meta": "hello",
+    "h1": [
+     "Shangqing Tu"
+    ],
+    "intro": "Shangqing Tu Travel at Edingburgh During ACM MM 2025 Photo by Yucheng Wang I’m a fourth year PhD student at Tsinghua University majoring in computer science. I’m a member of the THU-KEG laboratory under the supervise of Prof. Juanzi Li . Generally, I’m interested in the research of large language models (LLMs). My goal is to build trustworthy AI systems. Now I’m working on several research topics, including: Trustworthy evaluation for LLM: Shortcut Neuron@ACL25 , Knowledge-to-Jailbreak@KDD25 Cog"
+   }
+  },
+  {
+   "name": "Hongru Wang",
+   "url": "https://hrwise-nlp.github.io/",
+   "desc": "Postdoc at Edinburgh",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": " Hongru (Merlin) Wang ",
+    "meta": "A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.",
+    "h1": [
+     "Hongru (Merlin) Wang"
+    ],
+    "intro": "Hongru (Merlin) Wang Feel free to directly add my WeChat I am currently a research associate (postdoc) at University of Edinburgh, working closely with Prof. Amos Storkey and Prof. Jeff Z. Pan , working on theory of agent (mainly planning, memory, self-evolving). I received PhD degree from The Chinese University of Hong Kong under the supervision of Prof. Kam-Fai Wong (ACL Fellow). I spent wonderful time at BlenderLab at University of Illinois Urbana-Champaign as an visiting student during my Ph"
+   }
+  },
+  {
+   "name": "Shenzhi Wang",
+   "url": "https://scholar.google.com/citations?user=Xgt7njgAAAAJ&hl=zh-CN",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Zixuan Wang",
+   "url": "https://zixuan-wang-dlt.github.io/",
+   "desc": "Ph.D. student at Princeton",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Zixuan Wang - Zixuan Wang’s Home",
+    "meta": "",
+    "h1": [
+     "Zixuan Wang"
+    ],
+    "intro": "Zixuan Wang - Zixuan Wang’s Home Zixuan Wang Hi! I am Zixuan (子轩) Wang , a third-year Ph.D. student in Electrical and Computer Engineering at Princeton University. I am fortunate to be advised by Prof. Jason D. Lee . My research interests broadly lie in understanding the foundations of LLMs and deep learning , as well as leveraging both theoretical and empirical explorations to advance the frontiers of deep learning and language modeling. I did my undergraduate study at the Institute for Interdi"
+   }
+  },
+  {
+   "name": "Yuhan Wu",
+   "url": "https://wuyuhan3z.github.io/#beyond",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yuhan Wu - Yuhan Wu (吴钰晗)",
+    "meta": "",
+    "h1": [
+     "Yuhan Wu"
+    ],
+    "intro": "Yuhan Wu - Yuhan Wu (吴钰晗) Skip to content × Yuhan Wu I work on LLM post-training as part of DeepSeek's CodeMath team. Explore my work Work DeepSeek Education Peking University Based in Beijing, China 01 / Work DeepSeek. I work on LLM post-training as part of DeepSeek's CodeMath team. Since joining the team in February 2025, my work has spanned STEM reasoning, search agents, RL algorithm optimization, and the evaluation of code agents and generation of training data. Selected model releases DeepS"
+   }
+  },
+  {
+   "name": "Heming Xia",
+   "url": "https://hemingkx.github.io/",
+   "desc": "Ph.D. student at PolyU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": " Heming Xia ",
+    "meta": "Heming",
+    "h1": [
+     "Heming Xia",
+     "Research"
+    ],
+    "intro": "Heming Xia I am Heming Xia (夏鹤明), a third-year Ph.D. student in the NLP Group at The Hong Kong Polytechnic University, advised by Prof. Wenjie Li . I received my master’s degree from the MOE Key Lab of Computational Linguistics at Peking University, where I was advised by Prof. Zhifang Sui . Before that, I earned my bachelor’s degree from the School of Physics at Peking University in 2020. I have also worked as a research intern at the NLC Group, Microsoft Research Asia and Sea AI Lab , where I "
+   }
+  },
+  {
+   "name": "Yixuan Xu",
+   "url": "https://yixuanevenxu.github.io/",
+   "desc": "Ph.D. student at CMU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": " Yixuan Even Xu ",
+    "meta": "The academic profile of Yixuan Even Xu.",
+    "h1": [
+     "Yixuan Even Xu"
+    ],
+    "intro": "Yixuan Even Xu GHC 7203, Pittsburgh, PA 15213 yixuanx [at] andrew.cmu.edu I am Yixuan (Even) Xu (徐翊轩), a third-year Ph.D. student in Computer Science at CSD , Carnegie Mellon University , where I am fortunate to be co-advised by Professor Zico Kolter and Professor Fei Fang . Prior to that, I completed my Bachelor of Engineering in Computer Science and Technology at Yao Class , Tsinghua University . My research focuses on post-training algorithms for foundational models. Previously, I also worked"
+   }
+  },
+  {
+   "name": "Yuzi Yan",
+   "url": "https://chaojidahoufeng.github.io/",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "About me - Yannick’s Profile",
+    "meta": "",
+    "h1": [
+     "About me",
+     "🔥News",
+     "📑Selected Publications",
+     "😊Recent Preprints"
+    ],
+    "intro": "About me - Yannick’s Profile Yuzi Yan 严谕梓 Keep chasing the Plato's eternal stars beyond the cave. Follow China Tsinghua University Website Email Google Scholar Github I am a final-year Ph.D. candidate in the Department of Electronic Engineering , Tsinghua University . My research focuses on reinforcement learning for large language models, particularly post-training alignment algorithms and autonomous coding agents. I am advised by Prof. Yuan Shen at the Institute of Information Systems, Tsinghu"
+   }
+  },
+  {
+   "name": "Yiyuan Yang",
+   "url": "https://yyysjz1997.github.io/",
+   "desc": "Ph.D. student at Oxford",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yiyuan Yang (杨毅远)",
+    "meta": "Yiyuan Yang (杨毅远) — D.Phil. candidate and Clarendon Scholar in the Department of Computer Science at the University of Oxford. Research on time series, audio & speech, data mining, and large language models.",
+    "h1": [
+     "Yiyuan Yang 杨毅远"
+    ],
+    "intro": "Yiyuan Yang (杨毅远) Yiyuan Yang 杨毅远 Research Scientist Intern , Meta Superintelligence Labs Ph.D. (D.Phil.) Candidate, Department of Computer Science , University of Oxford Currently in Bellevue, WA, USA 💼 On the Job Market R G yiyuan.yang@cs.ox.ac.uk (primary) · yyy1997sjz@gmail.com · yangyy19@tsinghua.org.cn About Me I am a D.Phil. (Ph.D.) candidate in Computer Science at the University of Oxford and a Clarendon Scholar, advised by Prof. Niki Trigoni and Prof. Andrew Markham . I am currently a R"
+   }
+  },
+  {
+   "name": "Tianzhu Ye",
+   "url": "https://ytianzhu.github.io/",
+   "desc": "Researcher at MSRA",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Tianzhu Ye 叶天竺 - Tianzhu Ye",
+    "meta": "",
+    "h1": [
+     "Tianzhu Ye 叶天竺"
+    ],
+    "intro": "Tianzhu Ye 叶天竺 - Tianzhu Ye Tianzhu Ye Research on AI foundation models Follow Beijing, China Email Google Scholar Github X (formerly Twitter) About Me I’m a researcher at Microsoft Research Asia. My research interests: building more capable and generalizable AI foundation models; self-improving AI with online learning and continual learning. If you’re interested in a research internship, feel free to reach out via email. Email: tianzhuye@microsoft.com Secondary Email: yetianzhu2022@gmail.com Go"
+   }
+  },
+  {
+   "name": "Shi Yu",
+   "url": "https://yu-shi.github.io/",
+   "desc": "Researcher at MiniCPM",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "About me - Shi Yu",
+    "meta": "",
+    "h1": [
+     "About me",
+     "Projects",
+     "Selected Preprints and Publications"
+    ],
+    "intro": "About me - Shi Yu Shi Yu Ph.D. student at Tsinghua University Follow Beijing, China Email Github Google Scholar I am a Ph.D. student from the Department of Computer Science and Technology at Tsinghua University. I am supervised by Prof. Zhiyuan Liu and affiliated with the THUNLP Lab . My research interests lie within the intersection of Natural Language Processing and Information Retrieval. I received my bachelor degree from Tsinghua University in Jun. 2021. Projects I’m the project leader and d"
+   }
+  },
+  {
+   "name": "Weichen Yu",
+   "url": "https://weichen-yu.github.io/",
+   "desc": "Ph.D. student at CMU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Homepage",
+    "meta": "",
+    "h1": [
+     "Home"
+    ],
+    "intro": "Homepage Works Research Challenge Education Posts Comments Weichen Yu wyu3@andrew.cmu.edu Email ORCID LinkedIn I'm currently a third-year PhD student at CMU ECE, where I have the privilege to work with Prof. Matt Fredrikson . I also work closely with Prof. Corina S. Pasareanu . I have previously interned at Google, Gray Swan, Microsoft Copilot, AWS Agentic AI Lab, ByteDance Seed, and Sea AI Lab. I was glad to work with Yu Hu , Dhananjay Ram , Lu Jiang , and Tianyu Pang . Previously, I was a mast"
+   }
+  },
+  {
+   "name": "Jingyang Yuan",
+   "url": "https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": null
+  },
+  {
+   "name": "Xuanming Zhang",
+   "url": "https://xmzhangai.github.io/connect/",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "CV &amp; Opportunities — Xuanming Zhang",
+    "meta": "Xuanming Zhang is open to exceptional frontier-AI industry opportunities and top PhD programs across CS, AI, cognitive science, and psychology. CV available by request.",
+    "h1": [
+     "The CV is private. The conversation is open."
+    ],
+    "intro": "CV & Opportunities — Xuanming Zhang Skip to content Selective conversations / 2026–27 The CV is private. The conversation is open. I am open to exceptional opportunities where frontier AI, cognitive systems, and consequential interaction can be pursued with unusual depth and ambition. 01 / Industry Frontier AI labs and research leadership Research scientist, post-training or interactive-intelligence leadership, and founding technical roles with the mandate to turn original research into field-sh"
+   }
+  },
+  {
+   "name": "Yakun Zhang",
+   "url": "https://yakzhang.github.io/index.html",
+   "desc": "Associate Professor at HIT",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yakun Zhang's Homepage ",
+    "meta": "",
+    "h1": [],
+    "intro": "Yakun Zhang's Homepage Yakun Zhang (张雅坤) Associate Professor at Harbin Institute of Technology, Shenzhen Email: zhangyk@hit.edu.cn Location: Harbin Institute of Technology, Shenzhen Official Homepage: https://faculty.hitsz.edu.cn/zhangyakun She is currently an Associate Professor in School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen). She received Ph.D. degree from Peking University in July 2025 , under the supervisions of Prof. Lu Zhang and Prof. Dan Hao . She w"
+   }
+  },
+  {
+   "name": "Yichi Zhang",
+   "url": "https://zycheiheihei.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yichi Zhang",
+    "meta": "",
+    "h1": [
+     "Yichi Zhang"
+    ],
+    "intro": "Yichi Zhang I am a fourth-year Ph.D. candidate (expected to graduate in June, 2027) in the Department of Computer Science and Technology , Tsinghua University , advised by Prof. Jun Zhu . Before that, I received my B.S. degree from the Department of Computer Science and Technology, Tsinghua University, and my secondary B.S. degree from the Department of Psychology , Tsinghua University, in June, 2022. I work closely with Prof. Hang Su and Prof. Yinpeng Dong . I am also honored to have visited TM"
+   }
+  },
+  {
+   "name": "Yudong Zhang",
+   "url": "https://yudongzhang.com/",
+   "desc": "Researcher at Baidu",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Yudong Zhang - Homepage",
+    "meta": "Pre-training Algorithm Researcher at Baidu ERNIE Team",
+    "h1": [
+     "About Me",
+     "📖 Education",
+     "🔥 News",
+     "💻 Work Experience"
+    ],
+    "intro": "Yudong Zhang - Homepage Yudong Zhang 张宇东 Pre-training Algorithm Researcher at Baidu ERNIE Team Beijing, China Email LinkedIn DBLP Github Google Scholar ORCID About Me I am Yudong Zhang (张宇东), a researcher on large language model pre-training at Baidu’s ERNIE Team. I earned my Doctor of Philosophy (Ph.D.) degree from the Department of Electronic Engineering , Tsinghua University in 2026 under the supervision of Professor Yu Wang (汪玉) , affiliated with the NICS-EFC Laboratory . I received my Bache"
+   }
+  },
+  {
+   "name": "Zheng Zhao",
+   "url": "https://zsquaredz.github.io/",
+   "desc": "Ph.D. student at Edinburgh",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Homepage - Zheng Zhao",
+    "meta": "",
+    "h1": [],
+    "intro": "Homepage - Zheng Zhao Zheng Zhao PhD Candidate I am a final-year PhD candidate in Natural Language Processing at the UKRI Centre for Doctoral Training, University of Edinburgh. I work under the supervision of Shay Cohen and Bonnie Webber and am affiliated with the Institute for Language, Cognition and Computation (ILCC) in the School of Informatics. I am also an active member of The Cohort and EdinburghNLP research groups. My doctoral research focuses on uncovering and understanding the inner wo"
+   }
+  },
+  {
+   "name": "Qinyuan Cheng",
+   "url": "https://xiami2019.github.io/",
+   "desc": "CTO at mosi.ai",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Qinyuan (程沁源)",
+    "meta": "",
+    "h1": [],
+    "intro": "Qinyuan (程沁源) Qinyuan Cheng Hi! I am a final year PhD student at Fudan University, advised by Prof. Xipeng Qiu . I received my bachelor's degree from Sun Yat-sen University, advised by Prof. Hanjiang Lai . Previously, I interned at Shanghai AI Laboratory as a LLM researcher (2023.5-2025.1) and worked as a software development engineer intern at ByteDance (2021.3-2021.8). My research interests include post-training of large language models, including alignment (truthfullness and safety), reinforc"
+   }
+  },
+  {
+   "name": "Nan Duan",
+   "url": "https://nanduan.github.io/",
+   "desc": "Deputy Director at JD Future Academy",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Nan Duan’s Homepage | May we journey far, yet return forever young.",
+    "meta": "May we journey far, yet return forever young.",
+    "h1": [
+     "Nan DUAN's Homepage",
+     "Nan Duan's Homepage"
+    ],
+    "intro": "Nan Duan’s Homepage | May we journey far, yet return forever young. Skip to the content. Nan Duan (段楠) AI Researcher Vice President at JD.COM Deputy Director of Joy Future Academy AGI · Foundation Models · Embodied Intelligence Google Scholar | LinkedIn | Joy Future Academy (京东探索研究院) | Work Email | Personal Email Dr. Nan Duan is Vice President at JD.COM and Deputy Director of Joy Future Academy, where he leads foundation model research spanning language, audio, vision, and embodied AI. Previousl"
+   }
+  },
+  {
+   "name": "Junlin Han",
+   "url": "https://junlinhan.github.io/",
+   "desc": "Researcher at FAIR",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Junlin Han",
+    "meta": "",
+    "h1": [
+     "Junlin Han"
+    ],
+    "intro": "Junlin Han Junlin Han Member of Technical Staff, AMI Labs Email: junlinhcv@gmail.com · junlin@amilabs.xyz · junlin.han@eng.ox.ac.uk GitHub CV Google Scholar Twitter/X Profile Welcome to my website. I am a Member of Technical Staff at AMI Labs , where I work on pre-training and the capabilities of world models. I did my PhD in the Torr Vision Group at the University of Oxford , advised by Prof. Philip Torr . During my PhD, I spent three years at Meta (FAIR and GenAI) as a joint PhD student workin"
+   }
+  },
+  {
+   "name": "Ziqi Huang",
+   "url": "https://ziqihuangg.github.io/",
+   "desc": "Ph.D. student at NTU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Ziqi Huang - Ziqi Huang",
+    "meta": "",
+    "h1": [
+     "Ziqi Huang"
+    ],
+    "intro": "Ziqi Huang - Ziqi Huang Ziqi Huang Ziqi Huang 黄子琪 Lee Kuan Yew Postdoctoral Fellow (Principal Investigator) Follow NTU, Singapore Email X LinkedIn Github Google Scholar Ziqi Huang is a Lee Kuan Yew Postdoctoral Fellow (Principal Investigator) at Nanyang Technological University (NTU), Singapore . She received Bachelor’s degree from NTU , and her Ph.D. degree from MMLab@NTU , advised by Prof. Ziwei Liu . She has internships and collaborations with Meta Superintelligence Labs, Netflix , ByteDance "
+   }
+  },
+  {
+   "name": "Chaoya Jiang",
+   "url": "https://faculty.sdu.edu.cn/jiangchaoya/zh_CN/index.htm",
+   "desc": "Professor at SDU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "山东大学教师主页 蒋超亚 首页  中文主页",
+    "meta": "蒋超亚,jiangchaoya,山东大学教师主页蒋超亚,",
+    "h1": [
+     ""
+    ],
+    "intro": "山东大学教师主页 蒋超亚 首页 中文主页 登录 | 山东大学 | English 蒋超亚 研究员 访问次数： 次 入职时间： 2025-07 所在单位： 控制科学与工程学院 学历： 研究生(博士)毕业 办公地点： 山东大学千佛山校区8号楼 性别： 男 联系方式： c63b9b5f2d28f842b52994ab790b6c83da462cc33d6a861d3381964e4685620e3d9e5ffb91efdbf9ecfcab13ac481d6319cc73ea6253b9b56ab9b714abc7744fc9bb5806043525806617ae320dcd6c92bcebb4061f93aa3353f9d2cd5756db5a884a8390bbcb061957bb5c29a6e97e8b7f3165aee43cfb2cd6c5d650923b434c 学位： 工学博士学位 毕业院校： 北京大学 所属院系： 控制科学与工程学院 学科： 控制科学与工程 曾获荣誉: 2024 中国电子学会-腾讯博士生科研激励计划（混元大模型专项）； 2024 北京大学校长奖； 2023 北京"
+   }
+  },
+  {
+   "name": "Yang Jiao",
+   "url": "https://sxjyjay.github.io/",
+   "desc": "Researcher at Longcat",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yang Jiao",
+    "meta": "",
+    "h1": [],
+    "intro": "Yang Jiao Yang Jiao (焦洋) I am currently a Staff Engineer at Longcat Team. I received my Ph.D. degree from Fudan University in 2026, advised by Prof. Yu-Gang Jiang and Prof. Jingjing Chen . Before that, I received my Bachelor's degree in Yingcai Honors College of UESTC in 2021. I also work closely with Dr. Zequn Jie , Dr. Lin Ma , and Dr. Shaoxiang Chen during my internship at Meituan. Currently, I am a Top Talent intern at Minimax. My research interests include Multimodal Comprehension, Computer"
+   }
+  },
+  {
+   "name": "Yeying Jin",
+   "url": "https://jinyeying.github.io/",
+   "desc": "Researcher at Tencent",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "JIN YEYING",
+    "meta": "",
+    "h1": [
+     "",
+     "Research",
+     "Projects",
+     "Publications"
+    ],
+    "intro": "JIN YEYING Jin Yeying CV | 简历 Follow jinyeying@u.nus.edu Google Scholar X GitHub LinkedIn DBLP ORCID Zhihu Xiaohongshu I am a Staff Researcher at Tencent (青云计划 ‘Project Up’ Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE) . I received my Ph.D. from NUS ECE, supervised by Prof. Robby T. Tan , and previously interned at Adob"
+   }
+  },
+  {
+   "name": "Wuyang Li",
+   "url": "https://wymancv.github.io/wuyang.github.io/",
+   "desc": "Researcher at Ant Group",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Wuyang Li",
+    "meta": "",
+    "h1": [],
+    "intro": "Wuyang Li Staff Research Engineer · Ant Group Wuyang LI I am a Staff Research Engineer at Ant Group (June 16, 2026 – Present). I build stable and trustworthy multimodal intelligence that connects perception and generation across domains, modalities, and real-world settings. My research spans open-world and 3D perception, video and world generation, and AI for science, with the long-term goal of enabling general-purpose AI for digital life, autonomy, healthcare, and scientific discovery. My own a"
+   }
+  },
+  {
+   "name": "Yunxin Li",
+   "url": "https://yunxinli.github.io/",
+   "desc": "Associate Professor at HIT",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": " Yunxin Li",
+    "meta": "Ph.D. from HITsz-TMG, focusing on Large Multimodal Models and Multimodal Agent",
+    "h1": [
+     ""
+    ],
+    "intro": "Yunxin Li Yunxin Li Tenure-Track Associate Professor at HITsz, focusing on Large Multimodal Model and Agent Follow Email Google Scholar ORCID GitHub X (formerly Twitter) 😎 About Me (李云鑫) I am an Associate Professor at Harbin Institute of Technology, Shenzhen. I earned a PhD from the Harbin Institute of Technology, Shenzhen, advised by Prof. Baotian Hu , Prof. Yuxin Ding , and Prof. Min Zhang . I obtained a Master of Engineering degree from Harbin Institute of Technology, Shenzhen and a Bachelor "
+   }
+  },
+  {
+   "name": "Yong Liu",
+   "url": "https://yongliu20.github.io/",
+   "desc": "Researcher at JD Retail",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yong Liu",
+    "meta": "",
+    "h1": [],
+    "intro": "Yong Liu Yong Liu I'm currently a senior researcher at JD.com, having joined through the TGT program. My current work primarily focuses on the post-training of multimodal generative models and building large multimodal models for E-commerce scenarios. Previously, I obtained my PhD degree from Tsinghua University in 2026, supervised by Prof. Yansong Tang . I conducted three years of master's research at Tsinghua University under the supervision of Prof. Yujiu Yang . I received my bachelor's degre"
+   }
+  },
+  {
+   "name": "Yiwei Ma",
+   "url": "https://xmu-xiaoma666.github.io/",
+   "desc": "Researcher at Dots studio",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yiwei Ma's Homepage--马祎炜的个人主页",
+    "meta": "Yiwei Ma's home page",
+    "h1": [
+     "Yiwei Ma 马祎炜"
+    ],
+    "intro": "Yiwei Ma's Homepage--马祎炜的个人主页 中文 EN Yiwei Ma 马祎炜 Algorithm Researcher @ dots , Xiaohongshu 算法研究员 @ 小红书 dots Research focus: 研究方向： Multimodal Large Language Models 多模态大语言模型 Agentic Text-to-Image Model 智能体文生图模型 27 Papers 论文 1.6k+ Citations 引用 12.2k+ GitHub Stars 3× 国家奖学金 National Scholarship 9× 顶尖人才计划 Offer Top-Talent Offers 1× 国自然青基 NSFC Youth (青基) 1× 中国科协青托 CAST Young Elite (青托) GitHub Google Scholar Semantic Scholar DBLP ORCID ✉ mayiwei1998@163.com | mayiwei1998.xmu@gmail.com [ Biography ] [ Ed"
+   }
+  },
+  {
+   "name": "Zanlin Ni",
+   "url": "https://nzl-thu.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": " Zanlin Ni ",
+    "meta": "Zanlin Ni",
+    "h1": [
+     "Zanlin Ni"
+    ],
+    "intro": "Zanlin Ni I am a Ph.D. student at Tsinghua University , advised by Prof. Gao Huang at LeapLab . I am also a research intern at DeepSeek, working on model architectures. I study parallel sampling for generative AI , particularly for image generation and diffusion language models. My work The Flexibility Trap received the ICML 2026 Outstanding Paper Award . news Oct 24, 2026 Research updates: Co-GRPO and UNO are accepted at NeurIPS 2026 . InsightTok received the LoViF @ ECCV 2026 Workshop Outstand"
+   }
+  },
+  {
+   "name": "Yifan Pu",
+   "url": "https://scholar.google.com/citations?user=oM9rnYQAAAAJ&hl=en",
+   "desc": "Researcher at Alibaba Token Hub",
+   "section": "🎨 Multi-modal AI",
+   "fields": null
+  },
+  {
+   "name": "Yu Shang",
+   "url": "https://shangy21.github.io/",
+   "desc": "Researcher at Tongyi Lab",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yu Shang · 商宇",
+    "meta": "Yu Shang (商宇) - Tsinghua University",
+    "h1": [
+     "Yu Shang 商宇"
+    ],
+    "intro": "Yu Shang · 商宇 Yu Shang 商宇 I am a researcher at Tongyi Lab (Wan Team) , Alibaba Group. Before that, I received my Ph.D. and B.E. degrees in the Department of Electronic Engineering from Tsinghua University, and a second B.E. degree from the School of Economics and Management at Tsinghua University. My current research focuses on video understanding , video generation and world model . Email Google Scholar GitHub Project Wan 3.0 Wan3.0 Wan Team An all-in-one video generation model with native 30-s"
+   }
+  },
+  {
+   "name": "Hao Shao",
+   "url": "https://hao-shao.com/",
+   "desc": "Researcher at Seed",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Hao Shao",
+    "meta": "",
+    "h1": [],
+    "intro": "Hao Shao Hao Shao 邵昊 I am an third-year PhD student in Multimedia Laboratory in the Chinese University of Hong Kong. I'm supervised by Prof. Hongsheng Li and Prof.Xiaogang Wang . Before that, I received my Master's degree from Tsinghua University in 2022, and my Bachelor degree from the University of Electronic Science and Technology of China in 2019. My research interests lie in the area of Generative models and Autonomous Driving. Specifically, I'm particularly interested in multi-modal large "
+   }
+  },
+  {
+   "name": "Chenyang Si",
+   "url": "https://chenyangsi.top/",
+   "desc": "Associate Professor at NJU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "PRLab @ Nanjing University",
+    "meta": "PRLab - Pattern and Recognition Laboratory, led by Prof. Chenyang Si at Nanjing University. Research in visual understanding, video generation, and diffusion models.",
+    "h1": [
+     "Chenyang Si"
+    ],
+    "intro": "PRLab @ Nanjing University PRLab · Nanjing University Home About Research News Members Publications Join Us Pattern & Recognition Lab Chenyang Si Associate Professor School of Intelligence Science and Technology Nanjing University chenyang.si@nju.edu.cn · chenyang.si.mail@gmail.com Nanjing University Suzhou Campus, No. 1520 Taihu Avenue, Huqiu District, Suzhou, Jiangsu Scholar GitHub LinkedIn Twitter About Chenyang Si is a Tenure-Track Associate Professor with PRLab at the School of Intelligence"
+   }
+  },
+  {
+   "name": "Yake Wei",
+   "url": "https://echo0409.github.io/",
+   "desc": "Lecturer at RUC",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yake WEI",
+    "meta": "",
+    "h1": [],
+    "intro": "Yake WEI Yake WEI/卫雅珂 My research focuses on multimodal learning, with particular emphasis on understanding the internal mechanisms of heterogeneous modality integration and enhancing the external perception and cognition of multimodal intelligence. I earned my Ph.D. in Artificial Intelligence from Renmin University of China (RUC) in June 2026, under the supervision of Prof. Di Hu . Before that, I received my B.E. in Computer Science and Technology from University of Electronic Science and Techn"
+   }
+  },
+  {
+   "name": "Chengyue Wu",
+   "url": "https://hills-code.github.io/",
+   "desc": "Ph.D. student at HKU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Chengyue Wu - 吴成岳 - Chengyue Wu",
+    "meta": "",
+    "h1": [
+     "Chengyue Wu - 吴成岳"
+    ],
+    "intro": "Chengyue Wu - 吴成岳 - Chengyue Wu Chengyue Wu Ph.D. Student @ HKU, graduating Aug 2026, open to opportunities Follow Hong Kong Email Twitter Github Google Scholar Biography Chengyue Wu is a third-year Ph.D. student at the Department of Computer Science, The University of Hong Kong (HKU), fortunately advised by Prof. Ping Luo and Prof. Wenping Wang (IEEE Fellow and ACM Fellow). Previously, Chengyue obtained his Bachelor’s degree from Harbin Institute of Technology (HIT) in June 2023. He is expected"
+   }
+  },
+  {
+   "name": "Jialong Wu",
+   "url": "https://manchery.github.io/",
+   "desc": "Co-founder and CRO at MirroS",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Jialong Wu",
+    "meta": "Jialong Wu is a Ph.D. student at Tsinghua University.",
+    "h1": [
+     "Jialong Wu"
+    ],
+    "intro": "Jialong Wu About Me I am currently a final-year Ph.D. student at Machine Learning Group (THUML), School of Software , Tsinghua University , advised by Prof. Mingsheng Long . Before that, I received my Bachelor’s degrees in Software Engineering, and Pure and Applied Mathematics (second degree), from Tsinghua University . In high school, I was quite into competitive programming and used to compete in Olympiad in Informatics (OI). I am also the co-founder and chief research officer at MirroS , wher"
+   }
+  },
+  {
+   "name": "Xiaoyang Wu",
+   "url": "https://xywu.me/",
+   "desc": "Ph.D. student at HKU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Xiaoyang Wu - Homepage",
+    "meta": "",
+    "h1": [
+     "Xiaoyang Wu"
+    ],
+    "intro": "Xiaoyang Wu - Homepage Xiaoyang Wu Postdoctoral Associate Courant Institute New York University Email: [email protected] Biography I am a Postdoctoral Associate at NYU’s Courant Institute , working with Prof. Saining Xie . I received my Ph.D. in Computer Science from The University of Hong Kong (HKU) , where I was advised by Prof. Hengshuang Zhao . Before that, I received a Bachelor of Science in Mathematics from Sun Yat-sen University , where I was advised by Prof. Guanbin Li . I had the pleasu"
+   }
+  },
+  {
+   "name": "Dinghao Xi",
+   "url": "https://dinghaoxi.github.io/",
+   "desc": "Assistant Professor at SUFE",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "About Me &#8211; Dinghao Xi",
+    "meta": "Academic profile of Dinghao Xi.",
+    "h1": [
+     "About Me"
+    ],
+    "intro": "About Me – Dinghao Xi Dinghao Xi 中文 Email LinkedIn GitHub Google Scholar About Me I am Dinghao Xi (奚鼎昊). I am an Assistant Professor in the School of Digital Economics at Shanghai University of Finance and Economics. I hold a Ph.D. in Computer Application Technology from Renmin University of China. I was fortunate to be advised by Prof. Wei Xu and Prof. Dandan Qiao . Academic Background Shanghai University of Finance and Economics 2024.07 - Now: School of Digital Economics, Assistant Professor R"
+   }
+  },
+  {
+   "name": "Zhuofan Xia",
+   "url": "https://www.zhuofanxia.xyz/",
+   "desc": "Researcher at JD Retail",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Zhuofan Xia's Homepage - Homepage",
+    "meta": "",
+    "h1": [
+     "📖 Education",
+     "📝 Selected Publications",
+     "🎖 Honors and Awards",
+     "🎓 Academic Services"
+    ],
+    "intro": "Zhuofan Xia's Homepage - Homepage Zhuofan Xia PhD candidate Department of Automation, Tsinghua University Beijing, China Email ResearchGate LinkedIn DBLP Github Google Scholar ORCID My name is Zhuofan Xia ( “夏卓凡” in Chinese). I’m currently a 4th-year Ph.D. candidate at Department of Automation, Tsinghua University, advised by Prof. Gao Huang and Prof. Shiji Song . Before that, I did my bachelor degree in Automation at Tsinghua University in 2020. My research mainly focuses on deep learning on co"
+   }
+  },
+  {
+   "name": "Jiazheng Xu",
+   "url": "https://scholar.google.com/citations?user=7--T2_4AAAAJ&hl=zh-CN",
+   "desc": "Ph.D. student at THU",
+   "section": "🎨 Multi-modal AI",
+   "fields": null
+  },
+  {
+   "name": "Zeyue Xue",
+   "url": "https://xuezeyue.github.io/",
+   "desc": "Researcher at JD Future Academy",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Biography - Zeyue Xue’s Page",
+    "meta": "",
+    "h1": [
+     "Biography",
+     "Research Interests",
+     "Representative Works",
+     "Invited Talks"
+    ],
+    "intro": "Biography - Zeyue Xue’s Page Zeyue Xue Research Scientist in Generative AI Follow Joy Future Academy, JD.com Email Google Scholar I’m Zeyue Xue (薛泽岳), a Research Scientist at Joy Future Academy, JD.com, where I build generative AI products and platforms. I received my Ph.D. from the University of Hong Kong (MMLab@HKU) in 2026 under the supervision of Ping Luo and Wenping Wang. I launched the Echo Project at Joy Future Academy and led the development and release of projects including JoyAI-Echo, "
+   }
+  },
+  {
+   "name": "Chongjie Ye",
+   "url": "https://hugoycj.github.io/",
+   "desc": "Researcher at World Labs",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Chongjie Ye - Research",
+    "meta": "Chongjie Ye is a Member of Technical Staff at World Labs, working on spatial reconstruction that turns a handful of ordinary photos into an explicit, renderable 3D scene. His research asks how 3D reconstruction and generation can strengthen each other. Ph.D., The Chinese University of Hong Kong, Shenzhen.",
+    "h1": [
+     "Chongjie Ye"
+    ],
+    "intro": "Chongjie Ye - Research About Me Chongjie Ye is a Member of Technical Staff at World Labs , where he works on spatial reconstruction that turns a handful of ordinary photos into an explicit, renderable 3D scene, and fills in what the photos never saw. He received his Ph.D. and bachelor's degree from The Chinese University of Hong Kong, Shenzhen , advised by Prof. Xiaoguang Han . His research asks how reconstruction and generation can strengthen each other. Generation supplies reconstruction with "
+   }
+  },
+  {
+   "name": "Ran Yi",
+   "url": "https://yiranran.github.io/",
+   "desc": "Associate Professor at SJTU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Ran Yi | Shanghai Jiao Tong University",
+    "meta": "Ran Yi (易冉) — Associate Professor at Shanghai Jiao Tong University. Research in computer vision, computer graphics, and generative AI.",
+    "h1": [],
+    "intro": "Ran Yi | Shanghai Jiao Tong University Updates News Profile Biography Research Research Interests 科研项目 Research Funding Students Openings / Internship 代表性开源项目 Selected Open-Source Projects Output Selected Publications Recognition Awards 指导学生获奖 以下列出指导学生获得的代表性奖项与科研资助。 Background Education Experience Work Courses Teaching Service Academic Service"
+   }
+  },
+  {
+   "name": "Tan Yue",
+   "url": "https://tanyuepage.github.io/",
+   "desc": "Associate Researcher at PKU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Tan Yue - Homepage",
+    "meta": "",
+    "h1": [
+     "📝 Selected Publications",
+     "💻 Academic Projects",
+     "🏆 Selected Honors and Awards",
+     "💬 Academic Service"
+    ],
+    "intro": "Tan Yue - Homepage Tan Yue Associate Researcher @ PKU Homepage Beijing, China Email DBLP Google Scholar ORCID I am a associate researcher with the Wangxuan Institute of Computer Technology, Peking University, and work with Prof. Dongyan Zhao . I received my PhD through the joint program between the Nanyang Technological University and Beijing University of Posts and Telecommunications, advised by Prof. Zonghai Hu and Prof. Erik Cambria . My research interests include large language model , multi"
+   }
+  },
+  {
+   "name": "Jiasheng Zhang",
+   "url": "https://www.linkedin.com/in/jiasheng-alex-zhang-821840212/",
+   "desc": "Founder and CEO at Philo AI",
+   "section": "🎨 Multi-modal AI",
+   "fields": null
+  },
+  {
+   "name": "Yifan Zhang",
+   "url": "https://yfzhang114.github.io/",
+   "desc": "Ph.D. student at CASIA",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Yi-Fan Zhang | Multimodal Interaction &amp; Agents",
+    "meta": "Yi-Fan Zhang, ByteDance Seed and CASIA / UCAS. Research on real-time multimodal interaction, voice agents, streaming audio-visual systems, and multimodal training and evaluation.",
+    "h1": [
+     "Intelligence in interaction."
+    ],
+    "intro": "Yi-Fan Zhang | Multimodal Interaction & Agents Skip to content About Me I am currently with ByteDance Seed and a Ph.D. candidate at the Institute of Automation, Chinese Academy of Sciences (CASIA) and the University of Chinese Academy of Sciences (UCAS) , advised by Prof. Tieniu Tan . My research focuses on multimodal intelligence . I believe natural, real-time interaction is an important next step for multimodal models. I am particularly interested in voice agents and streaming audio-visual sys"
+   }
+  },
+  {
+   "name": "Yifei Zhang",
+   "url": "https://yifeiacc.github.io/Lab/",
+   "desc": "Professor at NWPU",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": " Yifei Zhang ",
+    "meta": "Personal academic website of Yifei Zhang, Professor in the School of Computer Science at Northwestern Polytechnical University.",
+    "h1": [
+     "Yifei Zhang"
+    ],
+    "intro": "Yifei Zhang No. 127 Youyi Xilu Beilin District, Xi'an, Shaanxi, China yifei.zhang@nwpu.edu.cn I am a Professor in the School of Computer Science at Northwestern Polytechnical University. My research focuses on trustworthy machine learning, federated learning, graph representation learning, large language models, and robust vision-language models. Before joining NWPU, I was a Research Scientist at Nanyang Technological University, received my Ph.D. from The Chinese University of Hong Kong, and wo"
+   }
+  },
+  {
+   "name": "Zhuoyang Zhao",
+   "url": "https://zhuoyangz.com/",
+   "desc": "Ph.D. student at MIT",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Zhuoyang Zhang",
+    "meta": "Zhuoyang Zhang is a Ph.D. student at MIT EECS working on vision-centric efficient machine learning and foundation models.",
+    "h1": [
+     "Publication",
+     "Academic Service",
+     "Experience"
+    ],
+    "intro": "Zhuoyang Zhang Zhuoyang Zhang 张焯扬 I'm a second-year Ph.D. student at MIT EECS , advised by Prof. Song Han . I am currently an intern at Physical Intelligence . I am mainly interested in vision-centric efficient machine learning, especially for foundation models. Previously, I obtained my Bachelor's degree in computer science from Yao Class , Tsinghua University . During my undergraduate study, I was fortunate to work with Prof. Li Yi and Prof. Hao Su on 3D computer vision. I got a gold medal at "
+   }
+  },
+  {
+   "name": "Aojun Zhou",
+   "url": "https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=zh-CN",
+   "desc": "Tech Leader at Huawei Foundation Model Department",
+   "section": "🎨 Multi-modal AI",
+   "fields": null
+  },
+  {
+   "name": "Dongqi Cai",
+   "url": "https://www.caidongqi.com/",
+   "desc": "Assistant Professor at NJU",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Dongqi Cai (蔡栋琪) | Dongqi’s Homepage",
+    "meta": "",
+    "h1": [
+     "Dongqi's Homepage"
+    ],
+    "intro": "Dongqi Cai (蔡栋琪) | Dongqi’s Homepage Dongqi Cai (蔡栋琪) I’m an Assistant Professor at the Nanjing University . Previously, I obtained my Ph.D. from BUPT , co-advised by Prof. Mengwei Xu and Prof. Shangguang Wang . Meanwhile, I work closely with Prof. Felix Xiaozhu Lin . I was a visiting scholar at the University of Cambridge from 2024 to 2025, working with Prof. Nicholas D. Lane . 📢 I’m actively looking for self-motivated PhD students, Master students, and research interns. If you are interested i"
+   }
+  },
+  {
+   "name": "Jingwei Cai",
+   "url": "https://jingweicai.github.io/",
+   "desc": "Researcher at Seed",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": " Jingwei Cai ",
+    "meta": "Jingwei Cai",
+    "h1": [
+     "Jingwei Cai"
+    ],
+    "intro": "Jingwei Cai I received my Ph.D. in Computer Systems Architecture from the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University in 2026, under the supervision of Prof. Kaisheng Ma. During my Ph.D., I worked on DNN accelerator architecture and compiler design for 2.5D/3D/wafer-scale chiplets, wafer-scale silicon photonic computing, recommendation-system acceleration, and cloud LLM inference optimization. I am currently with the Heterogeneous Computing team at ByteDance "
+   }
+  },
+  {
+   "name": "Mengzhao Chen",
+   "url": "https://chenmnz.github.io/",
+   "desc": "Ph.D. student at HKU",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "MengzhaoChen's Homepage--陈锰钊的个人主页",
+    "meta": "Mengzhao chen's home page",
+    "h1": [
+     "Mengzhao Chen 陈锰钊"
+    ],
+    "intro": "MengzhaoChen's Homepage--陈锰钊的个人主页 Mengzhao Chen 陈锰钊 Second-year Ph.D. Student Department of Computer Science, The University of Hong Kong Email: chenmnz@connect.hku.hk WeChat ID: chenmnz1 (添加请注明来意) [Github] [Scholar] About Me [back top] I am currently a second-year Ph.D. student in the University of Hong Kong, fortunately supervised by Prof. Ping Luo at the MMLAB@HKU . Earlier, I received the master and bachelor degree from MAC@XMU , Xiamen University, and advised by Prof. Rongrong Ji . My resea"
+   }
+  },
+  {
+   "name": "Cong Li",
+   "url": "https://leesou.github.io/",
+   "desc": "Ph.D. student at PKU",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "About me - Cong Li",
+    "meta": "About me",
+    "h1": [
+     "About me",
+     "Education",
+     "Research Interests",
+     "Industrial Experience"
+    ],
+    "intro": "About me - Cong Li Cong Li Ph.D. Candidate Follow Beijing, China Peking University Email Google Scholar ORCID Github Center for Energy-efficient Computing and Applications (CECA) School of Integrated Circuits Peking University Room 512, Science Building #5, 5 Yiheyuan Road, Beijing, China, 100871 I am a final-year Ph.D. candidate at Peking University, supervised by Prof. Guangyu Sun . My research primarily focuses on alleviating the memory wall problem through architectural and system innovation"
+   }
+  },
+  {
+   "name": "Luyao Ren",
+   "url": "https://luyaor.github.io/",
+   "desc": "Head of Infra at NEO Lab",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "",
+    "meta": "",
+    "h1": [],
+    "intro": "﻿ Hello, I'm Luyao Ren | 任路遥 . I'm based in Beijing. I'm currently building infrastructure for world models. Join us! Previously, I was at ByteDance, working within the Seed Infrastructure team (topseed talent program). - Education: Ph.D. and B.S. in Computer Science at Peking University, advised by Tao Xie 谢涛 , Yingfei Xiong 熊英飞 ; My research focuses on designing principles and building infrastructures for quality assurance of AI-oriented software systems such as AI compilers. - Other Experienc"
+   }
+  },
+  {
+   "name": "Hengrui Wang",
+   "url": "https://hengrui1230.github.io/",
+   "desc": "Researcher at DeepSeek",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Hengrui Wang",
+    "meta": "Hengrui Wang — Researcher at DeepSeek, Infra Team. Tsinghua Ph.D., June 2026. Vector search systems, multimodal data formats for LLMs, and data planes for RL post-training.",
+    "h1": [
+     "Hengrui Wang"
+    ],
+    "intro": "Hengrui Wang Skip to content BEIJING, CHINA RESEARCHER · DEEPSEEK INFRA TEAM Hengrui Wang ↓ ABOUT ME TSINGHUA UNIVERSITY Ph.D. · Class of 2026 01 / ABOUT ME About me TSINGHUA, 2026 AI infra researcher at DeepSeek. My research focuses on vector search systems, multimodal data formats for LLMs, and data planes for RL post-training. I received my Ph.D. from the Institute for Interdisciplinary Information Science (IIIS), Tsinghua University, in June 2026 , advised by Prof. Huanchen Zhang . Before jo"
+   }
+  },
+  {
+   "name": "Tuowei Wang",
+   "url": "https://pairshoe.github.io/",
+   "desc": "Co-Founder and CEO at OmniMind",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Welcome to Tuowei Wang's Homepage",
+    "meta": "",
+    "h1": [],
+    "intro": "Welcome to Tuowei Wang's Homepage Wang Tuowei「王 拓为」 Hello! I am a fourth-year Ph.D. student in the Department of Computer Science and Technology at Tsinghua University , advised by associate professor Ju Ren . I hold dual B.S. degrees in Computer Science and Finance, both from Tsinghua University. My research interests include edge computing, machine learning system, and high-performance computing. Feel free to contact me if you have any questions, want to discuss research ideas, or just talk ab"
+   }
+  },
+  {
+   "name": "Lixue Xia",
+   "url": "https://baike.baidu.com/en/item/Lixue%20Xia/3305800",
+   "desc": "Co-founder and CEO at Infinite AI",
+   "section": "🔧 AI Infrastructure",
+   "fields": null
+  },
+  {
+   "name": "Weikai Xu",
+   "url": "https://weikai-xu.github.io/",
+   "desc": "Postdoctoral Researcher at HKUST",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Weikai Xu - Homepage",
+    "meta": "",
+    "h1": [
+     "📖 Educations",
+     "🎖 Honors and Awards",
+     "🔥 News",
+     "📝 Publications"
+    ],
+    "intro": "Weikai Xu - Homepage Weikai Xu (徐伟凯) PhD student of Peking University Beijing, China Email LinkedIn Google Scholar I’m currently a PhD student in the School of Integrated Circuits, Peking University, under the supervision of Prof. Ru Huang . I am also privileged to be advised by Prof. Qianqian Huang and Prof. Meng Li . My research interests lie on emerging device-based memories, in-memory computing and searching circuits and architectures, and algorithm-hardware co-design for AI acceleration. 📖 "
+   }
+  },
+  {
+   "name": "Peiqi Yin",
+   "url": "https://yinpeiqi.github.io/",
+   "desc": "Researcher at NVIDIA",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Peiqi Yin",
+    "meta": "",
+    "h1": [],
+    "intro": "Peiqi Yin Peiqi Yin peyin AT nvidia.com Email | GitHub | PDF I'm Peiqi YIN (尹沛骐), a Research Scientist in the Architecture Research Group at NVIDIA Research , mentored by Christos Kozyrakis . I received my Ph.D. in Computer Science and Engineering from The Chinese University of Hong Kong (CUHK) , supervised by Prof. James Cheng . Before joining CUHK, I got my B.S. degree from Southern University of Science and Technology (SUSTech) , supervised by Prof. Bo Tang and Prof. Xiao Yan . Education The "
+   }
+  },
+  {
+   "name": "Wentao Zhang",
+   "url": "https://zwt233.github.io/",
+   "desc": "Assistant Professor at PKU",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "张文涛 Wentao Zhang · Peking University · Data-Centric AI",
+    "meta": "张文涛（Wentao Zhang），北京大学助理教授、研究员、博士生导师，Data-Centric AI Group 负责人。Research in Data-Centric AI, LLM data systems, and AI4Science.",
+    "h1": [
+     "张文涛 Wentao Zhang Wentao Zhang 张文涛"
+    ],
+    "intro": "张文涛 Wentao Zhang · Peking University · Data-Centric AI Data-Centric AI · LLM Data Systems · AI4Science Data-Centric AI · LLM Data Systems · AI4Science 张文涛 Wentao Zhang Wentao Zhang 张文涛 北京大学 · Data-Centric AI Group 面向下一代模型的数据基础设施 Peking University · Data-Centric AI Group Data infrastructure for next-generation models 张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师， Data-Centric AI Group 负责人 。博士毕业于北京大学并师从崔斌教授，曾任职于 腾讯机器学习平台部、Apple AIML 和加拿大 Mila 人工智能实验室 。主要研究方向为 以数据为中心的人工智能、LLM 数据系统、数据治理智能体与 AI4Science ，聚焦大模型时代的数"
+   }
+  },
+  {
+   "name": "Chenyang Zhao",
+   "url": "https://zhaochenyang20.github.io/Chayenne/",
+   "desc": "Founding member at RadixArk",
+   "section": "🔧 AI Infrastructure",
+   "fields": {
+    "title": "Chayenne Zhao",
+    "meta": "",
+    "h1": [
+     "Chayenne Zhao",
+     "Chayenne Zhao"
+    ],
+    "intro": "Chayenne Zhao Chayenne Zhao chenyang.zhao@radixark.ai 善战者无赫赫之功，登高者有寂寂之名 the higher he stands, the quieter his name About Hi there! I am a founding engineer of RadixArk , a CS PhD student, a proud member of lmsys.org , and a modest learner of Machine Learning Systems . I live near Los Angeles with my girlfriend and two cats. I feel honored to be part of SGLang team and maintain SGLang-Omni for multi-stage model inference optimization. I always welcome self-motivated engineers and researchers to j"
+   }
+  },
+  {
+   "name": "Longbo Huang",
+   "url": "https://people.iiis.tsinghua.edu.cn/~huang/index.html",
+   "desc": "Professor at THU",
+   "section": "AI for Decisions",
+   "fields": {
+    "title": "Longbo Huang",
+    "meta": "",
+    "h1": [
+     "Longbo Huang"
+    ],
+    "intro": "Longbo Huang Longbo Huang Home Biography Awards Research Publications Group Services To Students Longbo Huang Professor (长聘教授) Institute for Interdisciplinary Information Sciences (IIIS) , Tsinghua University Editor, IEEE/ACM Transactions on Networking ( TON ) Associate Editor, IEEE Transactions on Pattern Analysis and Machine Intelligence ( TPAMI ) Senior Associate Editor, ACM Transactions on Modeling and Performance Evaluation of Computing Systems ( ToMPECS ) Associate Editor, Elsevier Perform"
+   }
+  },
+  {
+   "name": "Yuqi Pan",
+   "url": "https://yuqiiip.github.io/",
+   "desc": "Ph.D. student at Harvard",
+   "section": "AI for Decisions",
+   "fields": {
+    "title": "About me - Yuqi Pan",
+    "meta": "",
+    "h1": [
+     "About me",
+     "Selected Publications"
+    ],
+    "intro": "About me - Yuqi Pan Yuqi Pan PhD student at Harvard University Follow Cambridge, MA Email Google Scholar Hi! I’m a third-year PhD student in Computer Science at Harvard University, where I am fortunate to be advised by Prof. Milind Tambe and Prof. Yiling Chen . My research interests lie at the intersection of machine learning, theoretical computer science, and economics. In particular, I am interested in investigating how LLMs reshape human decision-making and drive the evolution of information "
+   }
+  },
+  {
+   "name": "Rui Jiao",
+   "url": "https://jiaor17.github.io/",
+   "desc": "Researcher at Anew Labs",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "Rui Jiao",
+    "meta": "Rui Jiao - molecular representation learning, geometric generative modeling, and material design.",
+    "h1": [
+     "Rui Jiao 矫瑞"
+    ],
+    "intro": "Rui Jiao About Me I am currently a researcher at Anew Labs . Before that, I received my Ph.D. from the Department of Computer Science and Technology at Tsinghua University, where I was advised by Prof. Yang Liu . I was also affiliated with THUNLP and AIR, Tsinghua University . In addition, I have been fortunate to work closely with Prof. Wenbing Huang at Gaoling School of Artificial Intelligence, Renmin University of China . During my Ph.D., I was also fortunate to spend research internships at "
+   }
+  },
+  {
+   "name": "Bang Liu",
+   "url": "https://www-labs.iro.umontreal.ca/~liubang/",
+   "desc": "Associate Professor at Mila",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "Making sure you&#39;re not a bot!",
+    "meta": "",
+    "h1": [
+     "Making sure you're not a bot!"
+    ],
+    "intro": "Making sure you're not a bot! Making sure you're not a bot! Loading... You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone. Anubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is "
+   }
+  },
+  {
+   "name": "Yuyan Ni",
+   "url": "https://nyyxxx.github.io/contact.html",
+   "desc": "Researcher at ByteDance",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "Yuyan Ni - Contact",
+    "meta": "Personal Website",
+    "h1": [
+     "Yuyan Ni",
+     "Contact me"
+    ],
+    "intro": "Yuyan Ni - Contact Yuyan Ni Bytedance Contact me Home / Contact Address 55 East Road ZhongGuanCun, Beijing China, 100190 Email niyuyan17@mails.ucas.ac.cn LinkedIn https://www.linkedin.com/in/yuyan-ni-616230226/ © Yuyan's site . All Rights Reserved."
+   }
+  },
+  {
+   "name": "Xin Xin",
+   "url": "https://amyxin-thu.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "About Me - Amy Xin / 辛馨",
+    "meta": "Amy Xin’s Academic Main Page",
+    "h1": [
+     "About Me"
+    ],
+    "intro": "About Me - Amy Xin / 辛馨 Amy Xin（辛馨） 👋 Hi there~Thanks for visiting my website! I'm a Ph.D. student at THU-KEG Follow Beijing, China Tsinghua University Email Google Scholar GitHub X (formerly Twitter) I am a Ph.D. student in the Knowledge Engineering Group (KEG), Department of Computer Science and Technology, Tsinghua University, advised by Prof. Juanzi Li . Before starting my Ph.D., I received my M.S. in Computer Science and Technology from Tsinghua University in 2025, and my dual bachelor’s de"
+   }
+  },
+  {
+   "name": "Hongteng Xu",
+   "url": "https://hongtengxu.github.io/",
+   "desc": "Associate Professor at RUC",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "Hongteng Xu",
+    "meta": "",
+    "h1": [
+     "Hongteng Xu"
+    ],
+    "intro": "Hongteng Xu Hongteng Xu Associate Professor Gaoling School of Artificial Intelligence Renmin University of China Email: hongtengxu@ruc.edu.cn CV I am an Associate Professor at Gaoling School of Artificial Intelligence, Renmin University of China . From January 2018 to September 2020, I am a senior research scientist in Infinia ML, Inc . At the same time, I am a visiting researcher in Prof. Lawrence Carin 's research group, Duke University . From August 2017 to January 2018, I was a postdoctoral "
+   }
+  },
+  {
+   "name": "Nan Xu",
+   "url": "https://scholar.google.com/citations?user=oJcp__wAAAAJ&hl=zh-CN",
+   "desc": "CEO at ScienceOne AI",
+   "section": "🔬 AI for Science",
+   "fields": null
+  },
+  {
+   "name": "Zizhao Zhang",
+   "url": "https://zzz14.github.io/",
+   "desc": "Postdoctoral Associate at Cornell",
+   "section": "🔬 AI for Science",
+   "fields": {
+    "title": "About Me - Zizhao Zhang / PhD Student",
+    "meta": "",
+    "h1": [
+     "About Me"
+    ],
+    "intro": "About Me - Zizhao Zhang / PhD Student Zizhao Zhang PhD student in School of Software, Tsinghua University Follow Beijing, China Email I am a PhD student (since 2018) in School of Sofware at Tsinghua University, advised by Prof. Yue Gao . I received my Bachelor’s Degree at Tsinghua University. Click here to view my up-to-date CV. My research interest has revolved around artificial intelligence, high-order correlation modeling and optimization."
+   }
+  },
+  {
+   "name": "Sunli Chen",
+   "url": "https://eeeeeerickkk.github.io/",
+   "desc": "Ph.D. student at UMass",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Sunli Chen",
+    "meta": "A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.",
+    "h1": [
+     "Sunli Chen"
+    ],
+    "intro": "Sunli Chen Whenever you feel like criticizing any one, just remember that all the people in this world haven’t had the advantages that you’ve had. - F. Scott Fitzgerald I am currently a PhD student in Computer Science at University of Massachusetts Amherst, advised by Prof. Chuang Gan. Before that I was an undergraduate student in Yao Class 03, IIIS , Tsinghua University , graduating in 2024. My major was Computer Science and Technology under the AI curriculum. My research interests lie in Embod"
+   }
+  },
+  {
+   "name": "Sijie Cheng",
+   "url": "https://adacheng.github.io/",
+   "desc": "Ph.D. student at THU (also Head of AI at RayNeo)",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Sijie (Ada) Cheng",
+    "meta": "",
+    "h1": [],
+    "intro": "Sijie (Ada) Cheng Sijie (Ada) Cheng I'm a second-year Ph.D. candidate at the School of Computer Science and Technology, Tsinghua University , Beijing, China. I am advised by Prof. Yang Liu at THUNLP and Institute for AI Industry Research (AIR) . Previously, I received my Master's degree from Fudan University in 2023, advised by Prof. Yanghua Xiao at Knowledge Work Lab . I am a recipient of several awards, including China Association for Science and Technology’s Young Talents Project, Ph.D. Progr"
+   }
+  },
+  {
+   "name": "Yanjiang Guo",
+   "url": "https://robert-gyj.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Yanjiang Guo",
+    "meta": "",
+    "h1": [],
+    "intro": "Yanjiang Guo Yanjiang Guo Hi! I am a final year PhD student in Computer Science at Tsinghua University , advised by Prof. Jianyu Chen . I received my bachelor's degree in EE also from Tsinghua University in 2022 . From March 2025 to Jan. 2026, I was fortunate to visit Stanford University and work with Prof. Chelsea Finn (Founder of Physical Intelligence ). My research focuses on training embodied foundation models that can perform a wide range of tasks in the physical world. I believe that build"
+   }
+  },
+  {
+   "name": "Songming Liu",
+   "url": "https://csuastt.github.io/",
+   "desc": "Founder and CEO at LiberAI",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Songming Liu (刘松铭)",
+    "meta": "",
+    "h1": [],
+    "intro": "Songming Liu (刘松铭) Songming Liu (刘松铭) I'm Songming Liu, a Ph.D. student in Machine Learning at Tsinghua University, advised by Prof. Jun Zhu and Prof. Hang Su since 2023. My research focuses on multi-modal foundation models for robotics. Previously, I worked on Machine Learning for Partial Differential Equations (PDEs), which was also the topic of my undergraduate thesis. I graduated from the Department of Computer Science and Technology of Tsinghua University in 2023 with a bachelor's degree (G"
+   }
+  },
+  {
+   "name": "Yiran Qin",
+   "url": "https://iranqin.github.io/",
+   "desc": "Director of Data and Algorithm at NeoteAI",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Homepage - Yiran Qin",
+    "meta": "",
+    "h1": [],
+    "intro": "Homepage - Yiran Qin Yiran Qin Staff Research Scientist, Xiaomi Robotics Hi, I'm Yiran. I am a Staff Research Scientist at Xiaomi Robotics , where I lead research on closed-loop evaluation and self-evolving embodied intelligence . My research focuses on developing scalable agentic policies, evaluation frameworks, autonomous improvement mechanisms, and data-driven approaches for next-generation robotic systems. I am hiring research interns at Xiaomi Robotics! I am excited to work with people who "
+   }
+  },
+  {
+   "name": "Jingbo Wang",
+   "url": "https://wangjingbo1219.github.io/",
+   "desc": "Research Scientist and Team Lead at Shanghai AI Lab",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Jingbo Wang (王靖博) | Embodied AI & Humanoid Robotics",
+    "meta": "Jingbo Wang is a Senior Research Scientist at NVIDIA GEAR LAB working on embodied intelligence, humanoid robotics, and physics-based simulation. PhD from CUHK.",
+    "h1": [
+     "Jingbo Wang 王靖博"
+    ],
+    "intro": "Jingbo Wang (王靖博) | Embodied AI & Humanoid Robotics Skip to content Research Signal About I build generalizable humanoid intelligence through physics-based simulation, embodied learning, and sim-to-real transfer. I am a Senior Research Scientist at NVIDIA GEAR LAB working on embodied intelligence, humanoid robotics, and physics-based simulation . My research focuses on generalization-oriented humanoid skill learning and sim-to-real transfer. Previously, I was a research scientist and team lead a"
+   }
+  },
+  {
+   "name": "Jiazhi Yang",
+   "url": "https://jiazyang.github.io/",
+   "desc": "Ph.D. student at CUHK",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Jiazhi Yang",
+    "meta": "Jiazhi Yang — Ph.D. student at CUHK MMLab. Research on world models, robot learning, embodied decision making, and autonomous driving.",
+    "h1": [
+     "Jiazhi Yang 杨佳智"
+    ],
+    "intro": "Jiazhi Yang Jiazhi Yang 杨佳智 Ph.D. Student · CUHK · MMLab I am a second-year Ph.D. student in Information Engineering at CUHK MMLab , advised by Prof. Xiangyu Yue . Meanwhile, I am a research intern at OpenDriveLab , advised by Prof. Hongyang Li . Research focus : Building autonomous, adaptive, and scalable self-improving embodied agents , through the lens of physical interactions and world models. I am open to research collaborations. Email X / Twitter GitHub LinkedIn Google Scholar CV WeChat Re"
+   }
+  },
+  {
+   "name": "Chao Yu",
+   "url": "https://zoeyuchao.github.io/",
+   "desc": "Assistant Professor at THU (also Chief Scientist at Striding AI)",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Chao Yu (于超) - Homepage",
+    "meta": "Personal homepage of Gao Le Dai, featuring research, publications, and contact information.",
+    "h1": [
+     "📃 Research Interest",
+     "🏫 Educations",
+     "📃 Publications",
+     "🏆 Awards"
+    ],
+    "intro": "Chao Yu (于超) - Homepage Chao Yu Assistant Professor at SIGS of Tsinghua University, interested in MARL, and Embodied AI. Beijing/Shenzhen, China Email X (Twitter) Github Google Scholar I am Chao Yu（于超） , a tenure-track Assistant Professor at Tsinghua Shenzhen International Graduate School (SIGS) , where I work in the Embodied Decision Intelligence Lab (EDI Lab) . EDI Lab is part of the NICS-EFC group in Tsinghua University’s Department of Electronic Engineering . I received my Ph.D. from the sam"
+   }
+  },
+  {
+   "name": "Wanpeng Zhang",
+   "url": "https://wanpeng.me/",
+   "desc": "Partner and Head of Post-Training at BeingBeyond",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Wanpeng Zhang (张万鹏)",
+    "meta": "I am a Partner and Head of Post-Training at BeingBeyond, a startup focused on building foundation models for embodied intelligence, where I lead research on robotics post-training and infrastructure.",
+    "h1": [
+     "Wanpeng Zhang (张万鹏)"
+    ],
+    "intro": "Wanpeng Zhang (张万鹏) Wanpeng Zhang (张万鹏) I am a Partner and Head of Post-Training at BeingBeyond , a startup focused on building foundation models for embodied intelligence, where I lead research on robotics post-training and infrastructure. I work closely with Sipeng Zheng and Chaoyi Xu . I received my Ph.D. in Computer Science from Peking University in 2026, where I was advised by Prof. Zongqing Lu . Before that, I received my Master's degree in Computer Science from Tsinghua University in 2022"
+   }
+  },
+  {
+   "name": "Haoyi Zhang",
+   "url": "https://zhywhite.github.io/",
+   "desc": "Ph.D. student at PKU",
+   "section": "🧩 AI Chips",
+   "fields": {
+    "title": "Haoyi Zhang | Personal Homepage",
+    "meta": "Haoyi Zhang, Ph.D. candidate at Peking University. Research in custom IC design automation, standard cell automation, CIM/DSE, AI4EDA, and analog design automation.",
+    "h1": [
+     "Haoyi Zhang"
+    ],
+    "intro": "Haoyi Zhang | Personal Homepage Ph.D. Candidate, Peking University Haoyi Zhang I work on custom IC design automation, including standard-cell automation, CIM circuits and DSE, AI4EDA, and practical analog design automation. AI4EDA CIM / DSE Standard Cells Analog Automation Download CV Email Google Scholar GitHub 20+ Publications 1 DATE Best Paper Award 4 Research internships EDA Custom IC, Cell, CIM, AI4EDA Visitor Map Global visitor map Leave an approximate city-level dot on the map and see whe"
+   }
+  },
+  {
+   "name": "Longhui Yin",
+   "url": "https://yinlonghui256.github.io/",
+   "desc": "Ph.D. student at THU",
+   "section": "Theoretical CS / AI Theory",
+   "fields": {
+    "title": " Longhui Yin ",
+    "meta": "Welcome to my personal website! I am Longhui Yin, a PhD candidate on theoretical computer science. Here you can find information about my research, publications, and projects. Feel free to explore and get in touch!",
+    "h1": [
+     "Longhui Yin"
+    ],
+    "intro": "Longhui Yin I am a PhD student at Institute for Interdisciplinary Information Science (IIIS) , Tsinghua University, where I am very fortunate to be advised by Prof. Andrew Yao . Prior to that, I obtained my bachelor’s degree from IIIS, Tsinghua University, also known as Yao Class , instructed by Prof. Ran Duan . I am currently interested in conbinatorical graph algorithms and data structure design problems. 6F, FIT Building, Tsinghua University, Beijing, China ylh21[AT]mails.tsinghua.edu.cn sele"
+   }
+  }
+ ]
+}
