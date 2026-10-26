@@ -65,9 +65,8 @@ layout: profile
 .contact-label { font-size: 10px; text-transform: uppercase; color: #aaa; margin-bottom: 4px; font-weight: 700; letter-spacing: 0.04em; }
 .contact-value { font-size: 14px; font-weight: 600; color: var(--text-main); }
 
-/* ── Easter Egg ── */
-.egg-hint { text-align: center; margin-top: 3.5rem; color: #ccc; font-size: 11px; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace; cursor: default; transition: color .3s; user-select: none; }
-.egg-hint:hover { color: var(--jd-red); }
+.me-note { font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-top: 14px; }
+.me-note a { color: var(--jd-red); text-decoration: none; }
 
 @media (max-width: 640px) {
   .me-header { flex-direction: column; text-align: center; gap: 14px; }
@@ -177,21 +176,8 @@ layout: profile
         <div class="contact-value">超豪 姚</div>
       </a>
     </div>
-  </div>
-
-  <!-- Easter Egg -->
-  <div class="egg-hint">
-    /* console.log("👋 Hey there, Tech Genius."); */
+    <p class="me-note">Always happy to talk about what you're building in AI. If you'd like to connect, message me on WeChat with a note about your recent work — the <a href="/connections/">Connections</a> page grows out of conversations like these.</p>
   </div>
 
 </div>
-
-<script>
-(function(){
-  if (typeof console !== 'undefined' && console.log) {
-    console.log('%c👋 Hey there, Tech Genius.', 'color:#E1251B;font-size:20px;font-weight:bold;');
-    console.log('%cInterested in joining JD TGT? → yaochaohao.1@jd.com', 'color:#6b6b67;font-size:14px;');
-  }
-})();
-</script>
 {{< /raw >}}
