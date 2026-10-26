@@ -18,6 +18,7 @@ layout: page
 - [Sunhao Dai](https://kid-22.github.io/) - Researcher at Ant Group
 - [Guanting Dong](https://dongguanting.github.io/) - Ph.D. student at RUC
 - [Yiming Dong](https://scholar.google.com/citations?user=AOYX3WcAAAAJ&hl=en) - Researcher at Qwen
+- [Jinhua Du](https://dujh22.github.io/Dujinhua_wiki/) - Ph.D. student at THU
 - [Weihua Du](https://stiglidu.github.io/) - Ph.D. student at CMU
 - [Yuxian Gu](https://t1101675.github.io/) - Researcher at DeepSeek
 - [Qianyue Hao](https://haohaoqian.github.io/) - Ph.D. student at THU
@@ -54,6 +55,7 @@ layout: page
 - [Yuzi Yan](https://chaojidahoufeng.github.io/) - Researcher at Qwen
 - [Yiyuan Yang](https://yyysjz1997.github.io/) - Ph.D. student at Oxford
 - [Tianzhu Ye](https://ytianzhu.github.io/) - Researcher at MSRA
+- [Chengyang Ying](https://yingchengyang.github.io/) - Researcher at Qwen
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
@@ -136,6 +138,7 @@ layout: page
 - [Songming Liu](https://csuastt.github.io/) - Founder and CEO at LiberAI
 - [Yiran Qin](https://iranqin.github.io/) - Director of Data and Algorithm at NeoteAI
 - [Jingbo Wang](https://wangjingbo1219.github.io/) - Research Scientist and Team Lead at Shanghai AI Lab
+- [Chuan Wen](https://alvinwen428.github.io/) - Assistant Professor at SJTU
 - [Jiazhi Yang](https://jiazyang.github.io/) - Ph.D. student at CUHK
 - [Chao Yu](https://zoeyuchao.github.io/) - Assistant Professor at THU (also Chief Scientist at Striding AI)
 - [Wanpeng Zhang](https://wanpeng.me/) - Partner and Head of Post-Training at BeingBeyond
