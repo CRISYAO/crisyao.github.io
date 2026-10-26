@@ -131,7 +131,7 @@ layout: profile
     <div class="exp-item exp-line">
       <div class="exp-date">2022 – 2025</div>
       <div class="exp-content">
-        <div class="company"><a href="https://www.wenge.com/" target="_blank" rel="noopener noreferrer">Wenge Tech<span class="ext" aria-hidden="true">↗</span></a></div>
+        <div class="company"><a href="https://www.wenge.com/" target="_blank" rel="noopener noreferrer">Wenge AI<span class="ext" aria-hidden="true">↗</span></a></div>
         <h3>Head of Campus Recruitment & HRBP</h3>
         <div class="desc">Built campus recruitment operations and served as HRBP for AI business units.</div>
         <div class="exp-tags">
