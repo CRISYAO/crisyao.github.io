@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T13:46:06+08:00",
+ "generated_at": "2026-10-26T05:58:36+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -177,7 +177,7 @@
      "Publications & Preprints",
      "Invited Talks"
     ],
-    "intro": "About me - Binghui Li’s Homepage Binghui Li (李柄辉) A Ph.D. student at PKU Follow Beijing, China Email Google Scholar My name is Binghui Li. I am a third-year Ph.D. student in The Center for Machine Learning Research (CMLR) , Peking University, where I am extremely fortunate to be advised by Prof. Liwei Wang and Prof. Lei Wu . I am also pleased to have worked closely with Prof. Yuanzhi Li and Prof. Ruoyu Sun . Before joining CMLR, I received my Bachelor’s degree in Intelligence Science and Technol"
+    "intro": "About me - Binghui Li’s Homepage Binghui Li (李柄辉) A Ph.D. student at PKU Follow Beijing, China Email Google Scholar My name is Binghui Li. I am a fourth-year Ph.D. student in The Center for Machine Learning Research (CMLR) , Peking University, where I am extremely fortunate to be advised by Prof. Liwei Wang and Prof. Lei Wu . I am also pleased to have worked closely with Prof. Yuanzhi Li , Prof. Ruoyu Sun , Prof. Jian Li and Prof. Kaifeng Lyu . Before joining CMLR, I received my Bachelor’s degre"
    }
   },
   {
@@ -1282,14 +1282,7 @@
    "url": "https://www-labs.iro.umontreal.ca/~liubang/",
    "desc": "Associate Professor at Mila",
    "section": "🔬 AI for Science",
-   "fields": {
-    "title": "Making sure you&#39;re not a bot!",
-    "meta": "",
-    "h1": [
-     "Making sure you're not a bot!"
-    ],
-    "intro": "Making sure you're not a bot! Making sure you're not a bot! Loading... You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone. Anubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is "
-   }
+   "fields": null
   },
   {
    "name": "Yuyan Ni",
