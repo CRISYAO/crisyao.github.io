@@ -1,2 +1,5 @@
 # shell 脚本在 macOS 上带 CRLF 会直接报错，强制 LF
 *.sh text eol=lf
+
+# Windows 批处理用 CRLF 最稳
+*.cmd text eol=crlf

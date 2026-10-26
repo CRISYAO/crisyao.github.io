@@ -12,9 +12,10 @@
 ## 🏗️ 页面结构
 
 ### 文件位置
-- **源文件**: `/Users/yaochaohao.1/tgt-recruiter-page/content/about-tgt/index.md`
+- **源文件**: `content/about-tgt/index.md`（Windows：`E:\Github\crisyao.github.io`；Mac：你的 clone 目录）
 - **线上地址**: https://crisyao.github.io/about-tgt/
-- **仓库地址**: https://github.com/crisyao/tgt-recruiter-page
+- **仓库地址**: https://github.com/CRISYAO/crisyao.github.io
+- **发布方式**: 见仓库根目录 [`MAINTENANCE.md`](../../MAINTENANCE.md)
 
 ### 页面模块
 1. **Header** - 顶部标题与简介
@@ -154,14 +155,12 @@
 
 ### 发布更新
 
-```bash
-cd /Users/yaochaohao.1/tgt-recruiter-page
-git add content/about-tgt/index.md
-git commit -m "Update: 新增 Oxygen AIGC 项目展示"
-git push
-```
+改完直接运行发布脚本（会自动提交 → 拉取 → 推送）：
 
-等待 GitHub Actions 自动部署（约 1-2 分钟）。
+- Windows：`.\publish.cmd "Update: 新增 Oxygen AIGC 项目展示"`
+- macOS：`./publish.sh "Update: 新增 Oxygen AIGC 项目展示"`
+
+等待 GitHub Actions 自动部署（约 1 分钟）。完整流程见仓库根目录 [`MAINTENANCE.md`](../../MAINTENANCE.md)。
 
 ---
 

@@ -10,8 +10,8 @@
 
 | 想做的事 | Windows | macOS |
 | --- | --- | --- |
-| 本地预览（边改边看） | `.\dev.ps1` | `./dev.sh` |
-| 发布上线 | `.\publish.ps1` | `./publish.sh` |
+| 本地预览（边改边看） | `.\dev.cmd` | `./dev.sh` |
+| 发布上线 | `.\publish.cmd` | `./publish.sh` |
 | 拉取另一台电脑的改动 | `git pull --rebase` | `git pull --rebase` |
 
 改完 → 预览满意 → 发布 → 等 1 分钟 → 刷新线上页面。就这三步。
@@ -57,18 +57,21 @@
 - 便携版 Hugo：`.tools\hugo.exe`（v0.156.0 extended，与 GitHub Actions 里用的是同一版本，避免"本地好看、线上变样"）
 - 已设置：`pull.rebase = true`（拉取时用变基，历史更干净）、`credential.helper = manager`（推送到 GitHub 时用浏览器登录一次即可）
 
-日常：
+日常（两种用法都行）：
 
 ```powershell
 cd E:\Github\crisyao.github.io
-.\dev.ps1                     # 预览，浏览器自动打开 http://localhost:1313/
+.\dev.cmd                     # 预览，浏览器自动打开 http://localhost:1313/
 # ……改内容，浏览器会自动刷新……
 # Ctrl + C 停止预览
-.\publish.ps1 "补充了 3 个新岗位"   # 不写说明也行，会问你
+.\publish.cmd "补充了 3 个新岗位"   # 不写说明也行，会问你
 ```
 
-> 如果提示"因为在此系统上禁止运行脚本"，执行一次：
-> `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
+也可以在资源管理器里**双击** `dev.cmd` / `publish.cmd`。
+
+> `dev.cmd` / `publish.cmd` 只是外壳，真正干活的是同名的 `.ps1`。外壳里带了
+> `-ExecutionPolicy Bypass`，所以即使电脑上禁止运行 PowerShell 脚本也能用；
+> 如果你习惯直接用 PowerShell，改成 `.\dev.ps1` / `.\publish.ps1` 也一样。
 
 ---
 
@@ -110,8 +113,8 @@ Mac 上两个小提示：
 ## 4. 日常标准动作
 
 1. **拉取**：`git pull --rebase`（离上次使用隔了几天，尤其要做）
-2. **预览**：`.\dev.ps1` / `./dev.sh`，改到满意
-3. **发布**：`Ctrl+C` 停预览 → `.\publish.ps1 "这次改了什么"` / `./publish.sh "这次改了什么"`
+2. **预览**：`.\dev.cmd` / `./dev.sh`，改到满意
+3. **发布**：`Ctrl+C` 停预览 → `.\publish.cmd "这次改了什么"` / `./publish.sh "这次改了什么"`
 4. **确认**：约 1 分钟后刷新 <https://crisyao.github.io/>；没变先看 [Actions 记录](https://github.com/CRISYAO/crisyao.github.io/actions)
 
 发布脚本内部顺序是：**提交 → 拉取（变基）→ 推送**，所以它本身就带一步"先拉"，不会因为另一台电脑改过而被 GitHub 拒绝。
@@ -212,6 +215,7 @@ git push
 | 4 个 `.DS_Store` 入库 | 删除 | macOS 的文件夹元数据，没有用 |
 | 本地没有 Hugo，改完只能直接推 | 便携 Hugo + `dev` 脚本 | 先看效果再发，避免线上出错 |
 | 发布靠手打三条命令 | `publish` 脚本 | 顺序错了就会冲突 |
+| 直接跑 `.ps1` 可能被"禁止运行脚本"拦住 | 另配 `.cmd` 外壳 | 双击就能用，不用改系统设置 |
 
 另外：`.github/workflows/hugo.yaml` 本来就已经配好了自动构建部署，只是仓库里同时存着旧的 `public/`，两套东西并存才是混乱的根源。
 
