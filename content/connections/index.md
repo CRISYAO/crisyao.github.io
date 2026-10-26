@@ -49,6 +49,7 @@ layout: page
 - [Zixuan Wang](https://zixuan-wang-dlt.github.io/) - Ph.D. student at Princeton
 - [Yuhan Wu](https://wuyuhan3z.github.io/#beyond) - Researcher at DeepSeek
 - [Heming Xia](https://hemingkx.github.io/) - Ph.D. student at PolyU
+- [Shicheng Xu](https://xsc1234.github.io/) - Researcher at DeepSeek
 - [Yixuan Xu](https://yixuanevenxu.github.io/) - Ph.D. student at CMU
 - [Yuzi Yan](https://chaojidahoufeng.github.io/) - Researcher at Qwen
 - [Yiyuan Yang](https://yyysjz1997.github.io/) - Ph.D. student at Oxford
