@@ -130,8 +130,17 @@
 .contact-label { font-size: 10px; text-transform: uppercase; color: #aaa; margin-bottom: 4px; font-weight: 700; letter-spacing: 0.04em; }
 .contact-value { font-size: 14px; font-weight: 600; color: var(--text-main); }
 
-.me-note { font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-top: 14px; }
-.me-note a { color: var(--jd-red); text-decoration: none; }
+/* ── Connect Note ── */
+.me-note { position: relative; margin-top: 16px; padding: 18px 22px; border-radius: 12px;
+  background: linear-gradient(135deg, rgba(225,37,27,.045), rgba(225,37,27,.012) 55%, rgba(225,37,27,0));
+  border: 1px solid rgba(225,37,27,.10); }
+.me-note::before { content: ""; position: absolute; left: 0; top: 16px; bottom: 16px; width: 3px; border-radius: 0 3px 3px 0; background: var(--jd-red); }
+.me-note-label { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #c41e1a; }
+.me-note-label::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--jd-red); box-shadow: 0 0 0 3px rgba(225,37,27,.12); }
+.me-note p { margin: 0; font-size: 14px; line-height: 1.75; color: var(--text-main); }
+.me-note-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 11px; font-size: 12.5px; font-weight: 600; letter-spacing: .01em; color: var(--jd-red); text-decoration: none; }
+.me-note-link .arrow { transition: transform .25s ease; }
+.me-note-link:hover .arrow { transform: translateX(3px); }
 
 @media (max-width: 640px) {
   .me-header { flex-direction: column; text-align: center; gap: 14px; }
@@ -241,7 +250,11 @@
         <div class="contact-value">超豪 姚</div>
       </a>
     </div>
-    <p class="me-note">Always happy to talk about what you're building in AI. If you'd like to connect, message me on WeChat with a note about your recent work — the <a href="/connections/">Connections</a> page grows out of conversations like these.</p>
+    <div class="me-note" id="open-to-conversations">
+      <div class="me-note-label">Open to conversations</div>
+      <p>Always happy to talk about what you're building in AI. Message me on WeChat for a coffee chat — the Connections list grows out of conversations like these.</p>
+      <a class="me-note-link" href="/connections/">The people I follow <span class="arrow">→</span></a>
+    </div>
   </div>
 
 </div>
