@@ -1,4 +1,24 @@
-
 # Python
 __pycache__/
 *.pyc
+
+# ---- Hugo 生成物 ----------------------------------------------------------
+# 线上版本由 GitHub Actions 构建（.github/workflows/hugo.yaml），
+# 构建产物不需要进仓库，这样两台电脑也不会因为 public/ 互相冲突。
+public/
+resources/
+.hugo_build.lock
+
+# Hugo 每次构建都会重写这个文件：Windows 写反斜杠、macOS 写正斜杠。
+# 提交进来只会制造无意义的改动。
+assets/jsconfig.json
+
+# ---- 本地工具 -------------------------------------------------------------
+# 便携版 hugo.exe 等，每台电脑自己准备，不进仓库。
+.tools/
+
+# ---- 系统 / 编辑器垃圾 ----------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
