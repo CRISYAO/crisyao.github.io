@@ -178,7 +178,7 @@ git push
 
 1. 打开 [Actions](https://github.com/CRISYAO/crisyao.github.io/actions) 看最近一次 "Deploy Hugo site to Pages" 是绿勾还是红叉。
 2. 绿勾但页面没变 → 浏览器缓存，`Ctrl + Shift + R`（Mac：`Cmd + Shift + R`）。
-3. 红叉 → 点进去看哪一步失败，通常是 Markdown 里的 HTML 标签没写完整。本地 `.\dev.ps1` 一般能看出问题。
+3. 红叉 → 点进去看哪一步失败，通常是 Markdown 里的 HTML 标签没写完整。本地 `.\dev.cmd` 一般能看出问题。
 
 ### 6.5 推送要求登录 / 一直失败
 
