@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T06:44:44+00:00",
+ "generated_at": "2026-10-26T13:25:57+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -74,6 +74,20 @@
    "desc": "Researcher at Qwen",
    "section": "🤖 LLM & Agent",
    "fields": null
+  },
+  {
+   "name": "Jinhua Du",
+   "url": "https://dujh22.github.io/Dujinhua_wiki/",
+   "desc": "Ph.D. student at THU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Jinhua Du | 杜晋华 — 个人学术主页与智谱AI研究实习项目报告集 - Jinhua Du | 杜晋华",
+    "meta": "清华大学计算机科学与技术系博士生（KEG实验室，唐杰教授指导），研究方向为大语言模型、机器学习与自然语言处理。智谱AI研究实习项目报告集，涵盖大模型预训练、逻辑推理、数学推理、评测方法论等30个项目。",
+    "h1": [
+     "Jinhua Du ¶"
+    ],
+    "intro": "Jinhua Du | 杜晋华 — 个人学术主页与智谱AI研究实习项目报告集 - Jinhua Du | 杜晋华 Skip to content Postgraduate Experience Undergraduate Experience Research History 中文 Jinhua Du ¶ English 中文 Researcher · Large Language Models · Knowledge Engineering Ph.D. in Computer Science and Technology, Tsinghua University | KEG Lab, Class of 2022 Advisor : Jie Tang Research focuses on Machine Learning , Big Data , and Natural Language Processing (Large Language Models) Explore research Email GitHub Curriculum Vitae Read or download "
+   }
   },
   {
    "name": "Weihua Du",
@@ -483,7 +497,24 @@
      "Heming Xia",
      "Research"
     ],
-    "intro": "Heming Xia I am Heming Xia (夏鹤明), a third-year Ph.D. student in the NLP Group at The Hong Kong Polytechnic University, advised by Prof. Wenjie Li . I received my master’s degree from the MOE Key Lab of Computational Linguistics at Peking University, where I was advised by Prof. Zhifang Sui . Before that, I earned my bachelor’s degree from the School of Physics at Peking University in 2020. I have also worked as a research intern at the NLC Group, Microsoft Research Asia and Sea AI Lab , where I "
+    "intro": "Heming Xia I am Heming Xia (夏鹤明), a final-year Ph.D. student in the NLP Group at The Hong Kong Polytechnic University, advised by Prof. Wenjie Li . I received my master’s degree from Peking University, where I was advised by Prof. Zhifang Sui at the MOE Key Lab of Computational Linguistics . Before that, I earned my bachelor’s degree from Peking University in 2020. I have also worked as a research intern at the NLC Group, Microsoft Research Asia , Sea AI Lab , and JD.com (TGT talent program), wh"
+   }
+  },
+  {
+   "name": "Shicheng Xu",
+   "url": "https://xsc1234.github.io/",
+   "desc": "Researcher at DeepSeek",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Shicheng Xu (徐士成) - Homepage",
+    "meta": "Shicheng Xu (徐士成) — Post-training Researcher at DeepSeek. Research: RL Scaling, Agent, RAG.",
+    "h1": [
+     "🔥 News",
+     "🚀 Foundation Model Technical Reports",
+     "📝 Publications",
+     "📚 Tutorials"
+    ],
+    "intro": "Shicheng Xu (徐士成) - Homepage Homepage About Me News Technical Reports Publications Tutorials Honors and Awards Educations Experience Shicheng Xu (徐士成) Post-training Researcher DeepSeek · Post-training (RL & Agent) Beijing, China Email Google Scholar GitHub Hello! I'm Shicheng Xu (徐士成) , a Post-training Researcher at DeepSeek , focusing on reinforcement learning and agentic post-training for large language models. I received my Ph.D. from the Institute of Computing Technology, Chinese Academy of "
    }
   },
   {
@@ -543,6 +574,23 @@
      "Tianzhu Ye 叶天竺"
     ],
     "intro": "Tianzhu Ye 叶天竺 - Tianzhu Ye Tianzhu Ye Research on AI foundation models Follow Beijing, China Email Google Scholar Github X (formerly Twitter) About Me I’m a researcher at Microsoft Research Asia. My research interests: building more capable and generalizable AI foundation models; self-improving AI with online learning and continual learning. If you’re interested in a research internship, feel free to reach out via email. Email: tianzhuye@microsoft.com Secondary Email: yetianzhu2022@gmail.com Go"
+   }
+  },
+  {
+   "name": "Chengyang Ying",
+   "url": "https://yingchengyang.github.io/",
+   "desc": "Researcher at Qwen",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Chengyang Ying (应铖阳) - Homepage",
+    "meta": "",
+    "h1": [
+     "Chengyang Ying (应铖阳)",
+     "Selected Publications [ Full List ]",
+     "Services",
+     "Selected Awards"
+    ],
+    "intro": "Chengyang Ying (应铖阳) - Homepage Chengyang Ying PhD student at Tsinghua University, Machine Learning, Reinforcement Learning Follow Beijing China Github Google Scholar I’m Chengyang Ying, a member of technical staff of the Qwen Team, working on Agentic RL. Before that, I received my PhD from TSAIL Group in the Department of Computer Science and Technology , Tsinghua University , advised by Prof. Jun Zhu and A/Prof. Hang Su . My research interest includes Machine Learning , Reinforcement Learning "
    }
   },
   {
@@ -636,7 +684,7 @@
      "🔥 News",
      "💻 Work Experience"
     ],
-    "intro": "Yudong Zhang - Homepage Yudong Zhang 张宇东 Pre-training Algorithm Researcher at Baidu ERNIE Team Beijing, China Email LinkedIn DBLP Github Google Scholar ORCID About Me I am Yudong Zhang (张宇东), a researcher on large language model pre-training at Baidu’s ERNIE Team. I earned my Doctor of Philosophy (Ph.D.) degree from the Department of Electronic Engineering , Tsinghua University in 2026 under the supervision of Professor Yu Wang (汪玉) , affiliated with the NICS-EFC Laboratory . I received my Bache"
+    "intro": "Yudong Zhang - Homepage Yudong Zhang 张宇东 Pre-training Algorithm Researcher at Baidu ERNIE Team Beijing, China Email LinkedIn DBLP Github Google Scholar ORCID About Me I am Yudong Zhang (张宇东), a researcher on large language model pre-training at Baidu’s ERNIE Team. I earned my Ph.D. degree from the Department of Electronic Engineering , Tsinghua University in 2026 under the supervision of Professor Yu Wang (汪玉) , affiliated with the NICS-EFC Laboratory . I received my Bachelor’s degree from the s"
    }
   },
   {
@@ -860,6 +908,20 @@
      "Chenyang Si"
     ],
     "intro": "PRLab @ Nanjing University PRLab · Nanjing University Home About Research News Members Publications Join Us Pattern & Recognition Lab Chenyang Si Associate Professor School of Intelligence Science and Technology Nanjing University chenyang.si@nju.edu.cn · chenyang.si.mail@gmail.com Nanjing University Suzhou Campus, No. 1520 Taihu Avenue, Huqiu District, Suzhou, Jiangsu Scholar GitHub LinkedIn Twitter About Chenyang Si is a Tenure-Track Associate Professor with PRLab at the School of Intelligence"
+   }
+  },
+  {
+   "name": "Qingyi Si",
+   "url": "https://phoebussi.github.io/",
+   "desc": "Researcher at JD Future Academy",
+   "section": "🎨 Multi-modal AI",
+   "fields": {
+    "title": "Qingyi Si (佀庆一)",
+    "meta": "",
+    "h1": [
+     "Qingyi Si (佀庆一)"
+    ],
+    "intro": "Qingyi Si (佀庆一) About Me I am currently an LLM researcher at JD Explore Academy (京东探索研究院), through the TGT Program, working with Jiaqi Wang , and Nan Duan , focusing on Multimodal Understanding , Post-training (RL & SFT) and Inference Efficiency . Previously, I was with Huawei ICT BG as a member of TopMinds program, and received my Ph.D. from the Institute of Information Engineering, Chinese Academy of Sciences in 2024, advised by Prof. Zheng Lin and Prof. Weiping Wang . I have published 30+ pee"
    }
   },
   {
@@ -1429,6 +1491,22 @@
      "Jingbo Wang 王靖博"
     ],
     "intro": "Jingbo Wang (王靖博) | Embodied AI & Humanoid Robotics Skip to content Research Signal About I build generalizable humanoid intelligence through physics-based simulation, embodied learning, and sim-to-real transfer. I am a Senior Research Scientist at NVIDIA GEAR LAB working on embodied intelligence, humanoid robotics, and physics-based simulation . My research focuses on generalization-oriented humanoid skill learning and sim-to-real transfer. Previously, I was a research scientist and team lead a"
+   }
+  },
+  {
+   "name": "Chuan Wen",
+   "url": "https://alvinwen428.github.io/",
+   "desc": "Assistant Professor at SJTU",
+   "section": "🤖 Embodied AI",
+   "fields": {
+    "title": "Chuan Wen's Homepage",
+    "meta": "",
+    "h1": [
+     "Chuan Wen",
+     "SAI, Shanghai Jiao Tong University",
+     "wenchuan <AT> sjtu.edu.cn"
+    ],
+    "intro": "Chuan Wen's Homepage I am a tenure-track Assistant Professor at School of Artificial Intelligence , Shanghai Jiao Tong University. I obtained my Ph.D. degree from Institute for Interdisciplinary Information Science (IIIS) at Tsinghua University , advised by Prof. Yang Gao . During my Ph.D., I was fortunate to visit Berkeley Artificial Intelligence Research (BAIR), advised by Prof. Pieter Abbeel and Dr. Xingyu Lin . I also worked closely with Prof. Dinesh Jayaraman at UPenn GRASP lab . Prior to t"
    }
   },
   {
