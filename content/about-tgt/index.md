@@ -30,17 +30,32 @@ date: 2026-03-30
 .tgt-tag{font-size:12px;padding:3px 10px;border-radius:99px;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-primary,#fff);color:var(--color-text-secondary,#6b6b67)}
 .tgt-tag.g{background:var(--jd-red-bg);color:var(--jd-red);border-color:var(--jd-red-border)}
 
-/* ── 开源卡片 ── */
-.tgt-og{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-.tgt-oc{background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:12px;padding:1rem 1.25rem}
-.tgt-on{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18)}
-.tgt-stars{font-size:12px;background:#FAEEDA;color:#633806;border-radius:99px;padding:2px 8px;font-weight:400}
-.tgt-od{font-size:13px;color:var(--color-text-secondary,#6b6b67);line-height:1.65;margin-bottom:12px}
-.tgt-ol{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.tgt-lnk{font-size:12px;text-decoration:none;padding:3px 10px;border-radius:99px;transition:background .15s;white-space:nowrap}
-.tgt-lnk.b{background:#E6F1FB;color:#185FA5;border:0.5px solid #B5D4F4}
-.tgt-lnk.p{background:#EEEDFE;color:#3C3489;border:0.5px solid #AFA9EC}
-.tgt-meta{font-size:11px;color:var(--color-text-secondary,#6b6b67)}
+/* ── 团队卡片（一行一张：左 1/3 团队，右 2/3 论文） ── */
+.tgt-teams{display:flex;flex-direction:column;gap:12px}
+.tgt-team{display:grid;grid-template-columns:1fr 2fr;border:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));border-radius:12px;overflow:hidden;background:var(--color-background-primary,#fff)}
+.tgt-team-l{padding:1.15rem 1.35rem;border-right:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2));background:var(--color-background-secondary,#fafaf8);display:flex;flex-direction:column}
+.tgt-on{font-size:15px;font-weight:600;display:flex;align-items:center;gap:8px;margin-bottom:6px;color:var(--color-text-primary,#1a1a18);flex-wrap:wrap}
+.tgt-sub{font-size:12.5px;font-weight:400;color:var(--color-text-secondary,#6b6b67);margin-left:-4px}
+.tgt-od{font-size:12.5px;color:var(--color-text-secondary,#6b6b67);line-height:1.7;margin-bottom:10px}
+.tgt-ol{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:auto}
+.tgt-papers{padding:4px 0;display:flex;flex-direction:column;justify-content:center}
+.tgt-p{display:grid;grid-template-columns:1fr 132px 66px;gap:14px;align-items:center;padding:11px 16px;text-decoration:none;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.14));transition:background .15s}
+.tgt-p:last-child{border-bottom:none}
+.tgt-p:hover{background:var(--color-background-secondary,#fafaf8);text-decoration:none}
+.tgt-pt{font-size:13.5px;line-height:1.45;color:var(--color-text-primary,#1a1a18)}
+.tgt-pv{font-size:11px;color:var(--color-text-secondary,#6b6b67);text-align:right;white-space:nowrap;letter-spacing:.01em}
+.tgt-pr{justify-self:end;font-size:10.5px;padding:2px 8px;border-radius:4px;font-weight:600;white-space:nowrap}
+.rank-a{background:#FEEBEA;color:#C41E1A;border:0.5px solid #FCD2D0}
+.rank-b{background:#FFF4E5;color:#B35900;border:0.5px solid #F7DDB8}
+.rank-n{background:#F2F2F0;color:#6b6b67;border:0.5px solid rgba(0,0,0,.06)}
+.rank-g{background:#FFF3C7;color:#8A6100;border:0.5px solid #EFD489}
+.tgt-more{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin-top:22px;padding:16px 2px 2px;border-top:0.5px dashed var(--color-border-tertiary,rgba(128,128,128,.28));font-size:13px;color:var(--color-text-secondary,#6b6b67)}
+.tgt-more-t{color:var(--color-text-primary,#1a1a18);font-weight:500}
+.tgt-more-d{width:1px;height:11px;background:var(--color-border-tertiary,rgba(128,128,128,.45))}
+.tgt-lnk{font-size:13px;font-weight:500;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:4px;transition:border-color .15s;border-bottom:0.5px solid transparent}
+.tgt-lnk.b{color:#185FA5}
+.tgt-lnk.b:hover{color:#185FA5;text-decoration:none;border-bottom-color:#9DC2E6}
+.tgt-meta{font-size:11.5px;color:var(--color-text-secondary,#6b6b67);margin-left:auto}
 
 /* ── Tabs & 筛选器 ── */
 .tgt-tabs{display:flex;gap:8px;margin-bottom:1rem}
@@ -90,7 +105,16 @@ date: 2026-03-30
 .tgt-cs-sub{font-size:12px;color:var(--color-text-secondary,#6b6b67);opacity:.65;transition:all .3s ease}
 
 .tgt-hidden{display:none}
-@media(max-width:600px){.tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}}
+@media(max-width:600px){
+  .tgt-tbl th:first-child,.tgt-tbl td:first-child{display:none}
+  .tgt-team{grid-template-columns:1fr}
+  .tgt-team-l{border-right:none;border-bottom:0.5px solid var(--color-border-tertiary,rgba(128,128,128,.2))}
+  .tgt-p{grid-template-columns:1fr 66px;gap:8px;padding:10px 14px}
+  .tgt-pv{grid-column:1;text-align:left;margin-top:2px}
+  .tgt-pr{grid-column:2;grid-row:1/3;align-self:center}
+  .tgt-more{gap:8px 10px;margin-top:18px}
+  .tgt-meta{margin-left:0}
+}
 </style>
 
 <div class="tgt-page">
@@ -114,67 +138,221 @@ date: 2026-03-30
   </div>
 
   <div class="tgt-sec">
-    <div class="tgt-sl">Core Tech &amp; Open Source</div>
-    <div class="tgt-og">
-      <div class="tgt-oc">
-        <div class="tgt-on">OxyGent <span id="oxygent-stars" class="tgt-stars">★ 2k</span></div>
-        <div class="tgt-od">京东零售开源多智能体协作框架，GAIA 榜单全球前列，发布时获开源多智能体框架评分 Top 2。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ACL 2026 System Demonstration · Apr 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk b" href="https://github.com/jd-opensource/OxyGent" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.25602" target="_blank">Paper</a>
+    <div class="tgt-sl">Research &amp; Open Source</div>
+    <div class="tgt-teams">
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">Ads Group</div>
+          <div class="tgt-od">广告场景的生成式建模，覆盖个性化广告图文生成与多主体视频生成。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2605.12138" target="_blank">
+            <span class="tgt-pt"><strong>Uni-AdGen</strong> — Design Your Ad: Personalized Advertising Image and Text Generation with Unified Autoregressive Models</span>
+            <span class="tgt-pv">CVPR 2026<br><span style="opacity:.65">May 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2512.22310" target="_blank">
+            <span class="tgt-pt"><strong>MoFu</strong>: Scale-Aware Modulation and Fourier Fusion for Multi-Subject Video Generation</span>
+            <span class="tgt-pv">AAAI 2026<br><span style="opacity:.65">Dec 2025</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">Oxygen AIGC</div>
-        <div class="tgt-od">多模态生成与理解能力在电商行业的核心技术研究与应用，涵盖虚拟试衣、多模态评测等方向。Oxygen TryOn 支持全品类任意搭，OxyEcomBench 为行业首个电商全链路多角色统一评测基准。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">OxyEcomBench · May 2026</span><br><span class="tgt-meta" style="display:inline-block;">Oxygen TryOn · Jul 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2605.13173" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.21694" target="_blank">Paper2</a>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">AI Infra</div>
+          <div class="tgt-od">大模型训练与推理的系统与框架，覆盖分布式训练、推理加速与生产级多模型服务。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://github.com/jd-opensource/xllm" target="_blank">
+            <span class="tgt-pt"><strong>xLLM</strong> — 通用大模型训练与推理框架</span>
+            <span class="tgt-pv">GitHub</span>
+            <span class="tgt-pr rank-g" id="xllm-stars">★ 1.6k</span>
+          </a>
+          <a class="tgt-p" href="https://zirui.cool/assets/pdf/Janus_SOSP26.pdf" target="_blank">
+            <span class="tgt-pt"><strong>Janus</strong>: Multi-LLM Serving at Production Scale</span>
+            <span class="tgt-pv">SOSP 2026<br><span style="opacity:.65">Sep 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2609.36433" target="_blank">
+            <span class="tgt-pt"><strong>RA-CFGCache</strong>: From Branch-Level Criteria to Guided-Risk Control under Classifier-Free Guidance</span>
+            <span class="tgt-pv">NeurIPS 2026<br><span style="opacity:.65">Sep 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2606.23087" target="_blank">
+            <span class="tgt-pt"><strong>FlowTrain</strong>: Flow-Based Decoupled Training for Industrial-Grade Vision-Language Models</span>
+            <span class="tgt-pv">EMNLP 2026 (Industry)<br><span style="opacity:.65">Jun 2026</span></span>
+            <span class="tgt-pr rank-b">CCF-B</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2602.09578" target="_blank">
+            <span class="tgt-pt"><strong>FlexMARL</strong>: Graph-Driven Rollout-Training Co-Design for LLM-Based Multi-Agent Reinforcement Learning</span>
+            <span class="tgt-pv">ATC 2026<br><span style="opacity:.65">Feb 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2510.14686" target="_blank">
+            <span class="tgt-pt"><strong>xLLM</strong> Technical Report</span>
+            <span class="tgt-pv">arXiv 2510.14686<br><span style="opacity:.65">Oct 2025</span></span>
+            <span class="tgt-pr rank-n">技术报告</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">Oxygen XR <span class="tgt-stars" style="background:#E7F6F2;color:#006D5B;">3D Vision</span></div>
-        <div class="tgt-od">3D 视觉生成与重建框架，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成与重建。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 ICASSP 2026 · Sep 2025</span><br><span class="tgt-meta" style="display:inline-block;">🏆 CVPR 2026 · Apr 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2509.23646" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2604.00648" target="_blank">Paper2</a>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">Consumer AI <span class="tgt-sub">（东东团队）</span></div>
+          <div class="tgt-od">面向消费场景的 AI 技术，覆盖会话式购物、组合购买与优惠券约束下的智能体评测，以及长程任务、记忆机制与强化学习后训练。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2609.38974" target="_blank">
+            <span class="tgt-pt"><strong>RealWorldShop</strong>: Benchmarking and Improving Conversational Shopping Agents in Real-World E-commerce</span>
+            <span class="tgt-pv">EMNLP 2026 Findings<br><span style="opacity:.65">Sep 2026</span></span>
+            <span class="tgt-pr rank-b">CCF-B</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2609.34422" target="_blank">
+            <span class="tgt-pt"><strong>CAMG-RL</strong> — Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning</span>
+            <span class="tgt-pv">arXiv 2609.34422<br><span style="opacity:.65">Sep 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2608.09282" target="_blank">
+            <span class="tgt-pt"><strong>ComboShoppingBench</strong>: Evaluating LLM Agents for Budget-Constrained Basket Shopping with Coupons</span>
+            <span class="tgt-pv">arXiv 2608.09282<br><span style="opacity:.65">Aug 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">OxygenREC</div>
-        <div class="tgt-od">电商生成式推荐框架，提出指令遵循驱动的「快慢思考」范式与 IDGR 判别内化机制，统一检索与排序，显著提升推荐准确性与多样性。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span><br><span class="tgt-meta" style="display:inline-block;">OxygenREC-v2 · Jul 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2512.22386" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2607.24255" target="_blank">Paper2</a>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">OxyGent</div>
+          <div class="tgt-od">把 agent、工具、模型与推理流程统一成可插拔的 Oxy 单元，像搭积木一样组多智能体系统；GAIA 榜单全球前列，并借 OxyBank 持续进化。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://github.com/jd-opensource/OxyGent" target="_blank">
+            <span class="tgt-pt"><strong>OxyGent</strong> — 开源多智能体协作框架</span>
+            <span class="tgt-pv">GitHub</span>
+            <span class="tgt-pr rank-g" id="oxygent-stars">★ 2.1k</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2605.13213" target="_blank">
+            <span class="tgt-pt"><strong>HAM³</strong>: Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning</span>
+            <span class="tgt-pv">CVPR 2026<br><span style="opacity:.65">May 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2604.25602" target="_blank">
+            <span class="tgt-pt"><strong>OxyGent</strong>: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</span>
+            <span class="tgt-pv">ACL 2026 Demo<br><span style="opacity:.65">Apr 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2506.19500" target="_blank">
+            <span class="tgt-pt"><strong>NaviAgent</strong>: Graph-Driven Bilevel Planning for Scalable Tool Orchestration</span>
+            <span class="tgt-pv">ICML 2026<br><span style="opacity:.65">Jun 2025</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">OxygenSearch</div>
-        <div class="tgt-od">面向电商生成式检索的优化框架，提出 RAD-DPO 方法解决生成式检索中的层次前缀冲突与标签噪声问题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SIGIR 2026 · Apr 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2602.23964" target="_blank">Paper</a>
-          <a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/ajtVAzlMuFCOxXvKRfqzNQ" target="_blank">Blog</a>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">Oxygen AIGC</div>
+          <div class="tgt-od">电商场景的多模态生成与理解，覆盖虚拟试衣、分层图像编辑、多模态评测与多教师蒸馏后训练。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2610.24738" target="_blank">
+            <span class="tgt-pt"><strong>LayerEditor</strong>: Editing Images into Reusable Layers via Compositional Edit-Prior Distillation</span>
+            <span class="tgt-pv">arXiv 2610.24738<br><span style="opacity:.65">Oct 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2610.13521" target="_blank">
+            <span class="tgt-pt"><strong>Road MOPD</strong> — Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation</span>
+            <span class="tgt-pv">arXiv 2610.13521<br><span style="opacity:.65">Oct 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2607.21694" target="_blank">
+            <span class="tgt-pt"><strong>Oxygen-TryOn</strong>: Fashion-Native Foundation Model for Any-item Virtual Try-On</span>
+            <span class="tgt-pv">arXiv 2607.21694<br><span style="opacity:.65">Jul 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2605.13173" target="_blank">
+            <span class="tgt-pt"><strong>OxyEcomBench</strong>: Benchmarking Multimodal Foundation Models across E-Commerce Ecosystems</span>
+            <span class="tgt-pv">arXiv 2605.13173<br><span style="opacity:.65">May 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">xLLM <span id="xllm-stars" class="tgt-stars">★ 1.5k</span></div>
-        <div class="tgt-od">通用大模型训练与推理框架，支持多维度并行与自动优化，专注解决大规模模型训练中的效率与扩展性难题。<br><span class="tgt-meta" style="margin-top:6px;display:inline-block;">🏆 SOSP 2026 · Sep 2026</span></div>
-        <div class="tgt-ol">
-          <a class="tgt-lnk b" href="https://github.com/jd-opensource/xllm" target="_blank">GitHub</a>
-          <a class="tgt-lnk p" href="https://arxiv.org/abs/2510.14686" target="_blank">Paper1</a>
-          <a class="tgt-lnk p" href="https://zirui.cool/assets/pdf/Janus_SOSP26.pdf" target="_blank">Paper2</a>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">OxygenREC</div>
+          <div class="tgt-od">电商生成式推荐，以指令遵循驱动「快慢思考」统一检索与排序，并逐步把判别能力内化进生成模型。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2607.24255" target="_blank">
+            <span class="tgt-pt"><strong>OxygenREC-v2</strong>: Internalizing Discrimination into Generative Recommendation</span>
+            <span class="tgt-pv">arXiv 2607.24255<br><span style="opacity:.65">Jul 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2512.22386" target="_blank">
+            <span class="tgt-pt"><strong>OxygenREC</strong>: An Instruction-Following Generative Framework for E-commerce Recommendation</span>
+            <span class="tgt-pv">SIGIR 2026<br><span style="opacity:.65">Apr 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
         </div>
       </div>
-      <div class="tgt-oc">
-        <div class="tgt-on">顶会论文合集</div>
-        <div class="tgt-od">2026 京东零售技术国际顶会论文合集 · 第一期，CVPR / WWW / ICLR，发布于 Mar 2026。</div>
-        <div class="tgt-ol"><a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">Collection</a></div>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">OxygenSearch</div>
+          <div class="tgt-od">面向电商生成式检索的优化框架，解决层次前缀冲突与标签噪声问题。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2602.23964" target="_blank">
+            <span class="tgt-pt"><strong>RAD-DPO</strong>: Robust Adaptive Denoising Direct Preference Optimization for Generative Retrieval in E-commerce</span>
+            <span class="tgt-pv">SIGIR 2026<br><span style="opacity:.65">Apr 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+        </div>
       </div>
-      <div class="tgt-cs">
-        <div class="tgt-cs-icon">✦</div>
-        <div class="tgt-cs-text">更多成果敬请期待</div>
-        <div class="tgt-cs-sub">顶会论文持续更新中</div>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">Oxygen XR</div>
+          <div class="tgt-od">3D 视觉生成与重建，基于高斯泼溅与稀疏表示实现高质量 3D 内容生成。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2604.00648" target="_blank">
+            <span class="tgt-pt"><strong>DirectFisheye-GS</strong>: Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization</span>
+            <span class="tgt-pv">CVPR 2026<br><span style="opacity:.65">Apr 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2509.23646" target="_blank">
+            <span class="tgt-pt"><strong>Sparse-Up</strong>: Learnable Sparse Upsampling for 3D Generation with High-Fidelity Textures</span>
+            <span class="tgt-pv">ICASSP 2026<br><span style="opacity:.65">Sep 2025</span></span>
+            <span class="tgt-pr rank-b">CCF-B</span>
+          </a>
+        </div>
       </div>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">ScoAI</div>
+          <div class="tgt-od">把运筹优化与 AI 估计耦合进供应链决策，目标、约束与反馈都写进模型接口。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://www.preprints.org/manuscript/202610.0845/v1" target="_blank">
+            <span class="tgt-pt"><strong>ScoAI</strong>: Toward OR-Native Decision Intelligence</span>
+            <span class="tgt-pv">Preprints.org<br><span style="opacity:.65">Oct 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="tgt-more">
+      <span class="tgt-more-t">更多团队与顶会成果</span>
+      <span class="tgt-more-d" aria-hidden="true"></span>
+      <a class="tgt-lnk b" href="https://mp.weixin.qq.com/s/q7AyShgBDBd14hqssxpVRQ" target="_blank">查看 2026 京东零售技术论文合集 <span aria-hidden="true">↗</span></a>
+      <span class="tgt-meta">首期精选 11 篇 · 后续期次持续更新</span>
     </div>
   </div>
 
