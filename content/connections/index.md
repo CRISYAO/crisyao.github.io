@@ -41,6 +41,7 @@ layout: page
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
 - [Zihan Qiu](https://scholar.google.com/citations?user=24eVHiYAAAAJ&hl=zh-CN) - Researcher at Qwen
 - [Qibing Ren](https://renqibing.github.io/) - Assistant Professor at SJTU
+- [Ruiyang Ren](https://rui-yang.ren/index.html) - Research Scientist at NTU
 - [Jingzhe Shi](https://jingzheshi.github.io/) - Incoming Ph.D. student at Princeton
 - [Yueqi Song](https://yueqis.github.io/) - Ph.D. student at CMU
 - [Yehui Tang](https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=en) - Head of AI Model at Samsung
