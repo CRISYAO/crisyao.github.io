@@ -26,8 +26,17 @@ GitHub Actions 每天定时(北京时间 14:30)
 
 ```bash
 python3 scripts/talent-radar/radar.py                # 扫描 + 比对 + 报告
-python3 scripts/talent-radar/radar.py --report-only  # 只读快照(未实现,忽略)
+python3 scripts/talent-radar/radar.py --push-file /tmp/push.md   # 额外生成微信推送正文
 ```
+
+## 微信推送正文
+
+Issue 报告是给电脑看的(字段原名、尽量紧凑),微信推送另出一份 `render_push()` 生成的正文:
+
+- 每个人一个小节,用 `---` 分隔,字段中文名 + `原值 → 新值` 各占一段
+- **保留空行**——ServerChan 按 Markdown 渲染,去掉空行会让所有行塌成一整段,手机上完全没法读
+- 最多展开 8 人(`MAX_PUSH_ITEMS`),超出显示"另有 N 人,详见 Issue"
+- 超长时按**整行**截断(`MAX_PUSH_CHARS`),不会把一个汉字劈成半个
 
 ## 如何判断"变化"
 

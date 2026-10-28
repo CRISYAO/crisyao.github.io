@@ -30,7 +30,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run radar scan
-        run: python3 scripts/talent-radar/radar.py > radar-report.txt
+        run: python3 scripts/talent-radar/radar.py --push-file "$RUNNER_TEMP/radar-push.md" > radar-report.txt
 
       - name: Check for changes
         id: check
@@ -70,11 +70,22 @@ jobs:
             echo "[!] SERVERCHAN_SENDKEY 未配置,跳过微信推送(报告仍在 Issue 里)"
             exit 0
           fi
+          if [ ! -s "$RUNNER_TEMP/radar-push.md" ]; then
+            echo "[!] 没生成推送正文,跳过微信推送(报告仍在 Issue 里)"
+            exit 0
+          fi
           # ServerChan 接口有 5 分钟缓存,标题带日期保证每天的新报告不被缓存吞掉
           TITLE="🔔 TGT 人才雷达: ${{ steps.check.outputs.changes }} 位人选有动态 ($(date +%m-%d))"
-          # 去掉首行 CHANGES 计数行,去掉空行,压缩为 markdown 段落
-          BODY=$(tail -n +2 radar-report.txt | sed '/^$/d' | head -c 30000)
-          curl -s -X POST "https://sctapi.ftqq.com/${SENDKEY}.send" \
+          # 正文由 radar.py 的 render_push() 生成:已按手机屏幕排版(空行分段),
+          # 不要再对这里做 sed 去空行,否则 markdown 会塌成一整段。
+          RESP=$(curl -s -X POST "https://sctapi.ftqq.com/${SENDKEY}.send" \
             --data-urlencode "title=${TITLE}" \
-            --data-urlencode "desp=${BODY}" \
-            --max-time 30 > /dev/null && echo "[√] 微信推送完成"
+            --data-urlencode "desp@${RUNNER_TEMP}/radar-push.md" \
+            --max-time 30)
+          echo "ServerChan: $RESP"
+          if echo "$RESP" | grep -q '"code":0'; then
+            echo "[√] 微信推送完成"
+          else
+            echo "[!] 微信推送失败(见上面的接口返回);报告仍在 Issue 里"
+            exit 1
+          fi

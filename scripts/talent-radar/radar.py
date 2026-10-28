@@ -3,8 +3,8 @@
 Talent Radar — 追踪 connections 页上人选的公开主页变化。
 
 用法:
-  python3 radar.py                # 扫描 + 与上次快照比对 + 输出报告
-  python3 radar.py --report-only  # 只读取现有快照生成报告(不抓取)
+  python3 radar.py                            # 扫描 + 与上次快照比对 + 输出报告
+  python3 radar.py --push-file /tmp/push.md   # 额外生成微信推送正文(见 render_push)
 
 流程:
   1. 解析 content/connections/index.md,提取 {姓名, URL, 板块, 页面描述}
@@ -45,11 +45,23 @@ LINK_HUB_DOMAINS = [
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 
+# 推送正文里用的中文字段名(报告 Issue 仍用原始字段名,便于排查)
+FIELD_LABELS = {
+    "title": "页面标题",
+    "meta": "简介",
+    "intro": "主页自述",
+    "h1": "主标题",
+}
+
+MAX_PUSH_ITEMS = 8      # 微信里最多展开几个人,其余指向 Issue
+MAX_PUSH_CHARS = 8000   # 服务号正文别太长,超出按整行截断
+
 
 def main():
     args = sys.argv[1:]
     connections = Path(args[args.index("--connections") + 1]) if "--connections" in args else DEFAULT_CONNECTIONS
     snapshot_path = Path(args[args.index("--snapshot") + 1]) if "--snapshot" in args else DEFAULT_SNAPSHOT
+    push_path = Path(args[args.index("--push-file") + 1]) if "--push-file" in args else None
 
     people = parse_connections(connections.read_text(encoding="utf-8"))
     if not people:
@@ -62,7 +74,7 @@ def main():
     is_baseline = "people" not in prev
 
     fetched = scan_all(people)
-    changes, report_lines = diff(people, fetched, prev_by_url)
+    changes, report_lines, records, unreachable = diff(people, fetched, prev_by_url)
 
     n_fetchable = sum(1 for p in people if not is_link_hub(p["url"]))
     print("CHANGES: %d" % len(changes))
@@ -84,6 +96,51 @@ def main():
             print(line)
         if changes:
             save_snapshot(snapshot_path, people, fetched)
+            if push_path:
+                push_path.write_text(
+                    render_push(records, len(people), unreachable, prev.get("generated_at", "")),
+                    encoding="utf-8")
+                print()
+                print("[i] 推送正文已写入 %s (%d 字节)" % (push_path, push_path.stat().st_size))
+
+
+def render_push(records, total, unreachable, prev_time):
+    """生成微信推送用的 markdown。
+
+    和 Issue 报告不同,这里要按手机屏幕排版:每字段单独一段(用空行分隔),
+    否则 ServerChan/微信会把连续行合并成一整块,完全没法读。
+    """
+    now = datetime.datetime.now().strftime("%m-%d")
+    out = ["**TGT 人才雷达 · %s**" % now, ""]
+    out.append("追踪 %d 位人选，本次 **%d** 人主页有变化。" % (total, len(records)))
+    if prev_time:
+        out += ["", "对比基准：%s" % prev_time]
+
+    for i, r in enumerate(records[:MAX_PUSH_ITEMS], 1):
+        out += ["", "---", ""]
+        out.append("**%d. %s**" % (i, r["name"]))
+        out += ["", "%s · [%s](%s)" % (
+            r["section"] or "未分组", r["url"].split("//", 1)[-1].rstrip("/"), r["url"])]
+        for key, old, new in r["diffs"]:
+            out += ["", "**%s**：%s → %s" % (
+                FIELD_LABELS.get(key, key), brief(old, 100) or "（空）", brief(new, 100) or "（空）")]
+
+    if len(records) > MAX_PUSH_ITEMS:
+        out += ["", "---", "", "另有 %d 人有变化，详见 GitHub Issue。" % (len(records) - MAX_PUSH_ITEMS)]
+
+    if unreachable:
+        out += ["", "---", "", "ℹ️ %d 人本次抓取失败或刚恢复，未计入变化：%s" % (
+            len(unreachable), "、".join(ur[0] for ur in unreachable[:5])
+            + ("等" if len(unreachable) > 5 else ""))]
+
+    out.append("")
+    text = "\n".join(out)
+    if len(text) > MAX_PUSH_CHARS:
+        # 按整行截断,避免把一个汉字/一行 markdown 劈开
+        cut = text[:MAX_PUSH_CHARS].rsplit("\n", 1)[0]
+        text = cut + "\n\n…（内容过长已截断，完整报告见 GitHub Issue）\n"
+    return text
+
 
 
 def parse_connections(md_text):
@@ -184,6 +241,7 @@ def diff(people, fetched, prev_by_url):
     changes = []
     added = []
     unreachable = []
+    records = []
 
     for p in people:
         url = p["url"]
@@ -202,37 +260,43 @@ def diff(people, fetched, prev_by_url):
 
         # 本次抓取失败:沿用旧数据,标记不可达,不算变化
         if new_fields is None:
-            unreachable.append("   - %s (%s)" % (p["name"], p["url"]))
+            unreachable.append((p["name"], p["url"], ""))
             continue
         # 上次抓不到、这次抓到了:恢复可追踪,不算变化
         if not prev_p.get("fields"):
-            unreachable.append("   ↻ %s (%s) [恢复可追踪]" % (p["name"], p["url"]))
+            unreachable.append((p["name"], p["url"], " [恢复可追踪]"))
             continue
 
         diffs = []
+        raw = []
         for k in ("title", "meta", "intro"):
             old_v = (prev_p["fields"] or {}).get(k, "")
             new_v = new_fields.get(k, "")
             if old_v != new_v and (old_v or new_v):
                 diffs.append("%s: %s → %s" % (k, brief(old_v, 80), brief(new_v, 80)))
+                raw.append((k, old_v, new_v))
         old_h1 = (prev_p["fields"] or {}).get("h1", [])
         new_h1 = new_fields.get("h1", [])
         if old_h1 != new_h1:
             diffs.append("h1: %s → %s" % (brief(" | ".join(old_h1), 80), brief(" | ".join(new_h1), 80)))
+            raw.append(("h1", " | ".join(old_h1), " | ".join(new_h1)))
 
         if diffs:
             changes.append(p)
             added.append("🔔 %s (%s) [%s]" % (p["name"], url.split("//", 1)[-1], p["section"]))
             for d in diffs:
                 added.append("   • %s" % d)
+            records.append({
+                "name": p["name"], "section": p["section"], "url": url, "diffs": raw,
+            })
 
     lines = list(added)
     if unreachable:
         lines.append("")
         lines.append("ℹ️ 以下 %d 人本次抓取失败或刚恢复可抓取,沿用旧数据,不计入变化:" % len(unreachable))
-        lines.extend(unreachable)
+        lines.extend("   - %s (%s)%s" % (n, u, f) for n, u, f in unreachable)
 
-    return changes, lines
+    return changes, lines, records, unreachable
 
 
 def brief(t, n):
