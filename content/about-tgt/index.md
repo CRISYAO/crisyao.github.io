@@ -335,13 +335,18 @@ date: 2026-03-30
 
       <div class="tgt-team">
         <div class="tgt-team-l">
-          <div class="tgt-on">ScoAI</div>
-          <div class="tgt-od">把运筹优化与 AI 估计耦合进供应链决策，目标、约束与反馈都写进模型接口。</div>
+          <div class="tgt-on">Tech Team Y</div>
+          <div class="tgt-od">供应链场景的 AI 基础能力：把运筹优化与 AI 估计耦合进决策，并在十亿级时间序列上做人类反馈对齐。</div>
         </div>
         <div class="tgt-papers">
           <a class="tgt-p" href="https://www.preprints.org/manuscript/202610.0845/v1" target="_blank">
             <span class="tgt-pt"><strong>ScoAI</strong>: Toward OR-Native Decision Intelligence</span>
             <span class="tgt-pv">Preprints.org<br><span style="opacity:.65">Oct 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2501.15942" target="_blank">
+            <span class="tgt-pt"><strong>TimeHF</strong>: Billion-Scale Time Series Models Guided by Human Feedback</span>
+            <span class="tgt-pv">arXiv 2501.15942<br><span style="opacity:.65">Jan 2025</span></span>
             <span class="tgt-pr rank-n">预印本</span>
           </a>
         </div>
