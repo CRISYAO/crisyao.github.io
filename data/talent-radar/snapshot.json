@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:32:45+00:00",
+ "generated_at": "2026-10-28T13:21:35+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -387,6 +387,20 @@
      "Qibing Ren「任麒冰」"
     ],
     "intro": "Qibing Ren Qibing Ren「任麒冰」 I am an incoming assistant professor at the School of AI of Shanghai Jiao Tong University . Previously, I received my Ph.D. from SJTU, advised by Lizhuang Ma and was the class leader of Wu Wenjun Honorary Doctoral Program . I am recruiting Ph.D. students for September 2026 admission. I am also looking for full-time assistant researcher, post-doc, phd candidates, initiative (high GPA/proved research capability -- but NOT must) undergraduates, who are interested in self-"
+   }
+  },
+  {
+   "name": "Ruiyang Ren",
+   "url": "https://rui-yang.ren/index.html",
+   "desc": "Research Scientist at NTU",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Ruiyang Ren | Homepage",
+    "meta": "Ruiyang Ren, Research Scientist at Nanyang Technological University. Research in information retrieval, large language models, and agents.",
+    "h1": [
+     "Ruiyang Ren"
+    ],
+    "intro": "Ruiyang Ren | Homepage Skip to content Ruiyang Ren 任瑞阳 Research Scientist , Nanyang Technological University Alibaba-NTU Global e-Sustainability CorpLab (ANGEL) reyon_ren [at] outlook [dot] com Google Scholar DBLP Semantic Scholar Ruiyang Ren is a Research Scientist at Nanyang Technological University , working with Prof. Chunyan Miao . He received his Ph.D. from Renmin University of China , advised by Prof. Wayne Xin Zhao , and was a visiting student at the NExT++ Research Center, National Univ"
    }
   },
   {
@@ -1452,7 +1466,7 @@
     "title": "Yanjiang Guo",
     "meta": "",
     "h1": [],
-    "intro": "Yanjiang Guo Yanjiang Guo Hi! I am a final year PhD student in Computer Science at Tsinghua University , advised by Prof. Jianyu Chen . I received my bachelor's degree in EE also from Tsinghua University in 2022 . From March 2025 to Jan. 2026, I was fortunate to visit Stanford University and work with Prof. Chelsea Finn (Founder of Physical Intelligence ). My research focuses on training embodied foundation models that can perform a wide range of tasks in the physical world. I believe that build"
+    "intro": "Yanjiang Guo Yanjiang Guo Hi! I am a final year PhD student in Computer Science at Tsinghua University , advised by Prof. Jianyu Chen . I received my bachelor's degree in EE also from Tsinghua University in 2022 . From March 2025 to Jan. 2026, I was fortunate to visit Stanford University and work with Prof. Chelsea Finn , founder of Physical Intelligence . My research focuses on building Physical AI that can learn and perform a wide range of tasks in the real world. I explore how pretrained foun"
    }
   },
   {
