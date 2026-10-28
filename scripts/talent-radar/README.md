@@ -55,6 +55,7 @@ Issue 报告是给电脑看的(字段原名、尽量紧凑),微信推送另出�
 - **偶发抓取失败不算变化**:网络抖动导致抓不到时沿用旧快照数据,连续两次失败的条目会在报告的 ℹ️ 说明区列出。**快照里 fields 为 null 且 URL 非 hub 的(如 Kuan Li 的 likuan.github.io 已 404),建议核对 connections 链接是否失效。**
 - **intro 中的动态内容可能误报**:部分主页有计数器、日期、"最近更新"等动态片段,会触发 diff。误报多的站点可加进 `LINK_HUB_DOMAINS` 或在 `extract_intro` 里正则剔除。
 - **快照随仓库走**:clone 仓库即获得全部历史状态,push 时快照用 `[skip ci]` 避免触发 Hugo 部署。
+- **定时不准点是常态**:cron 写的是 UTC 06:30(北京 14:30),但 GitHub Actions 的 `schedule` 是 best-effort,实际触发常晚数小时(实测 10-26 晚 6h55m 到 21:25、10-27 晚 6h02m 到 20:32),偶尔还会整天跳过。这是调度器行为,不是时区或 ServerChan 缓存问题。要卡准点只能改用外部定时器调 `workflow_dispatch`,当前选择接受漂移。
 
 ## 新增追踪
 
