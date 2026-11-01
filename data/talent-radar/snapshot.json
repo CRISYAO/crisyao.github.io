@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T13:19:41+00:00",
+ "generated_at": "2026-11-01T13:41:27+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -869,12 +869,12 @@
    "desc": "Ph.D. student at THU",
    "section": "🎨 Multi-modal AI",
    "fields": {
-    "title": " Zanlin Ni ",
-    "meta": "Zanlin Ni",
+    "title": "Zanlin Ni · Tsinghua University",
+    "meta": "Zanlin Ni is a Ph.D. student at Tsinghua University and a research intern at DeepSeek, working on large language models: model architecture and efficient decoding, including diffusion language models.",
     "h1": [
-     "Zanlin Ni"
+     "Zanlin Ni 倪赞林"
     ],
-    "intro": "Zanlin Ni I am a Ph.D. student at Tsinghua University , advised by Prof. Gao Huang at LeapLab . I am also a research intern at DeepSeek, working on model architectures. I study parallel sampling for generative AI , particularly for image generation and diffusion language models. My work The Flexibility Trap received the ICML 2026 Outstanding Paper Award . news Oct 24, 2026 Research updates: Co-GRPO and UNO are accepted at NeurIPS 2026 . InsightTok received the LoViF @ ECCV 2026 Workshop Outstand"
+    "intro": "Zanlin Ni · Tsinghua University Skip to content I am a Ph.D. student at Tsinghua University , advised by Prof. Gao Huang , and a research intern on the pretraining team at DeepSeek . My research focuses on large language models , especially model architecture and efficient decoding, including diffusion language models. My work The Flexibility Trap received the ICML 2026 Outstanding Paper Award . Earlier, I worked on parallel decoding for image generation. News Oct 2026 Co-GRPO and UNO were accep"
    }
   },
   {
