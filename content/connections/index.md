@@ -36,6 +36,7 @@ layout: page
 - [Yang Liu](https://liu-yang-maker.github.io/yangpage.github.io) - Researcher at JD Retail
 - [Yong Liu](https://wenweithu.github.io/) - Researcher at ByteDance
 - [Zeyang Liu](https://scholar.google.com/citations?user=YOOlkJoAAAAJ&hl=en) - Assistant Professor at XJTU
+- [Junting Lu](https://al-377.github.io/) - Researcher at Seed
 - [Junyu Luo](https://luo-junyu.github.io/) - Researcher at Kimi
 - [Xinyin Ma](https://horseee.github.io/) - Researcher at Hunyuan
 - [Kelong Mao](https://kyriemao.github.io/) - Researcher at JD Retail
@@ -157,5 +158,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: October 26, 2026*
+ *Last updated: November 2, 2026*
 
