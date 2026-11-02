@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:41:27+00:00",
+ "generated_at": "2026-11-02T16:26:06+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -191,7 +191,7 @@
      "Research Experience",
      "Research Highlights"
     ],
-    "intro": "About me - Binghui Li’s Homepage Binghui Li (李柄辉) A Ph.D. student at PKU Follow Beijing, China Email Google Scholar My name is Binghui Li. I am a fourth-year Ph.D. student in The Center for Machine Learning Research (CMLR) , Peking University, where I am extremely fortunate to be advised by Prof. Liwei Wang and Prof. Lei Wu . I am also pleased to have worked closely with Prof. Yuanzhi Li , Prof. Ruoyu Sun , Prof. Jian Li and Prof. Kaifeng Lyu . Before joining CMLR, I received my Bachelor’s degre"
+    "intro": "About me - Binghui Li’s Homepage Binghui Li (李柄辉) A Ph.D. student at PKU Follow Beijing, China Email Google Scholar My name is Binghui Li. I am a fourth-year Ph.D. student in The Center for Machine Learning Research (CMLR) , Peking University, where I am extremely fortunate to be advised by Prof. Liwei Wang and Prof. Lei Wu . I am also pleased to have worked closely with Prof. Yuanzhi Li , Prof. Ruoyu Sun , Prof. Jian Li , Prof. Kaifeng Lyu , and Prof. Pinyan Lu . Before joining CMLR, I received"
    }
   },
   {
@@ -321,6 +321,23 @@
    "desc": "Assistant Professor at XJTU",
    "section": "🤖 LLM & Agent",
    "fields": null
+  },
+  {
+   "name": "Junting Lu",
+   "url": "https://al-377.github.io/",
+   "desc": "Researcher at Seed",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Junting Lu - Homepage",
+    "meta": "",
+    "h1": [
+     "📖 Educations",
+     "🔥 News",
+     "💌 Projects",
+     "📝 Selected Publications"
+    ],
+    "intro": "Junting Lu - Homepage Junting Lu Institute for SE @ PKU | Seed @ Bytedance Beijing, China Email Google Scholar 😎 Hi, I am Aidan Lew ( Junting Lu ), a Latent Fool. My Latest and maybe the Last Research Topic: 🧑‍🎓 Co-optimization of agent harness and LLM capabilities that can help improve efficiency, or even replace human workflows, so that everyone can get off work earlier. 📖 Educations [2023.09-2026.06] M.S. Peking University (PKU) [2019.09-2023.06] B.S. Northwestern Polytechnical University (NW"
+   }
   },
   {
    "name": "Junyu Luo",
@@ -1504,7 +1521,7 @@
     "h1": [
      "Jingbo Wang 王靖博"
     ],
-    "intro": "Jingbo Wang (王靖博) | Embodied AI & Humanoid Robotics Skip to content Research Signal About I build generalizable humanoid intelligence through physics-based simulation, embodied learning, and sim-to-real transfer. I am a Senior Research Scientist at NVIDIA GEAR LAB working on embodied intelligence, humanoid robotics, and physics-based simulation . My research focuses on generalization-oriented humanoid skill learning and sim-to-real transfer. Previously, I was a research scientist and team lead a"
+    "intro": "Jingbo Wang (王靖博) | Embodied AI & Humanoid Robotics Skip to content Profile About I build generalizable humanoid intelligence through physics-based simulation, embodied learning, and sim-to-real transfer. I am a Senior Research Scientist at NVIDIA GEAR LAB , previously a research scientist and team lead at Galbot (银河通用) and Shanghai AI Lab . I received my PhD from The Chinese University of Hong Kong in 2023, advised by Prof. Dahua Lin . My work has appeared at CVPR, ICML, ICCV, ECCV, SIGGRAPH, N"
    }
   },
   {
