@@ -61,6 +61,7 @@ layout: page
 - [Shi Yu](https://yu-shi.github.io/) - Researcher at MiniCPM
 - [Weichen Yu](https://weichen-yu.github.io/) - Ph.D. student at CMU
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
+- [Renrui Zhang](https://zrrskywalker.github.io/) - Researcher at Seed
 - [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at Qwen
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
 - [Yichi Zhang](https://zycheiheihei.github.io/) - Ph.D. student at THU
