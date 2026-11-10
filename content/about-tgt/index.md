@@ -339,6 +339,11 @@ date: 2026-03-30
           <div class="tgt-od">供应链场景的 AI 基础能力：把运筹优化与 AI 估计耦合进决策，并在十亿级时间序列上做人类反馈对齐。</div>
         </div>
         <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2611.10521" target="_blank">
+            <span class="tgt-pt"><strong>TimeHF 2.0</strong>: Multimodal, Multivariate, and Multi-Region Collaborative Forecasting for Large-Scale Retail Supply Chains</span>
+            <span class="tgt-pv">arXiv 2611.10521<br><span style="opacity:.65">Nov 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
           <a class="tgt-p" href="https://www.preprints.org/manuscript/202610.0845/v1" target="_blank">
             <span class="tgt-pt"><strong>ScoAI</strong>: Toward OR-Native Decision Intelligence</span>
             <span class="tgt-pv">Preprints.org<br><span style="opacity:.65">Oct 2026</span></span>
