@@ -16,7 +16,6 @@ theme = "FixIt"
     enableThemeSwitcher = false
     [params.header.title]
       name = "Chaohao Yao"
-      pre = "<i class='fa-solid fa-rocket'></i>"
 
   [params.home]
     # 关键修正：禁用首页的文章列表逻辑
