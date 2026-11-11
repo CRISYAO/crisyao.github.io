@@ -15,7 +15,7 @@ theme = "FixIt"
   [params.header]
     enableThemeSwitcher = false
     [params.header.title]
-      name = "Yao Chaohao"
+      name = "Chaohao Yao"
       pre = "<i class='fa-solid fa-rocket'></i>"
 
   [params.home]
@@ -26,14 +26,14 @@ theme = "FixIt"
     [params.home.profile]
       enable = true
       avatarURL = "/me.jpg"
-      title = "姚超豪 (Yao Chaohao)"
+      title = "Chaohao (Cris) Yao / 姚超豪"
       subtitle = "京东零售TGT招聘负责人"
       type = "full"
       social = true
 
   # 2. 作者全局信息（用于页脚和文章署名）
   [params.author]
-    name = "姚超豪 (Yao Chaohao)"
+    name = "Chaohao (Cris) Yao"
     avatarURL = "/me.jpg"
 
   # 3. 社交链接

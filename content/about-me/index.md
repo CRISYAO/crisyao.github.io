@@ -94,9 +94,9 @@ layout: profile
 
   <!-- Header -->
   <header class="me-header">
-    <img src="/me.jpg" alt="Yao Chaohao" class="me-avatar">
+    <img src="/me.jpg" alt="Chaohao (Cris) Yao" class="me-avatar">
     <div class="me-intro">
-      <h1>Yao Chaohao <span style="color:#bbb;font-weight:400">/ 姚超豪</span></h1>
+      <h1>Chaohao (Cris) Yao <span style="color:#bbb;font-weight:400">/ 姚超豪</span></h1>
       <p>TGT Recruitment Lead @ JD Retail</p>
     </div>
   </header>
