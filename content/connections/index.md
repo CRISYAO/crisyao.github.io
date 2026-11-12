@@ -63,7 +63,7 @@ layout: page
 - [Jingyang Yuan](https://scholar.google.com/citations?user=mDwlqfkAAAAJ&hl=en) - Researcher at DeepSeek
 - [Xinyu Yuan](https://katarinayuan.github.io/) - Ph.D. student at Mila
 - [Renrui Zhang](https://zrrskywalker.github.io/) - Researcher at Seed
-- [Xuanming Zhang](https://xmzhangai.github.io/connect/) - Researcher at Qwen
+- [Xuanming Zhang](https://worldeology.com/faculty/zhangxm/) - Co-Founder and Chief Cognitive Scientist at AlpsLab
 - [Yakun Zhang](https://yakzhang.github.io/index.html) - Associate Professor at HIT
 - [Yichi Zhang](https://zycheiheihei.github.io/) - Ph.D. student at THU
 - [Yudong Zhang](https://yudongzhang.com/) - Researcher at Baidu
@@ -160,5 +160,5 @@ layout: page
 
 *Listed in alphabetical order by family name.*
 
- *Last updated: November 10, 2026*
+ *Last updated: November 12, 2026*
 
