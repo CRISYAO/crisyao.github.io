@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:44:49+00:00",
+ "generated_at": "2026-11-13T14:47:12+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -260,8 +260,8 @@
     "h1": [
      "About me",
      "News",
-     "Educations",
-     "Research Experiences"
+     "Research Experiences",
+     "Educations"
     ],
     "intro": "Xiaoxi Li - Homepage Xiaoxi Li (李晓熙) PhD @ RUC Beijing, China Email Twitter Xiaohongshu WeChat DBLP Github Google Scholar ORCID About me I am currently a 4th year PhD student at the Gaoling School of Artificial Intelligence , Renmin University of China , mentored by Prof. Zhicheng Dou . I earned my bachelor’s degree (2019-2023) at Nankai University . I’m currently a research intern at ByteDance Seed , focusing on RL scaling for general agents , particularly co-work agent RL and Seed agent RL big"
    }
@@ -655,6 +655,20 @@
    "fields": null
   },
   {
+   "name": "Xinyu Yuan",
+   "url": "https://katarinayuan.github.io/",
+   "desc": "Ph.D. student at Mila",
+   "section": "🤖 LLM & Agent",
+   "fields": {
+    "title": "Xinyu Yuan | Multimodal AI, Agents &amp; Biological Models",
+    "meta": "Xinyu Yuan researches multimodal generation, LLM agents and post-training, biological foundation models, and out-of-distribution generalization. Ph.D. student at Mila - Quebec AI Institute and Université de Montréal.",
+    "h1": [
+     "Xinyu Yuan"
+    ],
+    "intro": "Xinyu Yuan | Multimodal AI, Agents & Biological Models Skip to content Publications & projects Google Scholar All Multimodal & generation LLM Agents, Reasoning & Post-Training Biological Foundation Models 11 works Connect modalities. Generate, verify, and improve. Represent Alignment · tokenization ProtST (ICML 2023 · Oral, top 2% ) scCello (NeurIPS 2024 · Spotlight, top 2% ) StructTokenBench (ICML 2025) Generate Diffusion · flow matching PerturbDiff (ICML 2026) Verify Tools · VLM feedback HyCre"
+   }
+  },
+  {
    "name": "Renrui Zhang",
    "url": "https://zrrskywalker.github.io/",
    "desc": "Researcher at Seed",
@@ -670,16 +684,16 @@
   },
   {
    "name": "Xuanming Zhang",
-   "url": "https://xmzhangai.github.io/connect/",
-   "desc": "Researcher at Qwen",
+   "url": "https://worldeology.com/faculty/zhangxm/",
+   "desc": "Co-Founder and Chief Cognitive Scientist at AlpsLab",
    "section": "🤖 LLM & Agent",
    "fields": {
-    "title": "CV &amp; Opportunities — Xuanming Zhang",
-    "meta": "Xuanming Zhang is open to exceptional frontier-AI industry opportunities and top PhD programs across CS, AI, cognitive science, and psychology. CV available by request.",
+    "title": "Xuanming Zhang — Worldeology",
+    "meta": "Xuanming Zhang is the Co-Founder and Chief Cognitive Scientist of AlpsLab, working on Cognitive AI and the next generation of foundation models.",
     "h1": [
-     "The CV is private. The conversation is open."
+     "Xuanming Zhang"
     ],
-    "intro": "CV & Opportunities — Xuanming Zhang Skip to content Selective conversations / 2026–27 The CV is private. The conversation is open. I am open to exceptional opportunities where frontier AI, cognitive systems, and consequential interaction can be pursued with unusual depth and ambition. 01 / Industry Frontier AI labs and research leadership Research scientist, post-training or interactive-intelligence leadership, and founding technical roles with the mandate to turn original research into field-sh"
+    "intro": "Xuanming Zhang — Worldeology Skip to content Worldeology / Faculty Co-Founder & Chief Cognitive Scientist of AlpsLab · Founder of Worldeology Xuanming Zhang zhangxm@worldeology.com Google Scholar GitHub X / Twitter LinkedIn Xuanming Zhang is the Co-Founder and Chief Cognitive Scientist of AlpsLab , focused on Cognitive AI and the next generation of foundation models . “The measure of intelligence is the ability to change” (Albert Einstein)—raises a question at the heart of his work: how can AI e"
    }
   },
   {
@@ -1425,7 +1439,14 @@
    "url": "https://hongtengxu.github.io/",
    "desc": "Associate Professor at RUC",
    "section": "🔬 AI for Science",
-   "fields": null
+   "fields": {
+    "title": "Hongteng Xu",
+    "meta": "",
+    "h1": [
+     "Hongteng Xu"
+    ],
+    "intro": "Hongteng Xu Hongteng Xu Associate Professor Gaoling School of Artificial Intelligence Renmin University of China Email: hongtengxu@ruc.edu.cn CV I am an Associate Professor at Gaoling School of Artificial Intelligence, Renmin University of China . From January 2018 to September 2020, I am a senior research scientist in Infinia ML, Inc . At the same time, I am a visiting researcher in Prof. Lawrence Carin 's research group, Duke University . From August 2017 to January 2018, I was a postdoctoral "
+   }
   },
   {
    "name": "Nan Xu",
