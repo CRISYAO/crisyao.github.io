@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:53:28+00:00",
+ "generated_at": "2026-11-22T14:47:58+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -410,7 +410,7 @@
     "h1": [
      "Ruiyang Ren"
     ],
-    "intro": "Ruiyang Ren | Homepage Skip to content Ruiyang Ren 任瑞阳 Research Scientist , Nanyang Technological University Alibaba-NTU Global e-Sustainability CorpLab (ANGEL) reyon_ren [at] outlook [dot] com Google Scholar DBLP Semantic Scholar Ruiyang Ren is a Research Scientist at Nanyang Technological University , working with Prof. Chunyan Miao . He received his Ph.D. from Renmin University of China , advised by Prof. Wayne Xin Zhao , and was a visiting student at the NExT++ Research Center, National Univ"
+    "intro": "Ruiyang Ren | Homepage Skip to content Ruiyang Ren 任瑞阳 Research Scientist , Nanyang Technological University Alibaba-NTU Global e-Sustainability CorpLab (ANGEL) reyon_ren [at] outlook [dot] com Google Scholar DBLP Ruiyang Ren is a Research Scientist at Nanyang Technological University , working with Prof. Chunyan Miao . He received his Ph.D. from Renmin University of China , advised by Prof. Wayne Xin Zhao , and was a visiting student at the NExT++ Research Center, National University of Singapo"
    }
   },
   {
@@ -811,14 +811,7 @@
    "url": "https://faculty.sdu.edu.cn/jiangchaoya/zh_CN/index.htm",
    "desc": "Professor at SDU",
    "section": "🎨 Multi-modal AI",
-   "fields": {
-    "title": "山东大学教师主页 蒋超亚 首页  中文主页",
-    "meta": "蒋超亚,jiangchaoya,山东大学教师主页蒋超亚,",
-    "h1": [
-     ""
-    ],
-    "intro": "山东大学教师主页 蒋超亚 首页 中文主页 登录 | 山东大学 | English 蒋超亚 研究员 访问次数： 次 入职时间： 2025-07 所在单位： 控制科学与工程学院 学历： 研究生(博士)毕业 办公地点： 山东大学千佛山校区8号楼 性别： 男 联系方式： c63b9b5f2d28f842b52994ab790b6c83da462cc33d6a861d3381964e4685620e3d9e5ffb91efdbf9ecfcab13ac481d6319cc73ea6253b9b56ab9b714abc7744fc9bb5806043525806617ae320dcd6c92bcebb4061f93aa3353f9d2cd5756db5a884a8390bbcb061957bb5c29a6e97e8b7f3165aee43cfb2cd6c5d650923b434c 学位： 工学博士学位 毕业院校： 北京大学 所属院系： 控制科学与工程学院 学科： 控制科学与工程 曾获荣誉: 2024 中国电子学会-腾讯博士生科研激励计划（混元大模型专项）； 2024 北京大学校长奖； 2023 北京"
-   }
+   "fields": null
   },
   {
    "name": "Yang Jiao",
