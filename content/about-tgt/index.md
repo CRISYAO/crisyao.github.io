@@ -157,6 +157,11 @@ date: 2026-03-30
             <span class="tgt-pv">AAAI 2026<br><span style="opacity:.65">Dec 2025</span></span>
             <span class="tgt-pr rank-a">CCF-A</span>
           </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2512.21921" target="_blank">
+            <span class="tgt-pt"><strong>AutoPP</strong>: Towards Automated Product Poster Generation and Optimization</span>
+            <span class="tgt-pv">AAAI 2026<br><span style="opacity:.65">Dec 2025</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
         </div>
       </div>
 
@@ -239,6 +244,11 @@ date: 2026-03-30
             <span class="tgt-pv">CVPR 2026<br><span style="opacity:.65">May 2026</span></span>
             <span class="tgt-pr rank-a">CCF-A</span>
           </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2506.19846" target="_blank">
+            <span class="tgt-pt"><strong>HiMA-Ecom</strong>: A Long-Horizon Memory Benchmark for Hierarchical Multi-Agent E-commerce Assistants</span>
+            <span class="tgt-pv">NeurIPS 2026 Workshop (LCFM)<br><span style="opacity:.65">Dec 2026</span></span>
+            <span class="tgt-pr rank-n">Workshop</span>
+          </a>
           <a class="tgt-p" href="https://arxiv.org/abs/2604.25602" target="_blank">
             <span class="tgt-pt"><strong>OxyGent</strong>: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</span>
             <span class="tgt-pv">ACL 2026 Demo<br><span style="opacity:.65">Apr 2026</span></span>
@@ -258,6 +268,11 @@ date: 2026-03-30
           <div class="tgt-od">电商场景的多模态生成与理解，覆盖虚拟试衣、分层图像编辑、多模态评测与多教师蒸馏后训练。</div>
         </div>
         <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2607.00920" target="_blank">
+            <span class="tgt-pt"><strong>GMO-E²DIT</strong>: Grounded Multi-Operation Editing for E-Commerce Images</span>
+            <span class="tgt-pv">NeurIPS 2026<br><span style="opacity:.65">Jul 2026</span></span>
+            <span class="tgt-pr rank-a">CCF-A</span>
+          </a>
           <a class="tgt-p" href="https://arxiv.org/abs/2610.24738" target="_blank">
             <span class="tgt-pt"><strong>LayerEditor</strong>: Editing Images into Reusable Layers via Compositional Edit-Prior Distillation</span>
             <span class="tgt-pv">arXiv 2610.24738<br><span style="opacity:.65">Oct 2026</span></span>
