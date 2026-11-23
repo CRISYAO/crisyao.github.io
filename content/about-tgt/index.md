@@ -210,6 +210,16 @@ date: 2026-03-30
           <div class="tgt-od">面向消费场景的 AI 技术，覆盖会话式购物、组合购买与优惠券约束下的智能体评测，以及长程任务、记忆机制与强化学习后训练。</div>
         </div>
         <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2611.23673" target="_blank">
+            <span class="tgt-pt"><strong>COPD</strong>: Communicative On-Policy Distillation — Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks</span>
+            <span class="tgt-pv">arXiv 2611.23673<br><span style="opacity:.65">Nov 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2611.14009" target="_blank">
+            <span class="tgt-pt"><strong>CAMG-II</strong> — Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation</span>
+            <span class="tgt-pv">arXiv 2611.14009<br><span style="opacity:.65">Nov 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
           <a class="tgt-p" href="https://arxiv.org/abs/2609.38974" target="_blank">
             <span class="tgt-pt"><strong>RealWorldShop</strong>: Benchmarking and Improving Conversational Shopping Agents in Real-World E-commerce</span>
             <span class="tgt-pv">EMNLP 2026 Findings<br><span style="opacity:.65">Sep 2026</span></span>
@@ -246,7 +256,7 @@ date: 2026-03-30
           </a>
           <a class="tgt-p" href="https://arxiv.org/abs/2506.19846" target="_blank">
             <span class="tgt-pt"><strong>HiMA-Ecom</strong>: A Long-Horizon Memory Benchmark for Hierarchical Multi-Agent E-commerce Assistants</span>
-            <span class="tgt-pv">NeurIPS 2026 Workshop (LCFM)<br><span style="opacity:.65">Dec 2026</span></span>
+            <span class="tgt-pv">NeurIPS 2026 Workshop<br><span style="opacity:.65">Dec 2026</span></span>
             <span class="tgt-pr rank-n">Workshop</span>
           </a>
           <a class="tgt-p" href="https://arxiv.org/abs/2604.25602" target="_blank">
@@ -291,6 +301,25 @@ date: 2026-03-30
           <a class="tgt-p" href="https://arxiv.org/abs/2605.13173" target="_blank">
             <span class="tgt-pt"><strong>OxyEcomBench</strong>: Benchmarking Multimodal Foundation Models across E-Commerce Ecosystems</span>
             <span class="tgt-pv">arXiv 2605.13173<br><span style="opacity:.65">May 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="tgt-team">
+        <div class="tgt-team-l">
+          <div class="tgt-on">Oxygen LLM</div>
+          <div class="tgt-od">零售基模团队：电商大模型的 mid-train 与后训练，覆盖指令数据筛选与电商写作能力的评测。</div>
+        </div>
+        <div class="tgt-papers">
+          <a class="tgt-p" href="https://arxiv.org/abs/2611.27349" target="_blank">
+            <span class="tgt-pt"><strong>EcomWriteBench</strong>: A Real-World Benchmark for E-commerce Writing Tasks</span>
+            <span class="tgt-pv">arXiv 2611.27349<br><span style="opacity:.65">Nov 2026</span></span>
+            <span class="tgt-pr rank-n">预印本</span>
+          </a>
+          <a class="tgt-p" href="https://arxiv.org/abs/2611.27329" target="_blank">
+            <span class="tgt-pt"><strong>H-MSAE</strong>: Hierarchical Sparse Concept Coverage for Efficient and Diverse Instruction Data Selection</span>
+            <span class="tgt-pv">arXiv 2611.27329<br><span style="opacity:.65">Nov 2026</span></span>
             <span class="tgt-pr rank-n">预印本</span>
           </a>
         </div>
@@ -404,7 +433,7 @@ date: 2026-03-30
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向京东零售全场景的Agent研究与落地（东东团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6049" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向电商推荐场景的大模型技术应用（OxygenREC团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6119" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>生成与理解多模态大模型在电商行业的关键技术研究和应用（Oxygen AIGC团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8754" target="_blank">申请 →</a></td></tr>
-          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于电商大模型的mid-train及RL研究（零售基模团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8766" target="_blank">申请 →</a></td></tr>
+          <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>基于电商大模型的mid-train及RL研究（Oxygen LLM团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8766" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多智能体联合训练与协同推理探索（OxyGent团队）</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8679" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>面向国际电商场景的agent应用和toolRL探索</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=8664" target="_blank">申请 →</a></td></tr>
           <tr data-field="AI"><td><span class="tgt-bd bd-ai">AI</span></td><td>多模态大模型在视频中的可控生成</td><td><a class="tgt-ap" href="https://campus.jd.com/#/details?id=6099" target="_blank">申请 →</a></td></tr>
