@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:47:58+00:00",
+ "generated_at": "2026-11-26T17:11:48+00:00",
  "people": [
   {
    "name": "Mouxiang Chen",
@@ -811,7 +811,14 @@
    "url": "https://faculty.sdu.edu.cn/jiangchaoya/zh_CN/index.htm",
    "desc": "Professor at SDU",
    "section": "🎨 Multi-modal AI",
-   "fields": null
+   "fields": {
+    "title": "山东大学教师主页 蒋超亚 首页  中文主页",
+    "meta": "蒋超亚,jiangchaoya,山东大学教师主页蒋超亚,",
+    "h1": [
+     ""
+    ],
+    "intro": "山东大学教师主页 蒋超亚 首页 中文主页 登录 | 山东大学 | English 蒋超亚 研究员 访问次数： 次 入职时间： 2025-07 所在单位： 控制科学与工程学院 学历： 研究生(博士)毕业 办公地点： 山东大学千佛山校区8号楼 性别： 男 联系方式： c63b9b5f2d28f842b52994ab790b6c83da462cc33d6a861d3381964e4685620e3d9e5ffb91efdbf9ecfcab13ac481d6319cc73ea6253b9b56ab9b714abc7744fc9bb5806043525806617ae320dcd6c92bcebb4061f93aa3353f9d2cd5756db5a884a8390bbcb061957bb5c29a6e97e8b7f3165aee43cfb2cd6c5d650923b434c 学位： 工学博士学位 毕业院校： 北京大学 所属院系： 控制科学与工程学院 学科： 控制科学与工程 曾获荣誉: 2024 中国电子学会-腾讯博士生科研激励计划（混元大模型专项）； 2024 北京大学校长奖； 2023 北京"
+   }
   },
   {
    "name": "Yang Jiao",
@@ -839,7 +846,7 @@
      "Projects",
      "Publications"
     ],
-    "intro": "JIN YEYING Jin Yeying CV | 简历 Follow jinyeying@u.nus.edu Google Scholar X (Twitter) GitHub LinkedIn DBLP ORCID Zhihu Xiaohongshu I am a Staff Researcher at Tencent (青云计划 ‘Project Up’ Talent Programme), where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE) . I received my Ph.D. from NUS ECE, supervised by Prof. Robby T. Tan , and previously in"
+    "intro": "JIN YEYING Jin Yeying CV | 简历 Follow jinyeying@u.nus.edu Google Scholar X (Twitter) GitHub Yeying Lab LinkedIn DBLP ORCID Zhihu Xiaohongshu I am a Staff Researcher at Tencent , where I serve as Research Lead for World Models, Agentic AI, and AIGC for Games. I am also Adjunct Faculty at the National University of Singapore (NUS), Department of Electrical and Computer Engineering (ECE) . I lead Yeying Lab , with . I received my Ph.D. from NUS ECE, supervised by Prof. Robby T. Tan , and previously "
    }
   },
   {
@@ -1084,12 +1091,12 @@
    "desc": "Researcher at World Labs",
    "section": "🎨 Multi-modal AI",
    "fields": {
-    "title": "Chongjie Ye - Research",
-    "meta": "Chongjie Ye is a Member of Technical Staff at World Labs, working on spatial reconstruction that turns a handful of ordinary photos into an explicit, renderable 3D scene. His research asks how 3D reconstruction and generation can strengthen each other. Ph.D., The Chinese University of Hong Kong, Shenzhen.",
+    "title": "Chongjie Ye | Senior Member of Technical Staff at AMD",
+    "meta": "Chongjie Ye is a Senior Member of Technical Staff at AMD. His research explores how 3D reconstruction and generation can strengthen each other.",
     "h1": [
      "Chongjie Ye"
     ],
-    "intro": "Chongjie Ye - Research About Me Chongjie Ye is a Member of Technical Staff at World Labs , where he works on spatial reconstruction that turns a handful of ordinary photos into an explicit, renderable 3D scene, and fills in what the photos never saw. He received his Ph.D. and bachelor's degree from The Chinese University of Hong Kong, Shenzhen , advised by Prof. Xiaoguang Han . His research asks how reconstruction and generation can strengthen each other. Generation supplies reconstruction with "
+    "intro": "Chongjie Ye | Senior Member of Technical Staff at AMD About Me I am a Senior Member of Technical Staff at AMD. I was previously a Member of Technical Staff at World Labs , which AMD acquired. I study how to turn a few photos or a short video into a place you can move through in real time. I received my Ph.D. and bachelor’s degree from The Chinese University of Hong Kong, Shenzhen , where I was advised by Prof. Xiaoguang Han . I want to build worlds we can shape together as easily as kids invent "
    }
   },
   {
